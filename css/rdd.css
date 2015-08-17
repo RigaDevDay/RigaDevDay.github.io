@@ -204,6 +204,20 @@ hr.small {
     font: bold 75px "Titillium Web","Source Sans Pro",tahoma,verdana,arial,sans-serif;
 }
 
+.header .social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.header .social li a {
+    color: #d9534f;
+}
+.header .social li a:hover {
+    color: #c9302c;
+}
+
 /* Section Header */
 .section-header {
     text-align: center;
