@@ -45,6 +45,14 @@ body {
     color: #ffffff;
 }
 
+/* content */
+h2 {
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+}
+
+
 /* Custom Button Styles */
 
 .btn-dark {
