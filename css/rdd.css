@@ -45,6 +45,31 @@ body {
     color: #ffffff;
 }
 
+/* navigation */
+
+.navbar {
+    background: #2D313C;
+    border-bottom: 0;
+}
+
+.navbar .navbar-nav li a,
+.navbar .navbar-nav li a:active,
+.navbar .navbar-nav li a:focus {
+    color: #FFF;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #1AA0E0;
+}
+
+.navbar .navbar-nav .active a,
+.navbar .navbar-nav .active a:active,
+.navbar .navbar-nav .active a:focus,
+.navbar .navbar-nav .active a:hover {
+    background-color: #1AA0E0;
+    color: #FFF;
+}
+
 /* content */
 .content h2 {
     font-size: 2.5em;
