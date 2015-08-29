@@ -253,8 +253,7 @@ hr.small {
     position: relative;
 }
 
-.diagonal-left {
-  /*transform: skewY(10deg);*/
+.diagonal-left, .diagonal-right h1 {
   -webkit-transform: skewY(-1deg);
   -moz-transform: skewY(-1deg);
   -ms-transform: skewY(-1deg);
@@ -262,7 +261,7 @@ hr.small {
   transform: skewY(-1deg);
 }
 
-.diagonal-right {
+.diagonal-right, .diagonal-left h1 {
   -webkit-transform: skewY(1deg);
   -moz-transform: skewY(1deg);
   -ms-transform: skewY(1deg);
