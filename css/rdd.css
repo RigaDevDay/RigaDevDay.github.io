@@ -250,6 +250,7 @@ hr.small {
     padding: 25px 0;
     z-index: 2;
     margin-bottom: 40px;
+    position: relative;
 }
 
 .diagonal-left {
