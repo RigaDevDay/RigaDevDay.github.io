@@ -79,7 +79,7 @@ body {
 }
 
 .content {
-    margin: 50px 0;
+    padding: 50px 0;
 }
 
 .content p {
@@ -251,9 +251,21 @@ hr.small {
     z-index: 2;
     margin-bottom: 40px;
     position: relative;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
 }
 
-.diagonal-left, .diagonal-right h1 {
+.section-header h1 {
+  display: inline-block;
+  height: 70px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #fff;
+  font: 300 40px "Titillium Web","lucida grande",tahoma,verdana,arial,sans-serif;
+  line-height: 70px;
+  background-repeat: no-repeat;
+}
+
+section:nth-child(odd) .section-header, section:nth-child(even) .section-header h1 {
   -webkit-transform: skewY(-1deg);
   -moz-transform: skewY(-1deg);
   -ms-transform: skewY(-1deg);
@@ -261,23 +273,12 @@ hr.small {
   transform: skewY(-1deg);
 }
 
-.diagonal-right, .diagonal-left h1 {
+section:nth-child(even) .section-header, section:nth-child(odd) .section-header h1 {
   -webkit-transform: skewY(1deg);
   -moz-transform: skewY(1deg);
   -ms-transform: skewY(1deg);
   -o-transform: skewY(1deg);
   transform: skewY(1deg);
-}
-
-.section-header h1 {
-    display: inline-block;
-    height: 70px;
-    margin: 0;
-    text-transform: uppercase;
-    color: #fff;
-    font: 300 40px "Titillium Web","lucida grande",tahoma,verdana,arial,sans-serif;
-    line-height: 70px;
-    background-repeat: no-repeat;
 }
 
 .red {
@@ -392,7 +393,7 @@ footer {
 }
 
 #map {
-  height: 700px;
+  height: 550px;
   position: relative;
 }
 
@@ -451,7 +452,7 @@ footer {
 }
 
 .map-section-after {
-  margin-top: -35px;
+  padding-top: -35px;
 }
 
 .top5 { margin-top:5px; }
@@ -460,3 +461,8 @@ footer {
 .top15 { margin-top:15px; }
 .top17 { margin-top:17px; }
 .top30 { margin-top:30px; }
+
+
+#sponsors {
+  padding-bottom: 0px;
+}
