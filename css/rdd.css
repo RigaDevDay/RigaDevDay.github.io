@@ -468,9 +468,32 @@ footer {
 .top17 { margin-top:17px; }
 .top30 { margin-top:30px; }
 
-
+/*Sponsors Section */
 #sponsors {
   padding-bottom: 0px;
+}
+
+/*About Section*/
+.about-point {
+  position: relative;
+  margin: 40px 40px 0 0;
+  font-size: 14px;
+}
+.about-point h2 {
+  margin: 0 0 10px 160px;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.about-point p {
+  margin-left: 160px;
+}
+.about-point img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 120px;
 }
 
 /*Navbar*/
