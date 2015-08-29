@@ -253,19 +253,20 @@ hr.small {
 }
 
 .diagonal-left {
-  -webkit-transform: rotate(-1deg);
-  -moz-transform: rotate(-1deg);
-  -ms-transform: rotate(-1deg);
-  -o-transform: rotate(-1deg);
-  transform: rotate(-1deg);
+  /*transform: skewY(10deg);*/
+  -webkit-transform: skewY(-1deg);
+  -moz-transform: skewY(-1deg);
+  -ms-transform: skewY(-1deg);
+  -o-transform: skewY(-1deg);
+  transform: skewY(-1deg);
 }
 
 .diagonal-right {
-  -webkit-transform: rotate(1deg);
-  -moz-transform: rotate(1deg);
-  -ms-transform: rotate(1deg);
-  -o-transform: rotate(1deg);
-  transform: rotate(1deg);
+  -webkit-transform: skewY(1deg);
+  -moz-transform: skewY(1deg);
+  -ms-transform: skewY(1deg);
+  -o-transform: skewY(1deg);
+  transform: skewY(1deg);
 }
 
 .section-header h1 {
