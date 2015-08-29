@@ -23,6 +23,9 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="js/markerwithlabel_packed.1.1.9.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -56,7 +59,7 @@
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>Riga Dev Day 2016</h1>
-            <h2>2-4 March 2016</h2>
+            <h2>2-4 March 2016, Kino Citadele</h2>
             <h3>Come. See. Develop</h3>
             <br>
             <a href="https://docs.google.com/forms/d/1N3drIQe20-UB0p1YQGlTo1dMTdKp1NPfJlBoGefkcNY/viewform" target ="_blank"
@@ -141,24 +144,42 @@
         <!-- /.container -->
     </section>
 
+    <!-- Venue -->
+    <section id="venue">
+      <header class="section-header red diagonal-right" id="map-section">
+        <h1>Venue</h1>
+      </header>
+      <article id="map">
+        <div id="map-container"></div>
+        <!--<div id="map-description">-->
+          <!--<div class="title">Forum Cinemas</div>-->
+          <!--<ul class="photos">-->
+            <!--<li><a rel="mk_photo" href="assets/img/mk/2.jpg"><img src="assets/img/mk/2_small.jpg"></a></li>-->
+            <!--<li><a rel="mk_photo" href="assets/img/mk/3.jpg"><img src="assets/img/mk/3_small.jpg"></a></li>-->
+            <!--<li><a rel="mk_photo" href="assets/img/mk/4.jpg"><img src="assets/img/mk/4_small.jpg"></a></li>-->
+            <!--<li><a rel="mk_photo" href="assets/img/mk/6.jpg"><img src="assets/img/mk/6_small.jpg"></a></li>-->
+            <!--<li><a rel="mk_photo" href="assets/img/mk/7.jpg"><img src="assets/img/mk/7_small.jpg"></a></li>-->
+          <!--</ul>-->
+        <!--</div>-->
+      </article>
+    </section>
+
     <!-- Sponsors -->
-    <section id="sponsors" class="content">
-      <div class="section-header red diagonal-right">
+    <section id="sponsors" class="content map-section-after">
+      <div class="section-header red diagonal-left">
         <h1>Sponsors and Partners</h1>
       </div>
       <div class="container">
-        <article class="text-center">
-          <div class="text-center top30">
-            <a class="btn btn-primary btn-lg" target="_blank" href="https://docs.google.com/file/d/0BxMQv-svniw_dnNWTV8tQXMyVmM">Become a Sponsor</a>
-          </div>
-        </article>
+        <h2>
+          Become <a target="_blank" href="https://docs.google.com/file/d/0BxMQv-svniw_dnNWTV8tQXMyVmM">a Sponsor</a>!
+        </h2>
       </div>
       <!-- /.container -->
     </section>
 
     <!-- Team -->
     <section id="team" class="content">
-      <div class="section-header red diagonal-left">
+      <div class="section-header red diagonal-right">
         <h1>Meet Our Team</h1>
       </div>
       <div class="container">
@@ -173,9 +194,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Riga Dev Day 2016</strong>
-                    </h4>
+                    <h4><strong>Riga Dev Day 2016 - 'Kino Citadele'</strong></h4>
                     <ul class="list-unstyled">
+                        <li><i class="fa fa-map-marker fa-fw"></i><strong>13. janvāra iela 8, Riga, Latvia</strong></li>
                         <!--<li><i class="fa fa-phone fa-fw"></i> (+371) xxxxxxxx</li>-->
                         <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto: info@rigadevday.lv">info@rigadevday.lv</a>
                         </li>
@@ -215,6 +236,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
+    <script src="js/index.js"></script>
     <script>
 
     // Closes the sidebar menu
