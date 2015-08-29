@@ -16,6 +16,10 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Material CSS -->
+    <link href="css/material-blue.min.css" rel="stylesheet">
+    <link href="css/ripples.min.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="css/rdd.css" rel="stylesheet">
 
@@ -39,22 +43,26 @@
 
 <body data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="#top">Call for papers</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#venue">Venue</a></li>
-                    <li><a href="#2015">Memories of 2015</a></li>
-                    <li><a href="#sponsors">Sponsors and partners</a></li>
-                    <!--<li><a href="#team">Meet our team</a></li>-->
-                    <li><a href="http://rigadevday.lv">2015</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
+    <div class="navbar navbar-default navbar-fixed-top navbar-material">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#top">Riga Dev Day</a>
+      </div>
+      <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#2015">Memories</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#sponsors">Sponsors and Friends</a></li>
+          <!--<li><a href="#team">Meet our team</a></li>-->
+          <li><a href="http://rigadevday.lv">2015</a></li>
+        </ul>
+      </div>
+    </div>
 
     <!-- Header -->
     <header id="top" class="header">
@@ -63,8 +71,10 @@
             <h2>2-4 March 2016, Kino Citadele</h2>
             <h3>Come. See. Develop</h3>
             <br>
-            <a href="https://docs.google.com/forms/d/1N3drIQe20-UB0p1YQGlTo1dMTdKp1NPfJlBoGefkcNY/viewform" target ="_blank"
-               class="btn btn-danger btn-lg">Call for Papers</a>
+            <a href="https://goo.gl/lZ8hQg" target ="_blank"
+               class="btn btn-danger">Call for Papers
+              <div class="ripple-wrapper"></div>
+            </a>
 
             <ul class="list-inline social">
                 <li>
@@ -235,6 +245,10 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- Material -->
+    <script src="js/ripples.min.js"></script>
+    <script src="js/material.min.js"></script>
+
     <!-- Custom Theme JavaScript -->
     <script src="js/index.js"></script>
     <script>
@@ -253,19 +267,27 @@
 
     // Scrolls to the selected menu item on the page
     $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+      $.material.init();
 
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
+      $("#nav").find("ul li a[href^='#']").on('click', function(e) {
+
+        // prevent default anchor click behavior
+        e.preventDefault();
+
+        // store hash
+        var hash = this.hash;
+
+        // animate
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 300, function(){
+
+          // when done, add hash to url
+          // (default click behaviour)
+          window.location.hash = hash;
         });
+
+      });
     });
     </script>
 
