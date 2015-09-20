@@ -32,14 +32,6 @@
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-    <script src="js/markerwithlabel_packed.1.1.9.js"></script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="img/favicon.png">
@@ -358,68 +350,15 @@
         </div>
     </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Material -->
-    <script src="js/ripples.min.js"></script>
-    <script src="js/material.min.js"></script>
+    <script src="dist/rdd.js"></script>
 
     <!-- Social Share Scripts -->
-    <script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
     <script type="text/javascript">
       (function() {
         var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
         po.src = 'https://apis.google.com/js/plusone.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
-    </script>
-    <script src="https://platform.linkedin.com/in.js" type="text/javascript"></script>
-
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/index.js"></script>
-    <script>
-
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-      $.material.init();
-
-      $("#nav").find("ul li a[href^='#']").on('click', function(e) {
-
-        // prevent default anchor click behavior
-        e.preventDefault();
-
-        // store hash
-        var hash = this.hash;
-
-        // animate
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 300, function(){
-
-          // when done, add hash to url
-          // (default click behaviour)
-          window.location.hash = hash;
-        });
-
-      });
-    });
     </script>
 
 </body>
