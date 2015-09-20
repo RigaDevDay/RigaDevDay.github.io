@@ -18,9 +18,22 @@ gulp.task('build-js', function() {
     .pipe(concat('rdd.js'))
     .pipe(gulp.dest('./dist/'));
 });
+gulp.task('build-css', function() {
+  return gulp.src([
+      'css/bootstrap.min.css',
+      'css/material-blue.min.css',
+      'css/ripples.min.css',
+      'css/rdd.css',
+      'font-awesome/css/font-awesome.min.css',
+
+    ])
+    .pipe(concat('rdd.css'))
+    .pipe(gulp.dest('./dist/'));
+});
 
 gulp.task('watch', function() {
     gulp.watch('js/*.js', ['build-js']);
+    gulp.watch('css/*.css', ['build-css']);
 });
 
-gulp.task('build', ['build-js', 'watch'])
+gulp.task('build', ['build-js', 'build-css', 'watch'])
