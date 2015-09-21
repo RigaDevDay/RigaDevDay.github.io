@@ -245,45 +245,7 @@
         <h1>Meet Our Team</h1>
       </div>
       <div class="container">
-        <div class="row row-centered">
-          <div class="col-sm-3 col-centered">
-            <div class="panel panel-default rdd-panel">
-              <div class="panel-body">
-                <img src="img/photos/dmitry_buzdin.jpg">
-              </div>
-              <div class="panel-footer">
-                <h3>Dmitry Buzdin</h3>
-              </div>
-            </div>
-            <div class="team-social">
-              <a href="https://twitter.com/buzdin" class="btn btn-material-light-blue btn-fab rdd-btn-raised fa fa-twitter"></a>
-              <a href="https://lv.linkedin.com/pub/dmitry-buzdin/2/b04/90" class="btn btn-material-blue btn-fab rdd-btn-raised fa fa-linkedin"></a>
-            </div>
-          </div>
-          <div class="col-sm-3 col-centered">
-            <div class="panel panel-default rdd-panel">
-              <div class="panel-body">
-                <img src="img/photos/andrejs_vorobjevs.jpg">
-              </div>
-              <div class="panel-footer"><h3>Andrejs Vorobjovs</h3></div>
-            </div>
-            <div class="team-social">
-              <a href="https://twitter.com/lvoug" class="btn btn-material-light-blue btn-fab rdd-btn-raised fa fa-twitter"></a>
-              <a href="https://lv.linkedin.com/in/oracles" class="btn btn-material-blue btn-fab rdd-btn-raised fa fa-linkedin"></a>
-            </div>
-          </div>
-          <div class="col-sm-3 col-centered">
-            <div class="panel panel-default rdd-panel">
-              <div class="panel-body">
-                <img src="img/photos/alexey_buzdin.jpg">
-              </div>
-              <div class="panel-footer"><h3>Alexey Buzdin</h3></div>
-            </div>
-            <div class="team-social">
-              <a href="https://twitter.com/AlexeyBuzdin" class="btn btn-material-light-blue btn-fab rdd-btn-raised fa fa-twitter"></a>
-              <a href="https://lv.linkedin.com/in/alexeybuzdin" class="btn btn-material-blue btn-fab rdd-btn-raised fa fa-linkedin"></a>
-            </div>
-          </div>
+        <div class="row row-centered" id="team-people">
         </div>
       </div>
       <!-- /.container -->
@@ -361,6 +323,21 @@
         po.src = 'https://apis.google.com/js/plusone.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
+    </script>
+
+    <script type="text/html" id="tStaff">
+      <div class="col-sm-3 col-centered">
+        <div class="panel panel-default rdd-panel">
+          <div class="panel-body">
+            <img src="<%=img%>">
+          </div>
+          <div class="panel-footer"><h3><%=name%></h3></div>
+        </div>
+        <div class="team-social">
+          <a href="<%=twitter%>" class="btn btn-material-light-blue btn-fab rdd-btn-raised fa fa-twitter"></a>
+          <a href="<%=linkedin%>" class="btn btn-material-blue btn-fab rdd-btn-raised fa fa-linkedin"></a>
+        </div>
+      </div>
     </script>
 
 </body>

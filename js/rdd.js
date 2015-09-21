@@ -33,4 +33,15 @@ $(function() {
     });
 
   });
+
+  var dataJqxhr = $.getJSON('data.json');
+
+  // staff members6
+  dataJqxhr.done(function(response) {
+    var tStaff = $('#tStaff').html();
+    response.staff.reduce(function(elem, person) {
+      return elem.append(tmpl(tStaff, person));
+    }, $('#team-people'));
+  });
+
 });

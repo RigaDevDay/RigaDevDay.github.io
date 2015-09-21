@@ -1,0 +1,23 @@
+{
+  "staff": [
+    {
+      "name": "Dmitry Buzdin",
+      "img": "img/photos/dmitry_buzdin.jpg",
+      "twitter": "https://twitter.com/buzdin",
+      "linkedin": "https://lv.linkedin.com/pub/dmitry-buzdin/2/b04/90"
+    },
+    {
+      "name": "Andrejs Vorobjovs",
+      "img": "img/photos/andrejs_vorobjevs.jpg",
+      "twitter": "https://twitter.com/lvoug",
+      "linkedin": "https://lv.linkedin.com/in/oracles"
+    },
+    {
+      "name": "Alexey Buzdin",
+      "img": "img/photos/alexey_buzdin.jpg",
+      "twitter": "https://twitter.com/AlexeyBuzdin",
+      "linkedin": "https://lv.linkedin.com/in/alexeybuzdin"
+    }
+
+  ]
+}

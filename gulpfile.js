@@ -7,6 +7,7 @@ gulp.task('build-js', function() {
       'js/html5shiv.js',
       'js/respond.min.js',
       'js/jquery.js',
+      'js/templates.js',
       'js/bootstrap.min.js',
       'js/ripples.min.js',
       'js/material.min.js',
