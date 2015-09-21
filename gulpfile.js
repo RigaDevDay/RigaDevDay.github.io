@@ -36,4 +36,4 @@ gulp.task('watch', function() {
     gulp.watch('css/*.css', ['build-css']);
 });
 
-gulp.task('build', ['build-js', 'build-css', 'watch'])
+gulp.task('dev', ['build-js', 'build-css', 'watch'])
