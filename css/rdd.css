@@ -603,3 +603,21 @@ footer {
 .navbar-material.navbar .dropdown-menu .active > a:focus {
   color: rgba(255, 255, 255, 0.84);
 }
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 40px;
+    }
+
+    .text-vertical-center h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .section-header h1 {
+        font-size: 30px;
+    }
+}
