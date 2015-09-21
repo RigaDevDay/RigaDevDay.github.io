@@ -463,25 +463,13 @@ footer {
 
 /* About Section */
 .about-point {
-  position: relative;
-  margin: 40px 40px 0 0;
   font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
 }
-.about-point h2 {
-  margin: 0 0 10px 160px;
-  font-size: 18px;
-  font-weight: lighter;
-  font-style: italic;
-}
-.about-point p {
-  margin-left: 160px;
-}
-.about-point img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 120px;
-  height: 120px;
+
+.about-point div {
+  text-align: left;
 }
 
 /* Our Team */
@@ -500,6 +488,12 @@ footer {
   text-align:left;
   /* inline-block space fix */
   margin-right:-4px;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
 
 .rdd-panel {
