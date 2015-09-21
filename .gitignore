@@ -9,6 +9,9 @@
 *.iws
 *.iml
 
+## NodeJS
+node_modules
+
 ## Plugin-specific files:
 
 # IntelliJ
