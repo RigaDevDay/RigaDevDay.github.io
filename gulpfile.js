@@ -1,9 +1,9 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
+var connect = require('gulp-connect');
 
 gulp.task('build-js', function() {
   return gulp.src([
-      'js/markerwithlabel_packed.1.1.9.js',
       'js/html5shiv.js',
       'js/respond.min.js',
       'js/jquery.js',
@@ -23,9 +23,7 @@ gulp.task('build-css', function() {
       'css/bootstrap.min.css',
       'css/material-blue.min.css',
       'css/ripples.min.css',
-      'css/rdd.css',
-      'font-awesome/css/font-awesome.min.css',
-
+      'css/rdd.css'
     ])
     .pipe(concat('rdd.css'))
     .pipe(gulp.dest('./dist/'));
@@ -36,4 +34,8 @@ gulp.task('watch', function() {
     gulp.watch('css/*.css', ['build-css']);
 });
 
-gulp.task('dev', ['build-js', 'build-css', 'watch'])
+gulp.task('connect', function() {
+  connect.server();
+});
+
+gulp.task('dev', ['build-js', 'build-css', 'connect', 'watch'])
