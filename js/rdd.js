@@ -12,8 +12,6 @@ $("#menu-toggle").click(function(e) {
 
 // Scrolls to the selected menu item on the page
 $(function() {
-  $.material.init();
-
   $("#nav").find("ul li a[href^='#']").on('click', function(e) {
 
     // prevent default anchor click behavior
