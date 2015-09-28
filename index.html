@@ -246,8 +246,8 @@
       </div>
       <div class="container">
         <div class="row row-centered">
-          <div class="col-sm-3 col-centered" data-toggle="modal" data-target="#complete-dialog" ng-repeat="person in staff" ng-click="personModal(person)">
-            <div class="panel panel-default rdd-panel">
+          <div class="col-sm-3 col-centered" data-toggle="modal" data-target="#complete-dialog" ng-repeat="person in staff">
+            <div class="panel panel-default rdd-panel" ng-click="personModal(person)">
               <div class="panel-body">
                 <img ng-src="{{person.img}}">
               </div>
