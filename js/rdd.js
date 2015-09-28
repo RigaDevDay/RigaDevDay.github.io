@@ -45,7 +45,7 @@ angular.module('rdd', ['ui.bootstrap'])
       scope.person = person;
 
       var modalInstance = $modal.open({
-        template: '<div class="modal-body">Person: {{person}}</div>',
+        templateUrl: 'js/templates/person-modal.html',
         scope: scope
       });
     }
