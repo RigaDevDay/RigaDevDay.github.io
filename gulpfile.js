@@ -11,6 +11,7 @@ gulp.task('build-js', function() {
       'js/ui-bootstrap.min.js',
       'js/bootstrap.min.js',
       'js/ripples.min.js',
+      'js/arrive.js',
       'js/material.min.js',
       'js/index.js',
       'js/rdd.js',
