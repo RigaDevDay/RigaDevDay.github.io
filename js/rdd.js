@@ -34,14 +34,21 @@ $(function() {
 
   });
 
-  var dataJqxhr = $.getJSON('data.json');
-
-  // staff members6
-  dataJqxhr.done(function(response) {
-    var tStaff = $('#tStaff').html();
-    response.staff.reduce(function(elem, person) {
-      return elem.append(tmpl(tStaff, person));
-    }, $('#team-people'));
-  });
-
 });
+
+angular.module('rdd', ['ui.bootstrap'])
+  .controller('RddController', ['$scope', '$http', '$modal', '$rootScope', function($scope, $http, $modal, $rootScope) {
+    $http.get('data.json').then(function(response) {
+      $scope.staff = response.data.staff;
+    });
+
+    $scope.personModal = function(person) {
+      var scope = $rootScope.$new();
+      scope.person = person;
+
+      var modalInstance = $modal.open({
+        template: '<div class="modal-body">Person: {{person}}</div>',
+        scope: scope
+      });
+    }
+  }]);

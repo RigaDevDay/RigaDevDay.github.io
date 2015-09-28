@@ -7,14 +7,18 @@ gulp.task('build-js', function() {
       'js/html5shiv.js',
       'js/respond.min.js',
       'js/jquery.js',
-      'js/templates.js',
+      'js/angular.min.js',
+      'js/ui-bootstrap.min.js',
       'js/bootstrap.min.js',
       'js/ripples.min.js',
       'js/material.min.js',
       'js/index.js',
       'js/rdd.js',
       'js/facebook.js',
-      'js/linkedin.js'
+      'js/linkedin.js',
+      'js/grid3d/classie.js',
+      'js/grid3d/grid3d.js',
+      'js/grid3d/helper.js'
     ])
     .pipe(concat('rdd.js'))
     .pipe(gulp.dest('./dist/'));
@@ -24,7 +28,8 @@ gulp.task('build-css', function() {
       'css/bootstrap.min.css',
       'css/material-blue.min.css',
       'css/ripples.min.css',
-      'css/rdd.css'
+      'css/rdd.css',
+      'css/gallery3d.css'
     ])
     .pipe(concat('rdd.css'))
     .pipe(gulp.dest('./dist/'));

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="rdd">
 
 <head>
     <meta charset="utf-8">
@@ -30,7 +30,7 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 
-<body data-spy="scroll" data-target=".navbar-fixed-top">
+<body data-spy="scroll" data-target=".navbar-fixed-top" ng-controller="RddController">
 
     <div class="navbar navbar-default navbar-fixed-top navbar-material">
       <div class="navbar-header">
@@ -245,7 +245,19 @@
         <h1>Meet Our Team</h1>
       </div>
       <div class="container">
-        <div class="row row-centered" id="team-people">
+        <div class="row row-centered">
+          <div class="col-sm-3 col-centered" data-toggle="modal" data-target="#complete-dialog" ng-repeat="person in staff" ng-click="personModal(person)">
+            <div class="panel panel-default rdd-panel">
+              <div class="panel-body">
+                <img ng-src="{{person.img}}">
+              </div>
+              <div class="panel-footer"><h3>{{person.name}}</h3></div>
+            </div>
+            <div class="team-social">
+              <a ng-href="{{person.twitter}}" class="btn btn-material-light-blue btn-fab rdd-btn-raised fa fa-twitter"></a>
+              <a ng-href="{{person.linkedin}}" class="btn btn-material-blue btn-fab rdd-btn-raised fa fa-linkedin"></a>
+            </div>
+          </div>
         </div>
       </div>
       <!-- /.container -->
@@ -323,21 +335,6 @@
         po.src = 'https://apis.google.com/js/plusone.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
-    </script>
-
-    <script type="text/html" id="tStaff">
-      <div class="col-sm-3 col-centered">
-        <div class="panel panel-default rdd-panel">
-          <div class="panel-body">
-            <img src="<%=img%>">
-          </div>
-          <div class="panel-footer"><h3><%=name%></h3></div>
-        </div>
-        <div class="team-social">
-          <a href="<%=twitter%>" class="btn btn-material-light-blue btn-fab rdd-btn-raised fa fa-twitter"></a>
-          <a href="<%=linkedin%>" class="btn btn-material-blue btn-fab rdd-btn-raised fa fa-linkedin"></a>
-        </div>
-      </div>
     </script>
 
 </body>
