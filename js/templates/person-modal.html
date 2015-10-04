@@ -1,10 +1,14 @@
 
-<div class="modal-header">
-  <button type="button" class="close" ng-click="$close()">×</button>
-  <h4 class="modal-title">{{person.name}}</h4>
-</div>
-<div class="modal-body">
-  {{person}}
+<div class="modal-body modal-person">
+  <div class="row">
+    <div class="col-md-4">
+      <img ng-src="{{person.img}}">
+    </div>
+    <div class="col-md-8">
+      <h2>{{person.name}}</h2>
+      <p>{{person.description}}</p>
+    </div>
+  </div>
 </div>
 <div class="modal-footer">
   <button class="btn btn-primary" ng-click="$close()">OK</button>
