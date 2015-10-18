@@ -21,5 +21,46 @@
       "linkedin": "https://lv.linkedin.com/in/alexeybuzdin",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
+  ],
+  "speakers": [
+    {
+      "name": "Juergen Hoeller",
+      "company": "Pivotal",
+      "title": "Spring Framework project lead",
+      "country": "Austria",
+      "img": "img/photos/juergen_hoeller.jpg",
+      "twitter": "https://twitter.com/springjuergen",
+      "description": "Juergen Hoeller is co-founder of the Spring Framework open source project and has been serving as the project lead and release manager for the core framework since 2003. Juergen is an experienced software architect and consultant with outstanding expertise in code organization, transaction management and enterprise messaging."
+    },
+    {
+      "name": "Robert Nyman",
+      "company": "Google",
+      "title": "Developer Relations Program Manager",
+      "country": "Sweden",
+      "img": "img/photos/robert_nyman.jpg",
+      "twitter": "https://twitter.com/robertnyman",
+      "blog": "http://robertnyman.com/",
+      "description": "Robert is a strong believer in HTML5 and the Open Web, and has been working since 1999 with Front End development for the web, in Sweden and in New York City. He currently heads up Developer Relations at Google for the Nordics. He also loves to travel and meet people. Robert has Presented in 32 countries, and holds claim to the title of most well-travelled speaker on Lanyrd. He is listed by Twitter as one of 23 Swedes to follow and 5th best developer in Sweden. He has also run Geek Meet in Stockholm since 2006 – one of the first of its kind for web developers in Sweden"
+    },
+    {
+      "name": "Fernando Cejas",
+      "company": "SoundCloud",
+      "title": "Engineer",
+      "country": "Germany",
+      "img": "img/photos/fernando_cejas.jpg",
+      "twitter": "https://twitter.com/fernando_cejas",
+      "blog": "http://www.fernandocejas.com/",
+      "description": "| @SoundCloud | Passionate about software engineering. | Android | Speaker | Geek | Curious Learner |"
+    },
+    {
+      "name": "Nicolas Fränkel",
+      "company": "Hybris",
+      "title": "Senior Consultant",
+      "country": "France",
+      "img": "img/photos/nicolas_frankel.jpg",
+      "twitter": "https://twitter.com/nicolas_frankel",
+      "blog": "http://blog.frankel.ch/me",
+      "description": "I’m NicolasFränkel, a Software Architect with +12 years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). I’m generally focused on Java and JavaEE technologies, but I’ve narrowed interests like Software Quality, Build Processes and Rich Internet Applications. I’m currently working for an eCommerce solution vendor leader. I also double as a teacher in universities and higher education schools, and a trainer for experienced pros, and triples as a book author."
+    }
   ]
 }

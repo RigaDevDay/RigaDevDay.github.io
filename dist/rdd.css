@@ -72,6 +72,10 @@ body {
   color: #000000;
 }
 
+.text-white {
+  color: white;
+}
+
 .list-align-top li {
   display: inline-block;
   vertical-align: top;
@@ -456,6 +460,7 @@ footer {
 .top17 { margin-top:17px; }
 .top20 { margin-top:20px; }
 .top30 { margin-top:30px; }
+.top50 { margin-top:50px; }
 .bottom5 { margin-bottom:5px; }
 .bottom7 { margin-bottom:7px; }
 .bottom10 { margin-bottom:10px; }
@@ -480,9 +485,14 @@ footer {
   text-align: left;
 }
 
+/* Speakers */
+#speakers .container {
+  margin-top: 5em;
+}
+
 /* Our Team */
 #team .container {
-  margin-top: 8em;
+  margin-top: 5em;
 }
 
 /* centered columns styles */
@@ -607,6 +617,25 @@ footer {
 
 .modal-person img {
   width: 100%;
+}
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
 
 @media (max-width: 768px) {

@@ -45,7 +45,7 @@
         <ul class="nav navbar-nav">
           <li><a href="#about">About</a></li>
           <li><a href="#2015">Memories</a></li>
-          <!--<li><a href="#speakers">Speakers</a></li>-->
+          <li><a href="#speakers">Speakers</a></li>
           <!--<li><a href="#schedule">Schedule</a></li>-->
           <li><a href="#venue">Venue</a></li>
           <li><a href="#team">Our Team</a></li>
@@ -195,18 +195,33 @@
         <!-- /.container -->
     </section>
 
-    <!--&lt;!&ndash; Speakers &ndash;&gt;-->
-    <!--<section id="speakers" class="content">-->
-      <!--<div class="section-header red">-->
-        <!--<h1>Speakers</h1>-->
-      <!--</div>-->
-      <!--<div class="container">-->
-        <!--<h2>-->
-          <!--Coming Soon!-->
-        <!--</h2>-->
-      <!--</div>-->
-      <!--&lt;!&ndash; /.container &ndash;&gt;-->
-    <!--</section>-->
+    <!-- Speakers -->
+    <section id="speakers" class="content">
+      <div class="section-header red">
+        <h1>Speakers</h1>
+      </div>
+      <div class="container">
+        <div class="row row-centered">
+          <div class="col-sm-3 col-centered" data-toggle="modal" data-target="#complete-dialog" ng-repeat="person in speakers">
+            <div class="panel panel-default rdd-panel" ng-click="personModal(person)">
+              <div class="panel-body">
+                <img ng-src="{{person.img}}">
+              </div>
+              <div class="panel-footer">
+                <h3 class="text-white"><strong>{{person.name}}</strong></h3>
+                <h3 class="text-white">{{person.company}}</h3>
+              </div>
+            </div>
+            <div class="team-social">
+              <a ng-href="{{person.twitter}}" class="btn btn-material-light-blue btn-fab rdd-btn-raised fa fa-twitter"></a>
+              <a ng-show="{{person.blog}}" ng-href="{{person.blog}}" class="btn btn-material-green btn-fab rdd-btn-raised fa fa-globe"></a>
+            </div>
+          </div>
+          <h1 class="top50">More to come soon!</h1>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
 
     <!--&lt;!&ndash; Schedule &ndash;&gt;-->
     <!--<section id="schedule" class="content">-->
@@ -249,11 +264,11 @@
       <div class="container">
         <div class="row row-centered">
           <div class="col-sm-3 col-centered" data-toggle="modal" data-target="#complete-dialog" ng-repeat="person in staff">
-            <div class="panel panel-default rdd-panel" ng-click="personModal(person)">
+            <div class="panel panel-default rdd-panel">
               <div class="panel-body">
                 <img ng-src="{{person.img}}">
               </div>
-              <div class="panel-footer"><h3>{{person.name}}</h3></div>
+              <div class="panel-footer"><h3 class="text-white"><strong>{{person.name}}</strong></h3></div>
             </div>
             <div class="team-social">
               <a ng-href="{{person.twitter}}" class="btn btn-material-light-blue btn-fab rdd-btn-raised fa fa-twitter"></a>

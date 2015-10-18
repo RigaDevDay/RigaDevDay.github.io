@@ -511,6 +511,7 @@ angular.module('rdd', ['ui.bootstrap'])
   .controller('RddController', ['$scope', '$http', '$modal', '$rootScope', function($scope, $http, $modal, $rootScope) {
     $http.get('data.json').then(function(response) {
       $scope.staff = response.data.staff;
+      $scope.speakers = response.data.speakers;
     });
 
     $scope.personModal = function(person) {
