@@ -577,6 +577,22 @@ footer {
   border-bottom: 0;
 }
 
+#navbar-attend > a {
+  display: inline-block;
+  position: relative;
+}
+
+#navbar-attend > a::after {
+  content: '';
+  position: absolute;
+  left: 15%;
+  display: inline-block;
+  height: 1em;
+  width: 70%;
+  border-bottom: 1px solid;
+  margin-top: 5px;
+}
+
 .navbar .navbar-nav li a,
 .navbar .navbar-nav li a:active,
 .navbar .navbar-nav li a:focus {
