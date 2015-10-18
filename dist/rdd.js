@@ -508,7 +508,7 @@ $(function() {
 });
 
 angular.module('rdd', ['ui.bootstrap'])
-  .controller('RddController', ['$scope', '$http', '$modal', '$rootScope', function($scope, $http, $modal, $rootScope) {
+  .controller('RddController', ['$scope', '$http', '$modal', '$rootScope', '$location', function($scope, $http, $modal, $rootScope, $location) {
     $http.get('data.json').then(function(response) {
       $scope.staff = response.data.staff;
       $scope.speakers = response.data.speakers;
@@ -522,7 +522,10 @@ angular.module('rdd', ['ui.bootstrap'])
         templateUrl: 'js/templates/person-modal.html',
         scope: scope
       });
-    }
+    };
+    $scope.go = function ( url ) {
+      window.open(url, '_blank');
+    };
   }]);
 /*1442718791,,JIT Construction: v1944458,en_US*/
 

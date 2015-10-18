@@ -490,6 +490,32 @@ footer {
   margin-top: 5em;
 }
 
+/* Tickets */
+#tickets .container {
+  padding-top: 3em;
+}
+
+.btn-tickets {
+  color: #fff;
+  background-color: #e7484c;
+  /*border-color: #d43f3a;*/
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.tickets-panel {
+  height: 200px;
+}
+
+.tickets-panel h2 {
+  margin-bottom: 0;
+}
+
+.tickets-panel h6 {
+  margin-top: 2px;
+}
+
 /* Our Team */
 #team .container {
   margin-top: 5em;
