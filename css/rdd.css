@@ -460,6 +460,7 @@ footer {
 .bottom17 { margin-bottom:17px; }
 .bottom20 { margin-bottom:20px; }
 .bottom30 { margin-bottom:30px; }
+.padding-right-10 { padding-right: 10px; }
 
 /* Sponsors Section */
 #friends .row div {
@@ -571,22 +572,6 @@ footer {
 .navbar {
   background: #2D313C;
   border-bottom: 0;
-}
-
-#navbar-attend > a {
-  display: inline-block;
-  position: relative;
-}
-
-#navbar-attend > a::after {
-  content: '';
-  position: absolute;
-  left: 15%;
-  display: inline-block;
-  height: 1em;
-  width: 70%;
-  border-bottom: 1px solid;
-  margin-top: 5px;
 }
 
 .navbar .navbar-nav li a,
