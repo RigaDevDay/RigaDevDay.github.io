@@ -462,8 +462,12 @@ footer {
 .bottom30 { margin-bottom:30px; }
 
 /* Sponsors Section */
-#sponsors {
-  padding-bottom: 0;
+#friends .row div {
+  vertical-align: middle;
+}
+
+#lvoug {
+  padding-top: 15px;
 }
 
 /* About Section */
