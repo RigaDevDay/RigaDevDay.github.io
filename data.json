@@ -61,6 +61,26 @@
       "twitter": "https://twitter.com/nicolas_frankel",
       "blog": "http://blog.frankel.ch/me",
       "description": "I’m NicolasFränkel, a Software Architect with +12 years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). I’m generally focused on Java and JavaEE technologies, but I’ve narrowed interests like Software Quality, Build Processes and Rich Internet Applications. I’m currently working for an eCommerce solution vendor leader. I also double as a teacher in universities and higher education schools, and a trainer for experienced pros, and triples as a book author."
+    },
+    {
+      "name": "Dan Cuellar",
+      "company": "FOODit",
+      "title": "Head of Software Testing",
+      "country": "UK",
+      "img": "img/photos/dan_cuellar.jpg",
+      "twitter": "https://twitter.com/thedancuellar",
+      "blog": "http://cuellarsaur.us/#/",
+      "description": "Dan Cuellar is the creator of the open source mobile automation framework Appium, and Head of Test Engineering at FOODit in London. Previously, he headed the test organisation at Shazam in London and Zoosk in San Francisco, and worked as a software engineer on Microsoft Outlook for Mac, and other products in the Microsoft Office suite. He is an advocate of open source technologies and technical software testing. He earned a Bachelor’s degree in Computer Science, with a minor in Music Technology, from the world-renowned School of Computer Science at Carnegie Mellon University in Pittsburgh."
+    },
+    {
+      "name": "Robert Haritonov",
+      "company": "Liberty Global",
+      "title": "Senior Consultant",
+      "country": "Netherlands",
+      "img": "img/photos/robert_haritonov.jpg",
+      "twitter": "https://twitter.com/operatino",
+      "blog": "http://rhr.me/",
+      "description": "Passionate developer and open source enthusiast. Apart from broad front-end development knowledge, Robert's current main expertise is React.js isomorphic applications and component libraries. Maintains SourceJS.com (http://sourcejs.com) and the huge ecosystem around living style guides tooling for various technologies."
     }
   ]
 }
