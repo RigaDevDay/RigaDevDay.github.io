@@ -277,9 +277,9 @@ hr.small {
 }
 
 .red {
-  /*background-color: #d14d54;*/
-  background: url("../img/line.jpg") no-repeat center center scroll;
-
+  width: 100%;
+  background: black url(../img/line.jpg) no-repeat;
+  background-size: 100% 100%;
 }
 
 /* Callout */
@@ -548,7 +548,7 @@ footer {
   vertical-align: top;
   width: 100%;
   height: 100%;
-  border-radius: 1em;
+  border-radius: 1em;                                          >>
 }
 
 .panel-footer {
