@@ -483,6 +483,14 @@ $(".navbar-toggle").click(function(e) {
     $(".navbar-collapse").toggleClass("collapse");
 });
 
+$(".navbar-nav li a").click(function (event) {
+  // check if window is small enough so dropdown is created
+  var toggle = $(".navbar-toggle").is(":visible");
+  if (toggle) {
+    $(".navbar-collapse").toggleClass("collapse");
+  }
+});
+
 // Scrolls to the selected menu item on the page
 $(function() {
   $("#nav").find("ul li a[href^='#']").on('click', function(e) {
