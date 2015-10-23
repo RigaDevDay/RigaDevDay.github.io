@@ -478,14 +478,15 @@ $("#menu-close").click(function(e) {
 });
 
 // Opens the sidebar menu
-$("#menu-toggle").click(function(e) {
+$(".navbar-toggle").click(function(e) {
     e.preventDefault();
-    $("#sidebar-wrapper").toggleClass("active");
+    $(".navbar-collapse").toggleClass("collapse");
 });
 
 // Scrolls to the selected menu item on the page
 $(function() {
   $("#nav").find("ul li a[href^='#']").on('click', function(e) {
+    $(".navbar-collapse").addClass("collapse");
 
     // prevent default anchor click behavior
     e.preventDefault();
