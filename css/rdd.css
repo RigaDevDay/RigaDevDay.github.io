@@ -487,6 +487,10 @@ footer {
   margin-top: 5em;
 }
 
+#speakers .rdd-panel {
+  cursor: pointer;
+}
+
 /* Tickets */
 #tickets .container {
   padding-top: 3em;
