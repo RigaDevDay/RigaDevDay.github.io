@@ -81,6 +81,25 @@
       "twitter": "https://twitter.com/operatino",
       "blog": "http://rhr.me/",
       "description": "Passionate developer and open source enthusiast. Apart from broad front-end development knowledge, Robert's current main expertise is React.js isomorphic applications and component libraries. Maintains SourceJS.com (http://sourcejs.com) and the huge ecosystem around living style guides tooling for various technologies."
+    },
+    {
+      "name": "DuyHai Doan",
+      "company": "Datastax",
+      "title": "Cassandra Technical Advocate",
+      "country": "France",
+      "img": "img/photos/duyhai_doan.jpg",
+      "twitter": "https://twitter.com/doanduyhai",
+      "description": "Duy Hai is a Cassandra technical advocate. He spends his time between technical presentations/meetups on Cassandra, coding on open source projects to support the community and helping all companies using Cassandra to make their project successful. Previously he was working as a freelance Java/Cassandra consultant."
+    },
+    {
+      "name": "Anton Arhipov",
+      "company": "ZeroTurnaround",
+      "title": "Software Engineer and XRebel Product Lead",
+      "country": "Estonia",
+      "img": "img/photos/anton_arhipov.jpg",
+      "twitter": "https://twitter.com/antonarhipov",
+      "blog": "http://arhipov.blogspot.com",
+      "description": "Anton is a software engineer and a product manager at ZeroTurnaround, working on XRebel lightweight Java profiler, and previously worked on JRebel, the productivity tool for Java developers. His professional interests include everything Java, but also other programming languages, middleware and developer tooling.Anton is also involved with GeekOut Java conference DevClub.eu meetup organisation in Tallinn, Estonia. He blogs at http://arhipov.blogspot.com, speaks at Java conferences, and writes articles for RebelLabs http://rebellabs.org."
     }
   ]
 }
