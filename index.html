@@ -47,9 +47,8 @@
         <ul class="nav navbar-nav">
           <li><a href="#about">About</a></li>
           <li><a href="#speakers">Speakers</a></li>
-          <!--<li><a href="#schedule">Schedule</a></li>-->
+          <li><a href="#schedule">Schedule</a></li>
           <li class="hidden-xs hidden-sm"><a href="#venue">Venue</a></li>
-          <li><a href="#team">Our Team</a></li>
           <li><a href="#tickets">Attend</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right margin-right-10">
@@ -209,18 +208,61 @@
       <!-- /.container -->
     </section>
 
-    <!--&lt;!&ndash; Schedule &ndash;&gt;-->
-    <!--<section id="schedule" class="content">-->
-      <!--<div class="section-header red">-->
-        <!--<h1>Schedule</h1>-->
-      <!--</div>-->
-      <!--<div class="container">-->
-        <!--<h2>-->
-          <!--Coming Soon!-->
-        <!--</h2>-->
-      <!--</div>-->
-      <!--&lt;!&ndash; /.container &ndash;&gt;-->
-    <!--</section>-->
+    <!-- Schedule -->
+    <section id="schedule" class="content schedule">
+      <div class="section-header red diagonal-right">
+        <h1>Schedule</h1>
+      </div>
+      <div class="container">
+        <div class="row row-centered table-responsive">
+          <table class="table">
+            <thead>
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th>
+                <select class="form-control input-lg" ng-model="currentDay" ng-options="day.title for day in days track by day.file" ng-change="loadSchedule()">
+                </select>
+              </th>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <th></th>
+              <th></th>
+              <th class="text-center" ng-repeat="room in rooms">{{room.title}}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="session in schedule" class="{{session.color}}">
+              <td class="time">{{session.time}}</td>
+              <td class="{{session.icon}} icon">
+                <div></div>
+              </td>
+              <td class="content" ng-repeat="event in session.events" ng-class="{unique: event.title, clickable: event.speakers.length > 0}" colspan="{{rooms.length/session.events.length}}">
+                <div class="main">
+                  <header>
+                    <span ng-if="event.title">{{event.title}}</span>
+                    <span ng-if="event.speakers.length > 0" ng-repeat="speakerid in event.speakers">{{speakers[speakerid].name}}<span ng-hide="$last">, </span></span>
+                  </header>
+                  <div class="desc">{{event.subtitle}}</div>
+                </div>
+                <div class="tags" ng-repeat="tag in event.tags">
+                  <a class="magenta">{{tag}}</a>
+                </div>
+                <div class="slides" ng-show="event.slides">
+                  <a href="{{event.slides}}" target="_blank">slides</a>
+                </div>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
 
     <!-- Venue -->
     <section id="venue" class="content hidden-xs hidden-sm">
@@ -408,62 +450,6 @@
               <a ng-href="{{person.linkedin}}" class="btn btn-material-blue btn-fab rdd-btn-raised fa fa-linkedin"></a>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- /.container -->
-    </section>
-
-    <!-- Schedule -->
-    <section id="schedule" class="content schedule">
-      <div class="section-header red diagonal-right">
-        <h1>Schedule</h1>
-      </div>
-      <div class="container">
-        <div class="row row-centered table-responsive">
-          <table class="table">
-            <thead>
-              <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th>
-                  <select class="form-control input-lg" ng-model="currentDay" ng-options="day.title for day in days track by day.file" ng-change="loadSchedule()">
-                  </select>
-                </th>
-                <th></th>
-                <th></th>
-              </tr>
-              <tr>
-                <th></th>
-                <th></th>
-                <th class="text-center" ng-repeat="room in rooms">{{room.title}}</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr ng-repeat="session in schedule" class="{{session.color}}">
-                <td class="time">{{session.time}}</td>
-                <td class="{{session.icon}} icon">
-                  <div></div>
-                </td>
-                <td class="content" ng-repeat="event in session.events" ng-class="{unique: event.title, clickable: event.speakers.length > 0}" colspan="{{rooms.length/session.events.length}}">
-                  <div class="main">
-                    <header>
-                      <span ng-if="event.title">{{event.title}}</span>
-                      <span ng-if="event.speakers.length > 0" ng-repeat="speakerid in event.speakers">{{speakers[speakerid].name}}<span ng-hide="$last">, </span></span>
-                    </header>
-                    <div class="desc">{{event.subtitle}}</div>
-                  </div>
-                  <div class="tags" ng-repeat="tag in event.tags">
-                    <a class="magenta">{{tag}}</a>
-                  </div>
-                  <div class="slides" ng-show="event.slides">
-                    <a href="{{event.slides}}" target="_blank">slides</a>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
         </div>
       </div>
       <!-- /.container -->
