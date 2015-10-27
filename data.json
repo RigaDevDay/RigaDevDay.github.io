@@ -101,5 +101,32 @@
       "blog": "http://arhipov.blogspot.com",
       "description": "Anton is a software engineer and a product manager at ZeroTurnaround, working on XRebel lightweight Java profiler, and previously worked on JRebel, the productivity tool for Java developers. His professional interests include everything Java, but also other programming languages, middleware and developer tooling.Anton is also involved with GeekOut Java conference DevClub.eu meetup organisation in Tallinn, Estonia. He blogs at http://arhipov.blogspot.com, speaks at Java conferences, and writes articles for RebelLabs http://rebellabs.org."
     }
+  ],
+  "days": [
+  	{
+  		"title": "Day 1",
+  		"file": "schedule1.json"
+  	},
+  	{
+  		"title": "Day 2",
+  		"file": "schedule2.json"
+  	}
+  ],
+  "rooms": [
+  	{
+  		"title": "Room 1"
+  	},
+  	{
+  		"title": "Room 2"
+  	},
+  	{
+  		"title": "Room 3"
+  	},
+  	{
+  		"title": "Room 4"
+  	},
+  	{
+  		"title": "Room 5"
+  	}
   ]
 }

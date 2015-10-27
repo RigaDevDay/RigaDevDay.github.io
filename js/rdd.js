@@ -46,8 +46,17 @@ $(function() {
 angular.module('rdd', ['ui.bootstrap'])
   .controller('RddController', ['$scope', '$http', '$modal', '$rootScope', '$location', function($scope, $http, $modal, $rootScope, $location) {
     $http.get('data.json').then(function(response) {
-      $scope.staff = response.data.staff;
+      $scope.staff    = response.data.staff;
       $scope.speakers = response.data.speakers;
+      $scope.days     = response.data.days;
+      $scope.rooms    = response.data.rooms;
+      
+      $scope.currentDay = '';
+
+      if($scope.days.length > 0) {
+        $scope.currentDay = $scope.days[0];
+        $scope.loadSchedule();
+      }
     });
 
     $scope.personModal = function(person) {
@@ -61,5 +70,10 @@ angular.module('rdd', ['ui.bootstrap'])
     };
     $scope.go = function ( url ) {
       window.open(url, '_blank');
+    };
+    $scope.loadSchedule = function() {
+      $http.get($scope.currentDay.file).then(function(response) {
+        $scope.schedule = response.data.schedule;
+      });      
     };
   }]);
