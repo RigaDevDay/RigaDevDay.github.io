@@ -77,4 +77,9 @@ angular.module('rdd', ['ui.bootstrap'])
         $scope.tracks   = response.data.trackNames;
       });
     };
+
+    $scope.loadDay = function(a) {
+      $scope.currentDay = $scope.days[a];
+      $scope.loadSchedule();
+    };
   }]);

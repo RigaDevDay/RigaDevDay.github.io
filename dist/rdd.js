@@ -550,6 +550,11 @@ angular.module('rdd', ['ui.bootstrap'])
         $scope.tracks   = response.data.trackNames;
       });
     };
+
+    $scope.loadDay = function(a) {
+      $scope.currentDay = $scope.days[a];
+      $scope.loadSchedule();
+    };
   }]);
 /*1442718791,,JIT Construction: v1944458,en_US*/
 
