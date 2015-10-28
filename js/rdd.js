@@ -43,7 +43,7 @@ $(function() {
 
 });
 
-angular.module('rdd', ['ui.bootstrap'])
+angular.module('rdd', ['ui.bootstrap', 'countTo'])
   .controller('RddController', ['$scope', '$http', '$modal', '$rootScope', '$location', function($scope, $http, $modal, $rootScope, $location) {
     $http.get('data.json').then(function(response) {
       $scope.staff    = response.data.staff;

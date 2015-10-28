@@ -14,6 +14,7 @@ gulp.task('build-js', function() {
       'js/arrive.js',
       'js/material.min.js',
       'js/index.js',
+      'js/count-to.js',
       'js/rdd.js',
       'js/facebook.js',
       'js/linkedin.js',
