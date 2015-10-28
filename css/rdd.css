@@ -933,3 +933,11 @@ footer {
     font: 500 14px "Roboto", "lucida grande", tahoma, verdana, arial, sans-serif;
     padding: 35px 0
 }
+
+#counter h1 {
+  margin-top: 0;
+}
+
+.counter-panel {
+  margin-bottom: 30px;
+}
