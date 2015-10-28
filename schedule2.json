@@ -1,5 +1,6 @@
 {
-  "roomNames": ["Java", "Room 1", "Room 2", "Room 3", "Room 4"],
+  "roomNames": ["Room 1", "Room 2", "Room 3", "Room 4", "Room 5"],
+  "trackNames": ["Java", "IoT", "Web", "DevOps", "Databases"],
   "schedule": [
     {
       "time": "9:00",

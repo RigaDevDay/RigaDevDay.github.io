@@ -111,22 +111,5 @@
   		"title": "Day 2",
   		"file": "schedule2.json"
   	}
-  ],
-  "rooms": [
-  	{
-  		"title": "Room 1"
-  	},
-  	{
-  		"title": "Room 2"
-  	},
-  	{
-  		"title": "Room 3"
-  	},
-  	{
-  		"title": "Room 4"
-  	},
-  	{
-  		"title": "Room 5"
-  	}
   ]
 }

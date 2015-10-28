@@ -49,8 +49,7 @@ angular.module('rdd', ['ui.bootstrap'])
       $scope.staff    = response.data.staff;
       $scope.speakers = response.data.speakers;
       $scope.days     = response.data.days;
-      $scope.rooms    = response.data.rooms;
-      
+
       $scope.currentDay = '';
 
       if($scope.days.length > 0) {
@@ -74,6 +73,8 @@ angular.module('rdd', ['ui.bootstrap'])
     $scope.loadSchedule = function() {
       $http.get($scope.currentDay.file).then(function(response) {
         $scope.schedule = response.data.schedule;
-      });      
+        $scope.rooms    = response.data.roomNames;
+        $scope.tracks   = response.data.trackNames;
+      });
     };
   }]);
