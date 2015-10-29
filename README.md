@@ -47,7 +47,7 @@ gulp deploy
 
 Just push your to the master!
 
-If you wan't to get review on your work:
+If you want to get review on your work:
 
 * Write everything in seperate branch/fork
 * Push to github
