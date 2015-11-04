@@ -1,6 +1,18 @@
 {
-  "roomNames": ["Room 1", "Room 2", "Room 3", "Room 4", "Room 5"],
-  "trackNames": ["Java", "Internet of Things", "Web", "DevOps", "Databases"],
+  "roomNames": [
+    "Room 1",
+    "Room 2",
+    "Room 3",
+    "Room 4",
+    "Room 5"
+  ],
+  "trackNames": [
+    "Java",
+    "Internet of Things",
+    "Web",
+    "DevOps",
+    "Mix"
+  ],
   "schedule": [
     {
       "time": "9:00",
@@ -53,7 +65,14 @@
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "?"
+          "subtitle": "Modern Java Component Design with Spring 4.3",
+          "description": "Spring's programming and configuration model has a strong design philosophy with respect to application components and configuration artifacts. Spring's annotation-based component story is fine-tuned for source code readability as well as consistency across an entire application's codebase. This session presents selected Spring Framework 4 component model highlights, with a focus on the upcoming Spring Framework 4.3 and a selection of Java 8 enabled features, illustrated with many code examples and noteworthy design considerations.",
+          "speakers": [
+            "0"
+          ],
+          "tags": [
+            "Java"
+          ]
         },
         {
           "subtitle": "?"
@@ -62,10 +81,25 @@
           "subtitle": "?"
         },
         {
-          "subtitle": "?"
+          "subtitle": "Automated Android CI, how hard can it be?",
+          "description": "I'm not an Android developer by far, but I'm working in a mobile development team as the DevOps guy, which basically translates to do anything that is not related to development proper. When I was introduced to the team, they had hacked something on a Bamboo server, based on custom Python scripts that uploaded the binaries to a Hockeykit, completely decoupled from the Maven build and the Nexus repository. The they decided to switch to Gradle... In this presentation, I will describe how I migrated from this situation to the following: * a full-fledged Jenkins server provisioned with Puppet * provisioning of the Android SDK manager * provisioning of Gradle * updates of the platforms, extras and repositories behind the entreprise proxy * creation of Gradle jobs managing Hockeykit files creation, upload of the whole outputs to Nexus and tagging Git for releases builds",
+          "speakers": [
+            "3"
+          ],
+          "tags": [
+            "DevOps",
+            "Android"
+          ]
         },
         {
-          "subtitle": "?"
+          "subtitle": "Apache Zeppelin, the missing component for your BigData eco-system",
+          "description": "If you are interested in Big Data, you surely have heard about Apache Spark or Apache Cassandra, but do you know Apache Zeppelin ? Do you know that it is possible to draw out beautiful graph using an user-friendly interface out of your Spark RDD  or out of Cassandra queries ? In this session, I will introduce Zeppelin by live coding example and highlight its modular architecture which allows you to plug-in any interpreter for the back-end of your choice.",
+          "speakers": [
+            "6"
+          ],
+          "tags": [
+            "BigData"
+          ]
         }
       ]
     },
@@ -96,7 +130,15 @@
           "subtitle": "?"
         },
         {
-          "subtitle": "?"
+          "subtitle": "Field Notes of Command Line Ninja",
+          "description": "Have you ever witnessed someone write fancy commands and perform magic from the console. Have you ever wished you could learn, or brush up on, those skills too? Maybe you want to be more effective at your everyday tasks, or need a new topic for the next family dinner? Join us and learn some awesome command line ninja skills. You will be able to find something new no matter your level of experience. The audience will get a chance to show off their skills as well, and there will be small prizes to contributors. The black belt and a little surprise await you at the end of this talk. You can bring your PC with you and hack-along! All you need is a PC or a Mac running OS of your choice - Windows, Linux, or Mac OS. Windows users are advised to have their cmd.exe ready, and to install Cygwin (32-bit).",
+          "speakers": [
+            "9"
+          ],
+          "tags": [
+            "DevOps",
+            "Tools"
+          ]
         },
         {
           "subtitle": "?"

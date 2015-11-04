@@ -25,6 +25,7 @@ class ScheduleController {
     dataLoaderService.getMain()
       .then((data) => {
         this.days = data.days;
+        this.speakers = data.speakers;
         return this.days[0];
       })
       .then(this.loadSchedule.bind(this))

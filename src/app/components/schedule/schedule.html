@@ -34,7 +34,7 @@
             <div class="main">
               <header>
                 <span ng-if="event.title">{{event.title}}</span>
-                <span ng-if="event.speakers.length > 0" ng-repeat="speakerid in event.speakers">{{speakers[speakerid].name}}<span ng-hide="$last">, </span></span>
+                <span ng-if="event.speakers.length > 0" ng-repeat="speakerid in event.speakers">{{vm.speakers[speakerid].name}}<span ng-hide="$last">, </span></span>
               </header>
               <div class="desc">{{event.subtitle}}</div>
             </div>
