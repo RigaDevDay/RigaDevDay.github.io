@@ -22,6 +22,8 @@ class ScheduleController {
     this.rooms = null;
     this.tracks = null;
 
+    this.activeTabIndex = 0;
+
     dataLoaderService.getMain()
       .then((data) => {
         this.days = data.days;
@@ -44,4 +46,14 @@ class ScheduleController {
         return data;
       });
   }
+
+  tabActive (index) {
+    if (index != undefined) {
+      this.activeTabIndex = index;
+      this.loadDay(index);
+    } else {
+      return this.activeTabIndex;
+    }
+  }
+
 }

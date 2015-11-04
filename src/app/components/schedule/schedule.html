@@ -3,18 +3,22 @@
     <h1>Schedule</h1>
   </div>
   <div class="container">
+    <div class="row">
+      <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+          <button class="btn" ng-class="{'btn-primary': vm.tabActive()===0}" ng-click="vm.tabActive(0)">Day 1</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button class="btn" ng-class="{'btn-primary': vm.tabActive()===1}" ng-click="vm.tabActive(1)">Day 2</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button class="btn btn-default btn-disabled" disabled="disabled">Workshops</button>
+        </div>
+      </div>
+    </div>
     <div class="row row-centered table-responsive">
       <table class="table">
         <thead>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th><button class="btn-link" ng-click="vm.loadDay(0)">Day 1</button></th>
-          <th><button class="btn-link" ng-click="vm.loadDay(1)">Day 2</button></th>
-          <th><button class="btn-link btn-disabled" disabled="disabled">Workshops</button></th>
-          <th></th>
-        </tr>
         <tr>
           <th></th>
           <th></th>
