@@ -7,7 +7,7 @@ export function CountToDirective ($timeout) {
     link: function (scope, element, attrs) {
 
       var e = element[0];
-      var num, refreshInterval, duration, steps, step, countTo, value, increment;
+      var num, refreshInterval, duration, steps, step, countTo, increment;
 
       var calculate = function () {
         refreshInterval = 30;
@@ -51,7 +51,7 @@ export function CountToDirective ($timeout) {
         }
       });
 
-      attrs.$observe('value', function (val) {
+      attrs.$observe('value', function () {
         start();
       });
 
