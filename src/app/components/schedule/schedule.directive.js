@@ -12,7 +12,7 @@ export function ScheduleDirective () {
 }
 
 class ScheduleController {
-  constructor (dataLoaderService) {
+  constructor ($rootScope, $log, $modal, dataLoaderService) {
     'ngInject';
 
     this.dataLoaderService = dataLoaderService;
@@ -31,6 +31,14 @@ class ScheduleController {
         return this.days[0];
       })
       .then(this.loadSchedule.bind(this))
+
+    this.modalScope = $rootScope.$new();
+    this.modal = $modal({
+      animation: 'am-fade-and-scale',
+      scope: this.modalScope,
+      templateUrl: 'app/components/schedule/schedule-modal.html',
+      show: false
+    });
   }
 
   loadDay (dayNumber) {
@@ -55,6 +63,25 @@ class ScheduleController {
     } else {
       return this.activeTabIndex;
     }
+  }
+
+  scheduleModal (talk) {
+    var self = this;
+    talk.speaker = this.speakers[talk.speakers[0]];
+
+    // if multiple speakers supported
+    // var speakers = [];
+    // angular.forEach(talk.speakers, function(id, index) {
+    //   this.push(self.speakers[id]);
+    // }, speakers);
+    // talk.speakers = speakers;
+    
+    this.modalScope.talk = talk;
+    this.modal.$promise
+      .then(this.modal.show)
+      .catch((error) => {
+        this.$log.error("Can't open schedule modal", error)
+      });
   }
 
 }

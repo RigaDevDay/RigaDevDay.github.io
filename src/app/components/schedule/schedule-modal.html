@@ -1,0 +1,24 @@
+<div class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body modal-person">
+        <div class="row">
+          <div class="col-md-4">
+            <img ng-src="{{talk.speaker.img}}">
+          </div>
+          <div class="col-md-8">
+            <h2><strong>{{talk.subtitle}}</strong></h2>
+
+            <h3>{{talk.speaker.name}}</h3>
+            <h5>{{talk.speaker.title}} at {{talk.speaker.company}}</h5>
+
+            <p>{{talk.description}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="$hide()">OK</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -32,21 +32,22 @@
             <div></div>
           </td>
           <td class="content"
-              ng-repeat="event in session.events"
-              ng-class="{unique: event.title, clickable: event.speakers.length > 0}"
+              ng-repeat="talk in session.events"
+              ng-class="{unique: talk.title, clickable: talk.speakers.length > 0}"
+              ng-click="vm.scheduleModal(talk)"
               colspan="{{vm.rooms.length / session.events.length}}">
             <div class="main">
               <header>
-                <span ng-if="event.title">{{event.title}}</span>
-                <span ng-if="event.speakers.length > 0" ng-repeat="speakerid in event.speakers">{{vm.speakers[speakerid].name}}<span ng-hide="$last">, </span></span>
+                <span ng-if="talk.title">{{talk.title}}</span>
+                <span ng-if="talk.speakers.length > 0" ng-repeat="speakerid in talk.speakers">{{vm.speakers[speakerid].name}}<span ng-hide="$last">, </span></span>
               </header>
-              <div class="desc">{{event.subtitle}}</div>
+              <div class="desc">{{talk.subtitle}}</div>
             </div>
-            <div class="tags" ng-repeat="tag in event.tags">
+            <div class="tags" ng-repeat="tag in talk.tags">
               <a class="magenta">{{tag}}</a>
             </div>
-            <div class="slides" ng-show="event.slides">
-              <a ng-href="{{event.slides}}" target="_blank">slides</a>
+            <div class="slides" ng-show="talk.slides">
+              <a ng-href="{{talk.slides}}" target="_blank">slides</a>
             </div>
           </td>
         </tr>
