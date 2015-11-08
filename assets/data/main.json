@@ -128,6 +128,27 @@
       "img": "assets/img/photos/rustam_mehmandarov.jpg",
       "twitter": "https://twitter.com/rmehmandarov",
       "description": "A social geek who loves what he does. Enjoys sharing all that geeky stuff with others. Loves breaking down complicated topics into something all can understand. I hold a master's degree in Computer Science from the University of Oslo. Working as an architect, developer and lead programmer for over 9 years. Leader of the Norwegian Java User Group, javaBin. Leader of the professional network for databases and information management at work. I am a frequent speaker at conferences and events such as JavaZone, NDC (Norwegian Developer Conference), Boosterconf, Trondheim Developer Conference, Open Source Developers' Conference Nordic, and events at various Norwegian universities."
+    },
+    {
+      "id": "10",
+      "name": "Jessica Rose",
+      "company": "DreamFactory",
+      "title": "Developer Relations",
+      "country": "UK",
+      "img": "assets/img/photos/jessica_rose.jpg",
+      "twitter": "https://twitter.com/jesslynnrose",
+      "blog": "http://closetoclever.com",
+      "description": "Jessica Rose is a self taught technologist obsessed with fostering more equal access to technical education and digital spaces. She's helping DreamFactory with developer relations for their open source product, founded Open Code and co-founded Trans*Code. She's always interested in hearing about your newest project to grab her and say hello!"
+    },
+    {
+      "id": "11",
+      "name": "Philipp Krenn",
+      "company": "ecosio",
+      "title": "Tamer of technology",
+      "country": "Austria",
+      "img": "assets/img/photos/philipp_krenn.jpg",
+      "twitter": "https://twitter.com/xeraa",
+      "description": "Philipp Krenn is running everything database related and the cloud infrastructure of the Vienna based B2B company ecosio. When not fighting MongoDB, MySQL, Jenkins, or AWS, he is giving NoSQL and cloud computing trainings or organizes his meetups ViennaDB and Papers We Love Vienna."
     }
   ],
   "days": [
