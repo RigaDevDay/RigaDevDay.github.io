@@ -3,15 +3,11 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background: url("../assets/img/bg_vectorized.jpg") no-repeat center center scroll;
+  background: url("../../../assets/img/bg_vectorized.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-
-  h1 {
-    font: bold 75px "Titillium Web", "Source Sans Pro", tahoma, verdana, arial, sans-serif;
-  }
 
   .social {
     position: absolute;
@@ -28,9 +24,60 @@
     color: #c9302c;
   }
 
-  .btn.btn-danger {
+  .buy-tickets {
     border-radius: 10px;
     padding: 20px;
     font-size: 25px;
+  }
+
+  .text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+    h1 {
+      margin-bottom: 0;
+      padding: 0;
+      color: #0f497f;
+      font: bold 75px "Titillium Web", "Source Sans Pro", tahoma, verdana, arial, sans-serif;
+
+      span {
+        color: #00a6eb;
+      }
+
+      span b {
+        font-size: 0.5em;
+        color: #00a6eb;
+        font-weight: 100;
+      }
+    }
+
+    h2 {
+      margin: 0;
+      padding-bottom: 10px;
+      font-size: 2.0em;
+      color: #000000;
+    }
+
+    h3 {
+      margin: 0;
+      padding: 0;
+      font-size: 1.5em;
+      color: #000000;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    .text-vertical-center {
+      h2 {
+        font-size: 23px !important;
+      }
+
+      h1 {
+        font-size: 40px !important;
+      }
+    }
   }
 }
