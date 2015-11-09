@@ -149,6 +149,59 @@
       "img": "assets/img/photos/philipp_krenn.jpg",
       "twitter": "https://twitter.com/xeraa",
       "description": "Philipp Krenn is running everything database related and the cloud infrastructure of the Vienna based B2B company ecosio. When not fighting MongoDB, MySQL, Jenkins, or AWS, he is giving NoSQL and cloud computing trainings or organizes his meetups ViennaDB and Papers We Love Vienna."
+    },
+    {
+      "id": "12",
+      "name": "Alex Nuijten",
+      "company": "Ordina",
+      "title": "Key Consultant",
+      "country": "Netherlands",
+      "img": "assets/img/photos/alex_nuijten.jpg",
+      "twitter": "https://twitter.com/alexnuijten",
+      "blog": "nuijten.blogspot.com",
+      "description": "Alex Nuijten works as a key consultant for Ordina Oracle Solutions in The Netherlands. Besides his consultancy work, he conducts training classes, mainly in APEX, SQL and PL/SQL. Alex has been a speaker at numerous international conferences, such as ODTUG, Oracle Open World, UKOUG, IOUG, OUGF, BGOUG, OGH and OBUG. He was part of the Nordic ACE Directors Tour in 2012. He wrote many articles in Oracle related magazines, and at regular intervals he writes about Oracle Application Express and Oracle database development on his blog 'Notes on Oracle' (nuijten.blogspot.com). Alex is co-author of the book 'Oracle APEX Best Practices' (published by Packt Publishers). In August 2010, Alex was awarded the Oracle ACE Director membership."
+    },
+    {
+      "id": "13",
+      "name": "Andres Almiray",
+      "company": "Canoo Engineering AG",
+      "title": "Canoo Fellow",
+      "country": "Switzerland",
+      "img": "assets/img/photos/andres_almiray.jpg",
+      "twitter": "https://twitter.com/aalmiray",
+      "blog": "http://jroller.com/aalmiray",
+      "description": "Andres is a Java/Groovy developer and a Java Champion with more than 16 years of experience in software design and development. He has been involved in web and desktop application development since the early days of Java. Andres is a true believer in open source and has participated on popular projects like Groovy, Griffon, and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member of the Griffon framework and Hackergarten community event."
+    },
+    {
+      "id": "14",
+      "name": "Andrey Adamovich",
+      "company": "Aestas/It",
+      "title": "Software Architect",
+      "country": "Latvia",
+      "img": "assets/img/photos/andrey_adamovich.jpg",
+      "twitter": "https://twitter.com/codingandrey",
+      "description": "Andrey Adamovich is a software craftsman with many years of experience in different lifecycle phases of software creation. Andrey's love is JVM ecosystem. In recent years, he tries to apply JVM goodness to DevOps initiatives his company is implementing for several clients. He is one of the authors of Groovy 2 Cookbook as well as frequent speaker at local communities and conferences."
+    },
+    {
+      "id": "15",
+      "name": "Nick Zeeb",
+      "company": "LMAX Exchange",
+      "title": "Senior Software Developer",
+      "country": "UK",
+      "img": "assets/img/photos/nick_zeeb.jpg",
+      "twitter": "https://twitter.com/nickzeeb",
+      "blog": "https://nickzeeb.wordpress.com/",
+      "description": "Nick Zeeb is a senior Java developer at LMAX Exchange. He has expertise in high-performance Java systems and is passionate about continually improving the way we build software.Nick is a leader in the London Java Community and holds a Master’s degree in Engineering and Computer Science from the University of Oxford."
+    },
+    {
+      "id": "16",
+      "name": "Antonio Molina",
+      "company": "LMAX Exchange",
+      "title": "Senior Software Developer",
+      "country": "UK",
+      "img": "assets/img/photos/antonio_molina.jpg",
+      "twitter": "https://twitter.com/ajmolinacom",
+      "description": "Antonio Molina is a senior software developer at LMAX Exchange. He has 10+ years of software development experience in consulting services, e-commerce and financial companies. He is a software and business enthusiast who has promoted various projects related to information technology from conferences to startups.He loves working in crazy and challenging environments where high quality software development and a clever group of engineers can make the difference and win the game."
     }
   ],
   "days": [

@@ -43,7 +43,14 @@
       "color": "dark-blue",
       "events": [
         {
-          "title": "Keynote №2"
+          "subtitle": "Keynote: Trends of Web and Mobile",
+          "speakers": [
+            "1"
+          ],
+          "tags": [
+            "Web",
+            "Mobile"
+          ]
         }
       ]
     },
@@ -65,8 +72,65 @@
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "Modern Java Component Design with Spring 4.3",
-          "description": "Spring's programming and configuration model has a strong design philosophy with respect to application components and configuration artifacts. Spring's annotation-based component story is fine-tuned for source code readability as well as consistency across an entire application's codebase. This session presents selected Spring Framework 4 component model highlights, with a focus on the upcoming Spring Framework 4.3 and a selection of Java 8 enabled features, illustrated with many code examples and noteworthy design considerations.",
+          "subtitle": "Painfree Object-Document Mapping for MongoDB",
+          "description": "Morphia is MongoDB's JPA-like Object-Document Mapping (ODM). However, there is no object-relational impedence mismatch since documents fit the concept of object-orientation much better. This removes a lot of JPA pain, which makes database interactions fun again. On a practical level we take a look at the available annotations and how to map your objects as well as how to easily query data in MongoDB. Next we discuss some patterns on how to solve common requirements, such as the proper use of generics, auto-increments, and the encryption of sensitive data. The talk concludes with some tips and lessons we've learned from using Morphia in production for three years.",
+          "speakers": [
+            "11"
+          ],
+          "tags": [
+            "Java",
+            "NoSQL"
+          ]
+        },
+        {
+          "subtitle": "?"
+        },
+        {
+          "subtitle": "Entering the new era of Front-end development with ReactJS",
+          "description": "ReactJS is not just yet another framework to be forgotten after few years, it shifts the concepts of modern front-end development giving us the scalability and control we always strived about. Robert will guide you through key concepts of ReactJS based applications covering all aspects of full stack development and maintenance. This includes component development approach, deep integrated into ReactJS architecture and React Native, which allows to reuse most of UI code, still using the power of Native UI.",
+          "speakers": [
+            "5"
+          ],
+          "tags": [
+            "Web"
+          ]
+        },
+        {
+          "subtitle": "Field Notes of Command Line Ninja",
+          "description": "Have you ever witnessed someone write fancy commands and perform magic from the console. Have you ever wished you could learn, or brush up on, those skills too? Maybe you want to be more effective at your everyday tasks, or need a new topic for the next family dinner? Join us and learn some awesome command line ninja skills. You will be able to find something new no matter your level of experience. The audience will get a chance to show off their skills as well, and there will be small prizes to contributors. The black belt and a little surprise await you at the end of this talk. You can bring your PC with you and hack-along! All you need is a PC or a Mac running OS of your choice - Windows, Linux, or Mac OS. Windows users are advised to have their cmd.exe ready, and to install Cygwin (32-bit).",
+          "speakers": [
+            "9"
+          ],
+          "tags": [
+            "DevOps",
+            "Tools"
+          ]
+        },
+        {
+          "subtitle": "?"
+        }
+      ]
+    },
+    {
+      "time": "12:30",
+      "endTime": "13:30",
+      "icon": "lunch",
+      "color": "light-blue",
+      "events": [
+        {
+          "title": "Lunch"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "endTime": "14:30",
+      "icon": "speaker",
+      "color": "black",
+      "events": [
+        {
+          "subtitle": "Spring Framework 5 - Preview & Roadmap",
+          "description": "The Spring team is already working on Spring Framework 5.0, with milestones to appear throughout the year and a release candidate scheduled for autumn 2016. This presentation covers the key themes in Spring 5: going Java 8+ across the entire framework codebase, comprehensive support for JDK 9, and first-class support for Spring-style reactive architectures. We'll cover the current state of development as well as the remaining roadmap.",
           "speakers": [
             "0"
           ],
@@ -92,55 +156,6 @@
           ]
         },
         {
-          "subtitle": "Apache Zeppelin, the missing component for your BigData eco-system",
-          "description": "If you are interested in Big Data, you surely have heard about Apache Spark or Apache Cassandra, but do you know Apache Zeppelin ? Do you know that it is possible to draw out beautiful graph using an user-friendly interface out of your Spark RDD  or out of Cassandra queries ? In this session, I will introduce Zeppelin by live coding example and highlight its modular architecture which allows you to plug-in any interpreter for the back-end of your choice.",
-          "speakers": [
-            "6"
-          ],
-          "tags": [
-            "BigData"
-          ]
-        }
-      ]
-    },
-    {
-      "time": "12:30",
-      "endTime": "13:30",
-      "icon": "lunch",
-      "color": "light-blue",
-      "events": [
-        {
-          "title": "Lunch"
-        }
-      ]
-    },
-    {
-      "time": "13:30",
-      "endTime": "14:30",
-      "icon": "speaker",
-      "color": "black",
-      "events": [
-        {
-          "subtitle": "?"
-        },
-        {
-          "subtitle": "?"
-        },
-        {
-          "subtitle": "?"
-        },
-        {
-          "subtitle": "Field Notes of Command Line Ninja",
-          "description": "Have you ever witnessed someone write fancy commands and perform magic from the console. Have you ever wished you could learn, or brush up on, those skills too? Maybe you want to be more effective at your everyday tasks, or need a new topic for the next family dinner? Join us and learn some awesome command line ninja skills. You will be able to find something new no matter your level of experience. The audience will get a chance to show off their skills as well, and there will be small prizes to contributors. The black belt and a little surprise await you at the end of this talk. You can bring your PC with you and hack-along! All you need is a PC or a Mac running OS of your choice - Windows, Linux, or Mac OS. Windows users are advised to have their cmd.exe ready, and to install Cygwin (32-bit).",
-          "speakers": [
-            "9"
-          ],
-          "tags": [
-            "DevOps",
-            "Tools"
-          ]
-        },
-        {
           "subtitle": "?"
         }
       ]
@@ -152,7 +167,15 @@
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "?"
+          "subtitle": "What I Learned Writing a Trillion Dollar Trading System",
+          "description": "In 2014 LMAX Exchange traded over $1 trillion dollars. The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software. We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything.",
+          "speakers": [
+            "15",
+            "16"
+          ],
+          "tags": [
+            "Java"
+          ]
         },
         {
           "subtitle": "?"
@@ -161,7 +184,14 @@
           "subtitle": "?"
         },
         {
-          "subtitle": "?"
+          "subtitle": "Jenkins at your (continuous) service",
+          "description": "Jenkins is always ready to serve your software delivery automation needs. And even though there are other alternatives, it is considered a de facto tool that many teams turn to when they need simplicity and rich set of features for their automation. This talk will give an overview of Jenkins ecosystem and its capabilities. As well as it will provide some tips and tricks on what you probably didn't know about Jenkins and it's use cases.",
+          "speakers": [
+            "14"
+          ],
+          "tags": [
+            "DevOps"
+          ]
         },
         {
           "subtitle": "?"
@@ -186,7 +216,16 @@
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "?"
+          "subtitle": "Testing with Spock. The logical choice",
+          "description": "Remember the old days when you tested using JUnit? How boring it was? You made a lot of excuses to avoid testing your code. Luckily those dark days now belong to the past because Spock is with us.Spock is a Groovy-based testing and specification framework for Java and Groovy applications that makes writing tests fun again. We can write beautiful and highly expressive tests because of its DSL and all the power that Groovy provides us.In this talk you'll learn the basics of Spock and you'll see how easily you can test a Java application. After the talk you won't have any excuse to don't test your applications, so you have been warned before coming to the talk!",
+          "speakers": [
+            "8"
+          ],
+          "tags": [
+            "Groovy",
+            "BDD",
+            "Test Automation"
+          ]
         },
         {
           "subtitle": "?"
