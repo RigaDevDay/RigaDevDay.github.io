@@ -65,8 +65,8 @@
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "Spring Framework 5 - Preview & Roadmap",
-          "description": "The Spring team is already working on Spring Framework 5.0, with milestones to appear throughout the year and a release candidate scheduled for autumn 2016. This presentation covers the key themes in Spring 5: going Java 8+ across the entire framework codebase, comprehensive support for JDK 9, and first-class support for Spring-style reactive architectures. We'll cover the current state of development as well as the remaining roadmap.",
+          "subtitle": "Modern Java Component Design with Spring 4.3",
+          "description": "Spring's programming and configuration model has a strong design philosophy with respect to application components and configuration artifacts. Spring's annotation-based component story is fine-tuned for source code readability as well as consistency across an entire application's codebase. This session presents selected Spring Framework 4 component model highlights, with a focus on the upcoming Spring Framework 4.3 and a selection of Java 8 enabled features, illustrated with many code examples and noteworthy design considerations.",
           "speakers": [
             "0"
           ],
@@ -96,15 +96,13 @@
           ]
         },
         {
-          "subtitle": "Testing with Spock. The logical choice",
-          "description": "Remember the old days when you tested using JUnit? How boring it was? You made a lot of excuses to avoid testing your code. Luckily those dark days now belong to the past because Spock is with us.Spock is a Groovy-based testing and specification framework for Java and Groovy applications that makes writing tests fun again. We can write beautiful and highly expressive tests because of its DSL and all the power that Groovy provides us.In this talk you'll learn the basics of Spock and you'll see how easily you can test a Java application. After the talk you won't have any excuse to don't test your applications, so you have been warned before coming to the talk!",
+          "subtitle": "Oracle 12c for Developers and SQL Model Clause: A Gentle Introduction ",
+          "description": "Do you want to get up to speed with the most current release of the Oracle database? Then this session is for you. You will learn the most exciting and most useful new features from the Oracle Database 12c which can make your work as database developer a lot easier. There is more to the Oracle database 12c than just pluggable databases.",
           "speakers": [
-            "8"
+            "12"
           ],
           "tags": [
-            "Groovy",
-            "BDD",
-            "Test Automation"
+            "Oracle's developer tools"
           ]
         },
         {
@@ -130,13 +128,26 @@
       "color": "black",
       "events": [
         {
-          "subtitle": "?"
+          "subtitle": "Having fun with Javassist",
+          "description": "Javassist makes Java bytecode manipulation simple. At ZeroTurnaround we use Javassist a lot to implement the integrations for our tools. In this talk we will go through the examples of how Javassist can be applied to alter the applications behaviour and do all kind of fun stuff with it. Why is it interesting? Because while trying to do unusual things in Java, you learn much more about the language and the platform itself and learning about Javassist will actually make you a better Java developer!",
+          "speakers": [
+            "7"
+          ],
+          "tags": [
+            "Java"
+          ]
         },
         {
-          "subtitle": "?"
-        },
-        {
-          "subtitle": "?"
+          "subtitle": "Appium: Mobile Automation Made Awesome",
+          "description": "The tools and practices refined over the last decade by web developers have not crossed over easily into the mobile community. Mobile devs have been without tools like continuous integration and automated testing, which enable delivery of high-quality apps more rapidly. A key piece of the solution for mobile is Appium, an open-source, cross-platform, language-agnostic mobile automation framework you can use to write automated UI tests for Android and iOS apps (native, hybrid, web), to be run on emulators or devices. In this talk we will explore the philosophy that underlies the work behind Appium, including the open-source nature of Appium’s diverse, active and friendly community. Then, after a brief explanation of the technology that powers Appium, we’ll move into the technical portion of the talk, where attendees will see easy it is to write Appium scripts using the WebDriver protocol in their favorite language.",
+          "speakers": [
+            "4"
+          ],
+          "tags": [
+            "Android",
+            "iOS",
+            "Test Automation"
+          ]
         },
         {
           "subtitle": "Integration Testing from the Trenches",
@@ -150,6 +161,9 @@
         },
         {
           "subtitle": "?"
+        },
+        {
+          "subtitle": "?"
         }
       ]
     },
@@ -160,25 +174,32 @@
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "?"
-        },
-        {
-          "subtitle": "?"
-        },
-        {
-          "subtitle": "?"
-        },
-        {
-          "subtitle": "Appium: Mobile Automation Made Awesome",
-          "description": "The tools and practices refined over the last decade by web developers have not crossed over easily into the mobile community. Mobile devs have been without tools like continuous integration and automated testing, which enable delivery of high-quality apps more rapidly. A key piece of the solution for mobile is Appium, an open-source, cross-platform, language-agnostic mobile automation framework you can use to write automated UI tests for Android and iOS apps (native, hybrid, web), to be run on emulators or devices. In this talk we will explore the philosophy that underlies the work behind Appium, including the open-source nature of Appium’s diverse, active and friendly community. Then, after a brief explanation of the technology that powers Appium, we’ll move into the technical portion of the talk, where attendees will see easy it is to write Appium scripts using the WebDriver protocol in their favorite language.",
+          "subtitle": "JSR377: What's up and what's next",
+          "description": "JSR-377, the Desktop|Embedded Application API JSR has as a goal to standardize common behavior shared by many desktop applications. This behavior can also be applied to the emerging Java Embedded and Internet-of-Things applications. Because the JSR targets multiple toolkits (Swing, JavaFX, SWT and more) it's even possible to build applications targeting the mobile space (JavaFX on mobile). There are a good number of framework and platforms that deliver these features in their own way. In this talk we'll discuss the current state of this JSR and explore its features.",
           "speakers": [
-            "4"
+            "13"
           ],
           "tags": [
-            "Android",
-            "iOS",
-            "Test Automation"
+            "IoT",
+            "Java",
+            "Embedded Programming"
           ]
+        },
+        {
+          "subtitle": "?"
+        },
+        {
+          "subtitle": "Getting Your IoT Things Talking",
+          "description": "As an increasing number of connected devices enter our world, we’re faced with the challenge of making sure these machines are able to quickly and efficiently talk to us and each other. REST APIs are an amazing way to facilitate these exchanges, but building endless custom APIs doesn’t scale. We’ll be looking at how the generation of reusable REST APIs via DreamFactory’s open source platform can be leveraged to get all the IoT things in your life chatting happily.",
+          "speakers": [
+            "10"
+          ],
+          "tags": [
+            "IoT"
+          ]
+        },
+        {
+          "subtitle": "?"
         },
         {
           "subtitle": "?"
@@ -209,7 +230,14 @@
           "subtitle": "?"
         },
         {
-          "subtitle": "?"
+          "subtitle": "Apache Zeppelin, the missing component for your BigData eco-system",
+          "description": "If you are interested in Big Data, you surely have heard about Apache Spark or Apache Cassandra, but do you know Apache Zeppelin ? Do you know that it is possible to draw out beautiful graph using an user-friendly interface out of your Spark RDD  or out of Cassandra queries ? In this session, I will introduce Zeppelin by live coding example and highlight its modular architecture which allows you to plug-in any interpreter for the back-end of your choice.",
+          "speakers": [
+            "6"
+          ],
+          "tags": [
+            "BigData"
+          ]
         },
         {
           "subtitle": "?"

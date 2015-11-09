@@ -66,7 +66,6 @@ class ScheduleController {
   }
 
   scheduleModal (talk) {
-    var self = this;
     talk.speaker = this.speakers[talk.speakers[0]];
 
     // if multiple speakers supported
@@ -75,7 +74,7 @@ class ScheduleController {
     //   this.push(self.speakers[id]);
     // }, speakers);
     // talk.speakers = speakers;
-    
+
     this.modalScope.talk = talk;
     this.modal.$promise
       .then(this.modal.show)
