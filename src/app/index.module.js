@@ -35,7 +35,8 @@ angular.module('rdd', [
   'ngRoute',
   'mgcrea.ngStrap',
   'uiGmapgoogle-maps',
-  'duScroll'
+  'duScroll',
+  'angular-inview'
 ]);
 
 angular.module('rdd')

@@ -3,7 +3,9 @@ export function CountToDirective ($timeout) {
 
   return {
     replace: false,
-    scope: true,
+    scope: {
+      countTo: '='
+    },
     link: function (scope, element, attrs) {
 
       var e = element[0];
@@ -13,7 +15,7 @@ export function CountToDirective ($timeout) {
         refreshInterval = 30;
         step = 0;
         scope.timoutId = null;
-        countTo = parseInt(attrs.countTo) || 0;
+        countTo = parseInt(scope.countTo) || 0;
         scope.value = parseInt(attrs.value, 10) || 0;
         duration = (parseFloat(attrs.duration) * 1000) || 0;
 
@@ -45,8 +47,8 @@ export function CountToDirective ($timeout) {
         tick();
       };
 
-      attrs.$observe('countTo', function (val) {
-        if (val) {
+      scope.$watch('countTo', function(newValue, oldValue) {
+        if (newValue && (oldValue !== newValue)) {
           start();
         }
       });
