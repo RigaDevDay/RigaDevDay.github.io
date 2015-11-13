@@ -221,6 +221,10 @@
     {
       "title": "Day 2",
       "file": "schedule2.json"
+    },
+    {
+      "title": "Workshops",
+      "file": "schedule3.json"
     }
   ]
 }

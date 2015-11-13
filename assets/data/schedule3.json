@@ -1,0 +1,59 @@
+{
+  "roomNames": [
+    "Room 1",
+    "Room 2",
+    "Room 3"
+  ],
+  "trackNames": [
+    "Track 1",
+    "Track 2",
+    "Track 3"
+  ],
+  "schedule": [
+    {
+      "time": "9:00",
+      "endTime": "12.30",
+      "icon": "speaker",
+      "color": "dark-blue",
+      "events": [
+        {
+          "subtitle": "?"
+        },
+        {
+          "subtitle": "?"
+        },
+        {
+          "subtitle": "?"
+        }
+      ]
+    },
+    {
+      "time": "12:30",
+      "endTime": "13:30",
+      "icon": "coffee",
+      "color": "light-blue",
+      "events": [
+        {
+          "title": "Lunch"
+        }
+      ]
+    },
+    {
+      "time": "13.30",
+      "endTime": "16:30",
+      "icon": "speaker",
+      "color": "dark-blue",
+      "events": [
+        {
+          "subtitle": "?"
+        },
+        {
+          "subtitle": "?"
+        },
+        {
+          "subtitle": "?"
+        }
+      ]
+    }
+  ]
+}
