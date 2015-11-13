@@ -30,7 +30,7 @@ class ScheduleController {
         this.speakers = data.speakers;
         return this.days[0];
       })
-      .then(this.loadSchedule.bind(this))
+      .then(this.loadSchedule.bind(this));
 
     this.modalScope = $rootScope.$new();
     this.modal = $modal({
@@ -39,10 +39,6 @@ class ScheduleController {
       templateUrl: 'app/components/schedule/schedule-modal.html',
       show: false
     });
-  }
-
-  loadDay (dayNumber) {
-    return this.loadSchedule(this.days[dayNumber]);
   }
 
   loadSchedule (day) {
@@ -56,13 +52,14 @@ class ScheduleController {
       });
   }
 
+  loadDay (dayNumber) {
+    return this.loadSchedule(this.days[dayNumber]);
+  }
+
   tabActive (index) {
-    if (index != undefined) {
+    this.loadDay(index).then(() => {
       this.activeTabIndex = index;
-      this.loadDay(index);
-    } else {
-      return this.activeTabIndex;
-    }
+    });
   }
 
   scheduleModal (talk) {
