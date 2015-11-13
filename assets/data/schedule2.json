@@ -43,7 +43,8 @@
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "Keynote: Trends of Web and Mobile",
+          "subtitle": "The Web - What it Has, What it Lacks and Where it Must Go",
+          "description": "Taking a look at the web where it is today: the myriad of new features and possibilities we have gotten, and how the web needs to evolve to stay relevant. To give a perspective on where it came from and also comparing it to other platforms to see where we need to move forward. Getting a perspective on SLICE, Progressive Apps and thoughts about how the web can, and should be, unique.",
           "speakers": [
             "1"
           ],
@@ -83,7 +84,14 @@
           ]
         },
         {
-          "subtitle": "?"
+          "subtitle": "Why postgres SQL deserve noSQL fan respect",
+          "description": "Postgres SQL is a plain old SQL DB. Very powerful and very consistent, in some case, project needs an ACID database, but schemaless… With JSON support, postgres is a very interesting tool to provide ACID and some very interesting function (time management, localisation function and data types...) and the schemaless noSQL point of view with json and indexed json. This talk show some great usage and some insigth to build some great application with postgres.",
+          "speakers": [
+            "16"
+          ],
+          "tags": [
+            "SQL"
+          ]
         },
         {
           "subtitle": "Entering the new era of Front-end development with ReactJS",
@@ -167,15 +175,7 @@
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "What I Learned Writing a Trillion Dollar Trading System",
-          "description": "In 2014 LMAX Exchange traded over $1 trillion dollars. The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software. We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything.",
-          "speakers": [
-            "15",
-            "16"
-          ],
-          "tags": [
-            "Java"
-          ]
+          "subtitle": "?"
         },
         {
           "subtitle": "?"
@@ -234,7 +234,15 @@
           "subtitle": "?"
         },
         {
-          "subtitle": "?"
+          "subtitle": "Java, Docker and 'The Cloud'",
+          "description": "Deploying your application to the production has failed again. Emailing the developer who commited the last code changes, they send back the classic response... “It works on my machine”. *sigh* Is this scenario a recurring nightmare (and reality) for you? While everyone else is talking about “continuous delivery” do your deployments feel more like an extreme game of Jenga, tittering on the brink of disaster and a nightmare to reconstruct? It doesn’t have to be like this. Launched only two years ago, Docker has revolutionised application deployment. Using this open-source project, applications are packaged into lightweight containers, that are hardware and platform agnostic. Containers move from the local developer machine to a production server and then the cloud without modification! So, how do you migrate a traditional three-tier Java web application to use Docker? Let’s use a sample web application, designed for hosting on a single server, convert it to use Docker and deploy to a cloud platform. We’ll break out the application and component services into individual containers that can be ran and scaled independently. Showing you how to utilise existing pre-built images for rapid development, build custom container images for your application and move seamlessly between deployment platforms, enabling us to use “cloud” to accelerate application development. We will configure automatic build, test and deploy pipelines for continuous deployment and auto-scaling to handle unpredictable application traffic with ease. If you’re an application developer who’s exhausted from battling deployment issues, maintaining ”special” production servers and lives in fear of being on ”pager duty”, come and learn how you can use Docker to banish “works on my machine” syndrome. This talk is for developers who’ve heard about this “Docker thing” and want to see a practical example of converting a traditional monolithic web application to use Docker containers deployed to a scalable cloud platform.",
+          "speakers": [
+            "15"
+          ],
+          "tags": [
+            "Java",
+            "Cloud"
+          ]
         },
         {
           "subtitle": "?"
