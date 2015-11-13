@@ -16,10 +16,9 @@ class VenueController {
   constructor () {
     'ngInject';
 
-    let center = {latitude: 56.946333, longitude: 24.116870};
     this.map = {
-      center: center,
-      zoom: 13,
+      center: {latitude: 56.946333, longitude: 24.116870},
+      zoom: 16,
       options: {
         zoomControlOptions: {
           position: google.maps.ControlPosition.LEFT_CENTER
@@ -39,7 +38,7 @@ class VenueController {
 
     this.marker = {
       idKey: 'place',
-      position: center,
+      position: {latitude: 56.946333, longitude: 24.116870},
       options: {
         title: 'Riga Dev Day 2016',
         icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
