@@ -81,7 +81,7 @@
       "id": "5",
       "name": "Robert Haritonov",
       "company": "Liberty Global",
-      "title": "Senior Consultant",
+      "title": " Front-end Development Lead",
       "country": "Netherlands",
       "img": "assets/img/photos/robert_haritonov.jpg",
       "twitter": "https://twitter.com/operatino",
@@ -184,24 +184,33 @@
     },
     {
       "id": "15",
-      "name": "Nick Zeeb",
-      "company": "LMAX Exchange",
-      "title": "Senior Software Developer",
+      "name": "James Thomas",
+      "company": "IBM",
+      "title": "Developer Advocate",
       "country": "UK",
-      "img": "assets/img/photos/nick_zeeb.jpg",
-      "twitter": "https://twitter.com/nickzeeb",
-      "blog": "https://nickzeeb.wordpress.com/",
-      "description": "Nick Zeeb is a senior Java developer at LMAX Exchange. He has expertise in high-performance Java systems and is passionate about continually improving the way we build software.Nick is a leader in the London Java Community and holds a Master’s degree in Engineering and Computer Science from the University of Oxford."
+      "img": "assets/img/photos/james_thomas.jpg",
+      "twitter": "https://twitter.com/thomasj",
+      "description": "James Thomas is a “Developer Advocate” for IBM Bluemix, helping developers build scalable applications on IBM's cloud platform. James loves all things JavaScript. He’s normally working on open-source projects and blog posts showing you how to ridiculous, unnecessary and dangerous things with Node.js and Cloud Foundry."
     },
     {
       "id": "16",
-      "name": "Antonio Molina",
-      "company": "LMAX Exchange",
-      "title": "Senior Software Developer",
+      "name": "Chris Saxon",
+      "company": "Oracle",
+      "title": "Developer Advocate for SQL",
       "country": "UK",
-      "img": "assets/img/photos/antonio_molina.jpg",
-      "twitter": "https://twitter.com/ajmolinacom",
-      "description": "Antonio Molina is a senior software developer at LMAX Exchange. He has 10+ years of software development experience in consulting services, e-commerce and financial companies. He is a software and business enthusiast who has promoted various projects related to information technology from conferences to startups.He loves working in crazy and challenging environments where high quality software development and a clever group of engineers can make the difference and win the game."
+      "img": "assets/img/photos/chris_saxon.jpg",
+      "twitter": "https://twitter.com/chrisrsaxon",
+      "description": "Over the past ten years Chris has worked as an Oracle developer, DBA and architect. During this time he's built up a passion for interacting with data using SQL and helping others do the same. He now shares his love of SQL as a Developer Advocate at Oracle. He does this through his All Things SQL blog and The Magic of SQL YouTube channel. He is also part of the answer team on the website Ask Tom."
+    },
+    {
+      "id": "16",
+      "name": "Quentin ADAM",
+      "company": "Clever Cloud",
+      "title": "CEO",
+      "country": "France",
+      "img": "assets/img/photos/quentin_adam.jpg",
+      "twitter": "https://twitter.com/waxzce",
+      "description": "Quentin ADAM is the CEO of Clever Cloud : a Platform as a Service company allowing you to run java, scala, ruby, node.js, php, python or go applications, with auto scaling and auto healing features. This position allow him to study lots of applications, code, practice, and extract some talks and advises. Regular speaker at various tech conference, he’s focused to help developers to deliver quickly and happily good applications."
     }
   ],
   "days": [
