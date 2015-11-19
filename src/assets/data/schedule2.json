@@ -94,13 +94,13 @@
           ]
         },
         {
-          "subtitle": "Entering the new era of Front-end development with ReactJS",
-          "description": "ReactJS is not just yet another framework to be forgotten after few years, it shifts the concepts of modern front-end development giving us the scalability and control we always strived about. Robert will guide you through key concepts of ReactJS based applications covering all aspects of full stack development and maintenance. This includes component development approach, deep integrated into ReactJS architecture and React Native, which allows to reuse most of UI code, still using the power of Native UI.",
+          "subtitle": "Kotlin on Android",
+          "description": "Développement Android Apple has introduced “a better language” for iOS developers. But what options do we have for Android? Surely Kotlin should be under consideration! Android Studio is now based on Intellij Idea, the “native” environment for Kotlin. Kotlin is a modern language for industry. It can help you reduce the amount of code you write for Android applications and at the same time make it readable and more maintainable. In this session we are going to talk a bit why JetBrains sees the potential in Kotlin comparing to other JVM languages. Then we’ll see how certain language constructs can be used to make Android more enjoyable. Also we’ll look at a DSL for type-safe dynamic layouts and a simple extension plugin that helps to avoid writing ‘findViewById()’ all the time.",
           "speakers": [
-            "5"
+            "18"
           ],
           "tags": [
-            "Web"
+            "Android"
           ]
         },
         {
@@ -150,7 +150,14 @@
           "subtitle": "?"
         },
         {
-          "subtitle": "?"
+          "subtitle": "Entering the new era of Front-end development with ReactJS",
+          "description": "ReactJS is not just yet another framework to be forgotten after few years, it shifts the concepts of modern front-end development giving us the scalability and control we always strived about. Robert will guide you through key concepts of ReactJS based applications covering all aspects of full stack development and maintenance. This includes component development approach, deep integrated into ReactJS architecture and React Native, which allows to reuse most of UI code, still using the power of Native UI.",
+          "speakers": [
+            "5"
+          ],
+          "tags": [
+            "Web"
+          ]
         },
         {
           "subtitle": "Automated Android CI, how hard can it be?",
