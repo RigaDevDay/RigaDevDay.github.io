@@ -36,15 +36,17 @@ class VenueController {
       }
     };
 
-    this.marker = {
-      idKey: 'place',
-      position: {latitude: 56.946333, longitude: 24.116870},
-      options: {
-        title: 'Riga Dev Day 2016',
-        icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
-        labelContent: 'Kino Citadele',
-        labelAnchor: "46 -5",
-        labelClass: 'map-label'
+    this.markers = {
+      cinema: {
+        idKey: 'place',
+        position: {latitude: 56.946333, longitude: 24.116870},
+        options: {
+          title: 'Riga Dev Day 2016',
+          icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+          labelContent: 'Kino Citadele',
+          labelAnchor: "46 -5",
+          labelClass: 'map-label'
+        }
       }
     }
   }

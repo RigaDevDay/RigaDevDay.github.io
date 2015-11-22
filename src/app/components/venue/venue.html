@@ -7,9 +7,18 @@
       <ui-gmap-google-map center='vm.map.center'
                           zoom='vm.map.zoom'
                           options='vm.map.options'>
-        <ui-gmap-marker idKey='vm.marker.idKey'
-                        coords='vm.marker.position'
-                        options='vm.marker.options'>
+        <ui-gmap-marker ng-repeat="marker in vm.markers" idKey='marker.idKey'
+                        coords='marker.position'
+                        options='marker.options'>
+          <ui-gmap-window>
+            <div class="marker-window">
+              <img src="/assets/img/venue/cinema.jpg" alt="">
+              <br>
+              <span>
+                13 Janvara street. 8
+              </span>
+            </div>
+          </ui-gmap-window>
         </ui-gmap-marker>
       </ui-gmap-google-map>
     </div>
