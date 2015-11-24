@@ -12,7 +12,7 @@
             <h3>{{talk.speaker.name}}</h3>
             <h5>{{talk.speaker.title}} at {{talk.speaker.company}}</h5>
 
-            <p>{{talk.description}}</p>
+            <p ng-bind-html="talk.description"></p>
           </div>
         </div>
       </div>
