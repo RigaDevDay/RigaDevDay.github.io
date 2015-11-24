@@ -50,7 +50,10 @@
     "wrench": "~1.5.8"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm install && bower install",
+    "serve": "gulp clean && gulp serve",
+    "deploy": "gulp clean && gulp build && gulp deploy"
   },
   "repository": {
     "type": "git",

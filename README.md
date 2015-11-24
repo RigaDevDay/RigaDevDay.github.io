@@ -11,36 +11,34 @@ Cool conference for cool devs.
 
 You need:
 
-* Node v4.2.1
+* Node v5.0.0+
 * Intellij IDEA (Webstorm)
 * Courage
+* Bower 1.6.4+
 
 [nvm](https://github.com/creationix/nvm) - node version manager.
 Get your node easily.
 
 **Prepare environment:**
 
-```
+```shell
 npm install -g gulp bower
 ```
 
 **Prepare project:**
 
 ```
-npm install
-bower install
+npm run prepare
 ```
 
 ### Coding
 
 ```
 # Run development server with live reload
-gulp clean serve 
+npm run serve
 
 # Build and deploy to prod
-gulp clean
-gulp build
-gulp deploy
+npm run deploy
 ```
 
 ## Contribution
