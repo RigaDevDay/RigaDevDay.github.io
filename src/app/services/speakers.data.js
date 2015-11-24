@@ -266,5 +266,33 @@ I’m a flawed human, and unafraid to say so.
 Into: people, software, music, role-playing, honesty, learning.
 <br/>
 Dislikes: doing unnecessary things, doing “because I can”.`
+  },
+  {
+    "id": "24",
+    "name": "Christian Berg",
+    "company": "Dimensionality",
+    "title": "CEO",
+    "country": "Switzerland",
+    "img": "assets/img/photos/christian_berg.png",
+    "twitter": "https://twitter.com/Nephentur",
+    "description": `Working with OBI since the day of nQuire's acquisition by Siebel Systems in 2001,
+Christian Berg has 14 years of business analytics project work in all industries.
+His architect work spans the value chain of business analytics from source systems through ETL,
+logical modelling, and graphical representation, as well as infrastructure/environment work and dev-ops.
+Areas of predilection include physical and logical modeling. Christian also teaches OBI for Oracle University and
+other integrators and end clients.`
+  },
+  {
+    "id": "25",
+    "name": "Dalibor Topic",
+    "company": "Oracle",
+    "title": "Principal Product Manager",
+    "country": "Germany",
+    "img": "assets/img/photos/dalibor_topic.jpg",
+    "twitter": "https://twitter.com/robilad",
+    "description": `Dalibor Topić lives in Hamburg, Germany, and works as principal product manager for Oracle.
+He joined the OpenJDK project in order to help make it a successful open source project,
+and stayed for anchoring Java in Linux distributions, and as an all-around Java F/OSS community guy.
+Topić joined the Java strategy team at Oracle to help provide community feedback into long-term strategic planning.`
   }
 ];

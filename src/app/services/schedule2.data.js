@@ -263,7 +263,16 @@ export const scheduleDay2Data = {
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "?"
+          "subtitle": "Modular Development With JDK 9",
+          "description": `First part will be a a gentle introduction, with examples, to the forthcoming Java Platform Module System.
+Learn how to create a module from scratch, compile it, test it, and run it.
+This session will also show basic techniques for modularizing existing libraries and applications.
+<br/><br/>
+Second part : Modularizing an existing library or application, or creating new modules from scratch,
+can raise many difficult and subtle design issues. This session will present a set of principles for modular development,
+with examples taken from the JDK itself.`,
+          "speakers": ["25"],
+          "tags": ["Java"]
         },
         {
           "subtitle": "?"
@@ -272,7 +281,19 @@ export const scheduleDay2Data = {
           "subtitle": "?"
         },
         {
-          "subtitle": "?"
+          "subtitle": "It's not always application's fault",
+          "description": `Infrastructure primer for busy developer. Tells what can go wrong when you deploy your application,
+where infrastructure may influence the end result.
+<br><br>
+Tells devops what they need to give/teach their developers, offering hints how to do so.
+<br>
+Takes viewer through: monitoring, backups, server room, virtualization, sharing, common problems and offers insight.
+<br><br>
+Flash-based version of this talk is on <a href="http://prezi.com/7usyzvjmj0io/?utm_campaign=share&utm_medium=copy">Prezi</a>.
+<br>
+Presented on Atmosphere, Java Developer Days, ChamberConf and Java Day Lviv.`,
+          "speakers": ["23"],
+          "tags": ["DevOps"]
         },
         {
           "subtitle": "?"
@@ -281,7 +302,18 @@ export const scheduleDay2Data = {
     },
     {
       "time": "18:00",
-      "endTime": "18:30",
+      "endTime": "19:00",
+      "icon": "speaker",
+      "color": "light-blue",
+      "events": [
+        {
+          "title": "Closing Keynote"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "endTime": "19:30",
       "icon": "afterparty",
       "color": "light-blue",
       "events": [

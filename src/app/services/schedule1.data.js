@@ -200,7 +200,24 @@ export const scheduleDay1Data = {
           ]
         },
         {
-          "subtitle": "?"
+          "subtitle": "An introduction to cross-platform development with Xamarin",
+          "description": `Cross platform development is what many business consider as the holy grail.
+There have been many attempts over the years and all have their flaws.
+One of the major problems is that many solutions require learning a new language and skillset,
+while that is often – if not always – the most valuable asset.
+With Xamarin, it becomes possible to re-use C# skills to build iOS and Android applications and
+on top of that, re-use much of the code base for both Windows 8 and Windows Phone 8 apps.
+In this introduction session, we will take a look at how we can build apps using C#
+which run on all platforms. We will also take a look at the different code-sharing strategies
+which we have available, including PCLs, shared code and more.
+With Xamarin, development can be done from Visual Studio as well as from Xamarin Studio;
+we’ll show the different options here as well.
+After this session, you’ll have a good overview of what Xamarin can help you with and
+also what are the different building blocks of the platform.
+`,
+          "speakers": ["20"],
+          // todo: add tags
+          "tags": []
         },
         {
           "subtitle": "Getting Your IoT Things Talking",
@@ -213,7 +230,34 @@ export const scheduleDay1Data = {
           ]
         },
         {
-          "subtitle": "?"
+          "subtitle": "50 Shades of #Fail - OBI worst practices in real life",
+          "description": `Lists of "best practices" as well as "how-to's" on the subject of Oracle BI and all its facets
+are commonplace and often discussed. Real-life practices, however, are a completely different story.
+What happens when implementations go astray or dogmatically follow half-knowledge, misconceptions,
+or conveniently cheap shortcuts? Learn about recurring pitfalls, their origins, their impacts,
+and most importantly their remedies in an entertaining fashion.
+However bad you thought your project was, you’ve seen nothing yet...
+<br/><br/>
+Turning the standard best-practice/how-to presentation format on its head,
+this presentation will look at some real-life OBIEE implementations and where it all went wrong.
+We’ll look at the worst, the weirdest, the most absurd and the wackiest ways the Oracle BI tool is abused:
+<ul>
+    <li>How did projects get to these points?</li>
+    <li>What were the original misconceptions?</li>
+    <li>How to counter these misconceptions?</li>
+    <li>Why are "it works" and "it fulfills the requirements" not only not enough but rather dangerous pitfalls?</li>
+    <li>Can I actually jeopardize the future of my BI system by choosing a cheap quick and dirty approach?</li>
+    <li>Is it ever OK to simply execute without comprehension?</li>
+</ul>
+This session will give attendees a deeper understanding of the impact seemingly innocuous design and implementation
+decisions can have on the stability and success of an entire BI system.
+An end-to-end view of the stack will be taken, covering areas including logical modelling, analysis design,
+and architectural topics. The importance of a holistic view and an appreciation of alternatives will be emphasized
+as well as the need to understand, comprehend and reflect on the implications of a “best practice” being
+followed as well as the technology stack simply being misunderstood.`,
+          "speakers": ["24"],
+          // todo: add tags
+          "tags": []
         },
         {
           "subtitle": "?"
@@ -238,7 +282,14 @@ export const scheduleDay1Data = {
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "?"
+          "subtitle": "Prepare for JDK 9!",
+          "description": `The modularization of the Java SE Platform in JDK 9 will bring many benefits, but also many changes.
+Existing code that uses only official Java SE Platform APIs and supported JDK-specific APIs should continue to work without change.
+Code that uses certain deprecated features, however, or any JDK-internal APIs, is likely to break.
+This session will show you how to prepare existing libraries and applications for JDK 9,
+and how to get old code working on JDK 9 even when you can't update it.`,
+          "speakers": ["25"],
+          "tags": ["Java"]
         },
         {
           "subtitle": "?"
@@ -286,12 +337,63 @@ export const scheduleDay1Data = {
     },
     {
       "time": "18:00",
-      "endTime": "18:30",
+      "endTime": "19:00",
+      "icon": "speaker",
+      "color": "dark-blue",
+      "events": [
+        {
+          "subtitle": "Spring Data, Hypermedia and the Cloud",
+          "description": `HATEOAS, REST, JSON Schema, APLS, Cloud, Docker,... are those just buzzwords? <br/>
+No! With Spring Data we allow you to expose your repositories as a REST resource including ALPS metadata,
+JSON Schema and simply everything you would probably expect. Join Christoph Strobl on his journey through the Spring stack
+while creating and deploying REST Services as Docker containers, on Cloud Foundry and Lattice.`,
+          "speakers": [
+            "22"
+          ],
+          "tags": [
+            "Java", "Web"
+          ]
+        },
+        {
+          "subtitle": "?"
+        },
+        {
+          "subtitle": "?"
+        },
+        {
+          "subtitle": "?"
+        },
+        {
+          "subtitle": "Back2Basics: A day in the life of an Oracle BI query",
+          "description": `Oracle BI is in use since years, has gone through many interations and
+is wide-spread across projects around the globe. Millions of analyses have been created,
+deployed and run billions of times. The actual lifecycle of an Oracle BI query from its inception through
+to the effective delivery of results may therefor be regarded as a given commodity not requiring a closer look.
+Few people have regarded an OBI query from the point of view "How does it get constructed? How does it get translated between the different architectural components and the RPD layers? How, through what and where does its lifecycle get influenced? Where can we as users/developers/administrators actively intervene with its makeup and structure? Why do we genuinely have to have an understanding of the subtleties of the life-cycle in order to create successful BI solutions?"
+<br><br>
+The purpose of this presentation is to serve as an introductory session for beginners while at
+the same serving as a reflective discussion of a topic regarded as "god-given / it just IS" by the wider
+population of users (including intermediates). Theoretical examination of the possible steps and paths the query
+lifecycle can take is depicted with simple but speaking examples.
+The impact of factors like basic analysis construction in Answers, advanced SQL clauses, caching,
+business model peculiarities like multi-star queries, snowflaking and LTS modelling as well as physical
+layer settings like call interfaces, data source parametrization or inclusion of hints in the RPD are to be showcased.`,
+          "speakers": [
+            "24"
+          ],
+          "tags": [
+          ]
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "endTime": "19:30",
       "icon": "afterparty",
       "color": "light-blue",
       "events": [
         {
-          "title": "End of Day 1"
+          "title": "Networking party"
         }
       ]
     }
