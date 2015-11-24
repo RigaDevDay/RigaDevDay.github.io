@@ -221,6 +221,16 @@
       "img": "assets/img/photos/sveta_isakova.jpg",
       "twitter": "https://twitter.com/sveta_isakova",
       "description": "Svetlana is working on the Kotlin language (http://kotlinlang.org/) at JetBrains since 2011. She is one of the authors of 'Kotlin in Action' and a frequent conference speaker."
+    },
+    {
+      "id": "19",
+      "name": "Julian Dontcheff",
+      "company": "Accenture",
+      "title": "Global Database Lead",
+      "country": "Finland",
+      "img": "assets/img/photos/julian_dontcheff.jpg",
+      "twitter": "https://twitter.com/JulianDontcheff",
+      "description": "Julian Dontcheff is the Global Database Lead of Accenture and has more than 25 years of database experience. He is the first Oracle Certified Master in Europe (back in 2002) and he is also an Oracle ACE Director."
     }
   ],
   "days": [
