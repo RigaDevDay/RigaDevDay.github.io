@@ -158,7 +158,7 @@
       "country": "Netherlands",
       "img": "assets/img/photos/alex_nuijten.jpg",
       "twitter": "https://twitter.com/alexnuijten",
-      "blog": "nuijten.blogspot.com",
+      "blog": "https://nuijten.blogspot.com",
       "description": "Alex Nuijten works as a key consultant for Ordina Oracle Solutions in The Netherlands. Besides his consultancy work, he conducts training classes, mainly in APEX, SQL and PL/SQL. Alex has been a speaker at numerous international conferences, such as ODTUG, Oracle Open World, UKOUG, IOUG, OUGF, BGOUG, OGH and OBUG. He was part of the Nordic ACE Directors Tour in 2012. He wrote many articles in Oracle related magazines, and at regular intervals he writes about Oracle Application Express and Oracle database development on his blog 'Notes on Oracle' (nuijten.blogspot.com). Alex is co-author of the book 'Oracle APEX Best Practices' (published by Packt Publishers). In August 2010, Alex was awarded the Oracle ACE Director membership."
     },
     {
@@ -221,6 +221,16 @@
       "img": "assets/img/photos/sveta_isakova.jpg",
       "twitter": "https://twitter.com/sveta_isakova",
       "description": "Svetlana is working on the Kotlin language (http://kotlinlang.org/) at JetBrains since 2011. She is one of the authors of 'Kotlin in Action' and a frequent conference speaker."
+    },
+    {
+      "id": "19",
+      "name": "Julian Dontcheff",
+      "company": "Accenture",
+      "title": "Global Database Lead",
+      "country": "Finland",
+      "img": "assets/img/photos/julian_dontcheff.png",
+      "twitter": "https://twitter.com/JulianDontcheff",
+      "description": "Julian Dontcheff is the Global Database Lead of Accenture and has more than 25 years of database experience. He is the first Oracle Certified Master in Europe (back in 2002) and he is also an Oracle ACE Director."
     }
   ],
   "days": [
