@@ -24,13 +24,10 @@ class ScheduleController {
 
     this.activeTabIndex = 0;
 
-    dataLoaderService.getMain()
-      .then((data) => {
-        this.days = data.days;
-        this.speakers = data.speakers;
-        return this.days[0];
-      })
-      .then(this.loadSchedule.bind(this));
+    let data = dataLoaderService.getMain();
+    this.days = data.days;
+    this.speakers = data.speakers;
+    this.loadDay(0);
 
     this.modalScope = $rootScope.$new();
     this.modal = $modal({
@@ -41,25 +38,19 @@ class ScheduleController {
     });
   }
 
-  loadSchedule (day) {
-    return this.dataLoaderService.getSchedule(day.file)
-      .then((data) => {
-        this.schedule = data.schedule;
-        this.rooms = data.roomNames;
-        this.tracks = data.trackNames;
+  loadDay (day) {
+    let scheduleData = this.dataLoaderService.getSchedule(day);
 
-        return data;
-      });
-  }
+    this.schedule = scheduleData.schedule;
+    this.rooms = scheduleData.roomNames;
+    this.tracks = scheduleData.trackNames;
 
-  loadDay (dayNumber) {
-    return this.loadSchedule(this.days[dayNumber]);
+    return scheduleData;
   }
 
   tabActive (index) {
-    this.loadDay(index).then(() => {
-      this.activeTabIndex = index;
-    });
+    this.activeTabIndex = index;
+    this.loadDay(index);
   }
 
   scheduleModal (talk) {

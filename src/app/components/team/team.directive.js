@@ -15,11 +15,6 @@ class TeamController {
   constructor (dataLoaderService) {
     'ngInject';
 
-    this.staff = [];
-
-    dataLoaderService.getMain()
-      .then((data) => {
-        this.staff = data.staff;
-      })
+    this.staff = dataLoaderService.getMain().staff;
   }
 }

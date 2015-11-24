@@ -1,4 +1,4 @@
-{
+export const scheduleDay2Data = {
   "roomNames": [
     "Room 1",
     "Room 2",
@@ -291,4 +291,4 @@
       ]
     }
   ]
-}
+};

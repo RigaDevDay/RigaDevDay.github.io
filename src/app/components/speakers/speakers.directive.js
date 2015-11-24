@@ -17,9 +17,7 @@ class SpeakersController {
 
     this.$log = $log;
 
-    dataLoaderService.getMain().then((data) => {
-      this.speakers = data.speakers;
-    });
+    this.speakers = dataLoaderService.getMain().speakers;
 
     this.modalScope = $rootScope.$new();
     this.modal = $modal({

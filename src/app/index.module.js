@@ -26,6 +26,7 @@ import { IndexController } from './pages/index/index.controller';
 
 angular.module('rdd', [
   'ngAnimate',
+  'ngSanitize',
   'ngTouch',
   'ngRoute',
   'mgcrea.ngStrap',
