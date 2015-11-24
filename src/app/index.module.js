@@ -1,5 +1,3 @@
-/* global moment:false */
-
 import { config } from './index.config';
 import { routerConfig } from './index.route';
 import { runBlock } from './index.run';
@@ -28,19 +26,12 @@ import { IndexController } from './pages/index/index.controller';
 
 angular.module('rdd', [
   'ngAnimate',
-  'ngCookies',
   'ngTouch',
-  'ngSanitize',
-  'ngMessages',
   'ngRoute',
   'mgcrea.ngStrap',
   'uiGmapgoogle-maps',
   'duScroll'
 ]);
-
-angular.module('rdd')
-  .constant('moment', moment)
-;
 
 angular.module('rdd')
   .config(config)
