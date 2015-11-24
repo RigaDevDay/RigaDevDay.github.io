@@ -27,7 +27,19 @@ export const scheduleDay3Data = {
           ]
         },
         {
-          "subtitle": "?"
+          "subtitle": "JVM tuning in a rush",
+          "description": `When performance hits rock-bottom everybody (and their dog) is called upon and
+all of a sudden developers should have been responsible for last half a year or so and
+code with performance in mind (and deadlines, but that of course goes unsaid).
+So, here I'm talking about what can a dev do to meet those unreasonable demands) and what might he do anticipating them.
+<br><br>
+Strictly JVM, mostly Sun Hotspot impl, but number of points can be used to other JVMs as well.`,
+          "speakers": [
+            "23"
+          ],
+          "tags": [
+            "Java"
+          ]
         },
         {
           "subtitle": "?"
