@@ -7,19 +7,80 @@
       <ui-gmap-google-map center='vm.map.center'
                           zoom='vm.map.zoom'
                           options='vm.map.options'>
-        <ui-gmap-marker ng-repeat="marker in vm.markers" idKey='marker.idKey'
-                        coords='marker.position'
-                        options='marker.options'>
+        <!-- Hotel -->
+        <ui-gmap-marker idKey='vm.markers.cinema.idKey'
+                        coords='vm.markers.cinema.position'
+                        options='vm.markers.cinema.options'>
           <ui-gmap-window>
             <div class="marker-window">
-              <img src="/assets/img/venue/cinema.jpg" alt="">
-              <br>
-              <span>
-                13 Janvara street. 8
-              </span>
+              <p>
+                <img src="/assets/img/venue/cinema.jpg" alt="cinema" style="width: 40%; float: left; margin-right: 5px;">
+                <b>Address</b>: 13 Janvara street, 8<br>
+                <b>Website</b>: <a href="http://www.forumcinemas.lv">http://www.forumcinemas.lv</a>
+              </p>
+
             </div>
           </ui-gmap-window>
         </ui-gmap-marker>
+
+        <!-- Avalon -->
+        <ui-gmap-marker idKey='vm.markers.avalon.idKey'
+                        coords='vm.markers.avalon.position'
+                        options='vm.markers.avalon.options'>
+          <ui-gmap-window>
+            <div class="marker-window">
+              <p>
+                Please mention conference code <b>RIGADEVDAY</b> when you request the reservation at the hotel.
+              </p>
+              <p>
+                Standard Single room EUR 55.00 per night.<br>
+                Standard Double room EUR 60.00 per night.<br>
+                Superior Single room EUR 60.00 per night.<br>
+                Superior Double room EUR 70.00 per night.
+              </p>
+              <p>
+                Price includes a rich breakfast "buffet", high speed WIFI and VAT.
+                Additional discount for stays of 3 nights min 15%.
+              </p>
+              <p>
+                Make your reservation online at Avalon Hotel (<a href="http://www.hotelavalon.eu">http://www.hotelavalon.eu</a>)
+                or by e-mail <a href="mailto:Reservations@hotelavalon.eu">Reservations@hotelavalon.eu</a>.
+              </p>
+              <p>
+                <b>Address</b>: 13.Janvara street, 19.
+              </p>
+            </div>
+          </ui-gmap-window>
+        </ui-gmap-marker>
+
+        <!-- Mercure -->
+        <ui-gmap-marker idKey='vm.markers.mercure.idKey'
+                        coords='vm.markers.mercure.position'
+                        options='vm.markers.mercure.options'>
+          <ui-gmap-window>
+            <div class="marker-window">
+              <p>
+                Please mention conference code <b>RIGADEVDAY</b> when you request the reservation at the hotel.
+              </p>
+              <p>
+                Classic Single room - 68.00 EUR per night.<br>
+                Classic Double room - 73.00 EUR per night.
+              </p>
+              <p>
+                Price includes a rich breakfast buffet, free WIFI and VAT
+              </p>
+              <p>
+                Make your reservation online at Mercure Hotel Riga (<a href="http://mercureriga.lv/en/hotel.html">http://mercureriga.lv/en/hotel.html</a>)
+                or by reservations e-mail <a href="mailto:H9436@accor.com">H9436@accor.com</a>.
+              </p>
+              <p>
+                <b>Address</b>: Elizabetes street, 101.
+              </p>
+            </div>
+          </ui-gmap-window>
+        </ui-gmap-marker>
+
+
       </ui-gmap-google-map>
     </div>
   </article>
