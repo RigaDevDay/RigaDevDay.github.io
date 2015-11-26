@@ -1,10 +1,13 @@
 import {mainData} from './main.data'
 
 export class DataLoaderService {
-  constructor () {
+  constructor ($log) {
     'ngInject';
 
     this.data = mainData;
+
+    // ugly hack to get JSON data back.
+    $log.debug(angular.toJson(mainData));
   }
 
   getMain () {
