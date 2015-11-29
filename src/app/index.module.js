@@ -1,3 +1,5 @@
+/* global moment:false */
+
 import { config } from './index.config';
 import { routerConfig } from './index.route';
 import { runBlock } from './index.run';
@@ -38,6 +40,10 @@ angular.module('rdd')
   .config(config)
   .config(routerConfig)
   .run(runBlock)
+;
+
+angular.module('rdd')
+  .constant('moment', moment)
 ;
 
 angular.module('rdd')

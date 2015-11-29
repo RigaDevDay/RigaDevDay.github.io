@@ -7,7 +7,8 @@ export class DataLoaderService {
     this.data = mainData;
 
     // ugly hack to get JSON data back.
-    $log.debug(angular.toJson(mainData));
+    //$log.debug(angular.toJson(mainData));
+    $log.debug('see here, to generate new JSON');
   }
 
   getMain () {

@@ -6,8 +6,10 @@
     <div class="row row-centered">
       <div class="col-xs-10 col-sm-6 col-md-3 col-centered"
            ng-repeat="ticket in vm.tickets">
-        <div class="panel panel-default rdd-panel">
+        <div class="panel panel-default"
+             ng-class="{'active-ticket-offer': ticket.active, 'inactive-ticket-offer': !ticket.active}">
           <div class="panel-body tickets-panel">
+            <div class="ends">Ends {{ticket.ends}}</div>
             <h2>{{::ticket.title}}</h2>
             <h6 class="text-center">{{::ticket.time}}</h6>
 
@@ -34,7 +36,7 @@
               Reserve
             </a>
             <button ng-if="!ticket.active" disabled="disabled"
-                    class="btn btn-info btn-tickets">
+                    class="btn btn-default btn-tickets">
               Reserve
             </button>
           </div>

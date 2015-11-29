@@ -1,26 +1,61 @@
 #tickets .container {
+  @inactive-background-color: #708090;
+
   padding-top: 3em;
-}
 
-.btn-tickets {
-  color: #fff;
-  background-color: #e7484c;
-  /*border-color: #d43f3a;*/
-  border-radius: 10px;
-  padding: 10px 30px;
-  font-size: 20px;
-}
+  .tickets-panel {
+    position: relative;
+    height: 200px;
 
-.tickets-panel {
-  height: 200px;
-
-  h2 {
-    margin-bottom: 0 !important;
+    h2 {
+      margin-bottom: 0 !important;
+    }
+    h4 {
+      text-align: center;
+    }
+    h6 {
+      margin-top: 2px;
+    }
   }
-  h4 {
+
+  .ends {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
+    font-size: 10pt;
   }
-  h6 {
-    margin-top: 2px;
+
+  .btn-tickets {
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+  }
+
+  .active-ticket-offer {
+    @active-ticket-offer-border-radius: 4px;
+
+    border-radius: @active-ticket-offer-border-radius;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    .ends {
+      background-color: #00609D;
+      color: white;
+      border-top-left-radius: @active-ticket-offer-border-radius;
+      border-top-right-radius: @active-ticket-offer-border-radius;
+    }
+  }
+
+  .inactive-ticket-offer {
+    opacity: 0.7;
+
+    .panel-footer {
+      background-color: @inactive-background-color;
+
+      .btn-default {
+        background-color: #5f6f81;
+      }
+    }
   }
 }

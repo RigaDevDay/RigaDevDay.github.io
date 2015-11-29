@@ -16,10 +16,10 @@
     "angular-google-maps": "~2.2.1",
     "angular-scroll": "~0.7.3",
     "angular-scroll-animate": "~0.9.8",
-    "google-markerwithlabel": "~1.1.10"
+    "google-markerwithlabel": "~1.1.10",
+    "moment": "~2.10.6"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "overrides": {
     "bootstrap": {
       "main": [
