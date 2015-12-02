@@ -43,11 +43,12 @@ class TicketsController {
       },
       {
         title: 'Workshops',
-        time: '(01.10.15-15.02.16)',
-        ends: this.endsIn("16.02.16"),
-        price: false,
-        active: false,
-        reserveLink: ''
+        time: '(01.12.15-03.03.16)',
+        ends: this.endsIn("04.03.16"),
+        price: '99€+VAT',
+        active: this.isInTimeRange('01.12.15', '03.03.16'),
+        reserveLink: 'http://www.kalevatravel.lv/celojumi/page.php?id=667',
+        singleDayPrice: true
       }
     ];
   }

@@ -14,7 +14,13 @@
             <h6 class="text-center">{{::ticket.time}}</h6>
 
             <div ng-if="ticket.price">
-              <div class="row">
+              <div class="row" ng-if="ticket.singleDayPrice">
+                <div class="col-xs-12 col-centered">
+                  <h4><strong>1 Day</strong></h4>
+                  <h4>{{::ticket.price}}</h4>
+                </div>
+              </div>
+              <div class="row" ng-if="!ticket.singleDayPrice">
                 <div class="col-xs-6 col-centered">
                   <h4><strong>1 Day</strong></h4>
                   <h4>{{::ticket.price.day1}}</h4>
