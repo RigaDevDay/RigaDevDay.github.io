@@ -73,25 +73,17 @@ export const scheduleDay2Data = {
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "Painfree Object-Document Mapping for MongoDB",
-          "description": "Morphia is MongoDB's JPA-like Object-Document Mapping (ODM). However, there is no object-relational impedence mismatch since documents fit the concept of object-orientation much better. This removes a lot of JPA pain, which makes database interactions fun again. On a practical level we take a look at the available annotations and how to map your objects as well as how to easily query data in MongoDB. Next we discuss some patterns on how to solve common requirements, such as the proper use of generics, auto-increments, and the encryption of sensitive data. The talk concludes with some tips and lessons we've learned from using Morphia in production for three years.",
+          "subtitle": "Modern Java Component Design with Spring 4.3",
+          "description": "Spring's programming and configuration model has a strong design philosophy with respect to application components and configuration artifacts. Spring's annotation-based component story is fine-tuned for source code readability as well as consistency across an entire application's codebase. This session presents selected Spring Framework 4 component model highlights, with a focus on the upcoming Spring Framework 4.3 and a selection of Java 8 enabled features, illustrated with many code examples and noteworthy design considerations.",
           "speakers": [
-            "11"
+            "0"
           ],
           "tags": [
-            "Java",
-            "NoSQL"
+            "Java"
           ]
         },
         {
-          "subtitle": "Why postgres SQL deserve noSQL fan respect",
-          "description": "Postgres SQL is a plain old SQL DB. Very powerful and very consistent, in some case, project needs an ACID database, but schemaless… With JSON support, postgres is a very interesting tool to provide ACID and some very interesting function (time management, localisation function and data types...) and the schemaless noSQL point of view with json and indexed json. This talk show some great usage and some insigth to build some great application with postgres.",
-          "speakers": [
-            "17"
-          ],
-          "tags": [
-            "SQL"
-          ]
+          "subtitle": "?"
         },
         {
           "subtitle": "Kotlin on Android",
@@ -104,14 +96,14 @@ export const scheduleDay2Data = {
           ]
         },
         {
-          "subtitle": "Field Notes of Command Line Ninja",
-          "description": "Have you ever witnessed someone write fancy commands and perform magic from the console. Have you ever wished you could learn, or brush up on, those skills too? Maybe you want to be more effective at your everyday tasks, or need a new topic for the next family dinner? Join us and learn some awesome command line ninja skills. You will be able to find something new no matter your level of experience. The audience will get a chance to show off their skills as well, and there will be small prizes to contributors. The black belt and a little surprise await you at the end of this talk. You can bring your PC with you and hack-along! All you need is a PC or a Mac running OS of your choice - Windows, Linux, or Mac OS. Windows users are advised to have their cmd.exe ready, and to install Cygwin (32-bit).",
+          "subtitle": "Java, Docker and 'The Cloud'",
+          "description": "Deploying your application to the production has failed again. Emailing the developer who commited the last code changes, they send back the classic response... “It works on my machine”. *sigh* Is this scenario a recurring nightmare (and reality) for you? While everyone else is talking about “continuous delivery” do your deployments feel more like an extreme game of Jenga, tittering on the brink of disaster and a nightmare to reconstruct? It doesn’t have to be like this. Launched only two years ago, Docker has revolutionised application deployment. Using this open-source project, applications are packaged into lightweight containers, that are hardware and platform agnostic. Containers move from the local developer machine to a production server and then the cloud without modification! So, how do you migrate a traditional three-tier Java web application to use Docker? Let’s use a sample web application, designed for hosting on a single server, convert it to use Docker and deploy to a cloud platform. We’ll break out the application and component services into individual containers that can be ran and scaled independently. Showing you how to utilise existing pre-built images for rapid development, build custom container images for your application and move seamlessly between deployment platforms, enabling us to use “cloud” to accelerate application development. We will configure automatic build, test and deploy pipelines for continuous deployment and auto-scaling to handle unpredictable application traffic with ease. If you’re an application developer who’s exhausted from battling deployment issues, maintaining ”special” production servers and lives in fear of being on ”pager duty”, come and learn how you can use Docker to banish “works on my machine” syndrome. This talk is for developers who’ve heard about this “Docker thing” and want to see a practical example of converting a traditional monolithic web application to use Docker containers deployed to a scalable cloud platform.",
           "speakers": [
-            "9"
+            "15"
           ],
           "tags": [
-            "DevOps",
-            "Tools"
+            "Java",
+            "Cloud"
           ]
         },
         {
@@ -137,17 +129,27 @@ export const scheduleDay2Data = {
       "color": "black",
       "events": [
         {
-          "subtitle": "Spring Framework 5 - Preview & Roadmap",
-          "description": "The Spring team is busily working on Spring Framework 5.0, with a release candidate scheduled for Q4 2016. This presentation covers the key themes in Spring 5, based on the current state of development: going Java 8+ across the entire framework codebase, comprehensive support for JDK 9, a strong focus on HTTP/2, and first-class support for Spring-style reactive architectures.",
+          "subtitle": "Spring Data, Hypermedia and the Cloud",
+          "description": `HATEOAS, REST, JSON Schema, APLS, Cloud, Docker,... are those just buzzwords? <br/>
+No! With Spring Data we allow you to expose your repositories as a REST resource including ALPS metadata,
+JSON Schema and simply everything you would probably expect. Join Christoph Strobl on his journey through the Spring stack
+while creating and deploying REST Services as Docker containers, on Cloud Foundry and Lattice.`,
           "speakers": [
-            "0"
+            "22"
           ],
           "tags": [
-            "Java"
+            "Java", "Web"
           ]
         },
         {
-          "subtitle": "?"
+          "subtitle": "Why postgres SQL deserve noSQL fan respect",
+          "description": "Postgres SQL is a plain old SQL DB. Very powerful and very consistent, in some case, project needs an ACID database, but schemaless… With JSON support, postgres is a very interesting tool to provide ACID and some very interesting function (time management, localisation function and data types...) and the schemaless noSQL point of view with json and indexed json. This talk show some great usage and some insigth to build some great application with postgres.",
+          "speakers": [
+            "17"
+          ],
+          "tags": [
+            "SQL"
+          ]
         },
         {
           "subtitle": "Entering the new era of Front-end development with ReactJS",
@@ -160,15 +162,7 @@ export const scheduleDay2Data = {
           ]
         },
         {
-          "subtitle": "Automated Android CI, how hard can it be?",
-          "description": "I'm not an Android developer by far, but I'm working in a mobile development team as the DevOps guy, which basically translates to do anything that is not related to development proper. When I was introduced to the team, they had hacked something on a Bamboo server, based on custom Python scripts that uploaded the binaries to a Hockeykit, completely decoupled from the Maven build and the Nexus repository. The they decided to switch to Gradle... In this presentation, I will describe how I migrated from this situation to the following: * a full-fledged Jenkins server provisioned with Puppet * provisioning of the Android SDK manager * provisioning of Gradle * updates of the platforms, extras and repositories behind the entreprise proxy * creation of Gradle jobs managing Hockeykit files creation, upload of the whole outputs to Nexus and tagging Git for releases builds",
-          "speakers": [
-            "3"
-          ],
-          "tags": [
-            "DevOps",
-            "Android"
-          ]
+          "subtitle": "?"
         },
         {
           "subtitle": "?"
@@ -182,10 +176,26 @@ export const scheduleDay2Data = {
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "?"
+          "subtitle": "Testing with Spock. The logical choice",
+          "description": "Remember the old days when you tested using JUnit? How boring it was? You made a lot of excuses to avoid testing your code. Luckily those dark days now belong to the past because Spock is with us.Spock is a Groovy-based testing and specification framework for Java and Groovy applications that makes writing tests fun again. We can write beautiful and highly expressive tests because of its DSL and all the power that Groovy provides us.In this talk you'll learn the basics of Spock and you'll see how easily you can test a Java application. After the talk you won't have any excuse to don't test your applications, so you have been warned before coming to the talk!",
+          "speakers": [
+            "8"
+          ],
+          "tags": [
+            "Groovy",
+            "BDD",
+            "Test Automation"
+          ]
         },
         {
-          "subtitle": "?"
+          "subtitle": "Apache Zeppelin, the missing component for your BigData eco-system",
+          "description": "If you are interested in Big Data, you surely have heard about Apache Spark or Apache Cassandra, but do you know Apache Zeppelin ? Do you know that it is possible to draw out beautiful graph using an user-friendly interface out of your Spark RDD  or out of Cassandra queries ? In this session, I will introduce Zeppelin by live coding example and highlight its modular architecture which allows you to plug-in any interpreter for the back-end of your choice.",
+          "speakers": [
+            "6"
+          ],
+          "tags": [
+            "BigData"
+          ]
         },
         {
           "subtitle": "?"
@@ -223,15 +233,14 @@ export const scheduleDay2Data = {
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "Testing with Spock. The logical choice",
-          "description": "Remember the old days when you tested using JUnit? How boring it was? You made a lot of excuses to avoid testing your code. Luckily those dark days now belong to the past because Spock is with us.Spock is a Groovy-based testing and specification framework for Java and Groovy applications that makes writing tests fun again. We can write beautiful and highly expressive tests because of its DSL and all the power that Groovy provides us.In this talk you'll learn the basics of Spock and you'll see how easily you can test a Java application. After the talk you won't have any excuse to don't test your applications, so you have been warned before coming to the talk!",
+          "subtitle": "Painfree Object-Document Mapping for MongoDB",
+          "description": "Morphia is MongoDB's JPA-like Object-Document Mapping (ODM). However, there is no object-relational impedence mismatch since documents fit the concept of object-orientation much better. This removes a lot of JPA pain, which makes database interactions fun again. On a practical level we take a look at the available annotations and how to map your objects as well as how to easily query data in MongoDB. Next we discuss some patterns on how to solve common requirements, such as the proper use of generics, auto-increments, and the encryption of sensitive data. The talk concludes with some tips and lessons we've learned from using Morphia in production for three years.",
           "speakers": [
-            "8"
+            "11"
           ],
           "tags": [
-            "Groovy",
-            "BDD",
-            "Test Automation"
+            "Java",
+            "NoSQL"
           ]
         },
         {
@@ -241,14 +250,14 @@ export const scheduleDay2Data = {
           "subtitle": "?"
         },
         {
-          "subtitle": "Java, Docker and 'The Cloud'",
-          "description": "Deploying your application to the production has failed again. Emailing the developer who commited the last code changes, they send back the classic response... “It works on my machine”. *sigh* Is this scenario a recurring nightmare (and reality) for you? While everyone else is talking about “continuous delivery” do your deployments feel more like an extreme game of Jenga, tittering on the brink of disaster and a nightmare to reconstruct? It doesn’t have to be like this. Launched only two years ago, Docker has revolutionised application deployment. Using this open-source project, applications are packaged into lightweight containers, that are hardware and platform agnostic. Containers move from the local developer machine to a production server and then the cloud without modification! So, how do you migrate a traditional three-tier Java web application to use Docker? Let’s use a sample web application, designed for hosting on a single server, convert it to use Docker and deploy to a cloud platform. We’ll break out the application and component services into individual containers that can be ran and scaled independently. Showing you how to utilise existing pre-built images for rapid development, build custom container images for your application and move seamlessly between deployment platforms, enabling us to use “cloud” to accelerate application development. We will configure automatic build, test and deploy pipelines for continuous deployment and auto-scaling to handle unpredictable application traffic with ease. If you’re an application developer who’s exhausted from battling deployment issues, maintaining ”special” production servers and lives in fear of being on ”pager duty”, come and learn how you can use Docker to banish “works on my machine” syndrome. This talk is for developers who’ve heard about this “Docker thing” and want to see a practical example of converting a traditional monolithic web application to use Docker containers deployed to a scalable cloud platform.",
+          "subtitle": "Field Notes of Command Line Ninja",
+          "description": "Have you ever witnessed someone write fancy commands and perform magic from the console. Have you ever wished you could learn, or brush up on, those skills too? Maybe you want to be more effective at your everyday tasks, or need a new topic for the next family dinner? Join us and learn some awesome command line ninja skills. You will be able to find something new no matter your level of experience. The audience will get a chance to show off their skills as well, and there will be small prizes to contributors. The black belt and a little surprise await you at the end of this talk. You can bring your PC with you and hack-along! All you need is a PC or a Mac running OS of your choice - Windows, Linux, or Mac OS. Windows users are advised to have their cmd.exe ready, and to install Cygwin (32-bit).",
           "speakers": [
-            "15"
+            "9"
           ],
           "tags": [
-            "Java",
-            "Cloud"
+            "DevOps",
+            "Tools"
           ]
         },
         {
@@ -263,16 +272,14 @@ export const scheduleDay2Data = {
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "Modular Development With JDK 9",
-          "description": `First part will be a a gentle introduction, with examples, to the forthcoming Java Platform Module System.
-Learn how to create a module from scratch, compile it, test it, and run it.
-This session will also show basic techniques for modularizing existing libraries and applications.
-<br/><br/>
-Second part : Modularizing an existing library or application, or creating new modules from scratch,
-can raise many difficult and subtle design issues. This session will present a set of principles for modular development,
-with examples taken from the JDK itself.`,
-          "speakers": ["25"],
-          "tags": ["Java"]
+          "subtitle": "Spring Framework 5 - Preview & Roadmap",
+          "description": "The Spring team is busily working on Spring Framework 5.0, with a release candidate scheduled for Q4 2016. This presentation covers the key themes in Spring 5, based on the current state of development: going Java 8+ across the entire framework codebase, comprehensive support for JDK 9, a strong focus on HTTP/2, and first-class support for Spring-style reactive architectures.",
+          "speakers": [
+            "0"
+          ],
+          "tags": [
+            "Java"
+          ]
         },
         {
           "subtitle": "?"

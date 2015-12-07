@@ -16,7 +16,7 @@ export const scheduleDay1Data = {
   "schedule": [
     {
       "time": "8:30",
-      "endTime": "10.00",
+      "endTime": "9:45",
       "icon": "registration",
       "color": "light-blue",
       "events": [
@@ -26,8 +26,8 @@ export const scheduleDay1Data = {
       ]
     },
     {
-      "time": "10.00",
-      "endTime": "10:20",
+      "time": "9:45",
+      "endTime": "10:10",
       "icon": "clock",
       "color": "dark-blue",
       "events": [
@@ -37,7 +37,7 @@ export const scheduleDay1Data = {
       ]
     },
     {
-      "time": "10:20",
+      "time": "10:10",
       "endTime": "11:00",
       "icon": "speaker",
       "color": "dark-blue",
@@ -65,14 +65,14 @@ export const scheduleDay1Data = {
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "Modern Java Component Design with Spring 4.3",
-          "description": "Spring's programming and configuration model has a strong design philosophy with respect to application components and configuration artifacts. Spring's annotation-based component story is fine-tuned for source code readability as well as consistency across an entire application's codebase. This session presents selected Spring Framework 4 component model highlights, with a focus on the upcoming Spring Framework 4.3 and a selection of Java 8 enabled features, illustrated with many code examples and noteworthy design considerations.",
-          "speakers": [
-            "0"
-          ],
-          "tags": [
-            "Java"
-          ]
+          "subtitle": "Prepare for JDK 9!",
+          "description": `The modularization of the Java SE Platform in JDK 9 will bring many benefits, but also many changes.
+Existing code that uses only official Java SE Platform APIs and supported JDK-specific APIs should continue to work without change.
+Code that uses certain deprecated features, however, or any JDK-internal APIs, is likely to break.
+This session will show you how to prepare existing libraries and applications for JDK 9,
+and how to get old code working on JDK 9 even when you can't update it.`,
+          "speakers": ["25"],
+          "tags": ["Java"]
         },
         {
           "subtitle": "The Mayans Lost Guide to RxJava on Android",
@@ -96,7 +96,7 @@ export const scheduleDay1Data = {
           ]
         },
         {
-          "subtitle": "Oracle 12c for Developers and SQL Model Clause: A Gentle Introduction ",
+          "subtitle": "Oracle 12c for Developers",
           "description": "Do you want to get up to speed with the most current release of the Oracle database? Then this session is for you. You will learn the most exciting and most useful new features from the Oracle Database 12c which can make your work as database developer a lot easier. There is more to the Oracle database 12c than just pluggable databases.",
           "speakers": [
             "12"
@@ -106,14 +106,7 @@ export const scheduleDay1Data = {
           ]
         },
         {
-          "subtitle": "Migrating to Oracle Cloud using the Oracle Database In-Memory Advisor",
-          "description": "The presentation is about best practices for how to test new Oracle options using Oracle database cloud. When a multitenant database running on premise needs to be migrated to the Oracle database cloud one should consider the performance load caused by one or more PDBs inside the container. Especially the impact of upgrading to in-memory (12.1.0.2) on the PDBs. We show how to use the in-memory advisor in order to tune the existing structures for in-memory and how to validate this on the database cloud using RAT & SQL tuning advisor.",
-          "speakers": [
-            "19"
-          ],
-          "tags": [
-            "Oracle's developer tools"
-          ]
+          "subtitle": "?"
         }
       ]
     },
@@ -135,14 +128,7 @@ export const scheduleDay1Data = {
       "color": "black",
       "events": [
         {
-          "subtitle": "Having fun with Javassist",
-          "description": "Javassist makes Java bytecode manipulation simple. At ZeroTurnaround we use Javassist a lot to implement the integrations for our tools. In this talk we will go through the examples of how Javassist can be applied to alter the applications behaviour and do all kind of fun stuff with it. Why is it interesting? Because while trying to do unusual things in Java, you learn much more about the language and the platform itself and learning about Javassist will actually make you a better Java developer!",
-          "speakers": [
-            "7"
-          ],
-          "tags": [
-            "Java"
-          ]
+          "subtitle": "?"
         },
         {
           "subtitle": "Appium: Mobile Automation Made Awesome",
@@ -167,14 +153,34 @@ export const scheduleDay1Data = {
           ]
         },
         {
-          "subtitle": "Finding All the Red M&Ms: A Story of Indexes and Full Table Scans",
-          "description": "'Why isn’t my query using an index?' is a common question people have when tuning SQL. This talk explores the factors that influence the optimizer’s decision behind this question. It does so by comparing fetching rows from a database table to finding all the red M&Ms from their bags. It contrasts using an index range scan and a full table scan to do this. It introduces the concepts of blocks and the clustering factor. It discusses how these affect the optimizer's calculations. It goes on to demonstrate how these concepts work in practice using real SQL queries. This session is intended for developers and DBAs who want to learn the basics of how the optimizer chooses between an index range or full table scan.",
-          "speakers": [
-            "16"
-          ],
-          "tags": [
-            "Oracle's developer tools"
-          ]
+          "subtitle": "50 Shades of #Fail - OBI worst practices in real life",
+          "description": `Lists of "best practices" as well as "how-to's" on the subject of Oracle BI and all its facets
+are commonplace and often discussed. Real-life practices, however, are a completely different story.
+What happens when implementations go astray or dogmatically follow half-knowledge, misconceptions,
+or conveniently cheap shortcuts? Learn about recurring pitfalls, their origins, their impacts,
+and most importantly their remedies in an entertaining fashion.
+However bad you thought your project was, you’ve seen nothing yet...
+<br/><br/>
+Turning the standard best-practice/how-to presentation format on its head,
+this presentation will look at some real-life OBIEE implementations and where it all went wrong.
+We’ll look at the worst, the weirdest, the most absurd and the wackiest ways the Oracle BI tool is abused:
+<ul>
+    <li>How did projects get to these points?</li>
+    <li>What were the original misconceptions?</li>
+    <li>How to counter these misconceptions?</li>
+    <li>Why are "it works" and "it fulfills the requirements" not only not enough but rather dangerous pitfalls?</li>
+    <li>Can I actually jeopardize the future of my BI system by choosing a cheap quick and dirty approach?</li>
+    <li>Is it ever OK to simply execute without comprehension?</li>
+</ul>
+This session will give attendees a deeper understanding of the impact seemingly innocuous design and implementation
+decisions can have on the stability and success of an entire BI system.
+An end-to-end view of the stack will be taken, covering areas including logical modelling, analysis design,
+and architectural topics. The importance of a holistic view and an appreciation of alternatives will be emphasized
+as well as the need to understand, comprehend and reflect on the implications of a “best practice” being
+followed as well as the technology stack simply being misunderstood.`,
+          "speakers": ["24"],
+          // todo: add tags
+          "tags": []
         },
         {
           "subtitle": "?"
@@ -229,37 +235,22 @@ also what are the different building blocks of the platform.
           ]
         },
         {
-          "subtitle": "50 Shades of #Fail - OBI worst practices in real life",
-          "description": `Lists of "best practices" as well as "how-to's" on the subject of Oracle BI and all its facets
-are commonplace and often discussed. Real-life practices, however, are a completely different story.
-What happens when implementations go astray or dogmatically follow half-knowledge, misconceptions,
-or conveniently cheap shortcuts? Learn about recurring pitfalls, their origins, their impacts,
-and most importantly their remedies in an entertaining fashion.
-However bad you thought your project was, you’ve seen nothing yet...
-<br/><br/>
-Turning the standard best-practice/how-to presentation format on its head,
-this presentation will look at some real-life OBIEE implementations and where it all went wrong.
-We’ll look at the worst, the weirdest, the most absurd and the wackiest ways the Oracle BI tool is abused:
-<ul>
-    <li>How did projects get to these points?</li>
-    <li>What were the original misconceptions?</li>
-    <li>How to counter these misconceptions?</li>
-    <li>Why are "it works" and "it fulfills the requirements" not only not enough but rather dangerous pitfalls?</li>
-    <li>Can I actually jeopardize the future of my BI system by choosing a cheap quick and dirty approach?</li>
-    <li>Is it ever OK to simply execute without comprehension?</li>
-</ul>
-This session will give attendees a deeper understanding of the impact seemingly innocuous design and implementation
-decisions can have on the stability and success of an entire BI system.
-An end-to-end view of the stack will be taken, covering areas including logical modelling, analysis design,
-and architectural topics. The importance of a holistic view and an appreciation of alternatives will be emphasized
-as well as the need to understand, comprehend and reflect on the implications of a “best practice” being
-followed as well as the technology stack simply being misunderstood.`,
-          "speakers": ["24"],
-          // todo: add tags
-          "tags": []
+          "subtitle": "If You Don't Have a Mobile Strategy You Don't Have a Strategy",
+          "description": "Regardless of how you slice and dice the figures, facts or opinions, mobile is the “internet” of today’s Millennial generation.   So what is your strategy with dealing with a cloud-embracing, socially-involved, always-connected, mobile consumer base?   The very people who are not only your future customers and employees, are probably already the majority of your consumers today. In this presentation I’m going to give an insight of the challenges presented by mobile then take a dive into the tools and technologies that we are developing here at Oracle to allow you to implement that strategy.  I’ll show you how you can build on-device mobile applications.  I’ll discuss the challenges of web applications on mobile. I’ll ditch the powerpoints  and demo some of our current and future cloud based offerings for exposing your existing legacy assets to mobile consumers.  And I’ll even show you how you can develop mobile and cloud based applications, from a mobile device! The future is here, its mobile and if you don’t have mobile strategy you don’t have a strategy.",
+          "speakers": [
+            "26"
+          ],
+          "tags": ["Oracle's developer tools", "Mobile", "Cloud Technologies"]
         },
         {
-          "subtitle": "?"
+          "subtitle": "Migrating to Oracle Cloud using the Oracle Database In-Memory Advisor",
+          "description": "The presentation is about best practices for how to test new Oracle options using Oracle database cloud. When a multitenant database running on premise needs to be migrated to the Oracle database cloud one should consider the performance load caused by one or more PDBs inside the container. Especially the impact of upgrading to in-memory (12.1.0.2) on the PDBs. We show how to use the in-memory advisor in order to tune the existing structures for in-memory and how to validate this on the database cloud using RAT & SQL tuning advisor.",
+          "speakers": [
+            "19"
+          ],
+          "tags": [
+            "Oracle's developer tools"
+          ]
         }
       ]
     },
@@ -281,35 +272,30 @@ followed as well as the technology stack simply being misunderstood.`,
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "Prepare for JDK 9!",
-          "description": `The modularization of the Java SE Platform in JDK 9 will bring many benefits, but also many changes.
-Existing code that uses only official Java SE Platform APIs and supported JDK-specific APIs should continue to work without change.
-Code that uses certain deprecated features, however, or any JDK-internal APIs, is likely to break.
-This session will show you how to prepare existing libraries and applications for JDK 9,
-and how to get old code working on JDK 9 even when you can't update it.`,
-          "speakers": ["25"],
-          "tags": ["Java"]
+          "subtitle": "Having fun with Javassist",
+          "description": "Javassist makes Java bytecode manipulation simple. At ZeroTurnaround we use Javassist a lot to implement the integrations for our tools. In this talk we will go through the examples of how Javassist can be applied to alter the applications behaviour and do all kind of fun stuff with it. Why is it interesting? Because while trying to do unusual things in Java, you learn much more about the language and the platform itself and learning about Javassist will actually make you a better Java developer!",
+          "speakers": [
+            "7"
+          ],
+          "tags": [
+            "Java"
+          ]
         },
         {
           "subtitle": "?"
         },
         {
-          "subtitle": "Apache Zeppelin, the missing component for your BigData eco-system",
-          "description": "If you are interested in Big Data, you surely have heard about Apache Spark or Apache Cassandra, but do you know Apache Zeppelin ? Do you know that it is possible to draw out beautiful graph using an user-friendly interface out of your Spark RDD  or out of Cassandra queries ? In this session, I will introduce Zeppelin by live coding example and highlight its modular architecture which allows you to plug-in any interpreter for the back-end of your choice.",
-          "speakers": [
-            "6"
-          ],
-          "tags": [
-            "BigData"
-          ]
+          "subtitle": "?"
         },
         {
-          "subtitle": "If You Don't Have a Mobile Strategy You Don't Have a Strategy",
-          "description": "Regardless of how you slice and dice the figures, facts or opinions, mobile is the “internet” of today’s Millennial generation.   So what is your strategy with dealing with a cloud-embracing, socially-involved, always-connected, mobile consumer base?   The very people who are not only your future customers and employees, are probably already the majority of your consumers today. In this presentation I’m going to give an insight of the challenges presented by mobile then take a dive into the tools and technologies that we are developing here at Oracle to allow you to implement that strategy.  I’ll show you how you can build on-device mobile applications.  I’ll discuss the challenges of web applications on mobile. I’ll ditch the powerpoints  and demo some of our current and future cloud based offerings for exposing your existing legacy assets to mobile consumers.  And I’ll even show you how you can develop mobile and cloud based applications, from a mobile device! The future is here, its mobile and if you don’t have mobile strategy you don’t have a strategy.",
+          "subtitle": "Finding All the Red M&Ms: A Story of Indexes and Full Table Scans",
+          "description": "'Why isn’t my query using an index?' is a common question people have when tuning SQL. This talk explores the factors that influence the optimizer’s decision behind this question. It does so by comparing fetching rows from a database table to finding all the red M&Ms from their bags. It contrasts using an index range scan and a full table scan to do this. It introduces the concepts of blocks and the clustering factor. It discusses how these affect the optimizer's calculations. It goes on to demonstrate how these concepts work in practice using real SQL queries. This session is intended for developers and DBAs who want to learn the basics of how the optimizer chooses between an index range or full table scan.",
           "speakers": [
-            "26"
+            "16"
           ],
-          "tags": ["Oracle's developer tools", "Mobile", "Cloud Technologies"]
+          "tags": [
+            "Oracle's developer tools"
+          ]
         },
         {
           "subtitle": "?"
@@ -323,7 +309,16 @@ and how to get old code working on JDK 9 even when you can't update it.`,
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "?"
+          "subtitle": "Modular Development With JDK 9",
+          "description": `First part will be a a gentle introduction, with examples, to the forthcoming Java Platform Module System.
+Learn how to create a module from scratch, compile it, test it, and run it.
+This session will also show basic techniques for modularizing existing libraries and applications.
+<br/><br/>
+Second part : Modularizing an existing library or application, or creating new modules from scratch,
+can raise many difficult and subtle design issues. This session will present a set of principles for modular development,
+with examples taken from the JDK itself.`,
+          "speakers": ["25"],
+          "tags": ["Java"]
         },
         {
           "subtitle": "?"
@@ -332,7 +327,16 @@ and how to get old code working on JDK 9 even when you can't update it.`,
           "subtitle": "?"
         },
         {
-          "subtitle": "?"
+          "subtitle": "SQL Model Clause: A Gentle Introduction",
+          "description": `The Model Clause adds spreadsheet-like functionality to the SQL language. Very powerful stuff, yet the syntax can be quite daunting. With the Model Clause, you define a multidimensional array from query results and then apply formulas to this array to calculate new values.
+<br/><br/>
+This presentation will give you a gentle introduction in the complex syntax of the Model Clause and will show you some real life examples where the Model Clause was invaluable.`,
+          "speakers": [
+            "12"
+          ],
+          "tags": [
+            "Oracle's developer tools"
+          ]
         },
         {
           "subtitle": "?"
@@ -346,23 +350,18 @@ and how to get old code working on JDK 9 even when you can't update it.`,
       "color": "dark-blue",
       "events": [
         {
-          "subtitle": "Spring Data, Hypermedia and the Cloud",
-          "description": `HATEOAS, REST, JSON Schema, APLS, Cloud, Docker,... are those just buzzwords? <br/>
-No! With Spring Data we allow you to expose your repositories as a REST resource including ALPS metadata,
-JSON Schema and simply everything you would probably expect. Join Christoph Strobl on his journey through the Spring stack
-while creating and deploying REST Services as Docker containers, on Cloud Foundry and Lattice.`,
+          "subtitle": "?"
+        },
+        {
+          "subtitle": "Automated Android CI, how hard can it be?",
+          "description": "I'm not an Android developer by far, but I'm working in a mobile development team as the DevOps guy, which basically translates to do anything that is not related to development proper. When I was introduced to the team, they had hacked something on a Bamboo server, based on custom Python scripts that uploaded the binaries to a Hockeykit, completely decoupled from the Maven build and the Nexus repository. The they decided to switch to Gradle... In this presentation, I will describe how I migrated from this situation to the following: * a full-fledged Jenkins server provisioned with Puppet * provisioning of the Android SDK manager * provisioning of Gradle * updates of the platforms, extras and repositories behind the entreprise proxy * creation of Gradle jobs managing Hockeykit files creation, upload of the whole outputs to Nexus and tagging Git for releases builds",
           "speakers": [
-            "22"
+            "3"
           ],
           "tags": [
-            "Java", "Web"
+            "DevOps",
+            "Android"
           ]
-        },
-        {
-          "subtitle": "?"
-        },
-        {
-          "subtitle": "?"
         },
         {
           "subtitle": "?"
@@ -385,8 +384,10 @@ layer settings like call interfaces, data source parametrization or inclusion of
           "speakers": [
             "24"
           ],
-          "tags": [ "Oracle's developer tools"
-          ]
+          "tags": ["Oracle's developer tools"]
+        },
+        {
+          "subtitle": "?"
         }
       ]
     },
