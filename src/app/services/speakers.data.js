@@ -294,5 +294,15 @@ other integrators and end clients.`
 He joined the OpenJDK project in order to help make it a successful open source project,
 and stayed for anchoring Java in Linux distributions, and as an all-around Java F/OSS community guy.
 Topić joined the Java strategy team at Oracle to help provide community feedback into long-term strategic planning.`
+  },
+  {
+    "id": "26",
+    "name": "Grant Ronald",
+    "company": "Oracle",
+    "title": "Director of Product Management for Development and Mobility Tools",
+    "country": "UK",
+    "img": "assets/img/photos/grant_ronald.jpg",
+    "twitter": "https://twitter.com/gwronald",
+    "description": `Grant Ronald is Director of Oracle Product Management for Mobility and Development Tools responsible for customers successfully adopting Oracle technologies. He has been with Oracle for 18 years working on Forms, JDeveloper, ADF and mobile technologies. His current focus is customer enablement of Oracle's mobile application tools such as Mobile Cloud Service and Mobile Application Framework. Before joining Oracle he spent 7 years as a developer at EDS Defence. He is author of the McGrawHill book "The Quick Start Guide to Fusion Development", an Oracle ACE, a regular magazine contributor, has spoken over 50 times at OUGs and Oracle World, and has won three awards from UKOUG for presenting and writing.`
   }
 ];

@@ -216,8 +216,7 @@ After this session, you’ll have a good overview of what Xamarin can help you w
 also what are the different building blocks of the platform.
 `,
           "speakers": ["20"],
-          // todo: add tags
-          "tags": []
+          "tags": ["Android", "iOS"]
         },
         {
           "subtitle": "Getting Your IoT Things Talking",
@@ -305,7 +304,12 @@ and how to get old code working on JDK 9 even when you can't update it.`,
           ]
         },
         {
-          "subtitle": "?"
+          "subtitle": "If You Don't Have a Mobile Strategy You Don't Have a Strategy",
+          "description": "Regardless of how you slice and dice the figures, facts or opinions, mobile is the “internet” of today’s Millennial generation.   So what is your strategy with dealing with a cloud-embracing, socially-involved, always-connected, mobile consumer base?   The very people who are not only your future customers and employees, are probably already the majority of your consumers today. In this presentation I’m going to give an insight of the challenges presented by mobile then take a dive into the tools and technologies that we are developing here at Oracle to allow you to implement that strategy.  I’ll show you how you can build on-device mobile applications.  I’ll discuss the challenges of web applications on mobile. I’ll ditch the powerpoints  and demo some of our current and future cloud based offerings for exposing your existing legacy assets to mobile consumers.  And I’ll even show you how you can develop mobile and cloud based applications, from a mobile device! The future is here, its mobile and if you don’t have mobile strategy you don’t have a strategy.",
+          "speakers": [
+            "26"
+          ],
+          "tags": ["Oracle's developer tools", "Mobile", "Cloud Technologies"]
         },
         {
           "subtitle": "?"
@@ -381,7 +385,7 @@ layer settings like call interfaces, data source parametrization or inclusion of
           "speakers": [
             "24"
           ],
-          "tags": [
+          "tags": [ "Oracle's developer tools"
           ]
         }
       ]

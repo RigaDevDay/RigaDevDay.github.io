@@ -138,7 +138,7 @@ export const scheduleDay2Data = {
       "events": [
         {
           "subtitle": "Spring Framework 5 - Preview & Roadmap",
-          "description": "The Spring team is already working on Spring Framework 5.0, with milestones to appear throughout the year and a release candidate scheduled for autumn 2016. This presentation covers the key themes in Spring 5: going Java 8+ across the entire framework codebase, comprehensive support for JDK 9, and first-class support for Spring-style reactive architectures. We'll cover the current state of development as well as the remaining roadmap.",
+          "description": "The Spring team is busily working on Spring Framework 5.0, with a release candidate scheduled for Q4 2016. This presentation covers the key themes in Spring 5, based on the current state of development: going Java 8+ across the entire framework codebase, comprehensive support for JDK 9, a strong focus on HTTP/2, and first-class support for Spring-style reactive architectures.",
           "speakers": [
             "0"
           ],

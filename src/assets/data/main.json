@@ -291,6 +291,16 @@
       "img": "assets/img/photos/dalibor_topic.jpg",
       "twitter": "https://twitter.com/robilad",
       "description": "Dalibor Topić lives in Hamburg, Germany, and works as principal product manager for Oracle.\nHe joined the OpenJDK project in order to help make it a successful open source project,\nand stayed for anchoring Java in Linux distributions, and as an all-around Java F/OSS community guy.\nTopić joined the Java strategy team at Oracle to help provide community feedback into long-term strategic planning."
+    },
+    {
+      "id": "26",
+      "name": "Grant Ronald",
+      "company": "Oracle",
+      "title": "Director of Product Management for Development and Mobility Tools",
+      "country": "UK",
+      "img": "assets/img/photos/grant_ronald.jpg",
+      "twitter": "https://twitter.com/gwronald",
+      "description": "Grant Ronald is Director of Oracle Product Management for Mobility and Development Tools responsible for customers successfully adopting Oracle technologies. He has been with Oracle for 18 years working on Forms, JDeveloper, ADF and mobile technologies. His current focus is customer enablement of Oracle's mobile application tools such as Mobile Cloud Service and Mobile Application Framework. Before joining Oracle he spent 7 years as a developer at EDS Defence. He is author of the McGrawHill book \"The Quick Start Guide to Fusion Development\", an Oracle ACE, a regular magazine contributor, has spoken over 50 times at OUGs and Oracle World, and has won three awards from UKOUG for presenting and writing."
     }
   ],
   "days": [
@@ -569,7 +579,16 @@
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "If You Don't Have a Mobile Strategy You Don't Have a Strategy",
+                "description": "Regardless of how you slice and dice the figures, facts or opinions, mobile is the “internet” of today’s Millennial generation.   So what is your strategy with dealing with a cloud-embracing, socially-involved, always-connected, mobile consumer base?   The very people who are not only your future customers and employees, are probably already the majority of your consumers today. In this presentation I’m going to give an insight of the challenges presented by mobile then take a dive into the tools and technologies that we are developing here at Oracle to allow you to implement that strategy.  I’ll show you how you can build on-device mobile applications.  I’ll discuss the challenges of web applications on mobile. I’ll ditch the powerpoints  and demo some of our current and future cloud based offerings for exposing your existing legacy assets to mobile consumers.  And I’ll even show you how you can develop mobile and cloud based applications, from a mobile device! The future is here, its mobile and if you don’t have mobile strategy you don’t have a strategy.",
+                "speakers": [
+                  "26"
+                ],
+                "tags": [
+                  "Oracle's developer tools",
+                  "Mobile",
+                  "Cloud Technologies"
+                ]
               },
               {
                 "subtitle": "?"
@@ -791,7 +810,7 @@
             "events": [
               {
                 "subtitle": "Spring Framework 5 - Preview & Roadmap",
-                "description": "The Spring team is already working on Spring Framework 5.0, with milestones to appear throughout the year and a release candidate scheduled for autumn 2016. This presentation covers the key themes in Spring 5: going Java 8+ across the entire framework codebase, comprehensive support for JDK 9, and first-class support for Spring-style reactive architectures. We'll cover the current state of development as well as the remaining roadmap.",
+                "description": "The Spring team is busily working on Spring Framework 5.0, with a release candidate scheduled for Q4 2016. This presentation covers the key themes in Spring 5, based on the current state of development: going Java 8+ across the entire framework codebase, comprehensive support for JDK 9, a strong focus on HTTP/2, and first-class support for Spring-style reactive architectures.",
                 "speakers": [
                   "0"
                 ],
