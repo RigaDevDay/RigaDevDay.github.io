@@ -291,6 +291,56 @@
       "img": "assets/img/photos/dalibor_topic.jpg",
       "twitter": "https://twitter.com/robilad",
       "description": "Dalibor Topić lives in Hamburg, Germany, and works as principal product manager for Oracle.\nHe joined the OpenJDK project in order to help make it a successful open source project,\nand stayed for anchoring Java in Linux distributions, and as an all-around Java F/OSS community guy.\nTopić joined the Java strategy team at Oracle to help provide community feedback into long-term strategic planning."
+    },
+    {
+      "id": "26",
+      "name": "Grant Ronald",
+      "company": "Oracle",
+      "title": "Director of Product Management for Development and Mobility Tools",
+      "country": "UK",
+      "img": "assets/img/photos/grant_ronald.jpg",
+      "twitter": "https://twitter.com/gwronald",
+      "description": "Grant Ronald is Director of Oracle Product Management for Mobility and Development Tools responsible for customers successfully adopting Oracle technologies. He has been with Oracle for 18 years working on Forms, JDeveloper, ADF and mobile technologies. His current focus is customer enablement of Oracle's mobile application tools such as Mobile Cloud Service and Mobile Application Framework. Before joining Oracle he spent 7 years as a developer at EDS Defence. He is author of the McGrawHill book \"The Quick Start Guide to Fusion Development\", an Oracle ACE, a regular magazine contributor, has spoken over 50 times at OUGs and Oracle World, and has won three awards from UKOUG for presenting and writing."
+    },
+    {
+      "id": "27",
+      "name": "Gerard Sans",
+      "company": "Freelance",
+      "title": "AngularJS Senior Developer",
+      "country": "UK",
+      "img": "assets/img/photos/gerard_sans.jpg",
+      "twitter": "https://twitter.com/gerardsans",
+      "description": "Gerard is a multi-talented Computer Science Engineer specialised in Web. He is now an AngularJS fanboy and a community activist fighting for the JavaScript revolution. He has lived and worked for all sorts of companies in Germany, Brazil, UK and Spain. He is always up for a good challenge. He enjoys running AngularJS Labs London, mentoring AngularJS students, participating in the community, giving talks and writing technical articles at Medium."
+    },
+    {
+      "id": "28",
+      "name": "Claus Ibsen",
+      "company": "Red Hat",
+      "title": "Principal Software Engineer",
+      "country": "Sweden",
+      "img": "assets/img/photos/claus_ibsen.jpg",
+      "twitter": "https://twitter.com/davsclaus",
+      "description": "Claus Ibsen is a principal software engineer from Red Hat.\n<br><br>\nClaus is working full time as Apache Camel committer. And is author of the Camel in Action books.\n<br><br>\nHe is also heavily involved with fabric8 and hawtio projects, especially with functionality that involves Camel."
+    },
+    {
+      "id": "29",
+      "name": "Maxim Salnikov",
+      "company": "ForgeRock",
+      "title": "UI Engineer",
+      "country": "Norway",
+      "img": "assets/img/photos/maxim_salnikov.jpg",
+      "twitter": "https://twitter.com/webmaxru",
+      "description": "Maxim Salnikov is Oslo-based web UI developer, a Google Developer Expert with strong passion to mobile. He has 10+ years experience in development front-ends for complex web applications. He knows everything about web front-end: starting from user interfaces prototyping, going through HTML/CSS/JS implementation and finishing with architecting RESTful APIs.\n<br><br>\nWorking daily with web front-end technologies he is happy to experiment with the same stack for building hybrid mobile apps using latest hybrid frameworks. On evenings he runs Norway’s largest meetups dedicated to web front-end: Framsia, AngularJS Oslo. Also he is leader of Norway's biggest community dedicated to mobile development (Mobile Meetup Oslo) and currently working on organizing conference for mobile developers in 2016.\n<br><br>\nMaxim likes to travel the world visiting developers events and open for offers to share his experiences and knowledge by speaking at conferences and meetups."
+    },
+    {
+      "id": "30",
+      "name": "Mihail Stoynov",
+      "company": "jug.bg",
+      "title": "Board Member",
+      "country": "Bulgaria",
+      "img": "assets/img/photos/mihail_stoynov.jpg",
+      "twitter": "https://twitter.com/mihailstoynov",
+      "description": "Mihail is a security and software consultant, trainer and author. His resume includes projects in companies like Saudi Aramco, Boeing, HP, Siemens, USAF, several foreign banks and government entities. Mihail is the co-author of 6 books on software, and has 10 years of training experience in local and foreign companies and most of the local universities."
     }
   ],
   "days": [
@@ -314,7 +364,7 @@
         "schedule": [
           {
             "time": "8:30",
-            "endTime": "10.00",
+            "endTime": "9:45",
             "icon": "registration",
             "color": "light-blue",
             "events": [
@@ -324,8 +374,8 @@
             ]
           },
           {
-            "time": "10.00",
-            "endTime": "10:20",
+            "time": "9:45",
+            "endTime": "10:10",
             "icon": "clock",
             "color": "dark-blue",
             "events": [
@@ -335,7 +385,7 @@
             ]
           },
           {
-            "time": "10:20",
+            "time": "10:10",
             "endTime": "11:00",
             "icon": "speaker",
             "color": "dark-blue",
@@ -363,10 +413,10 @@
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Modern Java Component Design with Spring 4.3",
-                "description": "Spring's programming and configuration model has a strong design philosophy with respect to application components and configuration artifacts. Spring's annotation-based component story is fine-tuned for source code readability as well as consistency across an entire application's codebase. This session presents selected Spring Framework 4 component model highlights, with a focus on the upcoming Spring Framework 4.3 and a selection of Java 8 enabled features, illustrated with many code examples and noteworthy design considerations.",
+                "subtitle": "Prepare for JDK 9!",
+                "description": "The modularization of the Java SE Platform in JDK 9 will bring many benefits, but also many changes.\nExisting code that uses only official Java SE Platform APIs and supported JDK-specific APIs should continue to work without change.\nCode that uses certain deprecated features, however, or any JDK-internal APIs, is likely to break.\nThis session will show you how to prepare existing libraries and applications for JDK 9,\nand how to get old code working on JDK 9 even when you can't update it.",
                 "speakers": [
-                  "0"
+                  "25"
                 ],
                 "tags": [
                   "Java"
@@ -394,7 +444,7 @@
                 ]
               },
               {
-                "subtitle": "Oracle 12c for Developers and SQL Model Clause: A Gentle Introduction ",
+                "subtitle": "Oracle 12c for Developers",
                 "description": "Do you want to get up to speed with the most current release of the Oracle database? Then this session is for you. You will learn the most exciting and most useful new features from the Oracle Database 12c which can make your work as database developer a lot easier. There is more to the Oracle database 12c than just pluggable databases.",
                 "speakers": [
                   "12"
@@ -404,14 +454,7 @@
                 ]
               },
               {
-                "subtitle": "Migrating to Oracle Cloud using the Oracle Database In-Memory Advisor",
-                "description": "The presentation is about best practices for how to test new Oracle options using Oracle database cloud. When a multitenant database running on premise needs to be migrated to the Oracle database cloud one should consider the performance load caused by one or more PDBs inside the container. Especially the impact of upgrading to in-memory (12.1.0.2) on the PDBs. We show how to use the in-memory advisor in order to tune the existing structures for in-memory and how to validate this on the database cloud using RAT & SQL tuning advisor.",
-                "speakers": [
-                  "19"
-                ],
-                "tags": [
-                  "Oracle's developer tools"
-                ]
+                "subtitle": "?"
               }
             ]
           },
@@ -433,14 +476,7 @@
             "color": "black",
             "events": [
               {
-                "subtitle": "Having fun with Javassist",
-                "description": "Javassist makes Java bytecode manipulation simple. At ZeroTurnaround we use Javassist a lot to implement the integrations for our tools. In this talk we will go through the examples of how Javassist can be applied to alter the applications behaviour and do all kind of fun stuff with it. Why is it interesting? Because while trying to do unusual things in Java, you learn much more about the language and the platform itself and learning about Javassist will actually make you a better Java developer!",
-                "speakers": [
-                  "7"
-                ],
-                "tags": [
-                  "Java"
-                ]
+                "subtitle": "?"
               },
               {
                 "subtitle": "Appium: Mobile Automation Made Awesome",
@@ -465,14 +501,12 @@
                 ]
               },
               {
-                "subtitle": "Finding All the Red M&Ms: A Story of Indexes and Full Table Scans",
-                "description": "'Why isn’t my query using an index?' is a common question people have when tuning SQL. This talk explores the factors that influence the optimizer’s decision behind this question. It does so by comparing fetching rows from a database table to finding all the red M&Ms from their bags. It contrasts using an index range scan and a full table scan to do this. It introduces the concepts of blocks and the clustering factor. It discusses how these affect the optimizer's calculations. It goes on to demonstrate how these concepts work in practice using real SQL queries. This session is intended for developers and DBAs who want to learn the basics of how the optimizer chooses between an index range or full table scan.",
+                "subtitle": "50 Shades of #Fail - OBI worst practices in real life",
+                "description": "Lists of \"best practices\" as well as \"how-to's\" on the subject of Oracle BI and all its facets\nare commonplace and often discussed. Real-life practices, however, are a completely different story.\nWhat happens when implementations go astray or dogmatically follow half-knowledge, misconceptions,\nor conveniently cheap shortcuts? Learn about recurring pitfalls, their origins, their impacts,\nand most importantly their remedies in an entertaining fashion.\nHowever bad you thought your project was, you’ve seen nothing yet...\n<br/><br/>\nTurning the standard best-practice/how-to presentation format on its head,\nthis presentation will look at some real-life OBIEE implementations and where it all went wrong.\nWe’ll look at the worst, the weirdest, the most absurd and the wackiest ways the Oracle BI tool is abused:\n<ul>\n    <li>How did projects get to these points?</li>\n    <li>What were the original misconceptions?</li>\n    <li>How to counter these misconceptions?</li>\n    <li>Why are \"it works\" and \"it fulfills the requirements\" not only not enough but rather dangerous pitfalls?</li>\n    <li>Can I actually jeopardize the future of my BI system by choosing a cheap quick and dirty approach?</li>\n    <li>Is it ever OK to simply execute without comprehension?</li>\n</ul>\nThis session will give attendees a deeper understanding of the impact seemingly innocuous design and implementation\ndecisions can have on the stability and success of an entire BI system.\nAn end-to-end view of the stack will be taken, covering areas including logical modelling, analysis design,\nand architectural topics. The importance of a holistic view and an appreciation of alternatives will be emphasized\nas well as the need to understand, comprehend and reflect on the implications of a “best practice” being\nfollowed as well as the technology stack simply being misunderstood.",
                 "speakers": [
-                  "16"
+                  "24"
                 ],
-                "tags": [
-                  "Oracle's developer tools"
-                ]
+                "tags": []
               },
               {
                 "subtitle": "?"
@@ -503,7 +537,10 @@
                 "speakers": [
                   "20"
                 ],
-                "tags": []
+                "tags": [
+                  "Android",
+                  "iOS"
+                ]
               },
               {
                 "subtitle": "Getting Your IoT Things Talking",
@@ -516,15 +553,26 @@
                 ]
               },
               {
-                "subtitle": "50 Shades of #Fail - OBI worst practices in real life",
-                "description": "Lists of \"best practices\" as well as \"how-to's\" on the subject of Oracle BI and all its facets\nare commonplace and often discussed. Real-life practices, however, are a completely different story.\nWhat happens when implementations go astray or dogmatically follow half-knowledge, misconceptions,\nor conveniently cheap shortcuts? Learn about recurring pitfalls, their origins, their impacts,\nand most importantly their remedies in an entertaining fashion.\nHowever bad you thought your project was, you’ve seen nothing yet...\n<br/><br/>\nTurning the standard best-practice/how-to presentation format on its head,\nthis presentation will look at some real-life OBIEE implementations and where it all went wrong.\nWe’ll look at the worst, the weirdest, the most absurd and the wackiest ways the Oracle BI tool is abused:\n<ul>\n    <li>How did projects get to these points?</li>\n    <li>What were the original misconceptions?</li>\n    <li>How to counter these misconceptions?</li>\n    <li>Why are \"it works\" and \"it fulfills the requirements\" not only not enough but rather dangerous pitfalls?</li>\n    <li>Can I actually jeopardize the future of my BI system by choosing a cheap quick and dirty approach?</li>\n    <li>Is it ever OK to simply execute without comprehension?</li>\n</ul>\nThis session will give attendees a deeper understanding of the impact seemingly innocuous design and implementation\ndecisions can have on the stability and success of an entire BI system.\nAn end-to-end view of the stack will be taken, covering areas including logical modelling, analysis design,\nand architectural topics. The importance of a holistic view and an appreciation of alternatives will be emphasized\nas well as the need to understand, comprehend and reflect on the implications of a “best practice” being\nfollowed as well as the technology stack simply being misunderstood.",
+                "subtitle": "If You Don't Have a Mobile Strategy You Don't Have a Strategy",
+                "description": "Regardless of how you slice and dice the figures, facts or opinions, mobile is the “internet” of today’s Millennial generation.   So what is your strategy with dealing with a cloud-embracing, socially-involved, always-connected, mobile consumer base?   The very people who are not only your future customers and employees, are probably already the majority of your consumers today. In this presentation I’m going to give an insight of the challenges presented by mobile then take a dive into the tools and technologies that we are developing here at Oracle to allow you to implement that strategy.  I’ll show you how you can build on-device mobile applications.  I’ll discuss the challenges of web applications on mobile. I’ll ditch the powerpoints  and demo some of our current and future cloud based offerings for exposing your existing legacy assets to mobile consumers.  And I’ll even show you how you can develop mobile and cloud based applications, from a mobile device! The future is here, its mobile and if you don’t have mobile strategy you don’t have a strategy.",
                 "speakers": [
-                  "24"
+                  "26"
                 ],
-                "tags": []
+                "tags": [
+                  "Oracle's developer tools",
+                  "Mobile",
+                  "Cloud Technologies"
+                ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Migrating to Oracle Cloud using the Oracle Database In-Memory Advisor",
+                "description": "The presentation is about best practices for how to test new Oracle options using Oracle database cloud. When a multitenant database running on premise needs to be migrated to the Oracle database cloud one should consider the performance load caused by one or more PDBs inside the container. Especially the impact of upgrading to in-memory (12.1.0.2) on the PDBs. We show how to use the in-memory advisor in order to tune the existing structures for in-memory and how to validate this on the database cloud using RAT & SQL tuning advisor.",
+                "speakers": [
+                  "19"
+                ],
+                "tags": [
+                  "Oracle's developer tools"
+                ]
               }
             ]
           },
@@ -546,10 +594,10 @@
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Prepare for JDK 9!",
-                "description": "The modularization of the Java SE Platform in JDK 9 will bring many benefits, but also many changes.\nExisting code that uses only official Java SE Platform APIs and supported JDK-specific APIs should continue to work without change.\nCode that uses certain deprecated features, however, or any JDK-internal APIs, is likely to break.\nThis session will show you how to prepare existing libraries and applications for JDK 9,\nand how to get old code working on JDK 9 even when you can't update it.",
+                "subtitle": "Having fun with Javassist",
+                "description": "Javassist makes Java bytecode manipulation simple. At ZeroTurnaround we use Javassist a lot to implement the integrations for our tools. In this talk we will go through the examples of how Javassist can be applied to alter the applications behaviour and do all kind of fun stuff with it. Why is it interesting? Because while trying to do unusual things in Java, you learn much more about the language and the platform itself and learning about Javassist will actually make you a better Java developer!",
                 "speakers": [
-                  "25"
+                  "7"
                 ],
                 "tags": [
                   "Java"
@@ -559,17 +607,17 @@
                 "subtitle": "?"
               },
               {
-                "subtitle": "Apache Zeppelin, the missing component for your BigData eco-system",
-                "description": "If you are interested in Big Data, you surely have heard about Apache Spark or Apache Cassandra, but do you know Apache Zeppelin ? Do you know that it is possible to draw out beautiful graph using an user-friendly interface out of your Spark RDD  or out of Cassandra queries ? In this session, I will introduce Zeppelin by live coding example and highlight its modular architecture which allows you to plug-in any interpreter for the back-end of your choice.",
-                "speakers": [
-                  "6"
-                ],
-                "tags": [
-                  "BigData"
-                ]
+                "subtitle": "?"
               },
               {
-                "subtitle": "?"
+                "subtitle": "Finding All the Red M&Ms: A Story of Indexes and Full Table Scans",
+                "description": "'Why isn’t my query using an index?' is a common question people have when tuning SQL. This talk explores the factors that influence the optimizer’s decision behind this question. It does so by comparing fetching rows from a database table to finding all the red M&Ms from their bags. It contrasts using an index range scan and a full table scan to do this. It introduces the concepts of blocks and the clustering factor. It discusses how these affect the optimizer's calculations. It goes on to demonstrate how these concepts work in practice using real SQL queries. This session is intended for developers and DBAs who want to learn the basics of how the optimizer chooses between an index range or full table scan.",
+                "speakers": [
+                  "16"
+                ],
+                "tags": [
+                  "Oracle's developer tools"
+                ]
               },
               {
                 "subtitle": "?"
@@ -583,16 +631,37 @@
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "?"
+                "subtitle": "Modular Development With JDK 9",
+                "description": "First part will be a a gentle introduction, with examples, to the forthcoming Java Platform Module System.\nLearn how to create a module from scratch, compile it, test it, and run it.\nThis session will also show basic techniques for modularizing existing libraries and applications.\n<br/><br/>\nSecond part : Modularizing an existing library or application, or creating new modules from scratch,\ncan raise many difficult and subtle design issues. This session will present a set of principles for modular development,\nwith examples taken from the JDK itself.",
+                "speakers": [
+                  "25"
+                ],
+                "tags": [
+                  "Java"
+                ]
               },
               {
                 "subtitle": "?"
               },
               {
-                "subtitle": "?"
+                "subtitle": "Where do we go after Http 1.1 - Http2",
+                "description": "What is Http2? How is it supported in Java? How easy is to implement it? Why is it so much faster? How will http2 improve wifi? This session is the answer and a practical demonstration of how easy it is to migrate to the next gen of http.",
+                "speakers": [
+                  "30"
+                ],
+                "tags": [
+                  "Web"
+                ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "SQL Model Clause: A Gentle Introduction",
+                "description": "The Model Clause adds spreadsheet-like functionality to the SQL language. Very powerful stuff, yet the syntax can be quite daunting. With the Model Clause, you define a multidimensional array from query results and then apply formulas to this array to calculate new values.\n<br/><br/>\nThis presentation will give you a gentle introduction in the complex syntax of the Model Clause and will show you some real life examples where the Model Clause was invaluable.",
+                "speakers": [
+                  "12"
+                ],
+                "tags": [
+                  "Oracle's developer tools"
+                ]
               },
               {
                 "subtitle": "?"
@@ -606,21 +675,18 @@
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Spring Data, Hypermedia and the Cloud",
-                "description": "HATEOAS, REST, JSON Schema, APLS, Cloud, Docker,... are those just buzzwords? <br/>\nNo! With Spring Data we allow you to expose your repositories as a REST resource including ALPS metadata,\nJSON Schema and simply everything you would probably expect. Join Christoph Strobl on his journey through the Spring stack\nwhile creating and deploying REST Services as Docker containers, on Cloud Foundry and Lattice.",
+                "subtitle": "?"
+              },
+              {
+                "subtitle": "Automated Android CI, how hard can it be?",
+                "description": "I'm not an Android developer by far, but I'm working in a mobile development team as the DevOps guy, which basically translates to do anything that is not related to development proper. When I was introduced to the team, they had hacked something on a Bamboo server, based on custom Python scripts that uploaded the binaries to a Hockeykit, completely decoupled from the Maven build and the Nexus repository. The they decided to switch to Gradle... In this presentation, I will describe how I migrated from this situation to the following: * a full-fledged Jenkins server provisioned with Puppet * provisioning of the Android SDK manager * provisioning of Gradle * updates of the platforms, extras and repositories behind the entreprise proxy * creation of Gradle jobs managing Hockeykit files creation, upload of the whole outputs to Nexus and tagging Git for releases builds",
                 "speakers": [
-                  "22"
+                  "3"
                 ],
                 "tags": [
-                  "Java",
-                  "Web"
+                  "DevOps",
+                  "Android"
                 ]
-              },
-              {
-                "subtitle": "?"
-              },
-              {
-                "subtitle": "?"
               },
               {
                 "subtitle": "?"
@@ -631,7 +697,12 @@
                 "speakers": [
                   "24"
                 ],
-                "tags": []
+                "tags": [
+                  "Oracle's developer tools"
+                ]
+              },
+              {
+                "subtitle": "?"
               }
             ]
           },
@@ -726,24 +797,24 @@
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Painfree Object-Document Mapping for MongoDB",
-                "description": "Morphia is MongoDB's JPA-like Object-Document Mapping (ODM). However, there is no object-relational impedence mismatch since documents fit the concept of object-orientation much better. This removes a lot of JPA pain, which makes database interactions fun again. On a practical level we take a look at the available annotations and how to map your objects as well as how to easily query data in MongoDB. Next we discuss some patterns on how to solve common requirements, such as the proper use of generics, auto-increments, and the encryption of sensitive data. The talk concludes with some tips and lessons we've learned from using Morphia in production for three years.",
+                "subtitle": "Modern Java Component Design with Spring 4.3",
+                "description": "Spring's programming and configuration model has a strong design philosophy with respect to application components and configuration artifacts. Spring's annotation-based component story is fine-tuned for source code readability as well as consistency across an entire application's codebase. This session presents selected Spring Framework 4 component model highlights, with a focus on the upcoming Spring Framework 4.3 and a selection of Java 8 enabled features, illustrated with many code examples and noteworthy design considerations.",
                 "speakers": [
-                  "11"
+                  "0"
                 ],
                 "tags": [
-                  "Java",
-                  "NoSQL"
+                  "Java"
                 ]
               },
               {
-                "subtitle": "Why postgres SQL deserve noSQL fan respect",
-                "description": "Postgres SQL is a plain old SQL DB. Very powerful and very consistent, in some case, project needs an ACID database, but schemaless… With JSON support, postgres is a very interesting tool to provide ACID and some very interesting function (time management, localisation function and data types...) and the schemaless noSQL point of view with json and indexed json. This talk show some great usage and some insigth to build some great application with postgres.",
+                "subtitle": "Angular 2 Component Router",
+                "description": "Angular 2 comes with a new router that replaces previous ngRoute. We will compare the new router with ui-router and show how we can setup multiple views and nested routes.",
                 "speakers": [
-                  "17"
+                  "27"
                 ],
                 "tags": [
-                  "SQL"
+                  "Web",
+                  "JavaScript"
                 ]
               },
               {
@@ -757,14 +828,14 @@
                 ]
               },
               {
-                "subtitle": "Field Notes of Command Line Ninja",
-                "description": "Have you ever witnessed someone write fancy commands and perform magic from the console. Have you ever wished you could learn, or brush up on, those skills too? Maybe you want to be more effective at your everyday tasks, or need a new topic for the next family dinner? Join us and learn some awesome command line ninja skills. You will be able to find something new no matter your level of experience. The audience will get a chance to show off their skills as well, and there will be small prizes to contributors. The black belt and a little surprise await you at the end of this talk. You can bring your PC with you and hack-along! All you need is a PC or a Mac running OS of your choice - Windows, Linux, or Mac OS. Windows users are advised to have their cmd.exe ready, and to install Cygwin (32-bit).",
+                "subtitle": "Java, Docker and 'The Cloud'",
+                "description": "Deploying your application to the production has failed again. Emailing the developer who commited the last code changes, they send back the classic response... “It works on my machine”. *sigh* Is this scenario a recurring nightmare (and reality) for you? While everyone else is talking about “continuous delivery” do your deployments feel more like an extreme game of Jenga, tittering on the brink of disaster and a nightmare to reconstruct? It doesn’t have to be like this. Launched only two years ago, Docker has revolutionised application deployment. Using this open-source project, applications are packaged into lightweight containers, that are hardware and platform agnostic. Containers move from the local developer machine to a production server and then the cloud without modification! So, how do you migrate a traditional three-tier Java web application to use Docker? Let’s use a sample web application, designed for hosting on a single server, convert it to use Docker and deploy to a cloud platform. We’ll break out the application and component services into individual containers that can be ran and scaled independently. Showing you how to utilise existing pre-built images for rapid development, build custom container images for your application and move seamlessly between deployment platforms, enabling us to use “cloud” to accelerate application development. We will configure automatic build, test and deploy pipelines for continuous deployment and auto-scaling to handle unpredictable application traffic with ease. If you’re an application developer who’s exhausted from battling deployment issues, maintaining ”special” production servers and lives in fear of being on ”pager duty”, come and learn how you can use Docker to banish “works on my machine” syndrome. This talk is for developers who’ve heard about this “Docker thing” and want to see a practical example of converting a traditional monolithic web application to use Docker containers deployed to a scalable cloud platform.",
                 "speakers": [
-                  "9"
+                  "15"
                 ],
                 "tags": [
-                  "DevOps",
-                  "Tools"
+                  "Java",
+                  "Cloud"
                 ]
               },
               {
@@ -790,17 +861,25 @@
             "color": "black",
             "events": [
               {
-                "subtitle": "Spring Framework 5 - Preview & Roadmap",
-                "description": "The Spring team is already working on Spring Framework 5.0, with milestones to appear throughout the year and a release candidate scheduled for autumn 2016. This presentation covers the key themes in Spring 5: going Java 8+ across the entire framework codebase, comprehensive support for JDK 9, and first-class support for Spring-style reactive architectures. We'll cover the current state of development as well as the remaining roadmap.",
+                "subtitle": "Spring Data, Hypermedia and the Cloud",
+                "description": "HATEOAS, REST, JSON Schema, APLS, Cloud, Docker,... are those just buzzwords? <br/>\nNo! With Spring Data we allow you to expose your repositories as a REST resource including ALPS metadata,\nJSON Schema and simply everything you would probably expect. Join Christoph Strobl on his journey through the Spring stack\nwhile creating and deploying REST Services as Docker containers, on Cloud Foundry and Lattice.",
                 "speakers": [
-                  "0"
+                  "22"
                 ],
                 "tags": [
-                  "Java"
+                  "Java",
+                  "Web"
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Why postgres SQL deserve noSQL fan respect",
+                "description": "Postgres SQL is a plain old SQL DB. Very powerful and very consistent, in some case, project needs an ACID database, but schemaless… With JSON support, postgres is a very interesting tool to provide ACID and some very interesting function (time management, localisation function and data types...) and the schemaless noSQL point of view with json and indexed json. This talk show some great usage and some insigth to build some great application with postgres.",
+                "speakers": [
+                  "17"
+                ],
+                "tags": [
+                  "SQL"
+                ]
               },
               {
                 "subtitle": "Entering the new era of Front-end development with ReactJS",
@@ -813,14 +892,14 @@
                 ]
               },
               {
-                "subtitle": "Automated Android CI, how hard can it be?",
-                "description": "I'm not an Android developer by far, but I'm working in a mobile development team as the DevOps guy, which basically translates to do anything that is not related to development proper. When I was introduced to the team, they had hacked something on a Bamboo server, based on custom Python scripts that uploaded the binaries to a Hockeykit, completely decoupled from the Maven build and the Nexus repository. The they decided to switch to Gradle... In this presentation, I will describe how I migrated from this situation to the following: * a full-fledged Jenkins server provisioned with Puppet * provisioning of the Android SDK manager * provisioning of Gradle * updates of the platforms, extras and repositories behind the entreprise proxy * creation of Gradle jobs managing Hockeykit files creation, upload of the whole outputs to Nexus and tagging Git for releases builds",
+                "subtitle": "Fabric8 Camel Microservices for Docker and Kubernetes",
+                "description": "The so-called experts are saying microservices and containers will change the way we build, maintain, operate, and integrate applications. This talk is intended for Java developers who wants to hear and see how you can develop Java microservices that runs in containers.\n<br><br>\nThis talk uses Apache Camel as the Java library to build microservice architectured applications.\nAt first we introduce you to Apache Camel and show how you can easily get started with Camel on your computer, and build a microservice application that runs on CDI and Spring-Boot.\n<br><br>\nThe second part of this talk is about running Camel (or any Java project) on Docker and Kubernetes.\n<br><br>\nWe start covering the basic concepts you as a Java developer must understand about Kubernetes. Then we show how to migrate Java projects to build as Docker images and deployable on Kubernetes, with help from fabric8 Maven tooling.\n<br><br>\nYou will also hear about how to make your microservices scalable and distributed by leveraging the facilities that Kubernetes provides for truly distributed services with load balancing and location independence.\n<br><br>\nYou will also see how to manage your container using the Kubernetes CLI and the fabric8 web console.\n<br><br>\nAt the end we have a bit of fun with scaling up and down your Camel application to see how resilient the application is, when we kill containers.\n<br><br>\nThis talk is a 50/50 mix between slides and demo.",
                 "speakers": [
-                  "3"
+                  "28"
                 ],
                 "tags": [
-                  "DevOps",
-                  "Android"
+                  "Java",
+                  "DevOps"
                 ]
               },
               {
@@ -835,13 +914,37 @@
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "?"
+                "subtitle": "Testing with Spock. The logical choice",
+                "description": "Remember the old days when you tested using JUnit? How boring it was? You made a lot of excuses to avoid testing your code. Luckily those dark days now belong to the past because Spock is with us.Spock is a Groovy-based testing and specification framework for Java and Groovy applications that makes writing tests fun again. We can write beautiful and highly expressive tests because of its DSL and all the power that Groovy provides us.In this talk you'll learn the basics of Spock and you'll see how easily you can test a Java application. After the talk you won't have any excuse to don't test your applications, so you have been warned before coming to the talk!",
+                "speakers": [
+                  "8"
+                ],
+                "tags": [
+                  "Groovy",
+                  "BDD",
+                  "Test Automation"
+                ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Apache Zeppelin, the missing component for your BigData eco-system",
+                "description": "If you are interested in Big Data, you surely have heard about Apache Spark or Apache Cassandra, but do you know Apache Zeppelin ? Do you know that it is possible to draw out beautiful graph using an user-friendly interface out of your Spark RDD  or out of Cassandra queries ? In this session, I will introduce Zeppelin by live coding example and highlight its modular architecture which allows you to plug-in any interpreter for the back-end of your choice.",
+                "speakers": [
+                  "6"
+                ],
+                "tags": [
+                  "BigData"
+                ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Angular2: key concepts and getting started",
+                "description": "On this presentation first we'll go shortly through history of Angular for better understanding what Angular2 was introduced for and why it's not backward-compatible with 1.x.\n<br><br>\nThen we'll list key concepts of Angular2 like cross-component communication, one-directional data flow, user input handling and url routing and others.\n<br><br>\nAs a result of our practical hands-on tour we'll discuss the main tools for making our Angular2 life easier and build a functioning app.",
+                "speakers": [
+                  "29"
+                ],
+                "tags": [
+                  "Web",
+                  "JavaScript"
+                ]
               },
               {
                 "subtitle": "Jenkins at your (continuous) service",
@@ -876,32 +979,38 @@
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Testing with Spock. The logical choice",
-                "description": "Remember the old days when you tested using JUnit? How boring it was? You made a lot of excuses to avoid testing your code. Luckily those dark days now belong to the past because Spock is with us.Spock is a Groovy-based testing and specification framework for Java and Groovy applications that makes writing tests fun again. We can write beautiful and highly expressive tests because of its DSL and all the power that Groovy provides us.In this talk you'll learn the basics of Spock and you'll see how easily you can test a Java application. After the talk you won't have any excuse to don't test your applications, so you have been warned before coming to the talk!",
+                "subtitle": "Painfree Object-Document Mapping for MongoDB",
+                "description": "Morphia is MongoDB's JPA-like Object-Document Mapping (ODM). However, there is no object-relational impedence mismatch since documents fit the concept of object-orientation much better. This removes a lot of JPA pain, which makes database interactions fun again. On a practical level we take a look at the available annotations and how to map your objects as well as how to easily query data in MongoDB. Next we discuss some patterns on how to solve common requirements, such as the proper use of generics, auto-increments, and the encryption of sensitive data. The talk concludes with some tips and lessons we've learned from using Morphia in production for three years.",
                 "speakers": [
-                  "8"
+                  "11"
                 ],
                 "tags": [
-                  "Groovy",
-                  "BDD",
-                  "Test Automation"
+                  "Java",
+                  "NoSQL"
                 ]
               },
               {
                 "subtitle": "?"
               },
               {
-                "subtitle": "?"
-              },
-              {
-                "subtitle": "Java, Docker and 'The Cloud'",
-                "description": "Deploying your application to the production has failed again. Emailing the developer who commited the last code changes, they send back the classic response... “It works on my machine”. *sigh* Is this scenario a recurring nightmare (and reality) for you? While everyone else is talking about “continuous delivery” do your deployments feel more like an extreme game of Jenga, tittering on the brink of disaster and a nightmare to reconstruct? It doesn’t have to be like this. Launched only two years ago, Docker has revolutionised application deployment. Using this open-source project, applications are packaged into lightweight containers, that are hardware and platform agnostic. Containers move from the local developer machine to a production server and then the cloud without modification! So, how do you migrate a traditional three-tier Java web application to use Docker? Let’s use a sample web application, designed for hosting on a single server, convert it to use Docker and deploy to a cloud platform. We’ll break out the application and component services into individual containers that can be ran and scaled independently. Showing you how to utilise existing pre-built images for rapid development, build custom container images for your application and move seamlessly between deployment platforms, enabling us to use “cloud” to accelerate application development. We will configure automatic build, test and deploy pipelines for continuous deployment and auto-scaling to handle unpredictable application traffic with ease. If you’re an application developer who’s exhausted from battling deployment issues, maintaining ”special” production servers and lives in fear of being on ”pager duty”, come and learn how you can use Docker to banish “works on my machine” syndrome. This talk is for developers who’ve heard about this “Docker thing” and want to see a practical example of converting a traditional monolithic web application to use Docker containers deployed to a scalable cloud platform.",
+                "subtitle": "WebGL & WebVR: Take the web to the third dimension",
+                "description": "In this talk you will learn how to unlock the 3rd dimension on the web and use it to create impressive new visualisations, stories and experiences.\n<br><br>\nYou will see how WebGL can then be taken even further by using technologies such as Oculus Rift, Google Cardboard or LEAPMotion with WebVR to enable truly immersive experiences right from your browser.\n<br><br>\nWe will start with the basics of WebGL and the render pipeline, see how 3D on the web has evolved and what can be done with it and then do a little live coding that will conclude with how Virtual Reality can be implemented with web technologies.",
                 "speakers": [
-                  "15"
+                  "21"
                 ],
                 "tags": [
-                  "Java",
-                  "Cloud"
+                  "Web"
+                ]
+              },
+              {
+                "subtitle": "Field Notes of Command Line Ninja",
+                "description": "Have you ever witnessed someone write fancy commands and perform magic from the console. Have you ever wished you could learn, or brush up on, those skills too? Maybe you want to be more effective at your everyday tasks, or need a new topic for the next family dinner? Join us and learn some awesome command line ninja skills. You will be able to find something new no matter your level of experience. The audience will get a chance to show off their skills as well, and there will be small prizes to contributors. The black belt and a little surprise await you at the end of this talk. You can bring your PC with you and hack-along! All you need is a PC or a Mac running OS of your choice - Windows, Linux, or Mac OS. Windows users are advised to have their cmd.exe ready, and to install Cygwin (32-bit).",
+                "speakers": [
+                  "9"
+                ],
+                "tags": [
+                  "DevOps",
+                  "Tools"
                 ]
               },
               {
@@ -916,10 +1025,10 @@
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Modular Development With JDK 9",
-                "description": "First part will be a a gentle introduction, with examples, to the forthcoming Java Platform Module System.\nLearn how to create a module from scratch, compile it, test it, and run it.\nThis session will also show basic techniques for modularizing existing libraries and applications.\n<br/><br/>\nSecond part : Modularizing an existing library or application, or creating new modules from scratch,\ncan raise many difficult and subtle design issues. This session will present a set of principles for modular development,\nwith examples taken from the JDK itself.",
+                "subtitle": "Spring Framework 5 - Preview & Roadmap",
+                "description": "The Spring team is busily working on Spring Framework 5.0, with a release candidate scheduled for Q4 2016. This presentation covers the key themes in Spring 5, based on the current state of development: going Java 8+ across the entire framework codebase, comprehensive support for JDK 9, a strong focus on HTTP/2, and first-class support for Spring-style reactive architectures.",
                 "speakers": [
-                  "25"
+                  "0"
                 ],
                 "tags": [
                   "Java"
