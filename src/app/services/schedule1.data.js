@@ -324,7 +324,12 @@ with examples taken from the JDK itself.`,
           "subtitle": "?"
         },
         {
-          "subtitle": "?"
+          "subtitle": "Where do we go after Http 1.1 - Http2",
+          "description": `What is Http2? How is it supported in Java? How easy is to implement it? Why is it so much faster? How will http2 improve wifi? This session is the answer and a practical demonstration of how easy it is to migrate to the next gen of http.`,
+          "speakers": ["30"],
+          "tags": [
+            "Web"
+          ]
         },
         {
           "subtitle": "SQL Model Clause: A Gentle Introduction",

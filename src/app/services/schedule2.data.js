@@ -83,7 +83,15 @@ export const scheduleDay2Data = {
           ]
         },
         {
-          "subtitle": "?"
+          "subtitle": "Angular 2 Component Router",
+          "description": `Angular 2 comes with a new router that replaces previous ngRoute. We will compare the new router with ui-router and show how we can setup multiple views and nested routes.`,
+          "speakers": [
+            "27"
+          ],
+          "tags": [
+            "Web", "JavaScript"
+          ]
+
         },
         {
           "subtitle": "Kotlin on Android",
@@ -162,7 +170,25 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
           ]
         },
         {
-          "subtitle": "?"
+          "subtitle": "Fabric8 Camel Microservices for Docker and Kubernetes",
+          "description": `The so-called experts are saying microservices and containers will change the way we build, maintain, operate, and integrate applications. This talk is intended for Java developers who wants to hear and see how you can develop Java microservices that runs in containers.
+<br><br>
+This talk uses Apache Camel as the Java library to build microservice architectured applications.
+At first we introduce you to Apache Camel and show how you can easily get started with Camel on your computer, and build a microservice application that runs on CDI and Spring-Boot.
+<br><br>
+The second part of this talk is about running Camel (or any Java project) on Docker and Kubernetes.
+<br><br>
+We start covering the basic concepts you as a Java developer must understand about Kubernetes. Then we show how to migrate Java projects to build as Docker images and deployable on Kubernetes, with help from fabric8 Maven tooling.
+<br><br>
+You will also hear about how to make your microservices scalable and distributed by leveraging the facilities that Kubernetes provides for truly distributed services with load balancing and location independence.
+<br><br>
+You will also see how to manage your container using the Kubernetes CLI and the fabric8 web console.
+<br><br>
+At the end we have a bit of fun with scaling up and down your Camel application to see how resilient the application is, when we kill containers.
+<br><br>
+This talk is a 50/50 mix between slides and demo.`,
+          "speakers": ["28"],
+          "tags": ["Java", "DevOps"]
         },
         {
           "subtitle": "?"
@@ -198,7 +224,14 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
           ]
         },
         {
-          "subtitle": "?"
+          "subtitle": "Angular2: key concepts and getting started",
+          "description": `On this presentation first we'll go shortly through history of Angular for better understanding what Angular2 was introduced for and why it's not backward-compatible with 1.x.
+<br><br>
+Then we'll list key concepts of Angular2 like cross-component communication, one-directional data flow, user input handling and url routing and others.
+<br><br>
+As a result of our practical hands-on tour we'll discuss the main tools for making our Angular2 life easier and build a functioning app.`,
+          "speakers": ["29"],
+          "tags": ["Web", "JavaScript"]
         },
         {
           "subtitle": "Jenkins at your (continuous) service",
@@ -247,7 +280,18 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
           "subtitle": "?"
         },
         {
-          "subtitle": "?"
+          "subtitle": "WebGL & WebVR: Take the web to the third dimension",
+          "description": `In this talk you will learn how to unlock the 3rd dimension on the web and use it to create impressive new visualisations, stories and experiences.
+<br><br>
+You will see how WebGL can then be taken even further by using technologies such as Oculus Rift, Google Cardboard or LEAPMotion with WebVR to enable truly immersive experiences right from your browser.
+<br><br>
+We will start with the basics of WebGL and the render pipeline, see how 3D on the web has evolved and what can be done with it and then do a little live coding that will conclude with how Virtual Reality can be implemented with web technologies.`,
+          "speakers": [
+            "21"
+          ],
+          "tags": [
+            "Web"
+          ]
         },
         {
           "subtitle": "Field Notes of Command Line Ninja",

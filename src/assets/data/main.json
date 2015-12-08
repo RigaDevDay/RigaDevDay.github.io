@@ -301,6 +301,46 @@
       "img": "assets/img/photos/grant_ronald.jpg",
       "twitter": "https://twitter.com/gwronald",
       "description": "Grant Ronald is Director of Oracle Product Management for Mobility and Development Tools responsible for customers successfully adopting Oracle technologies. He has been with Oracle for 18 years working on Forms, JDeveloper, ADF and mobile technologies. His current focus is customer enablement of Oracle's mobile application tools such as Mobile Cloud Service and Mobile Application Framework. Before joining Oracle he spent 7 years as a developer at EDS Defence. He is author of the McGrawHill book \"The Quick Start Guide to Fusion Development\", an Oracle ACE, a regular magazine contributor, has spoken over 50 times at OUGs and Oracle World, and has won three awards from UKOUG for presenting and writing."
+    },
+    {
+      "id": "27",
+      "name": "Gerard Sans",
+      "company": "Freelance",
+      "title": "AngularJS Senior Developer",
+      "country": "UK",
+      "img": "assets/img/photos/gerard_sans.jpg",
+      "twitter": "https://twitter.com/gerardsans",
+      "description": "Gerard is a multi-talented Computer Science Engineer specialised in Web. He is now an AngularJS fanboy and a community activist fighting for the JavaScript revolution. He has lived and worked for all sorts of companies in Germany, Brazil, UK and Spain. He is always up for a good challenge. He enjoys running AngularJS Labs London, mentoring AngularJS students, participating in the community, giving talks and writing technical articles at Medium."
+    },
+    {
+      "id": "28",
+      "name": "Claus Ibsen",
+      "company": "Red Hat",
+      "title": "Principal Software Engineer",
+      "country": "Sweden",
+      "img": "assets/img/photos/claus_ibsen.jpg",
+      "twitter": "https://twitter.com/davsclaus",
+      "description": "Claus Ibsen is a principal software engineer from Red Hat.\n<br><br>\nClaus is working full time as Apache Camel committer. And is author of the Camel in Action books.\n<br><br>\nHe is also heavily involved with fabric8 and hawtio projects, especially with functionality that involves Camel."
+    },
+    {
+      "id": "29",
+      "name": "Maxim Salnikov",
+      "company": "ForgeRock",
+      "title": "UI Engineer",
+      "country": "Norway",
+      "img": "assets/img/photos/maxim_salnikov.jpg",
+      "twitter": "https://twitter.com/webmaxru",
+      "description": "Maxim Salnikov is Oslo-based web UI developer, a Google Developer Expert with strong passion to mobile. He has 10+ years experience in development front-ends for complex web applications. He knows everything about web front-end: starting from user interfaces prototyping, going through HTML/CSS/JS implementation and finishing with architecting RESTful APIs.\n<br><br>\nWorking daily with web front-end technologies he is happy to experiment with the same stack for building hybrid mobile apps using latest hybrid frameworks. On evenings he runs Norway’s largest meetups dedicated to web front-end: Framsia, AngularJS Oslo. Also he is leader of Norway's biggest community dedicated to mobile development (Mobile Meetup Oslo) and currently working on organizing conference for mobile developers in 2016.\n<br><br>\nMaxim likes to travel the world visiting developers events and open for offers to share his experiences and knowledge by speaking at conferences and meetups."
+    },
+    {
+      "id": "30",
+      "name": "Mihail Stoynov",
+      "company": "jug.bg",
+      "title": "Board Member",
+      "country": "Bulgaria",
+      "img": "assets/img/photos/mihail_stoynov.jpg",
+      "twitter": "https://twitter.com/mihailstoynov",
+      "description": "Mihail is a security and software consultant, trainer and author. His resume includes projects in companies like Saudi Aramco, Boeing, HP, Siemens, USAF, several foreign banks and government entities. Mihail is the co-author of 6 books on software, and has 10 years of training experience in local and foreign companies and most of the local universities."
     }
   ],
   "days": [
@@ -604,7 +644,14 @@
                 "subtitle": "?"
               },
               {
-                "subtitle": "?"
+                "subtitle": "Where do we go after Http 1.1 - Http2",
+                "description": "What is Http2? How is it supported in Java? How easy is to implement it? Why is it so much faster? How will http2 improve wifi? This session is the answer and a practical demonstration of how easy it is to migrate to the next gen of http.",
+                "speakers": [
+                  "30"
+                ],
+                "tags": [
+                  "Web"
+                ]
               },
               {
                 "subtitle": "SQL Model Clause: A Gentle Introduction",
@@ -760,7 +807,15 @@
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Angular 2 Component Router",
+                "description": "Angular 2 comes with a new router that replaces previous ngRoute. We will compare the new router with ui-router and show how we can setup multiple views and nested routes.",
+                "speakers": [
+                  "27"
+                ],
+                "tags": [
+                  "Web",
+                  "JavaScript"
+                ]
               },
               {
                 "subtitle": "Kotlin on Android",
@@ -837,7 +892,15 @@
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Fabric8 Camel Microservices for Docker and Kubernetes",
+                "description": "The so-called experts are saying microservices and containers will change the way we build, maintain, operate, and integrate applications. This talk is intended for Java developers who wants to hear and see how you can develop Java microservices that runs in containers.\n<br><br>\nThis talk uses Apache Camel as the Java library to build microservice architectured applications.\nAt first we introduce you to Apache Camel and show how you can easily get started with Camel on your computer, and build a microservice application that runs on CDI and Spring-Boot.\n<br><br>\nThe second part of this talk is about running Camel (or any Java project) on Docker and Kubernetes.\n<br><br>\nWe start covering the basic concepts you as a Java developer must understand about Kubernetes. Then we show how to migrate Java projects to build as Docker images and deployable on Kubernetes, with help from fabric8 Maven tooling.\n<br><br>\nYou will also hear about how to make your microservices scalable and distributed by leveraging the facilities that Kubernetes provides for truly distributed services with load balancing and location independence.\n<br><br>\nYou will also see how to manage your container using the Kubernetes CLI and the fabric8 web console.\n<br><br>\nAt the end we have a bit of fun with scaling up and down your Camel application to see how resilient the application is, when we kill containers.\n<br><br>\nThis talk is a 50/50 mix between slides and demo.",
+                "speakers": [
+                  "28"
+                ],
+                "tags": [
+                  "Java",
+                  "DevOps"
+                ]
               },
               {
                 "subtitle": "?"
@@ -873,7 +936,15 @@
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Angular2: key concepts and getting started",
+                "description": "On this presentation first we'll go shortly through history of Angular for better understanding what Angular2 was introduced for and why it's not backward-compatible with 1.x.\n<br><br>\nThen we'll list key concepts of Angular2 like cross-component communication, one-directional data flow, user input handling and url routing and others.\n<br><br>\nAs a result of our practical hands-on tour we'll discuss the main tools for making our Angular2 life easier and build a functioning app.",
+                "speakers": [
+                  "29"
+                ],
+                "tags": [
+                  "Web",
+                  "JavaScript"
+                ]
               },
               {
                 "subtitle": "Jenkins at your (continuous) service",
@@ -922,7 +993,14 @@
                 "subtitle": "?"
               },
               {
-                "subtitle": "?"
+                "subtitle": "WebGL & WebVR: Take the web to the third dimension",
+                "description": "In this talk you will learn how to unlock the 3rd dimension on the web and use it to create impressive new visualisations, stories and experiences.\n<br><br>\nYou will see how WebGL can then be taken even further by using technologies such as Oculus Rift, Google Cardboard or LEAPMotion with WebVR to enable truly immersive experiences right from your browser.\n<br><br>\nWe will start with the basics of WebGL and the render pipeline, see how 3D on the web has evolved and what can be done with it and then do a little live coding that will conclude with how Virtual Reality can be implemented with web technologies.",
+                "speakers": [
+                  "21"
+                ],
+                "tags": [
+                  "Web"
+                ]
               },
               {
                 "subtitle": "Field Notes of Command Line Ninja",

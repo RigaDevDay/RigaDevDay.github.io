@@ -304,5 +304,53 @@ Topić joined the Java strategy team at Oracle to help provide community feedbac
     "img": "assets/img/photos/grant_ronald.jpg",
     "twitter": "https://twitter.com/gwronald",
     "description": `Grant Ronald is Director of Oracle Product Management for Mobility and Development Tools responsible for customers successfully adopting Oracle technologies. He has been with Oracle for 18 years working on Forms, JDeveloper, ADF and mobile technologies. His current focus is customer enablement of Oracle's mobile application tools such as Mobile Cloud Service and Mobile Application Framework. Before joining Oracle he spent 7 years as a developer at EDS Defence. He is author of the McGrawHill book "The Quick Start Guide to Fusion Development", an Oracle ACE, a regular magazine contributor, has spoken over 50 times at OUGs and Oracle World, and has won three awards from UKOUG for presenting and writing.`
+  },
+  {
+    "id": "27",
+    "name": "Gerard Sans",
+    "company": "Freelance",
+    "title": "AngularJS Senior Developer",
+    "country": "UK",
+    "img": "assets/img/photos/gerard_sans.jpg",
+    "twitter": "https://twitter.com/gerardsans",
+    "description": `Gerard is a multi-talented Computer Science Engineer specialised in Web. He is now an AngularJS fanboy and a community activist fighting for the JavaScript revolution. He has lived and worked for all sorts of companies in Germany, Brazil, UK and Spain. He is always up for a good challenge. He enjoys running AngularJS Labs London, mentoring AngularJS students, participating in the community, giving talks and writing technical articles at Medium.`
+  },
+  {
+    "id": "28",
+    "name": "Claus Ibsen",
+    "company": "Red Hat",
+    "title": "Principal Software Engineer",
+    "country": "Sweden",
+    "img": "assets/img/photos/claus_ibsen.jpg",
+    "twitter": "https://twitter.com/davsclaus",
+    "description": `Claus Ibsen is a principal software engineer from Red Hat.
+<br><br>
+Claus is working full time as Apache Camel committer. And is author of the Camel in Action books.
+<br><br>
+He is also heavily involved with fabric8 and hawtio projects, especially with functionality that involves Camel.`
+  },
+  {
+    "id": "29",
+    "name": "Maxim Salnikov",
+    "company": "ForgeRock",
+    "title": "UI Engineer",
+    "country": "Norway",
+    "img": "assets/img/photos/maxim_salnikov.jpg",
+    "twitter": "https://twitter.com/webmaxru",
+    "description": `Maxim Salnikov is Oslo-based web UI developer, a Google Developer Expert with strong passion to mobile. He has 10+ years experience in development front-ends for complex web applications. He knows everything about web front-end: starting from user interfaces prototyping, going through HTML/CSS/JS implementation and finishing with architecting RESTful APIs.
+<br><br>
+Working daily with web front-end technologies he is happy to experiment with the same stack for building hybrid mobile apps using latest hybrid frameworks. On evenings he runs Norway’s largest meetups dedicated to web front-end: Framsia, AngularJS Oslo. Also he is leader of Norway's biggest community dedicated to mobile development (Mobile Meetup Oslo) and currently working on organizing conference for mobile developers in 2016.
+<br><br>
+Maxim likes to travel the world visiting developers events and open for offers to share his experiences and knowledge by speaking at conferences and meetups.`
+  },
+  {
+    "id": "30",
+    "name": "Mihail Stoynov",
+    "company": "jug.bg",
+    "title": "Board Member",
+    "country": "Bulgaria",
+    "img": "assets/img/photos/mihail_stoynov.jpg",
+    "twitter": "https://twitter.com/mihailstoynov",
+    "description": `Mihail is a security and software consultant, trainer and author. His resume includes projects in companies like Saudi Aramco, Boeing, HP, Siemens, USAF, several foreign banks and government entities. Mihail is the co-author of 6 books on software, and has 10 years of training experience in local and foreign companies and most of the local universities.`
   }
 ];
