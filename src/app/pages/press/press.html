@@ -55,7 +55,28 @@
   </div>
 </section>
 
-<!-- TODO: Move footer to directive -->
+<!-- Social Share Scripts -->
+<script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="text/javascript">
+  (function () {
+    var po = document.createElement('script');
+    po.type = 'text/javascript';
+    po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(po, s);
+  })();
+  (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {
+      return;
+    }
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 <footer class="top30" ng-cloak>
   <div class="container">
     <div class="row">
@@ -64,7 +85,7 @@
         <ul class="list-unstyled">
           <li><i class="fa fa-map-marker fa-fw"></i><strong>13. janvāra iela 8, Riga, Latvia</strong></li>
           <!--<li><i class="fa fa-phone fa-fw"></i> (+371) xxxxxxxx</li>-->
-          <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto: info@rigadevday.lv">info@rigadevday.lv</a>
+          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto: info@rigadevday.lv">info@rigadevday.lv</a>
           </li>
         </ul>
         <br>
@@ -90,3 +111,4 @@
     </div>
   </div>
 </footer>
+

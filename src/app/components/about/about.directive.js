@@ -6,6 +6,9 @@ export function AboutDirective() {
     templateUrl: 'app/components/about/about.html',
     scope: {},
     controller: AboutController,
+    link: function () {
+      window.twttr.widgets.load();
+    },
     controllerAs: 'vm',
     bindToController: true
   };
