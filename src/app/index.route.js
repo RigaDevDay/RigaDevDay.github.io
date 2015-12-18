@@ -7,6 +7,11 @@ export function routerConfig ($routeProvider) {
       controller: 'IndexController',
       controllerAs: 'index'
     })
+    .when('/press', {
+      templateUrl: 'app/pages/press/press.html',
+      controller: 'PressController',
+      controllerAs: 'press'
+    })
     .otherwise({
       redirectTo: '/index'
     });

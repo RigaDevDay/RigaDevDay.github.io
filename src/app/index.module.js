@@ -7,6 +7,7 @@ import { runBlock } from './index.run';
 // Components
 import { NavbarDirective } from '../app/components/navbar/navbar.directive';
 import { HeaderDirective } from '../app/components/header/header.directive';
+import { BackNavbarDirective } from '../app/components/back-navbar/back-navbar.directive';
 import { AboutDirective } from '../app/components/about/about.directive';
 import { SpeakersDirective } from '../app/components/speakers/speakers.directive';
 import { ScheduleDirective } from '../app/components/schedule/schedule.directive';
@@ -25,6 +26,7 @@ import { CountToDirective } from '../app/directives/countTo.directive';
 
 // Controller
 import { IndexController } from './pages/index/index.controller';
+import { PressController } from './pages/press/press.controller';
 
 angular.module('rdd', [
   'ngAnimate',
@@ -49,6 +51,7 @@ angular.module('rdd')
 angular.module('rdd')
   .service('dataLoaderService', DataLoaderService)
   .directive('rddNavbar', NavbarDirective)
+  .directive('rddBackNavbar', BackNavbarDirective)
   .directive('rddHeader', HeaderDirective)
   .directive('rddAbout', AboutDirective)
   .directive('rddSpeakers', SpeakersDirective)
@@ -60,4 +63,5 @@ angular.module('rdd')
   .directive('rddTeam', TeamDirective)
   .directive('countTo', CountToDirective)
   .controller('IndexController', IndexController)
+  .controller('PressController', PressController)
 ;
