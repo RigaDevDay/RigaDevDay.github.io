@@ -352,5 +352,20 @@ Maxim likes to travel the world visiting developers events and open for offers t
     "img": "assets/img/photos/mihail_stoynov.jpg",
     "twitter": "https://twitter.com/mihailstoynov",
     "description": `Mihail is a security and software consultant, trainer and author. His resume includes projects in companies like Saudi Aramco, Boeing, HP, Siemens, USAF, several foreign banks and government entities. Mihail is the co-author of 6 books on software, and has 10 years of training experience in local and foreign companies and most of the local universities.`
+  },
+  {
+    "id": "31",
+    "name": "Shay Friedman",
+    "company": "CodeValue",
+    "title": "Founder",
+    "country": "Israel",
+    "img": "assets/img/photos/shay_friedman.jpg",
+    "twitter": "https://twitter.com/ironshay",
+    "description": `Shay Friedman is the founder and web division leader at CodeValue, and also
+a Microsoft .NET MVP. In the last years, Shay has migrated numerous
+companies to modern web technologies like angularjs, html5 and css3. He's
+spoken in lots of international conferences and conducted various web related
+courses around the world. In his spare time Shay plays the guitar, plays
+basketball and drinks beer. And, most important, he's a nice guy!`
   }
 ];

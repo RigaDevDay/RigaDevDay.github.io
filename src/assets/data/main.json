@@ -341,6 +341,16 @@
       "img": "assets/img/photos/mihail_stoynov.jpg",
       "twitter": "https://twitter.com/mihailstoynov",
       "description": "Mihail is a security and software consultant, trainer and author. His resume includes projects in companies like Saudi Aramco, Boeing, HP, Siemens, USAF, several foreign banks and government entities. Mihail is the co-author of 6 books on software, and has 10 years of training experience in local and foreign companies and most of the local universities."
+    },
+    {
+      "id": "31",
+      "name": "Shay Friedman",
+      "company": "CodeValue",
+      "title": "Founder",
+      "country": "Israel",
+      "img": "assets/img/photos/shay_friedman.jpg",
+      "twitter": "https://twitter.com/ironshay",
+      "description": "Shay Friedman is the founder and web division leader at CodeValue, and also\na Microsoft .NET MVP. In the last years, Shay has migrated numerous\ncompanies to modern web technologies like angularjs, html5 and css3. He's\nspoken in lots of international conferences and conducted various web related\ncourses around the world. In his spare time Shay plays the guitar, plays\nbasketball and drinks beer. And, most important, he's a nice guy!"
     }
   ],
   "days": [
@@ -1038,7 +1048,14 @@
                 "subtitle": "?"
               },
               {
-                "subtitle": "?"
+                "subtitle": "Hello EcmaScript2015... and also to you, EcmaScript2016",
+                "description": "EcmaScript, the standard which is the base for JavaScript, is finally starting to move\nfast. It is making JavaScript better and better, providing various different tools to\nsolve our common everyday programming tasks.\n<br><br>\nIn this session we will go through what’s new with ES2015 and ES2016, and even\nget a glimpse of what the exciting future holds for web development!",
+                "speakers": [
+                  "31"
+                ],
+                "tags": [
+                  "JavaScript"
+                ]
               },
               {
                 "subtitle": "It's not always application's fault",

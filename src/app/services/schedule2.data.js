@@ -329,7 +329,15 @@ We will start with the basics of WebGL and the render pipeline, see how 3D on th
           "subtitle": "?"
         },
         {
-          "subtitle": "?"
+          "subtitle": "Hello EcmaScript2015... and also to you, EcmaScript2016",
+          "description": `EcmaScript, the standard which is the base for JavaScript, is finally starting to move
+fast. It is making JavaScript better and better, providing various different tools to
+solve our common everyday programming tasks.
+<br><br>
+In this session we will go through what’s new with ES2015 and ES2016, and even
+get a glimpse of what the exciting future holds for web development!`,
+          "speakers": ["31"],
+          "tags": ["JavaScript"]
         },
         {
           "subtitle": "It's not always application's fault",
