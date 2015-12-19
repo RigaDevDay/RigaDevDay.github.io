@@ -16,6 +16,7 @@ import { TicketsDirective } from '../app/components/tickets/tickets.directive';
 import { Rdd2015Directive } from '../app/components/rdd2015/rdd2015.directive';
 import { SponsorsDirective } from '../app/components/sponsors/sponsors.directive';
 import { TeamDirective } from '../app/components/team/team.directive';
+import { FooterDirective } from '../app/components/footer/footer.directive';
 
 // Services
 import { DataLoaderService } from '../app/services/data_loader.service';
@@ -62,6 +63,7 @@ angular.module('rdd')
   .directive('rddSponsors', SponsorsDirective)
   .directive('rddTeam', TeamDirective)
   .directive('countTo', CountToDirective)
+  .directive('rddFooter', FooterDirective)
   .controller('IndexController', IndexController)
   .controller('PressController', PressController)
 ;

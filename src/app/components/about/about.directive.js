@@ -12,9 +12,7 @@ export function AboutDirective() {
 }
 
 class AboutController {
-  constructor ($window) {
+  constructor () {
     'ngInject';
-
-    $window.twttr.widgets.load();
   }
 }
