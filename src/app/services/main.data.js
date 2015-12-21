@@ -391,6 +391,18 @@ companies to modern web technologies like angularjs, html5 and css3. He's
 spoken in lots of international conferences and conducted various web related
 courses around the world. In his spare time Shay plays the guitar, plays
 basketball and drinks beer. And, most important, he's a nice guy!`
+    },
+    {
+      "id": "32",
+      "name": "Oleg Anastasyev",
+      "company": "Odnoklassniki.ru",
+      "title": "Leading developer",
+      "country": "Latvia",
+      "img": "assets/img/photos/oleg_anastasyev.jpg",
+      "twitter": "https://twitter.com/m0nstermind",
+      "description": `Oleg Anastasyev started his career in computer programming in 1995. He developed banking, telecom software as well as software for the government of Latvia.
+<br><br>
+Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform Team member are development of architectures and solutions for highly loaded as well as big data services, solving performance and availability problems.`
     }
   ],
   "days": [
@@ -683,7 +695,12 @@ also what are the different building blocks of the platform.
                 "subtitle": "?"
               },
               {
-                "subtitle": "?"
+                "subtitle": "Distributed Systems at ok.ru",
+                "description": `ok.ru is one of top 10 internet sites of the World, according to similarweb.com. Under the hood, it has several thousand servers. Each of those servers own only fraction of the data or business logic. Shared nothing architecture can be hardly applied to social network, due to its nature, so a lot of communication happens between these servers, diverse in kind and volume. This makes ok.ru one of the  largest, complicated, yet highly loaded distributed systems in the world.
+<br><br>
+This talk is about our experience in building always available, resilient to failures distributed systems in Java, their basic and not so basic failure and recovery scenarios, methods of failure testing and diagnostics. We’ll also discuss on possible disasters and how to prevent or get over them.`,
+                "speakers": ["32"],
+                "tags": ["Web", "Java"]
               },
               {
                 "subtitle": "Finding All the Red M&Ms: A Story of Indexes and Full Table Scans",
