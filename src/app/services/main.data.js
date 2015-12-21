@@ -1291,7 +1291,14 @@ Strictly JVM, mostly Sun Hotspot impl, but number of points can be used to other
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Deep Dive Into Angular 2",
+                "description": `Angular 2 is a revolutionary development platform for creating applications using modern web standards and powered by the Open Source Community following the success of AngularJS.
+<br><br>
+Angular 2 introduces some major improvements over its predecessor. We are going to cover the main areas so you can start creating your own projects and enjoy its benefits Today.
+<br><br>
+At Angular Labs we have been following Angular 2 since the initial pre-release versions and sharing our learnings with the community. You can access our lab sessions online and follow the latest topics around Angular.`,
+                "speakers": ["27"],
+                "tags": ["JavaScript"]
               },
               {
                 "subtitle": "?"
