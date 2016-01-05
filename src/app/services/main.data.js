@@ -403,6 +403,36 @@ basketball and drinks beer. And, most important, he's a nice guy!`
       "description": `Oleg Anastasyev started his career in computer programming in 1995. He developed banking, telecom software as well as software for the government of Latvia.
 <br><br>
 Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform Team member are development of architectures and solutions for highly loaded as well as big data services, solving performance and availability problems.`
+    },
+    {
+      "id": "33",
+      "name": "Daniel Bachenheimer",
+      "company": "Accenture",
+      "title": "Senior Manager",
+      "country": "Germany",
+      "img": "assets/img/photos/bachenheimer.jpg",
+      "description": `Daniel Bachenheimer, an Electrical Engineer by training, is leading Accenture’s Unique Identity Services offering and has been designing and delivering solutions for government entities for over 25 years. For the past fifteen years, Dan has focused on Border and Identity Management solutions and has been involved in large-scale Identity Services systems including US-VISIT and UIDAI, Trusted Traveler Programs, Multimodal Biometric systems integration, RFID implementations, along with Identity, Credential, and Access Management solutions. Dan is involved in INCITS M1 (ISO SC37) and is an IEEE Certified Biometrics Professional.`
+    },
+    {
+      "id": "34",
+      "name": "Anton Kranga",
+      "company": "Accenture",
+      "title": "Cloud Architect",
+      "country": "Latvia",
+      "img": "assets/img/photos/anton_kranga.jpg",
+      "twitter": "https://twitter.com/acankr",
+      "description": `Antons is a Cloud Architect at Accenture. He has more than 10 years of experience in software custom development with an ultimate focus on Java Technology. Besides his Java expertise, Antons has been passionate about DevOps and Agile Infrastructure area. In addition, he has rich experience in multi-side, international projects as well as with both Formal and Agile development methodology (Certified Scrum Master). He is currently bringing Accenture Foundation Platform for Java applications into the Cloud.`
+    },
+    {
+      "id": "35",
+      "name": "Slawomir Michalik",
+      "company": "Dynatrace",
+      "title": "Sales Engineer",
+      "country": "Poland",
+      "img": "assets/img/photos/slawomir_michalik.jpg",
+      "description": `I'm APM passionate with solid experience in pre- and post-sales support, having +10 years of experience in working with advanced IT solutions and integrated services.
+<br><br>I'm Sales Engineer (by DNA), offering comprehensive approach for end-to-end IT service, to cover all aspects of IT infrastructure and application support.
+<br><br>On-daily basis I'm working with my Customers from Poland, EE and Russia, helping them to reduce the complexity of application management, starting from Dev & Test practices to end-up in Application Performance Management in Production environments.`
     }
   ],
   "days": [
@@ -538,7 +568,14 @@ and how to get old code working on JDK 9 even when you can't update it.`,
             "color": "black",
             "events": [
               {
-                "subtitle": "?"
+                "subtitle": "Modern Java Component Design with Spring 4.3",
+                "description": "Spring's programming and configuration model has a strong design philosophy with respect to application components and configuration artifacts. Spring's annotation-based component story is fine-tuned for source code readability as well as consistency across an entire application's codebase. This session presents selected Spring Framework 4 component model highlights, with a focus on the upcoming Spring Framework 4.3 and a selection of Java 8 enabled features, illustrated with many code examples and noteworthy design considerations.",
+                "speakers": [
+                  "0"
+                ],
+                "tags": [
+                  "Java"
+                ]
               },
               {
                 "subtitle": "Appium: Mobile Automation Made Awesome",
@@ -593,7 +630,19 @@ followed as well as the technology stack simply being misunderstood.`,
                 "tags": []
               },
               {
-                "subtitle": "?"
+                "subtitle": "Unique Identification enables Secure Travel, Trade, and Inclusion",
+                "description": `Review public and private sector use cases for Unique Identification:
+<ul>
+  <li>Border Management (Schengen Smart Borders Initiative, EU-VIS/BMS, US-VISIT) including future trends like drone-based FitC</li>
+  <li>Financial Services (Confidential - Biometric payment cards, Barclays - Call center Speaker Recognition)</li>
+  <li>Inclusion (UNHCR – ration distribution, UIDAI – India’s National Identification agency)</li>
+</ul>`,
+                "speakers": [
+                  "33"
+                ],
+                "tags": [
+                  "IoT", "Biometrics"
+                ]
               }
             ]
           },
@@ -604,16 +653,12 @@ followed as well as the technology stack simply being misunderstood.`,
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "JSR377: What's up and what's next",
-                "description": "JSR-377, the Desktop|Embedded Application API JSR has as a goal to standardize common behavior shared by many desktop applications. This behavior can also be applied to the emerging Java Embedded and Internet-of-Things applications. Because the JSR targets multiple toolkits (Swing, JavaFX, SWT and more) it's even possible to build applications targeting the mobile space (JavaFX on mobile). There are a good number of framework and platforms that deliver these features in their own way. In this talk we'll discuss the current state of this JSR and explore its features.",
-                "speakers": [
-                  "13"
-                ],
-                "tags": [
-                  "IoT",
-                  "Java",
-                  "Embedded Programming"
-                ]
+                "subtitle": "Distributed Systems at ok.ru",
+                "description": `ok.ru is one of top 10 internet sites of the World, according to similarweb.com. Under the hood, it has several thousand servers. Each of those servers own only fraction of the data or business logic. Shared nothing architecture can be hardly applied to social network, due to its nature, so a lot of communication happens between these servers, diverse in kind and volume. This makes ok.ru one of the  largest, complicated, yet highly loaded distributed systems in the world.
+<br><br>
+This talk is about our experience in building always available, resilient to failures distributed systems in Java, their basic and not so basic failure and recovery scenarios, methods of failure testing and diagnostics. We’ll also discuss on possible disasters and how to prevent or get over them.`,
+                "speakers": ["32"],
+                "tags": ["Web", "Java"]
               },
               {
                 "subtitle": "An introduction to cross-platform development with Xamarin",
@@ -635,13 +680,15 @@ also what are the different building blocks of the platform.
                 "tags": ["Android", "iOS"]
               },
               {
-                "subtitle": "Getting Your IoT Things Talking",
-                "description": "As an increasing number of connected devices enter our world, we’re faced with the challenge of making sure these machines are able to quickly and efficiently talk to us and each other. REST APIs are an amazing way to facilitate these exchanges, but building endless custom APIs doesn’t scale. We’ll be looking at how the generation of reusable REST APIs via DreamFactory’s open source platform can be leveraged to get all the IoT things in your life chatting happily.",
+                "subtitle": "JSR377: What's up and what's next",
+                "description": "JSR-377, the Desktop|Embedded Application API JSR has as a goal to standardize common behavior shared by many desktop applications. This behavior can also be applied to the emerging Java Embedded and Internet-of-Things applications. Because the JSR targets multiple toolkits (Swing, JavaFX, SWT and more) it's even possible to build applications targeting the mobile space (JavaFX on mobile). There are a good number of framework and platforms that deliver these features in their own way. In this talk we'll discuss the current state of this JSR and explore its features.",
                 "speakers": [
-                  "10"
+                  "13"
                 ],
                 "tags": [
-                  "IoT"
+                  "IoT",
+                  "Java",
+                  "Embedded Programming"
                 ]
               },
               {
@@ -682,25 +729,30 @@ also what are the different building blocks of the platform.
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Having fun with Javassist",
-                "description": "Javassist makes Java bytecode manipulation simple. At ZeroTurnaround we use Javassist a lot to implement the integrations for our tools. In this talk we will go through the examples of how Javassist can be applied to alter the applications behaviour and do all kind of fun stuff with it. Why is it interesting? Because while trying to do unusual things in Java, you learn much more about the language and the platform itself and learning about Javassist will actually make you a better Java developer!",
+                "subtitle": "Spring Data, Hypermedia and the Cloud",
+                "description": `HATEOAS, REST, JSON Schema, APLS, Cloud, Docker,... are those just buzzwords? <br/>
+No! With Spring Data we allow you to expose your repositories as a REST resource including ALPS metadata,
+JSON Schema and simply everything you would probably expect. Join Christoph Strobl on his journey through the Spring stack
+while creating and deploying REST Services as Docker containers, on Cloud Foundry and Lattice.`,
                 "speakers": [
-                  "7"
+                  "22"
                 ],
                 "tags": [
-                  "Java"
+                  "Java", "Web"
+                ]
+              },
+              {
+                "subtitle": "Getting Your IoT Things Talking",
+                "description": "As an increasing number of connected devices enter our world, we’re faced with the challenge of making sure these machines are able to quickly and efficiently talk to us and each other. REST APIs are an amazing way to facilitate these exchanges, but building endless custom APIs doesn’t scale. We’ll be looking at how the generation of reusable REST APIs via DreamFactory’s open source platform can be leveraged to get all the IoT things in your life chatting happily.",
+                "speakers": [
+                  "10"
+                ],
+                "tags": [
+                  "IoT"
                 ]
               },
               {
                 "subtitle": "?"
-              },
-              {
-                "subtitle": "Distributed Systems at ok.ru",
-                "description": `ok.ru is one of top 10 internet sites of the World, according to similarweb.com. Under the hood, it has several thousand servers. Each of those servers own only fraction of the data or business logic. Shared nothing architecture can be hardly applied to social network, due to its nature, so a lot of communication happens between these servers, diverse in kind and volume. This makes ok.ru one of the  largest, complicated, yet highly loaded distributed systems in the world.
-<br><br>
-This talk is about our experience in building always available, resilient to failures distributed systems in Java, their basic and not so basic failure and recovery scenarios, methods of failure testing and diagnostics. We’ll also discuss on possible disasters and how to prevent or get over them.`,
-                "speakers": ["32"],
-                "tags": ["Web", "Java"]
               },
               {
                 "subtitle": "Finding All the Red M&Ms: A Story of Indexes and Full Table Scans",
@@ -713,7 +765,15 @@ This talk is about our experience in building always available, resilient to fai
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Is Lambda Architecture is a new normal for cloud native apps?",
+                "description": `Cloud-native helps us quickly to create robust applications. Wait! How about cost effective as well? Why not to go even to "server-less" apps for some use cases?
+</br></br> What is Lambda and how it can help us to write apps focusing on code rather than on infrastructure and still be cloud-native?`,
+                "speakers": [
+                  "34"
+                ],
+                "tags": [
+                  "Software Architecture", "Cloud"
+                ]
               }
             ]
           },
@@ -724,16 +784,16 @@ This talk is about our experience in building always available, resilient to fai
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Modular Development With JDK 9",
-                "description": `First part will be a a gentle introduction, with examples, to the forthcoming Java Platform Module System.
-Learn how to create a module from scratch, compile it, test it, and run it.
-This session will also show basic techniques for modularizing existing libraries and applications.
-<br/><br/>
-Second part : Modularizing an existing library or application, or creating new modules from scratch,
-can raise many difficult and subtle design issues. This session will present a set of principles for modular development,
-with examples taken from the JDK itself.`,
-                "speakers": ["25"],
-                "tags": ["Java"]
+                "subtitle": "Testing with Spock. The logical choice",
+                "description": "Remember the old days when you tested using JUnit? How boring it was? You made a lot of excuses to avoid testing your code. Luckily those dark days now belong to the past because Spock is with us.Spock is a Groovy-based testing and specification framework for Java and Groovy applications that makes writing tests fun again. We can write beautiful and highly expressive tests because of its DSL and all the power that Groovy provides us.In this talk you'll learn the basics of Spock and you'll see how easily you can test a Java application. After the talk you won't have any excuse to don't test your applications, so you have been warned before coming to the talk!",
+                "speakers": [
+                  "8"
+                ],
+                "tags": [
+                  "Groovy",
+                  "BDD",
+                  "Test Automation"
+                ]
               },
               {
                 "subtitle": "?"
@@ -770,7 +830,14 @@ This presentation will give you a gentle introduction in the complex syntax of t
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "?"
+                "subtitle": "Spring Framework 5 - Preview & Roadmap",
+                "description": "The Spring team is busily working on Spring Framework 5.0, with a release candidate scheduled for Q4 2016. This presentation covers the key themes in Spring 5, based on the current state of development: going Java 8+ across the entire framework codebase, comprehensive support for JDK 9, a strong focus on HTTP/2, and first-class support for Spring-style reactive architectures.",
+                "speakers": [
+                  "0"
+                ],
+                "tags": [
+                  "Java"
+                ]
               },
               {
                 "subtitle": "Automated Android CI, how hard can it be?",
@@ -784,7 +851,14 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Avoiding software fails. Few metrics to improve application reliability",
+                "description": "Managing application complexity might be simple and this is all about testing for top performance problems. During my presentation I'd like to share couple of hints, helping to dramatically reduce application (performance) issues. It's all about lessons learnt from my Customers and Prospects.",
+                "speakers": [
+                  "35"
+                ],
+                "tags": [
+                  "Java", "Web", "DevOps", "Test Automation"
+                ]
               },
               {
                 "subtitle": "Back2Basics: A day in the life of an Oracle BI query",
@@ -902,25 +976,16 @@ layer settings like call interfaces, data source parametrization or inclusion of
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Modern Java Component Design with Spring 4.3",
-                "description": "Spring's programming and configuration model has a strong design philosophy with respect to application components and configuration artifacts. Spring's annotation-based component story is fine-tuned for source code readability as well as consistency across an entire application's codebase. This session presents selected Spring Framework 4 component model highlights, with a focus on the upcoming Spring Framework 4.3 and a selection of Java 8 enabled features, illustrated with many code examples and noteworthy design considerations.",
-                "speakers": [
-                  "0"
-                ],
-                "tags": [
-                  "Java"
-                ]
-              },
-              {
-                "subtitle": "Angular 2 Component Router",
-                "description": `Angular 2 comes with a new router that replaces previous ngRoute. We will compare the new router with ui-router and show how we can setup multiple views and nested routes.`,
-                "speakers": [
-                  "27"
-                ],
-                "tags": [
-                  "Web", "JavaScript"
-                ]
-
+                "subtitle": "Modular Development With JDK 9",
+                "description": `First part will be a a gentle introduction, with examples, to the forthcoming Java Platform Module System.
+Learn how to create a module from scratch, compile it, test it, and run it.
+This session will also show basic techniques for modularizing existing libraries and applications.
+<br/><br/>
+Second part : Modularizing an existing library or application, or creating new modules from scratch,
+can raise many difficult and subtle design issues. This session will present a set of principles for modular development,
+with examples taken from the JDK itself.`,
+                "speakers": ["25"],
+                "tags": ["Java"]
               },
               {
                 "subtitle": "Kotlin on Android",
@@ -931,6 +996,17 @@ layer settings like call interfaces, data source parametrization or inclusion of
                 "tags": [
                   "Android"
                 ]
+              },
+              {
+                "subtitle": "Hello EcmaScript2015... and also to you, EcmaScript2016",
+                "description": `EcmaScript, the standard which is the base for JavaScript, is finally starting to move
+fast. It is making JavaScript better and better, providing various different tools to
+solve our common everyday programming tasks.
+<br><br>
+In this session we will go through what’s new with ES2015 and ES2016, and even
+get a glimpse of what the exciting future holds for web development!`,
+                "speakers": ["31"],
+                "tags": ["JavaScript"]
               },
               {
                 "subtitle": "Java, Docker and 'The Cloud'",
@@ -966,17 +1042,7 @@ layer settings like call interfaces, data source parametrization or inclusion of
             "color": "black",
             "events": [
               {
-                "subtitle": "Spring Data, Hypermedia and the Cloud",
-                "description": `HATEOAS, REST, JSON Schema, APLS, Cloud, Docker,... are those just buzzwords? <br/>
-No! With Spring Data we allow you to expose your repositories as a REST resource including ALPS metadata,
-JSON Schema and simply everything you would probably expect. Join Christoph Strobl on his journey through the Spring stack
-while creating and deploying REST Services as Docker containers, on Cloud Foundry and Lattice.`,
-                "speakers": [
-                  "22"
-                ],
-                "tags": [
-                  "Java", "Web"
-                ]
+                "subtitle" : "?"
               },
               {
                 "subtitle": "Why postgres SQL deserve noSQL fan respect",
@@ -989,14 +1055,14 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 ]
               },
               {
-                "subtitle": "Entering the new era of Front-end development with ReactJS",
-                "description": "ReactJS is not just yet another framework to be forgotten after few years, it shifts the concepts of modern front-end development giving us the scalability and control we always strived about. Robert will guide you through key concepts of ReactJS based applications covering all aspects of full stack development and maintenance. This includes component development approach, deep integrated into ReactJS architecture and React Native, which allows to reuse most of UI code, still using the power of Native UI.",
-                "speakers": [
-                  "5"
-                ],
-                "tags": [
-                  "Web"
-                ]
+                "subtitle": "Angular2: key concepts and getting started",
+                "description": `On this presentation first we'll go shortly through history of Angular for better understanding what Angular2 was introduced for and why it's not backward-compatible with 1.x.
+<br><br>
+Then we'll list key concepts of Angular2 like cross-component communication, one-directional data flow, user input handling and url routing and others.
+<br><br>
+As a result of our practical hands-on tour we'll discuss the main tools for making our Angular2 life easier and build a functioning app.`,
+                "speakers": ["29"],
+                "tags": ["Web", "JavaScript"]
               },
               {
                 "subtitle": "Fabric8 Camel Microservices for Docker and Kubernetes",
@@ -1031,16 +1097,7 @@ This talk is a 50/50 mix between slides and demo.`,
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Testing with Spock. The logical choice",
-                "description": "Remember the old days when you tested using JUnit? How boring it was? You made a lot of excuses to avoid testing your code. Luckily those dark days now belong to the past because Spock is with us.Spock is a Groovy-based testing and specification framework for Java and Groovy applications that makes writing tests fun again. We can write beautiful and highly expressive tests because of its DSL and all the power that Groovy provides us.In this talk you'll learn the basics of Spock and you'll see how easily you can test a Java application. After the talk you won't have any excuse to don't test your applications, so you have been warned before coming to the talk!",
-                "speakers": [
-                  "8"
-                ],
-                "tags": [
-                  "Groovy",
-                  "BDD",
-                  "Test Automation"
-                ]
+                "subtitle": "?"
               },
               {
                 "subtitle": "Apache Zeppelin, the missing component for your BigData eco-system",
@@ -1053,14 +1110,14 @@ This talk is a 50/50 mix between slides and demo.`,
                 ]
               },
               {
-                "subtitle": "Angular2: key concepts and getting started",
-                "description": `On this presentation first we'll go shortly through history of Angular for better understanding what Angular2 was introduced for and why it's not backward-compatible with 1.x.
-<br><br>
-Then we'll list key concepts of Angular2 like cross-component communication, one-directional data flow, user input handling and url routing and others.
-<br><br>
-As a result of our practical hands-on tour we'll discuss the main tools for making our Angular2 life easier and build a functioning app.`,
-                "speakers": ["29"],
-                "tags": ["Web", "JavaScript"]
+                "subtitle": "Entering the new era of Front-end development with ReactJS",
+                "description": "ReactJS is not just yet another framework to be forgotten after few years, it shifts the concepts of modern front-end development giving us the scalability and control we always strived about. Robert will guide you through key concepts of ReactJS based applications covering all aspects of full stack development and maintenance. This includes component development approach, deep integrated into ReactJS architecture and React Native, which allows to reuse most of UI code, still using the power of Native UI.",
+                "speakers": [
+                  "5"
+                ],
+                "tags": [
+                  "Web"
+                ]
               },
               {
                 "subtitle": "Jenkins at your (continuous) service",
@@ -1095,6 +1152,9 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
             "color": "dark-blue",
             "events": [
               {
+                "subtitle": "?"
+              },
+              {
                 "subtitle": "Painfree Object-Document Mapping for MongoDB",
                 "description": "Morphia is MongoDB's JPA-like Object-Document Mapping (ODM). However, there is no object-relational impedence mismatch since documents fit the concept of object-orientation much better. This removes a lot of JPA pain, which makes database interactions fun again. On a practical level we take a look at the available annotations and how to map your objects as well as how to easily query data in MongoDB. Next we discuss some patterns on how to solve common requirements, such as the proper use of generics, auto-increments, and the encryption of sensitive data. The talk concludes with some tips and lessons we've learned from using Morphia in production for three years.",
                 "speakers": [
@@ -1106,21 +1166,15 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ]
               },
               {
-                "subtitle": "?"
-              },
-              {
-                "subtitle": "WebGL & WebVR: Take the web to the third dimension",
-                "description": `In this talk you will learn how to unlock the 3rd dimension on the web and use it to create impressive new visualisations, stories and experiences.
-<br><br>
-You will see how WebGL can then be taken even further by using technologies such as Oculus Rift, Google Cardboard or LEAPMotion with WebVR to enable truly immersive experiences right from your browser.
-<br><br>
-We will start with the basics of WebGL and the render pipeline, see how 3D on the web has evolved and what can be done with it and then do a little live coding that will conclude with how Virtual Reality can be implemented with web technologies.`,
+                "subtitle": "Angular 2 Component Router",
+                "description": `Angular 2 comes with a new router that replaces previous ngRoute. We will compare the new router with ui-router and show how we can setup multiple views and nested routes.`,
                 "speakers": [
-                  "21"
+                  "27"
                 ],
                 "tags": [
-                  "Web"
+                  "Web", "JavaScript"
                 ]
+
               },
               {
                 "subtitle": "Field Notes of Command Line Ninja",
@@ -1145,10 +1199,10 @@ We will start with the basics of WebGL and the render pipeline, see how 3D on th
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Spring Framework 5 - Preview & Roadmap",
-                "description": "The Spring team is busily working on Spring Framework 5.0, with a release candidate scheduled for Q4 2016. This presentation covers the key themes in Spring 5, based on the current state of development: going Java 8+ across the entire framework codebase, comprehensive support for JDK 9, a strong focus on HTTP/2, and first-class support for Spring-style reactive architectures.",
+                "subtitle": "Having fun with Javassist",
+                "description": "Javassist makes Java bytecode manipulation simple. At ZeroTurnaround we use Javassist a lot to implement the integrations for our tools. In this talk we will go through the examples of how Javassist can be applied to alter the applications behaviour and do all kind of fun stuff with it. Why is it interesting? Because while trying to do unusual things in Java, you learn much more about the language and the platform itself and learning about Javassist will actually make you a better Java developer!",
                 "speakers": [
-                  "0"
+                  "7"
                 ],
                 "tags": [
                   "Java"
@@ -1158,15 +1212,18 @@ We will start with the basics of WebGL and the render pipeline, see how 3D on th
                 "subtitle": "?"
               },
               {
-                "subtitle": "Hello EcmaScript2015... and also to you, EcmaScript2016",
-                "description": `EcmaScript, the standard which is the base for JavaScript, is finally starting to move
-fast. It is making JavaScript better and better, providing various different tools to
-solve our common everyday programming tasks.
+                "subtitle": "WebGL & WebVR: Take the web to the third dimension",
+                "description": `In this talk you will learn how to unlock the 3rd dimension on the web and use it to create impressive new visualisations, stories and experiences.
 <br><br>
-In this session we will go through what’s new with ES2015 and ES2016, and even
-get a glimpse of what the exciting future holds for web development!`,
-                "speakers": ["31"],
-                "tags": ["JavaScript"]
+You will see how WebGL can then be taken even further by using technologies such as Oculus Rift, Google Cardboard or LEAPMotion with WebVR to enable truly immersive experiences right from your browser.
+<br><br>
+We will start with the basics of WebGL and the render pipeline, see how 3D on the web has evolved and what can be done with it and then do a little live coding that will conclude with how Virtual Reality can be implemented with web technologies.`,
+                "speakers": [
+                  "21"
+                ],
+                "tags": [
+                  "Web"
+                ]
               },
               {
                 "subtitle": "It's not always application's fault",
@@ -1302,6 +1359,16 @@ At Angular Labs we have been following Angular 2 since the initial pre-release v
               },
               {
                 "subtitle": "?"
+              }
+            ]
+          },
+          {
+            "time": "16:30",
+            "icon": "afterparty",
+            "color": "light-blue",
+            "events": [
+              {
+                "title": "End of Day 3"
               }
             ]
           }
