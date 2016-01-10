@@ -1181,6 +1181,16 @@ This talk is a 50/50 mix between slides and demo.`,
                 ]
               },
               {
+                "subtitle": "Adding a Data Reservoir and Oracle Big Data Discovery to extend your Oracle Data Warehouse Platform",
+                "description": "The talk focus is on what a data reservoir is, how it related to the RDBMS DW, and how Big Data Discovery provides access to it to business and BI users",
+                "speakers": [
+                  "36"
+                ],
+                "tags": [
+                  "Oracle Tools"
+                ]
+              },
+              {
                 "subtitle": "Angular 2 Component Router",
                 "description": `Angular 2 comes with a new router that replaces previous ngRoute. We will compare the new router with ui-router and show how we can setup multiple views and nested routes.`,
                 "speakers": [
@@ -1190,16 +1200,6 @@ This talk is a 50/50 mix between slides and demo.`,
                   "Web", "JavaScript"
                 ]
 
-              },
-              {
-                "subtitle": "Adding a Data Reservoir and Oracle Big Data Discovery to extend your Oracle Data Warehouse Platform",
-                "description": "The talk focus is on what a data reservoir is, how it related to the RDBMS DW, and how Big Data Discovery provides access to it to business and BI users",
-                "speakers": [
-                  "36"
-                ],
-                "tags": [
-                  "Oracle Tools"
-                ]
               },
               {
                 "subtitle": "Field Notes of Command Line Ninja",
