@@ -433,6 +433,17 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
       "description": `I'm APM passionate with solid experience in pre- and post-sales support, having +10 years of experience in working with advanced IT solutions and integrated services.
 <br><br>I'm Sales Engineer (by DNA), offering comprehensive approach for end-to-end IT service, to cover all aspects of IT infrastructure and application support.
 <br><br>On-daily basis I'm working with my Customers from Poland, EE and Russia, helping them to reduce the complexity of application management, starting from Dev & Test practices to end-up in Application Performance Management in Production environments.`
+    },
+    {
+      "id": "36",
+      "name": "Mark Rittman",
+      "company": "Rittman Mead",
+      "title": "Co-Founder",
+      "country": "UK",
+      "twitter": "https://twitter.com/markrittman",
+      "blog": "http://www.rittmanmead.com/blog",
+      "img": "assets/img/photos/mark_rittman.png",
+      "description": `Co-founder and Technical Director for Rittman Mead, an Oracle Gold Partner specialising in BI, data warehousing, data integration and performance management, with offices in the UK, USA, India and Australia. My work primarily involves technical leadership within Rittman Mead for our client projects and managed services, leading a team of 50+ consultants and with overall responsibility for the technical solutions delivered by our company. I am the author of the Oracle Press book "Oracle Business Intelligence Developers Guide", and probably one of the most experienced OBIEE, ODI, Oracle Database (data warehousing) and OLAP developers in the world, regularly working with Oracle on new products.`
     }
   ],
   "days": [
@@ -988,13 +999,13 @@ with examples taken from the JDK itself.`,
                 "tags": ["Java"]
               },
               {
-                "subtitle": "Kotlin on Android",
-                "description": "Développement Android Apple has introduced “a better language” for iOS developers. But what options do we have for Android? Surely Kotlin should be under consideration! Android Studio is now based on Intellij Idea, the “native” environment for Kotlin. Kotlin is a modern language for industry. It can help you reduce the amount of code you write for Android applications and at the same time make it readable and more maintainable. In this session we are going to talk a bit why JetBrains sees the potential in Kotlin comparing to other JVM languages. Then we’ll see how certain language constructs can be used to make Android more enjoyable. Also we’ll look at a DSL for type-safe dynamic layouts and a simple extension plugin that helps to avoid writing ‘findViewById()’ all the time.",
+                "subtitle": "Big Data for Oracle Developers - Towards Spark, Real-Time Analytics & Predictive Modeling",
+                "description": "This is a session for Oracle DBAs and devs that looks at the cutting edge big data techs like Spark, Kafka etc and goes through demos, shows how Hadoop is real-time etc",
                 "speakers": [
-                  "18"
+                  "36"
                 ],
                 "tags": [
-                  "Android"
+                  "Oracle Tools"
                 ]
               },
               {
@@ -1042,7 +1053,14 @@ get a glimpse of what the exciting future holds for web development!`,
             "color": "black",
             "events": [
               {
-                "subtitle" : "?"
+                "subtitle": "Kotlin on Android",
+                "description": "Développement Android Apple has introduced “a better language” for iOS developers. But what options do we have for Android? Surely Kotlin should be under consideration! Android Studio is now based on Intellij Idea, the “native” environment for Kotlin. Kotlin is a modern language for industry. It can help you reduce the amount of code you write for Android applications and at the same time make it readable and more maintainable. In this session we are going to talk a bit why JetBrains sees the potential in Kotlin comparing to other JVM languages. Then we’ll see how certain language constructs can be used to make Android more enjoyable. Also we’ll look at a DSL for type-safe dynamic layouts and a simple extension plugin that helps to avoid writing ‘findViewById()’ all the time.",
+                "speakers": [
+                  "18"
+                ],
+                "tags": [
+                  "Android"
+                ]
               },
               {
                 "subtitle": "Why postgres SQL deserve noSQL fan respect",
@@ -1152,9 +1170,6 @@ This talk is a 50/50 mix between slides and demo.`,
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "?"
-              },
-              {
                 "subtitle": "Painfree Object-Document Mapping for MongoDB",
                 "description": "Morphia is MongoDB's JPA-like Object-Document Mapping (ODM). However, there is no object-relational impedence mismatch since documents fit the concept of object-orientation much better. This removes a lot of JPA pain, which makes database interactions fun again. On a practical level we take a look at the available annotations and how to map your objects as well as how to easily query data in MongoDB. Next we discuss some patterns on how to solve common requirements, such as the proper use of generics, auto-increments, and the encryption of sensitive data. The talk concludes with some tips and lessons we've learned from using Morphia in production for three years.",
                 "speakers": [
@@ -1175,6 +1190,16 @@ This talk is a 50/50 mix between slides and demo.`,
                   "Web", "JavaScript"
                 ]
 
+              },
+              {
+                "subtitle": "Adding a Data Reservoir and Oracle Big Data Discovery to extend your Oracle Data Warehouse Platform",
+                "description": "The talk focus is on what a data reservoir is, how it related to the RDBMS DW, and how Big Data Discovery provides access to it to business and BI users",
+                "speakers": [
+                  "36"
+                ],
+                "tags": [
+                  "Oracle Tools"
+                ]
               },
               {
                 "subtitle": "Field Notes of Command Line Ninja",
@@ -1316,7 +1341,14 @@ Strictly JVM, mostly Sun Hotspot impl, but number of points can be used to other
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Introduction to Hadoop and Big Data Technologies for Oracle BI & DW Developers ",
+                "description": `Example development scenario for Oracle's Big Data products, taking website log data and combining it with Twitter activity and blog site contents.`,
+                "speakers": [
+                  "36"
+                ],
+                "tags": [
+                  "Oracle Tools", "Big Data"
+                ]
               }
             ]
           },
@@ -1363,7 +1395,7 @@ At Angular Labs we have been following Angular 2 since the initial pre-release v
             ]
           },
           {
-            "time": "16:30",
+            "time": "17:00",
             "icon": "afterparty",
             "color": "light-blue",
             "events": [
