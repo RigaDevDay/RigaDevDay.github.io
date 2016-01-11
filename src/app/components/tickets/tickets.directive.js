@@ -34,15 +34,6 @@ class TicketsController {
         reserveLink: 'http://www.kalevatravel.lv/celojumi/page.php?id=667'
       },
       {
-        title: 'Xmas special!',
-        time: '(18.12.15-07.01.16)',
-        ends: this.endsIn("08.01.16"),
-        modifier: 'xmas',
-        price: {day1: '89€+VAT', day2: '158€+VAT'},
-        active: this.isInTimeRange('18.12.15', '07.01.16'),
-        reserveLink: 'http://www.kalevatravel.lv/celojumi/page.php?id=667'
-      },
-      {
         title: 'Late Bird',
         time: '(16.02.16-03.03.16)',
         ends: this.endsIn("04.03.16"),
