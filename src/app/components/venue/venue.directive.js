@@ -17,7 +17,7 @@ class VenueController {
     'ngInject';
 
     this.map = {
-      center: {latitude: 56.946333, longitude: 24.116870},
+      center: {latitude: 56.949333, longitude: 24.116870},
       zoom: 15,
       options: {
         zoomControlOptions: {
@@ -67,6 +67,17 @@ class VenueController {
           icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
           labelContent: 'Mercure Riga Centre hotel',
           labelAnchor: "86 -5",
+          labelClass: 'map-label'
+        }
+      },
+      clubfriends: {
+        idKey: 'clubfriends',
+        position: {latitude: 56.954980, longitude: 24.117607},
+        options: {
+          title: 'Club Friends Official afterparty',
+          icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
+          labelContent: 'Club Friends',
+          labelAnchor: "46 -5",
           labelClass: 'map-label'
         }
       }

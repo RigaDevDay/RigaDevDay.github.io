@@ -7,7 +7,7 @@
       <ui-gmap-google-map center='vm.map.center'
                           zoom='vm.map.zoom'
                           options='vm.map.options'>
-        <!-- Hotel -->
+        <!-- Cinema -->
         <ui-gmap-marker idKey='vm.markers.cinema.idKey'
                         coords='vm.markers.cinema.position'
                         options='vm.markers.cinema.options'>
@@ -15,8 +15,11 @@
             <div class="marker-window">
               <p>
                 <img src="/assets/img/venue/cinema.jpg" alt="cinema" style="width: 40%; float: left; margin-right: 5px;">
-                <b>Address</b>: 13 Janvara street, 8<br>
-                <b>Website</b>: <a href="http://www.forumcinemas.lv">http://www.forumcinemas.lv</a>
+              <p>
+                Kino Citadele - main conference venue, the largest cinema complex in the very centre of Riga.
+              </p>
+              <b>Address</b>: 13 Janvara street, 8<br>
+              <b>Website</b>: <a href="http://www.forumcinemas.lv">http://www.forumcinemas.lv</a>
               </p>
 
             </div>
@@ -78,6 +81,23 @@
               </p>
               <p>
                 <b>Address</b>: Elizabetes street, 101.
+              </p>
+            </div>
+          </ui-gmap-window>
+        </ui-gmap-marker>
+
+        <!-- Clubfriends -->
+        <ui-gmap-marker idKey='vm.markers.clubfriends.idKey'
+                        coords='vm.markers.clubfriends.position'
+                        options='vm.markers.clubfriends.options'>
+          <ui-gmap-window>
+            <div class="marker-window">
+              <p>
+                The official afterparty location after the fist conference day on Wednesday (March 2nd). Everyone is invited!
+              </p>
+              <p>
+                <b>Address</b>: Elizabetes str. 55<br>
+                <b>Website</b>: <a href="http://www.clubfriends.lv/">http://www.clubfriends.lv</a>
               </p>
             </div>
           </ui-gmap-window>
