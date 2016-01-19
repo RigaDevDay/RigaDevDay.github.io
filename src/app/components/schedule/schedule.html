@@ -60,7 +60,7 @@
                 <div class="main">
                   <header>
                     <span ng-if="talk.title">{{talk.title}}</span>
-                    <span ng-if="talk.speakers.length > 0" ng-repeat="speakerid in talk.speakers">{{vm.speakers[speakerid].name}}<span ng-hide="$last">, </span></span>
+                    <span ng-if="talk.speakers.length > 0" ng-repeat="speakerid in talk.speakers">{{vm.findSpeakerById(speakerid).name}}<span ng-hide="$last">, </span></span>
                   </header>
                   <div class="desc">{{talk.subtitle}}</div>
                 </div>

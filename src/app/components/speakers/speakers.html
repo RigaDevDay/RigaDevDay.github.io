@@ -16,7 +16,8 @@
           </div>
         </div>
         <div class="team-social">
-          <a ng-href="{{person.twitter}}" class="btn btn-material-light-blue btn-fab rdd-btn-raised fa fa-twitter"></a>
+          <div style="height: 26px;display: inline-block;width: 0px;position:  relative;padding: 15px;"></div>
+          <a ng-show="person.twitter" ng-href="{{person.twitter}}" class="btn btn-material-light-blue btn-fab rdd-btn-raised fa fa-twitter"></a>
           <a ng-show="person.blog" ng-href="{{person.blog}}" class="btn btn-material-green btn-fab rdd-btn-raised fa fa-globe"></a>
         </div>
       </div>

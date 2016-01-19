@@ -233,16 +233,6 @@ export const mainData = {
       "description": "Julian Dontcheff is the Global Database Lead of Accenture and has more than 25 years of database experience. He is the first Oracle Certified Master in Europe (back in 2002) and he is also an Oracle ACE Director."
     },
     {
-      "id": "20",
-      "name": "Gill Cleeren",
-      "company": "Ordina Belgium",
-      "title": "Architect",
-      "country": "Belgium",
-      "img": "assets/img/photos/gill_cleeren.jpg",
-      "twitter": "https://twitter.com/gillcleeren",
-      "description": "Gill Cleeren is Microsoft Regional Director, Windows Platform MVP, Pluralsight trainer and Telerik MVP. He lives in Belgium where he works as .NET architect at Ordina. Gill has given many sessions, webcasts and trainings on new as well as existing technologies, such as Silverlight, ASP.NET and WPF at conferences including TechEd, TechDays, DevDays, NDC Oslo, SQL Server Saturday Switserland, Silverlight Roadshow in Sweden, Telerik RoadShow UK… Gill has written 2 books: “Silverlight 4 Data and Services Cookbook” and Silverlight 5 Data and Services Cookbook and is author of many articles for magazines and websites. Gill also is the organizer of Techorama (www.techorama.be). You can find his blog at www.snowball.be."
-    },
-    {
       "id": "21",
       "name": "Martin Naumann",
       "company": "Archilogic",

@@ -20,6 +20,7 @@ import { FooterDirective } from '../app/components/footer/footer.directive';
 
 // Services
 import { DataLoaderService } from '../app/services/data_loader.service';
+import { SpeakersService } from '../app/services/speakers.service';
 
 // Directives
 
@@ -51,6 +52,7 @@ angular.module('rdd')
 
 angular.module('rdd')
   .service('dataLoaderService', DataLoaderService)
+  .service('speakersService', SpeakersService)
   .directive('rddNavbar', NavbarDirective)
   .directive('rddBackNavbar', BackNavbarDirective)
   .directive('rddHeader', HeaderDirective)

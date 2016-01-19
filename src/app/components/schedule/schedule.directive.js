@@ -12,10 +12,11 @@ export function ScheduleDirective () {
 }
 
 class ScheduleController {
-  constructor ($rootScope, $log, $modal, dataLoaderService) {
+  constructor ($rootScope, $log, $modal, dataLoaderService, speakersService) {
     'ngInject';
 
     this.dataLoaderService = dataLoaderService;
+    this.speakersService = speakersService;
 
     this.days = [];
     this.schedule = null;
@@ -54,7 +55,7 @@ class ScheduleController {
   }
 
   scheduleModal (talk) {
-    talk.speaker = this.speakers[talk.speakers[0]];
+    talk.speaker = this.findSpeakerById([talk.speakers[0]]);
 
     // if multiple speakers supported
     // var speakers = [];
@@ -71,4 +72,7 @@ class ScheduleController {
       });
   }
 
+  findSpeakerById (speakerId) {
+    return this.speakersService.findSpeakerById(this.speakers, speakerId);
+  }
 }
