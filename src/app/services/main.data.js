@@ -233,16 +233,6 @@ export const mainData = {
       "description": "Julian Dontcheff is the Global Database Lead of Accenture and has more than 25 years of database experience. He is the first Oracle Certified Master in Europe (back in 2002) and he is also an Oracle ACE Director."
     },
     {
-      "id": "20",
-      "name": "Gill Cleeren",
-      "company": "Ordina Belgium",
-      "title": "Architect",
-      "country": "Belgium",
-      "img": "assets/img/photos/gill_cleeren.jpg",
-      "twitter": "https://twitter.com/gillcleeren",
-      "description": "Gill Cleeren is Microsoft Regional Director, Windows Platform MVP, Pluralsight trainer and Telerik MVP. He lives in Belgium where he works as .NET architect at Ordina. Gill has given many sessions, webcasts and trainings on new as well as existing technologies, such as Silverlight, ASP.NET and WPF at conferences including TechEd, TechDays, DevDays, NDC Oslo, SQL Server Saturday Switserland, Silverlight Roadshow in Sweden, Telerik RoadShow UK… Gill has written 2 books: “Silverlight 4 Data and Services Cookbook” and Silverlight 5 Data and Services Cookbook and is author of many articles for magazines and websites. Gill also is the organizer of Techorama (www.techorama.be). You can find his blog at www.snowball.be."
-    },
-    {
       "id": "21",
       "name": "Martin Naumann",
       "company": "Archilogic",
@@ -444,6 +434,55 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
       "blog": "http://www.rittmanmead.com/blog",
       "img": "assets/img/photos/mark_rittman.png",
       "description": `Co-founder and Technical Director for Rittman Mead, an Oracle Gold Partner specialising in BI, data warehousing, data integration and performance management, with offices in the UK, USA, India and Australia. My work primarily involves technical leadership within Rittman Mead for our client projects and managed services, leading a team of 50+ consultants and with overall responsibility for the technical solutions delivered by our company. I am the author of the Oracle Press book "Oracle Business Intelligence Developers Guide", and probably one of the most experienced OBIEE, ODI, Oracle Database (data warehousing) and OLAP developers in the world, regularly working with Oracle on new products.`
+    },
+    {
+      "id": "37",
+      "name": "Jamie Allen",
+      "company": "Typesafe",
+      "title": "Senior Director of Global Services",
+      "country": "USA",
+      "twitter": "https://twitter.com/jamie_allen",
+      "img": "assets/img/photos/jamie_allen.png",
+      "description": "Jamie Allen is the Senior Director of Global Services for Typesafe, responsible for the enablement of customers around the world through consulting and training. He is the author of Effective Akka (O’Reilly), and the co-author of the upcoming Reactive Design Patterns (Manning). Jamie is a computer languages enthusiast who enjoys writing performant code that most efficiently leverages the resources at hand."
+    },
+    {
+      "id": "41",
+      "name": "Alexey Fyodorov",
+      "company": "Oracle",
+      "title": "Performance Engineer",
+      "country": "Russia",
+      "twitter": "https://twitter.com/23derevo",
+      "img": "assets/img/photos/alexey_fyodorov.png",
+      "description": "Java developer for 8+ years. Worked for Oracle for 3 years (JCK Team, Java Platform group). Leader of the St. Petersburg Java User Group, and CodeFreeze community, organizer of largest Russian Java and .NET conferences. Interested in runtimes, multithreaded programming, Java compatibility and software engineering trade-offs."
+    },
+    {
+      "id": "39",
+      "name": "Antons Matrosovs",
+      "company": "Idea Port Riga",
+      "title": "Head of Application Integration Capability",
+      "country": "Latvia",
+      "img": "assets/img/photos/antons_matrosovs.png",
+      "description": `He has 9 years of hands-on experience working with various integration platforms and participating in a wide variety of projects in different roles, thus becoming an expert in enterprise and integration architecture, business analysis, as well as project and team management.
+</br>Antons is particularly interested in API Management lately – he has recently taken part in several big projects, where it was defined as one of the highest priorities.`
+    },
+    {
+      "id": "40",
+      "name": "Dmitry Chuyko",
+      "company": "Oracle",
+      "title": "Performance Engineer",
+      "country": "Russia",
+      "img": "assets/img/photos/dmitry_chuyko.png",
+      "description": "Java SE performance engineer at Oracle. Over 10 years of industrial experience related to Java and related technologies."
+    },
+    {
+      "id": "38",
+      "name": "Simon Ritter",
+      "company": "Azul Systems",
+      "title": "Deputy CTO",
+      "country": "UK",
+      "twitter": "https://twitter.com/speakjava",
+      "img": "assets/img/photos/simon_ritter.png",
+      "description": "Simon Ritter is a Java Technology Evangelist at Oracle Corporation. Simon has been in the IT business since 1984 and holds a Bachelor of Science degree in Physics from Brunel University in the U.K. Originally working in the area of UNIX development for AT&T UNIX System Labs and then Novell, Simon moved to Sun in 1996. At this time he started working with Java technology and has spent time working both in Java technology development and consultancy. Having moved to Oracle as part of the Sun acquisition he now focuses on the core Java platform, Java for client applications and embedded Java. He also continues to develop demonstrations that push the boundaries of Java for applications like gestural interfaces and embedded robot controllers."
     }
   ],
   "days": [
@@ -451,11 +490,11 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
       "title": "Day 1",
       "schedule": {
         "roomNames": [
-          "Room 1",
-          "Room 2",
           "Room 3",
-          "Room 4",
-          "Room 5"
+          "Room 5",
+          "Room 6",
+          "Room 10",
+          "Room 13"
         ],
         "trackNames": [
           "Java",
@@ -494,7 +533,14 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
             "color": "dark-blue",
             "events": [
               {
-                "title": "Keynote №1"
+                "subtitle": "Keynote",
+                "description": "",
+                "speakers": [
+                  "38"
+                ],
+                "tags": [
+
+                ]
               }
             ]
           },
@@ -637,8 +683,7 @@ and architectural topics. The importance of a holistic view and an appreciation 
 as well as the need to understand, comprehend and reflect on the implications of a “best practice” being
 followed as well as the technology stack simply being misunderstood.`,
                 "speakers": ["24"],
-                // todo: add tags
-                "tags": []
+                "tags": ["BI"]
               },
               {
                 "subtitle": "Unique Identification enables Secure Travel, Trade, and Inclusion",
@@ -672,23 +717,7 @@ This talk is about our experience in building always available, resilient to fai
                 "tags": ["Web", "Java"]
               },
               {
-                "subtitle": "An introduction to cross-platform development with Xamarin",
-                "description": `Cross platform development is what many business consider as the holy grail.
-There have been many attempts over the years and all have their flaws.
-One of the major problems is that many solutions require learning a new language and skillset,
-while that is often – if not always – the most valuable asset.
-With Xamarin, it becomes possible to re-use C# skills to build iOS and Android applications and
-on top of that, re-use much of the code base for both Windows 8 and Windows Phone 8 apps.
-In this introduction session, we will take a look at how we can build apps using C#
-which run on all platforms. We will also take a look at the different code-sharing strategies
-which we have available, including PCLs, shared code and more.
-With Xamarin, development can be done from Visual Studio as well as from Xamarin Studio;
-we’ll show the different options here as well.
-After this session, you’ll have a good overview of what Xamarin can help you with and
-also what are the different building blocks of the platform.
-`,
-                "speakers": ["20"],
-                "tags": ["Android", "iOS"]
+                "subtitle": "?"
               },
               {
                 "subtitle": "JSR377: What's up and what's next",
@@ -763,7 +792,16 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Avoiding software fails. Few metrics to improve application reliability",
+                "description": `Managing application complexity might be simple and this is all about testing for top performance problems.
+<\br>During my presentation I'd like to share couple of hints, helping to dramatically reduce application (performance) issues.
+<\br>It's all about lessons learnt from my Customers and Prospects.`,
+                "speakers": [
+                  "35"
+                ],
+                "tags": [
+                  "Web", "DevOps"
+                ]
               },
               {
                 "subtitle": "Finding All the Red M&Ms: A Story of Indexes and Full Table Scans",
@@ -795,15 +833,15 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Testing with Spock. The logical choice",
-                "description": "Remember the old days when you tested using JUnit? How boring it was? You made a lot of excuses to avoid testing your code. Luckily those dark days now belong to the past because Spock is with us.Spock is a Groovy-based testing and specification framework for Java and Groovy applications that makes writing tests fun again. We can write beautiful and highly expressive tests because of its DSL and all the power that Groovy provides us.In this talk you'll learn the basics of Spock and you'll see how easily you can test a Java application. After the talk you won't have any excuse to don't test your applications, so you have been warned before coming to the talk!",
+                "subtitle": "Effective Akka v2.0",
+                "description": "Building asynchronous, non-blocking and parallel systems is difficult to do with the core Java primitives, requiring a higher level of abstraction such as actors. However, using them can be daunting, where developers not only have to understand the syntax but also the semantics of these esoteric constructs. This talk discusses how to best leverage actors to build Reactive application that are fault tolerant and elastic in scale, and includes use cases for building self-healing systems that do not depend on the ordered timing of events, as well as how to compose distributed transactions and build domain-specific behavior for varying kinds of failure that may occur.",
                 "speakers": [
-                  "8"
+                  "36"
                 ],
                 "tags": [
-                  "Groovy",
-                  "BDD",
-                  "Test Automation"
+                  "Reactive",
+                  "Java",
+                  "Software Architecture"
                 ]
               },
               {
@@ -862,13 +900,15 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ]
               },
               {
-                "subtitle": "Avoiding software fails. Few metrics to improve application reliability",
-                "description": "Managing application complexity might be simple and this is all about testing for top performance problems. During my presentation I'd like to share couple of hints, helping to dramatically reduce application (performance) issues. It's all about lessons learnt from my Customers and Prospects.",
+                "subtitle": "Testing with Spock. The logical choice",
+                "description": "Remember the old days when you tested using JUnit? How boring it was? You made a lot of excuses to avoid testing your code. Luckily those dark days now belong to the past because Spock is with us.Spock is a Groovy-based testing and specification framework for Java and Groovy applications that makes writing tests fun again. We can write beautiful and highly expressive tests because of its DSL and all the power that Groovy provides us.In this talk you'll learn the basics of Spock and you'll see how easily you can test a Java application. After the talk you won't have any excuse to don't test your applications, so you have been warned before coming to the talk!",
                 "speakers": [
-                  "35"
+                  "8"
                 ],
                 "tags": [
-                  "Java", "Web", "DevOps", "Test Automation"
+                  "Groovy",
+                  "BDD",
+                  "Test Automation"
                 ]
               },
               {
@@ -914,11 +954,11 @@ layer settings like call interfaces, data source parametrization or inclusion of
       "title": "Day 2",
       "schedule": {
         "roomNames": [
-          "Room 1",
-          "Room 2",
           "Room 3",
-          "Room 4",
-          "Room 5"
+          "Room 5",
+          "Room 6",
+          "Room 10",
+          "Room 13"
         ],
         "trackNames": [
           "Java",
@@ -929,8 +969,8 @@ layer settings like call interfaces, data source parametrization or inclusion of
         ],
         "schedule": [
           {
-            "time": "9:00",
-            "endTime": "10.00",
+            "time": "8:30",
+            "endTime": "9.30",
             "icon": "registration",
             "color": "light-blue",
             "events": [
@@ -940,8 +980,8 @@ layer settings like call interfaces, data source parametrization or inclusion of
             ]
           },
           {
-            "time": "10.00",
-            "endTime": "10:20",
+            "time": "9.30",
+            "endTime": "9:45",
             "icon": "clock",
             "color": "dark-blue",
             "events": [
@@ -951,8 +991,8 @@ layer settings like call interfaces, data source parametrization or inclusion of
             ]
           },
           {
-            "time": "10:20",
-            "endTime": "11:00",
+            "time": "9:45",
+            "endTime": "10:45",
             "icon": "speaker",
             "color": "dark-blue",
             "events": [
@@ -970,8 +1010,8 @@ layer settings like call interfaces, data source parametrization or inclusion of
             ]
           },
           {
-            "time": "11:00",
-            "endTime": "11:30",
+            "time": "10:45",
+            "endTime": "11:15",
             "icon": "coffee",
             "color": "light-blue",
             "events": [
@@ -981,8 +1021,8 @@ layer settings like call interfaces, data source parametrization or inclusion of
             ]
           },
           {
-            "time": "11:30",
-            "endTime": "12:30",
+            "time": "11:15",
+            "endTime": "12:15",
             "icon": "speaker",
             "color": "dark-blue",
             "events": [
@@ -999,14 +1039,7 @@ with examples taken from the JDK itself.`,
                 "tags": ["Java"]
               },
               {
-                "subtitle": "Big Data for Oracle Developers - Towards Spark, Real-Time Analytics & Predictive Modeling",
-                "description": "This is a session for Oracle DBAs and devs that looks at the cutting edge big data techs like Spark, Kafka etc and goes through demos, shows how Hadoop is real-time etc",
-                "speakers": [
-                  "36"
-                ],
-                "tags": [
-                  "Oracle Tools"
-                ]
+                "subtitle": "?"
               },
               {
                 "subtitle": "Hello EcmaScript2015... and also to you, EcmaScript2016",
@@ -1036,8 +1069,8 @@ get a glimpse of what the exciting future holds for web development!`,
             ]
           },
           {
-            "time": "12:30",
-            "endTime": "13:30",
+            "time": "12:15",
+            "endTime": "13:15",
             "icon": "lunch",
             "color": "light-blue",
             "events": [
@@ -1047,29 +1080,22 @@ get a glimpse of what the exciting future holds for web development!`,
             ]
           },
           {
-            "time": "13:30",
-            "endTime": "14:30",
+            "time": "13:15",
+            "endTime": "14:15",
             "icon": "speaker",
             "color": "black",
             "events": [
               {
-                "subtitle": "Kotlin on Android",
-                "description": "Développement Android Apple has introduced “a better language” for iOS developers. But what options do we have for Android? Surely Kotlin should be under consideration! Android Studio is now based on Intellij Idea, the “native” environment for Kotlin. Kotlin is a modern language for industry. It can help you reduce the amount of code you write for Android applications and at the same time make it readable and more maintainable. In this session we are going to talk a bit why JetBrains sees the potential in Kotlin comparing to other JVM languages. Then we’ll see how certain language constructs can be used to make Android more enjoyable. Also we’ll look at a DSL for type-safe dynamic layouts and a simple extension plugin that helps to avoid writing ‘findViewById()’ all the time.",
-                "speakers": [
-                  "18"
-                ],
-                "tags": [
-                  "Android"
-                ]
+                "subtitle": "?"
               },
               {
-                "subtitle": "Why postgres SQL deserve noSQL fan respect",
-                "description": "Postgres SQL is a plain old SQL DB. Very powerful and very consistent, in some case, project needs an ACID database, but schemaless… With JSON support, postgres is a very interesting tool to provide ACID and some very interesting function (time management, localisation function and data types...) and the schemaless noSQL point of view with json and indexed json. This talk show some great usage and some insigth to build some great application with postgres.",
+                "subtitle": "Big Data for Oracle Developers - Towards Spark, Real-Time Analytics & Predictive Modeling",
+                "description": "This is a session for Oracle DBAs and devs that looks at the cutting edge big data techs like Spark, Kafka etc and goes through demos, shows how Hadoop is real-time etc",
                 "speakers": [
-                  "17"
+                  "36"
                 ],
                 "tags": [
-                  "SQL"
+                  "Oracle Tools"
                 ]
               },
               {
@@ -1109,13 +1135,20 @@ This talk is a 50/50 mix between slides and demo.`,
             ]
           },
           {
-            "time": "14:30",
-            "endTime": "15:30",
+            "time": "14:15",
+            "endTime": "15:15",
             "icon": "speaker",
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "?"
+                "subtitle": "Now it's time to compile",
+                "description": "Different Java implementations exist. Your code lives multiple lifes inside them and JIT compilers provide performance behind the scenes. Some JVMs have ahead-of-time (AOT) compilation that shortens the path. Statement of the problem is different, as well as solutions. Let's talk about why do we need pre-compiled code, how it can already be produced and used with Hotspot. How Project Graal lets Java to compile Java to native code and how new Java-Level JVM Compiler Interface incorporates Java to compilation work of JVM.",
+                "speakers": [
+                  "40"
+                ],
+                "tags": [
+                  "Java"
+                ]
               },
               {
                 "subtitle": "Apache Zeppelin, the missing component for your BigData eco-system",
@@ -1153,8 +1186,8 @@ This talk is a 50/50 mix between slides and demo.`,
             ]
           },
           {
-            "time": "15:30",
-            "endTime": "16:00",
+            "time": "15:15",
+            "endTime": "15:45",
             "icon": "coffee",
             "color": "light-blue",
             "events": [
@@ -1164,31 +1197,23 @@ This talk is a 50/50 mix between slides and demo.`,
             ]
           },
           {
-            "time": "16:00",
-            "endTime": "17:00",
+            "time": "15:45",
+            "endTime": "16:45",
             "icon": "speaker",
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Painfree Object-Document Mapping for MongoDB",
-                "description": "Morphia is MongoDB's JPA-like Object-Document Mapping (ODM). However, there is no object-relational impedence mismatch since documents fit the concept of object-orientation much better. This removes a lot of JPA pain, which makes database interactions fun again. On a practical level we take a look at the available annotations and how to map your objects as well as how to easily query data in MongoDB. Next we discuss some patterns on how to solve common requirements, such as the proper use of generics, auto-increments, and the encryption of sensitive data. The talk concludes with some tips and lessons we've learned from using Morphia in production for three years.",
+                "subtitle": "Having fun with Javassist",
+                "description": "Javassist makes Java bytecode manipulation simple. At ZeroTurnaround we use Javassist a lot to implement the integrations for our tools. In this talk we will go through the examples of how Javassist can be applied to alter the applications behaviour and do all kind of fun stuff with it. Why is it interesting? Because while trying to do unusual things in Java, you learn much more about the language and the platform itself and learning about Javassist will actually make you a better Java developer!",
                 "speakers": [
-                  "11"
+                  "7"
                 ],
                 "tags": [
-                  "Java",
-                  "NoSQL"
+                  "Java"
                 ]
               },
               {
-                "subtitle": "Adding a Data Reservoir and Oracle Big Data Discovery to extend your Oracle Data Warehouse Platform",
-                "description": "The talk focus is on what a data reservoir is, how it related to the RDBMS DW, and how Big Data Discovery provides access to it to business and BI users",
-                "speakers": [
-                  "36"
-                ],
-                "tags": [
-                  "Oracle Tools"
-                ]
+                "subtitle": "?"
               },
               {
                 "subtitle": "Angular 2 Component Router",
@@ -1218,23 +1243,23 @@ This talk is a 50/50 mix between slides and demo.`,
             ]
           },
           {
-            "time": "17:00",
-            "endTime": "18:00",
+            "time": "16:45",
+            "endTime": "17:45",
             "icon": "speaker",
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Having fun with Javassist",
-                "description": "Javassist makes Java bytecode manipulation simple. At ZeroTurnaround we use Javassist a lot to implement the integrations for our tools. In this talk we will go through the examples of how Javassist can be applied to alter the applications behaviour and do all kind of fun stuff with it. Why is it interesting? Because while trying to do unusual things in Java, you learn much more about the language and the platform itself and learning about Javassist will actually make you a better Java developer!",
-                "speakers": [
-                  "7"
-                ],
-                "tags": [
-                  "Java"
-                ]
+                "subtitle": "?"
               },
               {
-                "subtitle": "?"
+                "subtitle": "Why postgres SQL deserve noSQL fan respect",
+                "description": "Postgres SQL is a plain old SQL DB. Very powerful and very consistent, in some case, project needs an ACID database, but schemaless… With JSON support, postgres is a very interesting tool to provide ACID and some very interesting function (time management, localisation function and data types...) and the schemaless noSQL point of view with json and indexed json. This talk show some great usage and some insigth to build some great application with postgres.",
+                "speakers": [
+                  "17"
+                ],
+                "tags": [
+                  "SQL"
+                ]
               },
               {
                 "subtitle": "WebGL & WebVR: Take the web to the third dimension",
@@ -1248,6 +1273,60 @@ We will start with the basics of WebGL and the render pipeline, see how 3D on th
                 ],
                 "tags": [
                   "Web"
+                ]
+              },
+              {
+                "subtitle": "An introduction to API Management",
+                "description": `The rise of "API economy" driven by Mobile devices, SaaS, the Internet of Things creates numerous opportunities for organizations to expose their existing IT assets (services and data) to partners and customers via publicly-available APIs.
+</br></br>Game rules for system integration established in SOA world are mostly targeted internal users and might not applicable for public API world, where interaction between API providers and API consumers happens outside the internal network boundary and at a completely different scale.
+</br></br>We'll highlight the challenges developers are faced with when designing, implementing and maintaining publicly-available APIs and how we can benefit from using API management platforms.`,
+                "speakers": [
+                  "39"
+                ],
+                "tags": [
+                  "Web", "Cloud"
+                ]
+              },
+              {
+                "subtitle": "?"
+              }
+            ]
+          },
+          {
+            "time": "17:45",
+            "endTime": "18:45",
+            "icon": "speaker",
+            "color": "dark-blue",
+            "events": [
+              {
+                "subtitle": "Painfree Object-Document Mapping for MongoDB",
+                "description": "Morphia is MongoDB's JPA-like Object-Document Mapping (ODM). However, there is no object-relational impedence mismatch since documents fit the concept of object-orientation much better. This removes a lot of JPA pain, which makes database interactions fun again. On a practical level we take a look at the available annotations and how to map your objects as well as how to easily query data in MongoDB. Next we discuss some patterns on how to solve common requirements, such as the proper use of generics, auto-increments, and the encryption of sensitive data. The talk concludes with some tips and lessons we've learned from using Morphia in production for three years.",
+                "speakers": [
+                  "11"
+                ],
+                "tags": [
+                  "Java",
+                  "NoSQL"
+                ]
+              },
+              {
+                "subtitle": "Adding a Data Reservoir and Oracle Big Data Discovery to extend your Oracle Data Warehouse Platform",
+                "description": "The talk focus is on what a data reservoir is, how it related to the RDBMS DW, and how Big Data Discovery provides access to it to business and BI users",
+                "speakers": [
+                  "36"
+                ],
+                "tags": [
+                  "Oracle Tools"
+                ]
+              },
+              {
+                "subtitle": "Kotlin on Android",
+                "description": "Développement Android Apple has introduced “a better language” for iOS developers. But what options do we have for Android? Surely Kotlin should be under consideration! Android Studio is now based on Intellij Idea, the “native” environment for Kotlin. Kotlin is a modern language for industry. It can help you reduce the amount of code you write for Android applications and at the same time make it readable and more maintainable. In this session we are going to talk a bit why JetBrains sees the potential in Kotlin comparing to other JVM languages. Then we’ll see how certain language constructs can be used to make Android more enjoyable. Also we’ll look at a DSL for type-safe dynamic layouts and a simple extension plugin that helps to avoid writing ‘findViewById()’ all the time.",
+                "speakers": [
+                  "18"
+                ],
+                "tags": [
+                  "Android"
                 ]
               },
               {
@@ -1266,12 +1345,12 @@ Presented on Atmosphere, Java Developer Days, ChamberConf and Java Day Lviv.`,
                 "tags": ["DevOps"]
               },
               {
-                "subtitle": "?"
+               "subtitle": "?"
               }
             ]
           },
           {
-            "time": "18:00",
+            "time": "18:45",
             "endTime": "19:00",
             "icon": "speaker",
             "color": "light-blue",
