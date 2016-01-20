@@ -836,7 +836,7 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 "subtitle": "Effective Akka v2.0",
                 "description": "Building asynchronous, non-blocking and parallel systems is difficult to do with the core Java primitives, requiring a higher level of abstraction such as actors. However, using them can be daunting, where developers not only have to understand the syntax but also the semantics of these esoteric constructs. This talk discusses how to best leverage actors to build Reactive application that are fault tolerant and elastic in scale, and includes use cases for building self-healing systems that do not depend on the ordered timing of events, as well as how to compose distributed transactions and build domain-specific behavior for varying kinds of failure that may occur.",
                 "speakers": [
-                  "36"
+                  "37"
                 ],
                 "tags": [
                   "Reactive",
