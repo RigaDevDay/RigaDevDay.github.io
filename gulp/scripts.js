@@ -73,11 +73,7 @@ gulp.task('data', function () {
 
   var json = JSON.stringify(sandbox.mainData);
 
-  fs.writeFile(path.join(conf.paths.src, '/assets/data/main.json'), json, function(err) {
-    if(err) {
-      return console.log(err);
-    }
-  });
+  fs.writeFileSync(path.join(conf.paths.src, '/assets/data/main.json'), json);
 });
 
 gulp.task('scripts:watch', ['scripts'], function (callback) {
