@@ -446,17 +446,7 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
       "description": "Jamie Allen is the Senior Director of Global Services for Typesafe, responsible for the enablement of customers around the world through consulting and training. He is the author of Effective Akka (O’Reilly), and the co-author of the upcoming Reactive Design Patterns (Manning). Jamie is a computer languages enthusiast who enjoys writing performant code that most efficiently leverages the resources at hand."
     },
     {
-      "id": "41",
-      "name": "Alexey Fyodorov",
-      "company": "Oracle",
-      "title": "Performance Engineer",
-      "country": "Russia",
-      "twitter": "https://twitter.com/23derevo",
-      "img": "assets/img/photos/alexey_fyodorov.png",
-      "description": "Java developer for 8+ years. Worked for Oracle for 3 years (JCK Team, Java Platform group). Leader of the St. Petersburg Java User Group, and CodeFreeze community, organizer of largest Russian Java and .NET conferences. Interested in runtimes, multithreaded programming, Java compatibility and software engineering trade-offs."
-    },
-    {
-      "id": "39",
+      "id": "38",
       "name": "Antons Matrosovs",
       "company": "Idea Port Riga",
       "title": "Head of Application Integration Capability",
@@ -466,7 +456,7 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
 </br>Antons is particularly interested in API Management lately – he has recently taken part in several big projects, where it was defined as one of the highest priorities.`
     },
     {
-      "id": "40",
+      "id": "39",
       "name": "Dmitry Chuyko",
       "company": "Oracle",
       "title": "Performance Engineer",
@@ -475,7 +465,17 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
       "description": "Java SE performance engineer at Oracle. Over 10 years of industrial experience related to Java and related technologies."
     },
     {
-      "id": "38",
+      "id": "40",
+      "name": "Alexey Fyodorov",
+      "company": "Oracle",
+      "title": "Performance Engineer",
+      "country": "Russia",
+      "twitter": "https://twitter.com/23derevo",
+      "img": "assets/img/photos/alexey_fyodorov.png",
+      "description": "Java developer for 8+ years. Worked for Oracle for 3 years (JCK Team, Java Platform group). Leader of the St. Petersburg Java User Group, and CodeFreeze community, organizer of largest Russian Java and .NET conferences. Interested in runtimes, multithreaded programming, Java compatibility and software engineering trade-offs."
+    },
+    {
+      "id": "41",
       "name": "Simon Ritter",
       "company": "Azul Systems",
       "title": "Deputy CTO",
@@ -483,6 +483,30 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
       "twitter": "https://twitter.com/speakjava",
       "img": "assets/img/photos/simon_ritter.png",
       "description": "Simon Ritter is a Java Technology Evangelist at Oracle Corporation. Simon has been in the IT business since 1984 and holds a Bachelor of Science degree in Physics from Brunel University in the U.K. Originally working in the area of UNIX development for AT&T UNIX System Labs and then Novell, Simon moved to Sun in 1996. At this time he started working with Java technology and has spent time working both in Java technology development and consultancy. Having moved to Oracle as part of the Sun acquisition he now focuses on the core Java platform, Java for client applications and embedded Java. He also continues to develop demonstrations that push the boundaries of Java for applications like gestural interfaces and embedded robot controllers."
+    },
+    {
+      "id": "42",
+      "name": "Gleb Revkov",
+      "company": "C.T.Co",
+      "title": "Lead UX/UI Designer",
+      "country": "Latvia",
+      "twitter": "https://twitter.com/GlebRevkov",
+      "blog": "http://glebrevkov.lv/",
+      "linkedin": "https://www.linkedin.com/in/glebrevkov",
+      "img": "assets/img/photos/gleb_revkov.png",
+      "description": "Passionate about solving big problems for enterprise through human-centered design. Quick idea validation through interactive prototypes and user testing are integral part of the daily activities. Previously Gleb has worked on projects like One.lv, Odnoklassniki.ru, Skoda.lv, government projects and others."
+    },
+    {
+      "id": "43",
+      "name": "Raitis Linde",
+      "company": "C.T.Co",
+      "title": "Digital Product Designer",
+      "country": "Latvia",
+      "twitter": "https://twitter.com/RaitisLinde",
+      "blog": "http://raitislinde.com/",
+      "linkedin": "https://lv.linkedin.com/in/raitislinde",
+      "img": "assets/img/photos/raitis_linde.png",
+      "description": "Raitis Linde is Digital Product Designer who is passionate about making products that are aesthetically pleasing, functional and useful. He is working at C.T.Co as Lead User Experience Designer, creating web and mobile productivity tools for Fortune Global 500 enterprises and start-ups."
     }
   ],
   "days": [
@@ -536,7 +560,7 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
                 "subtitle": "Keynote",
                 "description": "",
                 "speakers": [
-                  "38"
+                  "41"
                 ],
                 "tags": [
 
@@ -845,7 +869,17 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Practical Prototyping",
+                "description": `Effective collaboration between developers and designers has often been a challenge. Several aspects of software, like interactivity, animation or business requirements can be elusive by nature and therefore difficult to validate before they are actually built.
+</br></br>Through many years of experience, we have found a way to build the bridge between both groups. And that bridge are prototypes. In this talk we are going to review modern prototyping tools, including Framer, Origami, Pixate, Principle and InVision to demonstrate how designers and developers can perform cost-effective software iterations before a single line of production code has been written.`,
+                "speakers": [
+                  "42",
+                  "43"
+                ],
+                "tags": [
+                  "Mobile",
+                  "UI"
+                ]
               },
               {
                 "subtitle": "Where do we go after Http 1.1 - Http2",
@@ -1144,7 +1178,7 @@ This talk is a 50/50 mix between slides and demo.`,
                 "subtitle": "Now it's time to compile",
                 "description": "Different Java implementations exist. Your code lives multiple lifes inside them and JIT compilers provide performance behind the scenes. Some JVMs have ahead-of-time (AOT) compilation that shortens the path. Statement of the problem is different, as well as solutions. Let's talk about why do we need pre-compiled code, how it can already be produced and used with Hotspot. How Project Graal lets Java to compile Java to native code and how new Java-Level JVM Compiler Interface incorporates Java to compilation work of JVM.",
                 "speakers": [
-                  "40"
+                  "39"
                 ],
                 "tags": [
                   "Java"
@@ -1281,7 +1315,7 @@ We will start with the basics of WebGL and the render pipeline, see how 3D on th
 </br></br>Game rules for system integration established in SOA world are mostly targeted internal users and might not applicable for public API world, where interaction between API providers and API consumers happens outside the internal network boundary and at a completely different scale.
 </br></br>We'll highlight the challenges developers are faced with when designing, implementing and maintaining publicly-available APIs and how we can benefit from using API management platforms.`,
                 "speakers": [
-                  "39"
+                  "38"
                 ],
                 "tags": [
                   "Web", "Cloud"
