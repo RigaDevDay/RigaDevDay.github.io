@@ -385,7 +385,7 @@ basketball and drinks beer. And, most important, he's a nice guy!`
     {
       "id": "32",
       "name": "Oleg Anastasyev",
-      "company": "Odnoklassniki.ru",
+      "company": "OK.ru",
       "title": "Leading developer",
       "country": "Latvia",
       "img": "assets/img/photos/oleg_anastasyev.jpg",
@@ -467,7 +467,7 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
     {
       "id": "40",
       "name": "Alexey Fyodorov",
-      "company": "Oracle",
+      "company": "OK.ru",
       "title": "Performance Engineer",
       "country": "Russia",
       "twitter": "https://twitter.com/23derevo",
@@ -507,6 +507,18 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
       "linkedin": "https://lv.linkedin.com/in/raitislinde",
       "img": "assets/img/photos/raitis_linde.png",
       "description": "Raitis Linde is Digital Product Designer who is passionate about making products that are aesthetically pleasing, functional and useful. He is working at C.T.Co as Lead User Experience Designer, creating web and mobile productivity tools for Fortune Global 500 enterprises and start-ups."
+    },
+    {
+      "id": "44",
+      "name": "David Dalabassee",
+      "company": "Oracle",
+      "title": "Software Evangelist",
+      "country": "Belgium",
+      "twitter": "https://twitter.com/delabassee",
+      "blog": "http://delabassee.com/blog/",
+      "img": "assets/img/photos/david_dalabassee.png",
+      "description": `David Delabassée is a Software Evangelist working for Oracle; his primary focus is Java on the Server-Side, i.e. Java Enterprise Edition. Prior to Oracle, David spent a decade at Sun Microsystems focusing on Java end-to-end (from the smart card to the high end server), related technologies and developer tools. In his various roles, David has been involved in numerous Java projects since the early days of this technology.
+</br></br>David lives in Belgium. In his spare time, he enjoys playing video games with his daughter and tinkering with technologies such as Java, Home Automation,3D printers, electronics and pinballs.`
     }
   ],
   "days": [
@@ -902,7 +914,22 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Java EE 8 - What's new of the Web Front?",
+                "description": `With the introduction of Web Socket, JSON-P and the various enhancements on JAX-RS (e.g. JAX-RS Client API) HTML 5 support was one of the key themes of Java EE 7. Java EE 8 will continue to build on that and improve the support for writing and deploying HTML 5 based application.
+</br></br>This session will look in details at some of the Web related enhancements planned in Java EE 8 such as
+<ul>
+<li>Servlet 4.0 and HTTP/2 support</li>
+<li>Addition of a new Action-Based MVC framework</li>
+<li>Support for SSE (Server-Sent Event) in JAX-RS</li>
+<li>Improvements around JSON-P and the addition of a new JSON binding API, i.e. JSON-B.</li>
+<li>etc.</li>
+</ul>`,
+                "speakers": [
+                  "44"
+                ],
+                "tags": [
+                  "Java"
+                ]
               }
             ]
           },
@@ -1272,7 +1299,17 @@ This talk is a 50/50 mix between slides and demo.`,
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Java EE, WebLogic, Microservices... and some myths busting",
+                "description": `Microservices Architecture (MSA) is the new black! For many, it is the way to go. Those people also tends to depict Java EE (and Java EE containers) as an antinomy to MSA... It's one or to other but certainly not both!
+</br></br>In this session, we'll look at the main microservices concepts and see if it is really a bad idea to use some of them within a Java EE context (hint: it's not always a bad idea!).
+</br></br>We will then look at some of the WebLogic features and see if there's any that might be useful to use in a more Microservices oriented approach.
+</br></br>MSA is not just about the tooling; it's also about the people, their skills and their culture. The goal of this session is to give a fair balanced view of Java EE and WebLogic in a MSA context to help you to make your own judgment.`,
+                "speakers": [
+                  "44"
+                ],
+                "tags": [
+                  "Java"
+                ]
               }
             ]
           },
