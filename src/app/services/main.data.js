@@ -385,14 +385,14 @@ basketball and drinks beer. And, most important, he's a nice guy!`
     {
       "id": "32",
       "name": "Oleg Anastasyev",
-      "company": "OK.ru",
+      "company": "Odnoklassniki",
       "title": "Leading developer",
       "country": "Latvia",
       "img": "assets/img/photos/oleg_anastasyev.jpg",
       "twitter": "https://twitter.com/m0nstermind",
       "description": `Oleg Anastasyev started his career in computer programming in 1995. He developed banking, telecom software as well as software for the government of Latvia.
 <br><br>
-Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform Team member are development of architectures and solutions for highly loaded as well as big data services, solving performance and availability problems.`
+Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a Platform Team member are development of architectures and solutions for highly loaded as well as big data services, solving performance and availability problems.`
     },
     {
       "id": "33",
@@ -467,7 +467,7 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
     {
       "id": "40",
       "name": "Alexey Fyodorov",
-      "company": "OK.ru",
+      "company": "Odnoklassniki",
       "title": "Performance Engineer",
       "country": "Russia",
       "twitter": "https://twitter.com/23derevo",
@@ -519,6 +519,16 @@ Oleg is a leading developer at Ok.ru. His primary responsibilities as a Platform
       "img": "assets/img/photos/david_dalabassee.png",
       "description": `David Delabassée is a Software Evangelist working for Oracle; his primary focus is Java on the Server-Side, i.e. Java Enterprise Edition. Prior to Oracle, David spent a decade at Sun Microsystems focusing on Java end-to-end (from the smart card to the high end server), related technologies and developer tools. In his various roles, David has been involved in numerous Java projects since the early days of this technology.
 </br></br>David lives in Belgium. In his spare time, he enjoys playing video games with his daughter and tinkering with technologies such as Java, Home Automation,3D printers, electronics and pinballs.`
+    },
+    {
+      "id": "45",
+      "name": "Antonio Almeida",
+      "company": "Relayr",
+      "title": "Developer & Product Evangelist",
+      "country": "Portugal",
+      "twitter": "https://twitter.com/perusio",
+      "img": "assets/img/photos/antonio_almeida.png",
+      "description": `With a penchant to do things in ways as clear as possible of hype and buzzword bingo while trying to get to the bottom of it. Started building electronic circuits at 13, watched the web developing while working on it for more than 10 years. Now excited about the promises of IoT, which is is misnomer, it should be rather the API of Things: AoT.`
     }
   ],
   "days": [
@@ -1147,7 +1157,20 @@ get a glimpse of what the exciting future holds for web development!`,
             "color": "black",
             "events": [
               {
-                "subtitle": "?"
+                "subtitle": "Non-blocking synchronization: what is it and why we (don't?) need it",
+                "description": `This talk will introduce you in disadvantages of locking and show you a possible alternative. We will talk about CAS operations and Java Atomic classes. This talk will be interesting:
+<br>
+1. for programmers who have heard about CAS and lock-free, but who have no experience in writing non-blocking code — I'll give a short introduction.
+<br>
+2. for experienced multi-threaded programmers — we will talk about CAS/atomics implementation details!
+<br>
+3. for hipsters (special offer!): we will cover ""immutable vs. mutable"" internet hype!`,
+                "speakers": [
+                  "40"
+                ],
+                "tags": [
+                  "Java"
+                ]
               },
               {
                 "subtitle": "Big Data for Oracle Developers - Towards Spark, Real-Time Analytics & Predictive Modeling",
@@ -1242,7 +1265,14 @@ This talk is a 50/50 mix between slides and demo.`,
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "IoT as a poor man's version of the semantic web",
+                "description": "A few years ago it seemed that the semantic web was poised to take over the world by storm. The idea of agents that would perform queries for you doing digital errands seemed irresistible. But realizing it required changing the way sites were built. In the meantime the smartphone happened and with it came a multitude of cheap and abundant sensors. Now we can realize a poor man's version of the semantic web where instead of complex ontologies we define meanings and we can based on these define actions that impact the physical world around us, i.e., agent like entities. I'll go through examples where we'll see this poor man's semantic web in action and how we can further explore this idea.",
+                "speakers": [
+                  "45"
+                ],
+                "tags": [
+                  "IoT"
+                ]
               }
             ]
           },
@@ -1359,7 +1389,18 @@ We will start with the basics of WebGL and the render pipeline, see how 3D on th
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "SQL Magic - Tricks to Demonstrate SQL Features You've Probably Never Used",
+                "description": `In this fun session you’ll see SQL versions of classic magic tricks. These include the cup and balls trick, where rows inserted into one table magically reappear in another, a card trick where a randomly selected “card” (row) from a “deck” (table) floats to the top of the deck and the magically changing row trick where the value returned by a query changes just by issuing a select statement!
+<br><br>
+Unlike real magicians however, I’ll show you how the tricks are done. This will enable you to perform your own SQL “magic” and apply these principles when building Oracle database applications.
+<br><br>
+This session is intended for developers, DBAs and data modelers looking to expand their SQL skills, highlighting features that are new to 12c as well as little used existing options.`,
+                "speakers": [
+                  "16"
+                ],
+                "tags": [
+                  "SQL"
+                ]
               }
             ]
           },
