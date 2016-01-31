@@ -282,21 +282,6 @@ Into: people, software, music, role-playing, honesty, learning.
 Dislikes: doing unnecessary things, doing “because I can”.`
     },
     {
-      "id": "24",
-      "name": "Christian Berg",
-      "company": "Dimensionality",
-      "title": "CEO",
-      "country": "Switzerland",
-      "img": "assets/img/photos/christian_berg.png",
-      "twitter": "https://twitter.com/Nephentur",
-      "description": `Working with OBI since the day of nQuire's acquisition by Siebel Systems in 2001,
-Christian Berg has 14 years of business analytics project work in all industries.
-His architect work spans the value chain of business analytics from source systems through ETL,
-logical modelling, and graphical representation, as well as infrastructure/environment work and dev-ops.
-Areas of predilection include physical and logical modeling. Christian also teaches OBI for Oracle University and
-other integrators and end clients.`
-    },
-    {
       "id": "25",
       "name": "Dalibor Topic",
       "company": "Oracle",
@@ -529,6 +514,25 @@ Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a 
       "twitter": "https://twitter.com/perusio",
       "img": "assets/img/photos/antonio_almeida.png",
       "description": `With a penchant to do things in ways as clear as possible of hype and buzzword bingo while trying to get to the bottom of it. Started building electronic circuits at 13, watched the web developing while working on it for more than 10 years. Now excited about the promises of IoT, which is is misnomer, it should be rather the API of Things: AoT.`
+    },
+    {
+      "id": "46",
+      "name": "Jurgis Orups",
+      "company": "Clusterpoint",
+      "title": "CTO",
+      "country": "Latvia",
+      "twitter": "https://twitter.com/jurgisorups",
+      "img": "assets/img/photos/jurgis_orups.png",
+      "description": `Jurgis is a co-founder and CTO at Clusterpoint. Prior to that, he spent 6-years managing a team building large-scale Internet crawler and search technology. He specializes in parallel computing, text retrieval algorithms and natural language processing. Jurgis has an MSc in Computer Science from the University of Latvia. When not at work, he enjoys photography and mountain biking, and even keeps a training bike in the office.`
+    },
+    {
+      "id": "46",
+      "name": "Milen Manov",
+      "company": "SAP",
+      "title": "Team Architect",
+      "country": "Bulgaria",
+      "img": "assets/img/photos/milen_manov.png",
+      "description": `I am the architect of a team responsible for authentication and authorization topics in SAP HANA Cloud Platform. This position allows me to study lots of custom applications scenarios and the responsibility to provide solutions for different platforms and technologies. I Have 10+ years as a Java developer and worked on many different products within SAP.`
     }
   ],
   "days": [
@@ -703,33 +707,7 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ]
               },
               {
-                "subtitle": "50 Shades of #Fail - OBI worst practices in real life",
-                "description": `Lists of "best practices" as well as "how-to's" on the subject of Oracle BI and all its facets
-are commonplace and often discussed. Real-life practices, however, are a completely different story.
-What happens when implementations go astray or dogmatically follow half-knowledge, misconceptions,
-or conveniently cheap shortcuts? Learn about recurring pitfalls, their origins, their impacts,
-and most importantly their remedies in an entertaining fashion.
-However bad you thought your project was, you’ve seen nothing yet...
-<br/><br/>
-Turning the standard best-practice/how-to presentation format on its head,
-this presentation will look at some real-life OBIEE implementations and where it all went wrong.
-We’ll look at the worst, the weirdest, the most absurd and the wackiest ways the Oracle BI tool is abused:
-<ul>
-    <li>How did projects get to these points?</li>
-    <li>What were the original misconceptions?</li>
-    <li>How to counter these misconceptions?</li>
-    <li>Why are "it works" and "it fulfills the requirements" not only not enough but rather dangerous pitfalls?</li>
-    <li>Can I actually jeopardize the future of my BI system by choosing a cheap quick and dirty approach?</li>
-    <li>Is it ever OK to simply execute without comprehension?</li>
-</ul>
-This session will give attendees a deeper understanding of the impact seemingly innocuous design and implementation
-decisions can have on the stability and success of an entire BI system.
-An end-to-end view of the stack will be taken, covering areas including logical modelling, analysis design,
-and architectural topics. The importance of a holistic view and an appreciation of alternatives will be emphasized
-as well as the need to understand, comprehend and reflect on the implications of a “best practice” being
-followed as well as the technology stack simply being misunderstood.`,
-                "speakers": ["24"],
-                "tags": ["BI"]
+                "subtitle": "?"
               },
               {
                 "subtitle": "Unique Identification enables Secure Travel, Trade, and Inclusion",
@@ -983,27 +961,19 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ]
               },
               {
-                "subtitle": "Back2Basics: A day in the life of an Oracle BI query",
-                "description": `Oracle BI is in use since years, has gone through many interations and
-is wide-spread across projects around the globe. Millions of analyses have been created,
-deployed and run billions of times. The actual lifecycle of an Oracle BI query from its inception through
-to the effective delivery of results may therefor be regarded as a given commodity not requiring a closer look.
-Few people have regarded an OBI query from the point of view "How does it get constructed? How does it get translated between the different architectural components and the RPD layers? How, through what and where does its lifecycle get influenced? Where can we as users/developers/administrators actively intervene with its makeup and structure? Why do we genuinely have to have an understanding of the subtleties of the life-cycle in order to create successful BI solutions?"
-<br><br>
-The purpose of this presentation is to serve as an introductory session for beginners while at
-the same serving as a reflective discussion of a topic regarded as "god-given / it just IS" by the wider
-population of users (including intermediates). Theoretical examination of the possible steps and paths the query
-lifecycle can take is depicted with simple but speaking examples.
-The impact of factors like basic analysis construction in Answers, advanced SQL clauses, caching,
-business model peculiarities like multi-star queries, snowflaking and LTS modelling as well as physical
-layer settings like call interfaces, data source parametrization or inclusion of hints in the RPD are to be showcased.`,
-                "speakers": [
-                  "24"
-                ],
-                "tags": ["Oracle's developer tools"]
+                "subtitle": "?"
               },
               {
-                "subtitle": "?"
+                "subtitle": "Faster Java by Adding Structs (Sort Of)",
+                "description": `The ObjectLayout package provides a set of data structure classes designed with optimised memory layout in mind. In languages like C and C++, the use of structs and explicit pointers can deliver high performance for data access through hardware optimisations for caching and pre-fetching. Java's use of implicit pointers, mutable arrays and general inheritance forces the use of reference lookups whenever an object needs to be accessed.
+</br></br>This session will look at the ObjectLayout package (www.objectlayout.org) which provides a new set of APIs that are aimed at matching the natural speed benefits similar data structure constructs enable in most C-style languages while maintaining an idiomatic Java feel and a natural fit with existing code and libraries.
+</br></br>The session will talk through the need for these APIs then describe how they work in practice. We'll also look at how the JVM can further optimise the implementation of the API by making this intrinsic.`,
+                "speakers": [
+                  "41"
+                ],
+                "tags": [
+                  "Java"
+                ]
               }
             ]
           },
@@ -1214,7 +1184,10 @@ This talk is a 50/50 mix between slides and demo.`,
                 "tags": ["Java", "DevOps"]
               },
               {
-                "subtitle": "?"
+                "subtitle": "SAP HANA Application development",
+                "description": `I have 12 years of experience in Java development but in this session I would like to present you something new and noteworthy for application developers. SAP HANA is an in-memory platform that gives you many capabilities that can bring your application the competitive advantage it needs. In this session I will show you how easy it is to start coding using the SAP HANA Cloud Platform. I will also demonstrate how it is possible to leverage HANA capabilities from a Java application.`,
+                "speakers": ["46"],
+                "tags": ["Software Architecture", "Cloud Technologies"]
               }
             ]
           },
@@ -1304,7 +1277,17 @@ This talk is a 50/50 mix between slides and demo.`,
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "The secrets behind HybridSQL database architecture",
+                "description": `In this session Jurgis will describe Clusterpoint's approach for building its HybridSQL database, which combines the best features of SQL and NoSQL database architecture. Such setup enables instant scalability within distributed environment while maintaining full data consistency and ACID transaction compliance, access to structured and unstructured data, and possibility to execute arbitrary JavaScript-based code directly inside the database. This setup provides a simple and powerful computational model that ensures data is accessed through efficient indices directly in the database, thus massively accelerating data manipulation operations.
+                Throughout his presentation, Jurgis will go deep into the code and present examples of how advanced computation can be done directly in the database, including an analysis of geospatial data, real-time analytics and the application of statistical model-like logistic regression to derive predictions.`,
+                "speakers": [
+                  "46"
+                ],
+                "tags": [
+                  "Software Architecture",
+                  "NoSQL",
+                  "Big Data"
+                ]
               },
               {
                 "subtitle": "Angular 2 Component Router",
