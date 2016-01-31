@@ -526,7 +526,7 @@ Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a 
       "description": `Jurgis is a co-founder and CTO at Clusterpoint. Prior to that, he spent 6-years managing a team building large-scale Internet crawler and search technology. He specializes in parallel computing, text retrieval algorithms and natural language processing. Jurgis has an MSc in Computer Science from the University of Latvia. When not at work, he enjoys photography and mountain biking, and even keeps a training bike in the office.`
     },
     {
-      "id": "46",
+      "id": "47",
       "name": "Milen Manov",
       "company": "SAP",
       "title": "Team Architect",
@@ -1186,7 +1186,7 @@ This talk is a 50/50 mix between slides and demo.`,
               {
                 "subtitle": "SAP HANA Application development",
                 "description": `I have 12 years of experience in Java development but in this session I would like to present you something new and noteworthy for application developers. SAP HANA is an in-memory platform that gives you many capabilities that can bring your application the competitive advantage it needs. In this session I will show you how easy it is to start coding using the SAP HANA Cloud Platform. I will also demonstrate how it is possible to leverage HANA capabilities from a Java application.`,
-                "speakers": ["46"],
+                "speakers": ["47"],
                 "tags": ["Software Architecture", "Cloud Technologies"]
               }
             ]
