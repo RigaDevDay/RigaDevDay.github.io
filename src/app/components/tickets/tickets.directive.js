@@ -18,14 +18,6 @@ class TicketsController {
     this.moment = moment;
     this.tickets = [
       {
-        title: 'Early bird',
-        time: '(01.10.15-30.11.15)',
-        ends: this.endsIn("1.12.15"),
-        price: {day1: '89€+VAT', day2: '158€+VAT'},
-        active: this.isInTimeRange('01.10.15', '30.11.15'),
-        reserveLink: 'http://www.kalevatravel.lv/celojumi/page.php?id=667'
-      },
-      {
         title: 'Normal',
         time: '(01.12.15-15.02.16)',
         ends: this.endsIn("16.02.16"),
