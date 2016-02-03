@@ -534,6 +534,26 @@ Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a 
       "country": "Bulgaria",
       "img": "assets/img/photos/milen_manov.png",
       "description": `I am the architect of a team responsible for authentication and authorization topics in SAP HANA Cloud Platform. This position allows me to study lots of custom applications scenarios and the responsibility to provide solutions for different platforms and technologies. I Have 10+ years as a Java developer and worked on many different products within SAP.`
+    },
+    {
+      "id": 48,
+      "name": "Tomasz Adamski",
+      "company": "Red Hat",
+      "title": "Software Engineer",
+      "country": "Poland",
+      "twitter": "https://twitter.com/t_adamski",
+      "img": "assets/img/photos/tomasz_adamski.png",
+      "description": `I am a software developer employeed by Red Hat Inc. I work on Wildfly/EAP Application Server. Before joining Red Hat I was contributor to Wildfly/EAP and I worked as a software developer for financial institutions.`
+    },
+    {
+      "id": 49,
+      "name": "Dmitry Lebedev",
+      "company": "Ambita AS",
+      "title": "Senior Developer",
+      "country": "Latvia",
+      "twitter": "https://twitter.com/microservices_stuff",
+      "img": "assets/img/photos/dmitry_lebedev.png",
+      "description": `Dmitry started his job as a software engineer 20 years ago, has delivered many software projects, failed a few, learned a lot of things from other people and now he is willing to share his stories of success and failures with broader audience. The ultimate goal of his activities is that software could be developed pragmatically, based on an engineering approach and mutual respect between all involved parts.`
     }
   ],
   "days": [
@@ -1081,7 +1101,7 @@ get a glimpse of what the exciting future holds for web development!`,
                 "tags": ["JavaScript"]
               },
               {
-                "subtitle": "Java, Docker and 'The Cloud'",
+                "subtitle": "Destination Cloud: Deploying With Docker",
                 "description": "Deploying your application to the production has failed again. Emailing the developer who commited the last code changes, they send back the classic response... “It works on my machine”. *sigh* Is this scenario a recurring nightmare (and reality) for you? While everyone else is talking about “continuous delivery” do your deployments feel more like an extreme game of Jenga, tittering on the brink of disaster and a nightmare to reconstruct? It doesn’t have to be like this. Launched only two years ago, Docker has revolutionised application deployment. Using this open-source project, applications are packaged into lightweight containers, that are hardware and platform agnostic. Containers move from the local developer machine to a production server and then the cloud without modification! So, how do you migrate a traditional three-tier Java web application to use Docker? Let’s use a sample web application, designed for hosting on a single server, convert it to use Docker and deploy to a cloud platform. We’ll break out the application and component services into individual containers that can be ran and scaled independently. Showing you how to utilise existing pre-built images for rapid development, build custom container images for your application and move seamlessly between deployment platforms, enabling us to use “cloud” to accelerate application development. We will configure automatic build, test and deploy pipelines for continuous deployment and auto-scaling to handle unpredictable application traffic with ease. If you’re an application developer who’s exhausted from battling deployment issues, maintaining ”special” production servers and lives in fear of being on ”pager duty”, come and learn how you can use Docker to banish “works on my machine” syndrome. This talk is for developers who’ve heard about this “Docker thing” and want to see a practical example of converting a traditional monolithic web application to use Docker containers deployed to a scalable cloud platform.",
                 "speakers": [
                   15
@@ -1427,7 +1447,20 @@ Presented on Atmosphere, Java Developer Days, ChamberConf and Java Day Lviv.`,
                 "tags": ["DevOps"]
               },
               {
-               "subtitle": "?"
+                "subtitle": "Microservices adoption practical lessons with examples",
+                "description": `When a software system is getting bigger and older, it's also harder to change it due to many reasons: it absorbed too many coding styles from too many people, it was build upon some obsolete or redundant technologies, it has a lot of dependencies, which you can't get rid of, there are a lot of hidden assumptions inside, which cannot be decrypted and etc. That's a pain of our industry and there are many solutions to this.
+</br>Personally, to solve this, I found that it's easier to start developing an application as a bunch of microservices, but after few attempts, I also have found that it is also easy to build them wrong, missing some key components of microservices architecture or to postpone 'em until the very last moment and then to find out that your other services can't work together as they should.
+</br>In order to address this problem I'm offering this talk. It will contain:
+<ul>
+<li>Description of what microservices really are</li>
+<li>Explanation of the problem they intend to solve and how exactly it should happen</li>
+<li>Problems with microservices adoption with practical examples</li>
+<li>Solution to these problems with practical examples</li>
+</ul>
+</br>Solutions will include explanation of three key components for every microservices app: Service Registry, Gateway API and Health-check System. Also I'd like to give some examples of the components implementation using modern JVM -based tools and frameworks, just to show how easily it could be done.
+</br></br>Also, it will be slightly cloud-related talk, since many of these tools are designed to work in cloud environment.`,
+                "speakers": [49],
+                "tags": ["Cloud", "Java", "Software Architecture"]
               }
             ]
           },
