@@ -1112,7 +1112,10 @@ get a glimpse of what the exciting future holds for web development!`,
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "SAP HANA Application development",
+                "description": `I have 12 years of experience in Java development but in this session I would like to present you something new and noteworthy for application developers. SAP HANA is an in-memory platform that gives you many capabilities that can bring your application the competitive advantage it needs. In this session I will show you how easy it is to start coding using the SAP HANA Cloud Platform. I will also demonstrate how it is possible to leverage HANA capabilities from a Java application.`,
+                "speakers": [47],
+                "tags": ["Software Architecture", "Cloud Technologies"]
               }
             ]
           },
@@ -1191,10 +1194,7 @@ This talk is a 50/50 mix between slides and demo.`,
                 "tags": ["Java", "DevOps"]
               },
               {
-                "subtitle": "SAP HANA Application development",
-                "description": `I have 12 years of experience in Java development but in this session I would like to present you something new and noteworthy for application developers. SAP HANA is an in-memory platform that gives you many capabilities that can bring your application the competitive advantage it needs. In this session I will show you how easy it is to start coding using the SAP HANA Cloud Platform. I will also demonstrate how it is possible to leverage HANA capabilities from a Java application.`,
-                "speakers": [47],
-                "tags": ["Software Architecture", "Cloud Technologies"]
+                "subtitle": "?"
               }
             ]
           },
