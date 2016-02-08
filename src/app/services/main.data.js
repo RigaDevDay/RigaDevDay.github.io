@@ -554,6 +554,28 @@ Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a 
       "twitter": "https://twitter.com/microservices_stuff",
       "img": "assets/img/photos/dmitry_lebedev.png",
       "description": `Dmitry started his job as a software engineer 20 years ago, has delivered many software projects, failed a few, learned a lot of things from other people and now he is willing to share his stories of success and failures with broader audience. The ultimate goal of his activities is that software could be developed pragmatically, based on an engineering approach and mutual respect between all involved parts.`
+    },
+    {
+      "id": 50,
+      "name": "Richard Martens",
+      "company": "smart4apex",
+      "title": "Oracle Ace",
+      "country": "Netherlands",
+      "twitter": "https://twitter.com/rhjmartens",
+      "img": "assets/img/photos/richard_martens.jpg",
+      "description": `Richard Martens has been involved in information technology for more than 15 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialized in PL/SQL and Oracle APEX. With APEX, he combines the things he loves most: the Oracle database and web technologies.`
+    },
+    {
+      "id": 51,
+      "name": "Vladimir Nedashkovsky",
+      "company": "Accenture",
+      "title": "Sales Director, Emerging Technologies",
+      "country": "Finland",
+      "twitter": "https://twitter.com/microservices_stuff",
+      "img": "assets/img/photos/vladimir_nedashkovsky.jpg",
+      "description": `In my role as Sales Director, Emerging Technologies, I bring 20+ years of experience in helping clients harness technology to meet their business challenges and opportunities.
+</br>Most recently I have been heavily involved in the development of the Accenture Innovative Aerial Monitoring Solution, an exciting new way to help clients, such as oil and gas, utility and agricultural businesses, with extensive physical assets to monitor and maintain achieve better, faster and lower cost results by innovatively combining unmanned aerial vehicles, computer visualization and Big Data.
+</br>I help our clients to drive the maximum returns from their technology investments, combining technological expertise and business insights to help them achieve high performance.  To that end I bring deep knowledge of robotics, computer imaging, big data and analytics alongside extensive commercial experience, business modelling and process engineering gained in environments as diverse as the luxury mobile business Vertu to the Ministry of Finance. `
     }
   ],
   "days": [
