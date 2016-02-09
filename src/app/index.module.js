@@ -29,6 +29,7 @@ import { CountToDirective } from '../app/directives/countTo.directive';
 // Controller
 import { IndexController } from './pages/index/index.controller';
 import { PressController } from './pages/press/press.controller';
+import { MemoriesController } from './pages/memories/memories.controller';
 
 angular.module('rdd', [
   'ngAnimate',
@@ -68,4 +69,5 @@ angular.module('rdd')
   .directive('rddFooter', FooterDirective)
   .controller('IndexController', IndexController)
   .controller('PressController', PressController)
+  .controller('MemoriesController', MemoriesController)
 ;
