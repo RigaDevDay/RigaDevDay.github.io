@@ -12,6 +12,11 @@ export function routerConfig ($routeProvider) {
       controller: 'PressController',
       controllerAs: 'press'
     })
+    .when('/memories', {
+      templateUrl: 'app/pages/memories/memories.html',
+      controller: 'MemoriesController',
+      controllerAs: 'memories'
+    })
     .otherwise({
       redirectTo: '/index'
     });
