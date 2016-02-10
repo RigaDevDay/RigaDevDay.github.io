@@ -23,13 +23,13 @@ import { DataLoaderService } from '../app/services/data_loader.service';
 import { SpeakersService } from '../app/services/speakers.service';
 
 // Directives
-
 import { CountToDirective } from '../app/directives/countTo.directive';
 
 // Controller
 import { IndexController } from './pages/index/index.controller';
 import { PressController } from './pages/press/press.controller';
 import { MemoriesController } from './pages/memories/memories.controller';
+import { TeamController } from './pages/team/team.controller';
 
 angular.module('rdd', [
   'ngAnimate',
@@ -70,4 +70,5 @@ angular.module('rdd')
   .controller('IndexController', IndexController)
   .controller('PressController', PressController)
   .controller('MemoriesController', MemoriesController)
+  .controller('TeamController', TeamController)
 ;
