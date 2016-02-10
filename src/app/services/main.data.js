@@ -752,7 +752,20 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Google Apps Integration in Oracle Apex",
+                "description": `Google Apps is a great platform for your everyday activities. Using a few techniques, you'll have the full potential at your disposal to use within your APEX application. This presentation will cover logging in using a Google account, retrieving data from the Google Drive and Calendar, and sending email.
+</br></br>Attendees will get a technical insight for:
+</br><ol>
+<ul><b>Using Google Authentication.</b> Attendees will get insight in the authentication process and how to implement both server-side as client-side.</ul>
+<ul><b>The Google Calendar.</b> Reading data as well as storing data will be covered.</ul>
+<ul><b>The Google Drive.</b> Reading and writing from the google drive means creating Google Documents (Word), Google Spreadsheets etc. I will cover Documents and Spreadsheets.</ul>
+<ul><b>Sending mail using Gmail.</b> When integrating you apex-application with Google Apps, it is a must-have to be able to have the application send email using Google as well.</ul>`,
+                "speakers": [
+                  50
+                ],
+                "tags": [
+                  "APEX"
+                ]
               },
               {
                 "subtitle": "Unique Identification enables Secure Travel, Trade, and Inclusion",
@@ -1125,7 +1138,20 @@ with examples taken from the JDK itself.`,
                 "tags": ["Java"]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Microservices adoption practical lessons with examples",
+                "description": `When a software system is getting bigger and older, it's also harder to change it due to many reasons: it absorbed too many coding styles from too many people, it was build upon some obsolete or redundant technologies, it has a lot of dependencies, which you can't get rid of, there are a lot of hidden assumptions inside, which cannot be decrypted and etc. That's a pain of our industry and there are many solutions to this.
+</br>Personally, to solve this, I found that it's easier to start developing an application as a bunch of microservices, but after few attempts, I also have found that it is also easy to build them wrong, missing some key components of microservices architecture or to postpone 'em until the very last moment and then to find out that your other services can't work together as they should.
+</br>In order to address this problem I'm offering this talk. It will contain:
+<ul>
+<li>Description of what microservices really are</li>
+<li>Explanation of the problem they intend to solve and how exactly it should happen</li>
+<li>Problems with microservices adoption with practical examples</li>
+<li>Solution to these problems with practical examples</li>
+</ul>
+</br>Solutions will include explanation of three key components for every microservices app: Service Registry, Gateway API and Health-check System. Also I'd like to give some examples of the components implementation using modern JVM -based tools and frameworks, just to show how easily it could be done.
+</br></br>Also, it will be slightly cloud-related talk, since many of these tools are designed to work in cloud environment.`,
+                "speakers": [49],
+                "tags": ["Cloud", "Java", "Software Architecture"]
               },
               {
                 "subtitle": "Hello EcmaScript2015... and also to you, EcmaScript2016",
@@ -1485,20 +1511,11 @@ Presented on Atmosphere, Java Developer Days, ChamberConf and Java Day Lviv.`,
                 "tags": ["DevOps"]
               },
               {
-                "subtitle": "Microservices adoption practical lessons with examples",
-                "description": `When a software system is getting bigger and older, it's also harder to change it due to many reasons: it absorbed too many coding styles from too many people, it was build upon some obsolete or redundant technologies, it has a lot of dependencies, which you can't get rid of, there are a lot of hidden assumptions inside, which cannot be decrypted and etc. That's a pain of our industry and there are many solutions to this.
-</br>Personally, to solve this, I found that it's easier to start developing an application as a bunch of microservices, but after few attempts, I also have found that it is also easy to build them wrong, missing some key components of microservices architecture or to postpone 'em until the very last moment and then to find out that your other services can't work together as they should.
-</br>In order to address this problem I'm offering this talk. It will contain:
-<ul>
-<li>Description of what microservices really are</li>
-<li>Explanation of the problem they intend to solve and how exactly it should happen</li>
-<li>Problems with microservices adoption with practical examples</li>
-<li>Solution to these problems with practical examples</li>
-</ul>
-</br>Solutions will include explanation of three key components for every microservices app: Service Registry, Gateway API and Health-check System. Also I'd like to give some examples of the components implementation using modern JVM -based tools and frameworks, just to show how easily it could be done.
-</br></br>Also, it will be slightly cloud-related talk, since many of these tools are designed to work in cloud environment.`,
-                "speakers": [49],
-                "tags": ["Cloud", "Java", "Software Architecture"]
+                "subtitle": "4th Industrial Revolution with Drones",
+                "description": `For industries like utilities, energy, forestry and mining with extensive assets on the ground, keeping track of maintenance and other monitoring activities is time consuming and very costly. Power cables can extend for hundreds of kilometers, often through difficult terrain. Forestry plantations can cover hundreds of thousands of hectares. Gas pipelines often run through inaccessible and wild locations.
+</br>By combining existing technologies – unmanned aircraft and computer vision, big data and predictive analytics – it is now becoming feasible to achieve detailed imagery and automated object detection and analysis that can dramatically improve the speed, extent and accuracy of asset monitoring and maintenance. Integration of these technologies can help businesses charged with maintaining extensive physical assets – a particular concern for many businesses in the Nordics – to achieve more effective results and predictive analysis of potential problems at a considerably lower cost than the manual methods they use today.`,
+                "speakers": [51],
+                "tags": ["Cloud", "IoT", "Software Architecture"]
               }
             ]
           },
@@ -1617,7 +1634,12 @@ At Angular Labs we have been following Angular 2 since the initial pre-release v
                 "tags": ["JavaScript"]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Hands on with Kotlin",
+                "description": `The Kotlin programming language is gaining popularity nowadays. It’s a modern language that gives more power in everyday routines. Kotlin code generally looks cleaner and nicer, and it’s much easier to work with when you have less verbosity or code duplication.
+</br></br>An important characteristic of the Kotlin language is a relatively fast learning curve: you pick it up very easily. Most of the features and idioms are not unique, so you just have to get used to the new syntax (automatic Java to Kotlin converter can help you with it). Other unfamiliar but powerful language features can be learned fairly fast as well.
+</br></br>This workshop is based on <a href="https://try.kotlinlang.org/koans">Kotlin Koans</a>. It's a series of step-by-step small tasks explaining different features of the Kotlin language. They can be solved either online or in the IDE. If you do it by your own you have to read the language documentation to find out the details. However, during this workshop all the necessary information will be explained, so you could concentrate on the tasks.`,
+                "speakers": [18],
+                "tags": ["Java"]
               }
             ]
           },
