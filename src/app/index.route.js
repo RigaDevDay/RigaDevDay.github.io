@@ -17,6 +17,11 @@ export function routerConfig ($routeProvider) {
       controller: 'MemoriesController',
       controllerAs: 'memories'
     })
+    .when('/team', {
+      templateUrl: 'app/pages/team/team.html',
+      controller: 'TeamController',
+      controllerAs: 'team'
+    })
     .otherwise({
       redirectTo: '/index'
     });

@@ -1,12 +1,14 @@
+<rdd-navbar></rdd-navbar>
+
 <section id="team" class="content">
   <div class="section-header red diagonal-right">
-    <h1>Meet Our Team</h1>
+    <h1>The Team</h1>
   </div>
   <div class="container">
     <div class="row row-centered">
       <div class="col-xs-9 col-sm-4 col-lg-3 col-centered"
            data-toggle="modal" data-target="#complete-dialog"
-           ng-repeat="person in vm.staff">
+           ng-repeat="person in team.team">
         <div class="panel panel-default rdd-panel">
           <div class="panel-body">
             <img ng-src="{{person.img}}">
@@ -21,10 +23,7 @@
         </div>
       </div>
     </div>
-    <div class="row row-centered">
-      <div class="col-xs-9 col-sm-4 col-lg-3 col-centered">
-        <h2>With a help from our <a href="#/team">team</a></h2>
-      </div>
-    </div>
   </div>
 </section>
+
+<rdd-footer></rdd-footer>
