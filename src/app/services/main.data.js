@@ -24,13 +24,7 @@ export const mainData = {
     }
   ],
   "team": [
-    {
-      "name": "Alexey Buzdin",
-      "img": "assets/img/photos/alexey_buzdin.jpg",
-      "twitter": "https://twitter.com/AlexeyBuzdin",
-      "linkedin": "https://lv.linkedin.com/in/alexeybuzdin",
-      "description": ""
-    }
+    
   ],
   "speakers": [
     {
@@ -53,17 +47,6 @@ export const mainData = {
       "twitter": "https://twitter.com/robertnyman",
       "blog": "http://robertnyman.com/",
       "description": "Robert is a strong believer in HTML5 and the Open Web, and has been working since 1999 with Front End development for the web, in Sweden and in New York City. He currently heads up Developer Relations at Google for the Nordics. He also loves to travel and meet people. Robert has Presented in 32 countries, and holds claim to the title of most well-travelled speaker on Lanyrd. He is listed by Twitter as one of 23 Swedes to follow and 5th best developer in Sweden. He has also run Geek Meet in Stockholm since 2006 – one of the first of its kind for web developers in Sweden"
-    },
-    {
-      "id": 2,
-      "name": "Fernando Cejas",
-      "company": "SoundCloud",
-      "title": "Engineer",
-      "country": "Germany",
-      "img": "assets/img/photos/fernando_cejas.jpg",
-      "twitter": "https://twitter.com/fernando_cejas",
-      "blog": "http://www.fernandocejas.com/",
-      "description": "| @SoundCloud | Passionate about software engineering. | Android | Speaker | Geek | Curious Learner |"
     },
     {
       "id": 3,
@@ -585,6 +568,15 @@ Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a 
       "description": `In my role as Sales Director, Emerging Technologies, I bring 20+ years of experience in helping clients harness technology to meet their business challenges and opportunities.
 </br>Most recently I have been heavily involved in the development of the Accenture Innovative Aerial Monitoring Solution, an exciting new way to help clients, such as oil and gas, utility and agricultural businesses, with extensive physical assets to monitor and maintain achieve better, faster and lower cost results by innovatively combining unmanned aerial vehicles, computer visualization and Big Data.
 </br>I help our clients to drive the maximum returns from their technology investments, combining technological expertise and business insights to help them achieve high performance.  To that end I bring deep knowledge of robotics, computer imaging, big data and analytics alongside extensive commercial experience, business modelling and process engineering gained in environments as diverse as the luxury mobile business Vertu to the Ministry of Finance. `
+    },
+    {
+      "id": 52,
+      "name": "Ruslans Tarasovs",
+      "company": "Evolution Gaming",
+      "title": "Development Manager",
+      "country": "Latvia",
+      "img": "assets/img/photos/ruslans_tarasovs.jpeg",
+      "description": `Ruslans has been working as Java developer since 2002. His main interests lay in the development of high performance multiple threaded servers. His is a Scala evangelist for several years already.`
     }
   ],
   "days": [
@@ -667,15 +659,7 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 "tags": ["Java"]
               },
               {
-                "subtitle": "The Mayans Lost Guide to RxJava on Android",
-                "description": "This is an introduction to RxJava on Android. Basically, we will walk  through the main concepts behind RxJava for Android and Reactive Programming, with examples, use cases and good practices when applying it on our projects. ",
-                "speakers": [
-                  2
-                ],
-                "tags": [
-                  "Java",
-                  "Android"
-                ]
+                "subtitle": "?"
               },
               {
                 "subtitle": "The Language of Regular Expressions. So You Think You Can Speak It?",
@@ -1404,7 +1388,17 @@ This talk is a 50/50 mix between slides and demo.`,
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "?"
+                "subtitle": "Why postgres SQL deserve noSQL fan respect",
+                "description": `Scala language is not a new kid on the block. It was released more than ten years ago and become quite a popular choice among the developers to create the highly scalable top notch performance solutions.
+</br></br>There is a lot of information floating around on how to use it properly both as a written documentation, such as books and articles, and as online courses, most famous available on Coursera.
+</br></br>There is, however, an amazing lack of a good documentation on how to use it improperly to create more fun for the people supporting the systems and ensure the excellent job security for the authors. This talk tries to address this gap.
+</br></br>The presentation is inspired by a famous essay of Roedy Green.`,
+                "speakers": [
+                  52
+                ],
+                "tags": [
+                  "Java", "Web", "Software Architecture"
+                ]
               },
               {
                 "subtitle": "Why postgres SQL deserve noSQL fan respect",
