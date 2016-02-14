@@ -70,14 +70,14 @@ class VenueController {
           labelClass: 'map-label'
         }
       },
-      clubfriends: {
-        idKey: 'clubfriends',
-        position: {latitude: 56.954980, longitude: 24.117607},
+      rockcafe: {
+        idKey: 'rockcafe',
+        position: {latitude: 56.9467097, longitude: 24.1085554},
         options: {
-          title: 'Club Friends Official afterparty',
+          title: 'RockCafe Official afterparty',
           icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
-          labelContent: 'Club Friends',
-          labelAnchor: "46 -5",
+          labelContent: 'RockCafe',
+          labelAnchor: "35 -5",
           labelClass: 'map-label'
         }
       }

@@ -24,7 +24,7 @@ export const mainData = {
     }
   ],
   "team": [
-    
+
   ],
   "speakers": [
     {
@@ -1033,7 +1033,7 @@ This presentation will give you a gentle introduction in the complex syntax of t
             "color": "light-blue",
             "events": [
               {
-                "title": "Networking party"
+                "title": "Networking party at RockCafe"
               }
             ]
           }
