@@ -18,7 +18,7 @@
     "angular-scroll-animate": "~0.9.8",
     "google-markerwithlabel": "~1.1.10",
     "moment": "~2.10.6",
-    "angular-timer": "~1.3.3"
+    "angular-timer": "2e9408236ed618abbb49dffabd88aed87eaa10a1"
   },
   "devDependencies": {},
   "overrides": {
@@ -49,6 +49,7 @@
   },
   "resolutions": {
     "jquery": "~2.1.4",
-    "angular": "~1.4.2"
+    "angular": "~1.4.2",
+    "moment": "~2.10.6"
   }
 }
