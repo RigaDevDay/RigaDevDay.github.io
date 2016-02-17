@@ -38,7 +38,8 @@ angular.module('rdd', [
   'ngRoute',
   'mgcrea.ngStrap',
   'uiGmapgoogle-maps',
-  'duScroll'
+  'duScroll',
+  'timer'
 ]);
 
 angular.module('rdd')
