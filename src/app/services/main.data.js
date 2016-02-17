@@ -632,7 +632,7 @@ Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a 
             "color": "dark-blue",
             "events": [
               {
-                "title": "Day 1 Opening"
+                "title": "Day 1 Opening (Room 2)"
               }
             ]
           },
@@ -643,7 +643,7 @@ Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a 
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Open Source and OpenJDK: Do They Deliver?",
+                "subtitle": "Open Source and OpenJDK: Do They Deliver? (Room 2)",
                 "description": "The term “open source” has been around for nearly twenty years and its effect has radically changed the way software is developed, marketed and commercialised.  Using the OpenJDK, “open source Java”, project as an example we’ll look at how open source delivers on its goals to foster more innovation and deliver better, more secure products.",
                 "speakers": [
                   41
@@ -688,26 +688,6 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 "tags": ["Software Architecture", "Cloud"]
               },
               {
-                "subtitle": "The Language of Regular Expressions. So You Think You Can Speak It?",
-                "description": "[Teaser: They are everywhere, they are magical and their knowledge can help you stand out from the crowd. They are also fast and can save time. Lots of time. Do you want to understand and learn to use them properly?]Want to slay the monsters that leave [stack-] traces in your log files or to tackle the naming conventions in your code? Maybe you just want to understand better the charms that has been written (cast) by others?In this workshop, we will be taking a deeper dive into regular expressions, their use and practical examples. We will start with a short intro to the mysterious world of reg.ex. and brush up on our knowledge before continuing on to more advanced topics like groups, greed, and backtracking. It will be an interactive presentation with demos.",
-                "speakers": [
-                  9
-                ],
-                "tags": [
-                  "Tools"
-                ]
-              },
-              {
-                "subtitle": "Oracle 12c for Developers",
-                "description": "Do you want to get up to speed with the most current release of the Oracle database? Then this session is for you. You will learn the most exciting and most useful new features from the Oracle Database 12c which can make your work as database developer a lot easier. There is more to the Oracle database 12c than just pluggable databases.",
-                "speakers": [
-                  12
-                ],
-                "tags": [
-                  "Oracle's developer tools"
-                ]
-              },
-              {
                 "subtitle": "New Cassandra 3 features that change your (developer) life",
                 "description": `Cassandra 3.0 has been released for a while, it's high time to look at the new features that will make your life easier:
 <ol>
@@ -721,6 +701,26 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ],
                 "tags": [
                   "Cloud", "NoSQL", "Big Data"
+                ]
+              },
+              {
+                "subtitle": "Oracle 12c for Developers",
+                "description": "Do you want to get up to speed with the most current release of the Oracle database? Then this session is for you. You will learn the most exciting and most useful new features from the Oracle Database 12c which can make your work as database developer a lot easier. There is more to the Oracle database 12c than just pluggable databases.",
+                "speakers": [
+                  12
+                ],
+                "tags": [
+                  "Oracle's developer tools"
+                ]
+              },
+              {
+                "subtitle": "The Language of Regular Expressions. So You Think You Can Speak It?",
+                "description": "[Teaser: They are everywhere, they are magical and their knowledge can help you stand out from the crowd. They are also fast and can save time. Lots of time. Do you want to understand and learn to use them properly?]Want to slay the monsters that leave [stack-] traces in your log files or to tackle the naming conventions in your code? Maybe you just want to understand better the charms that has been written (cast) by others?In this workshop, we will be taking a deeper dive into regular expressions, their use and practical examples. We will start with a short intro to the mysterious world of reg.ex. and brush up on our knowledge before continuing on to more advanced topics like groups, greed, and backtracking. It will be an interactive presentation with demos.",
+                "speakers": [
+                  9
+                ],
+                "tags": [
+                  "Tools"
                 ]
               }
             ]
@@ -765,13 +765,18 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ]
               },
               {
-                "subtitle": "Integration Testing from the Trenches",
-                "description": "When one uses Test-Driven Development, has more then 90% test coverage and the best Sonar metrics ever seen, and still finds regular bugs in his application, it is time for something more. Unit Testing is like testing a car's every nuts and bolts while Integration Testing is like leading it on a test drive: one cannot achieve high internal quality without the other. However, Integration Testing might seem very complex when put in place for the first several times; I have made many mistakes and have lost much time. In this presentation, I will present tools that helped me tremendously in Integration Testing, as well as proven tactics to get the best out of your tests.",
+                "subtitle": "Unique Identification enables Secure Travel, Trade, and Inclusion",
+                "description": `Review public and private sector use cases for Unique Identification:
+<ul>
+  <li>Border Management (Schengen Smart Borders Initiative, EU-VIS/BMS, US-VISIT) including future trends like drone-based FitC</li>
+  <li>Financial Services (Confidential - Biometric payment cards, Barclays - Call center Speaker Recognition)</li>
+  <li>Inclusion (UNHCR – ration distribution, UIDAI – India’s National Identification agency)</li>
+</ul>`,
                 "speakers": [
-                  3
+                  33
                 ],
                 "tags": [
-                  "Test Automation"
+                  "IoT", "Biometrics"
                 ]
               },
               {
@@ -791,18 +796,13 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ]
               },
               {
-                "subtitle": "Unique Identification enables Secure Travel, Trade, and Inclusion",
-                "description": `Review public and private sector use cases for Unique Identification:
-<ul>
-  <li>Border Management (Schengen Smart Borders Initiative, EU-VIS/BMS, US-VISIT) including future trends like drone-based FitC</li>
-  <li>Financial Services (Confidential - Biometric payment cards, Barclays - Call center Speaker Recognition)</li>
-  <li>Inclusion (UNHCR – ration distribution, UIDAI – India’s National Identification agency)</li>
-</ul>`,
+                "subtitle": "Integration Testing from the Trenches",
+                "description": "When one uses Test-Driven Development, has more then 90% test coverage and the best Sonar metrics ever seen, and still finds regular bugs in his application, it is time for something more. Unit Testing is like testing a car's every nuts and bolts while Integration Testing is like leading it on a test drive: one cannot achieve high internal quality without the other. However, Integration Testing might seem very complex when put in place for the first several times; I have made many mistakes and have lost much time. In this presentation, I will present tools that helped me tremendously in Integration Testing, as well as proven tactics to get the best out of your tests.",
                 "speakers": [
-                  33
+                  3
                 ],
                 "tags": [
-                  "IoT", "Biometrics"
+                  "Test Automation"
                 ]
               }
             ]
@@ -828,15 +828,13 @@ This talk is about our experience in building always available, resilient to fai
                 "tags": ["Java", "Software Architecture", "IoT"]
               },
               {
-                "subtitle": "JSR377: What's up and what's next",
-                "description": "JSR-377, the Desktop|Embedded Application API JSR has as a goal to standardize common behavior shared by many desktop applications. This behavior can also be applied to the emerging Java Embedded and Internet-of-Things applications. Because the JSR targets multiple toolkits (Swing, JavaFX, SWT and more) it's even possible to build applications targeting the mobile space (JavaFX on mobile). There are a good number of framework and platforms that deliver these features in their own way. In this talk we'll discuss the current state of this JSR and explore its features.",
+                "subtitle": "Migrating to Oracle Cloud using the Oracle Database In-Memory Advisor",
+                "description": "The presentation is about best practices for how to test new Oracle options using Oracle database cloud. When a multitenant database running on premise needs to be migrated to the Oracle database cloud one should consider the performance load caused by one or more PDBs inside the container. Especially the impact of upgrading to in-memory (12.1.0.2) on the PDBs. We show how to use the in-memory advisor in order to tune the existing structures for in-memory and how to validate this on the database cloud using RAT & SQL tuning advisor.",
                 "speakers": [
-                  13
+                  19
                 ],
                 "tags": [
-                  "IoT",
-                  "Java",
-                  "Embedded Programming"
+                  "Oracle's developer tools"
                 ]
               },
               {
@@ -848,13 +846,15 @@ This talk is about our experience in building always available, resilient to fai
                 "tags": ["Oracle's developer tools", "Mobile", "Cloud Technologies"]
               },
               {
-                "subtitle": "Migrating to Oracle Cloud using the Oracle Database In-Memory Advisor",
-                "description": "The presentation is about best practices for how to test new Oracle options using Oracle database cloud. When a multitenant database running on premise needs to be migrated to the Oracle database cloud one should consider the performance load caused by one or more PDBs inside the container. Especially the impact of upgrading to in-memory (12.1.0.2) on the PDBs. We show how to use the in-memory advisor in order to tune the existing structures for in-memory and how to validate this on the database cloud using RAT & SQL tuning advisor.",
+                "subtitle": "JSR377: What's up and what's next",
+                "description": "JSR-377, the Desktop|Embedded Application API JSR has as a goal to standardize common behavior shared by many desktop applications. This behavior can also be applied to the emerging Java Embedded and Internet-of-Things applications. Because the JSR targets multiple toolkits (Swing, JavaFX, SWT and more) it's even possible to build applications targeting the mobile space (JavaFX on mobile). There are a good number of framework and platforms that deliver these features in their own way. In this talk we'll discuss the current state of this JSR and explore its features.",
                 "speakers": [
-                  19
+                  13
                 ],
                 "tags": [
-                  "Oracle's developer tools"
+                  "IoT",
+                  "Java",
+                  "Embedded Programming"
                 ]
               }
             ]
@@ -900,15 +900,14 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 ]
               },
               {
-                "subtitle": "Avoiding software fails. Few metrics to improve application reliability",
-                "description": `Managing application complexity might be simple and this is all about testing for top performance problems.
-<\br>During my presentation I'd like to share couple of hints, helping to dramatically reduce application (performance) issues.
-<\br>It's all about lessons learnt from my Customers and Prospects.`,
+                "subtitle": "Is Lambda Architecture is a new normal for cloud native apps?",
+                "description": `Cloud-native helps us quickly to create robust applications. Wait! How about cost effective as well? Why not to go even to "server-less" apps for some use cases?
+</br></br> What is Lambda and how it can help us to write apps focusing on code rather than on infrastructure and still be cloud-native?`,
                 "speakers": [
-                  35
+                  34
                 ],
                 "tags": [
-                  "Web", "DevOps"
+                  "Software Architecture", "Cloud"
                 ]
               },
               {
@@ -922,14 +921,15 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 ]
               },
               {
-                "subtitle": "Is Lambda Architecture is a new normal for cloud native apps?",
-                "description": `Cloud-native helps us quickly to create robust applications. Wait! How about cost effective as well? Why not to go even to "server-less" apps for some use cases?
-</br></br> What is Lambda and how it can help us to write apps focusing on code rather than on infrastructure and still be cloud-native?`,
+                "subtitle": "Avoiding software fails. Few metrics to improve application reliability",
+                "description": `Managing application complexity might be simple and this is all about testing for top performance problems.
+<\br>During my presentation I'd like to share couple of hints, helping to dramatically reduce application (performance) issues.
+<\br>It's all about lessons learnt from my Customers and Prospects.`,
                 "speakers": [
-                  34
+                  35
                 ],
                 "tags": [
-                  "Software Architecture", "Cloud"
+                  "Web", "DevOps"
                 ]
               }
             ]
@@ -966,26 +966,6 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 ]
               },
               {
-                "subtitle": "Where do we go after Http 1.1 - Http2",
-                "description": `What is Http2? How is it supported in Java? How easy is to implement it? Why is it so much faster? How will http2 improve wifi? This session is the answer and a practical demonstration of how easy it is to migrate to the next gen of http.`,
-                "speakers": [30],
-                "tags": [
-                  "Web"
-                ]
-              },
-              {
-                "subtitle": "SQL Model Clause: A Gentle Introduction",
-                "description": `The Model Clause adds spreadsheet-like functionality to the SQL language. Very powerful stuff, yet the syntax can be quite daunting. With the Model Clause, you define a multidimensional array from query results and then apply formulas to this array to calculate new values.
-<br/><br/>
-This presentation will give you a gentle introduction in the complex syntax of the Model Clause and will show you some real life examples where the Model Clause was invaluable.`,
-                "speakers": [
-                  12
-                ],
-                "tags": [
-                  "Oracle's developer tools"
-                ]
-              },
-              {
                 "subtitle": "Java EE 8 - What's new of the Web Front?",
                 "description": `With the introduction of Web Socket, JSON-P and the various enhancements on JAX-RS (e.g. JAX-RS Client API) HTML 5 support was one of the key themes of Java EE 7. Java EE 8 will continue to build on that and improve the support for writing and deploying HTML 5 based application.
 </br></br>This session will look in details at some of the Web related enhancements planned in Java EE 8 such as
@@ -1001,6 +981,26 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ],
                 "tags": [
                   "Java"
+                ]
+              },
+              {
+                "subtitle": "SQL Model Clause: A Gentle Introduction",
+                "description": `The Model Clause adds spreadsheet-like functionality to the SQL language. Very powerful stuff, yet the syntax can be quite daunting. With the Model Clause, you define a multidimensional array from query results and then apply formulas to this array to calculate new values.
+<br/><br/>
+This presentation will give you a gentle introduction in the complex syntax of the Model Clause and will show you some real life examples where the Model Clause was invaluable.`,
+                "speakers": [
+                  12
+                ],
+                "tags": [
+                  "Oracle's developer tools"
+                ]
+              },
+              {
+                "subtitle": "Where do we go after Http 1.1 - Http2",
+                "description": `What is Http2? How is it supported in Java? How easy is to implement it? Why is it so much faster? How will http2 improve wifi? This session is the answer and a practical demonstration of how easy it is to migrate to the next gen of http.`,
+                "speakers": [30],
+                "tags": [
+                  "Web"
                 ]
               }
             ]
@@ -1033,15 +1033,15 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ]
               },
               {
-                "subtitle": "Testing with Spock. The logical choice",
-                "description": "Remember the old days when you tested using JUnit? How boring it was? You made a lot of excuses to avoid testing your code. Luckily those dark days now belong to the past because Spock is with us.Spock is a Groovy-based testing and specification framework for Java and Groovy applications that makes writing tests fun again. We can write beautiful and highly expressive tests because of its DSL and all the power that Groovy provides us.In this talk you'll learn the basics of Spock and you'll see how easily you can test a Java application. After the talk you won't have any excuse to don't test your applications, so you have been warned before coming to the talk!",
+                "subtitle": "Faster Java by Adding Structs (Sort Of)",
+                "description": `The ObjectLayout package provides a set of data structure classes designed with optimised memory layout in mind. In languages like C and C++, the use of structs and explicit pointers can deliver high performance for data access through hardware optimisations for caching and pre-fetching. Java's use of implicit pointers, mutable arrays and general inheritance forces the use of reference lookups whenever an object needs to be accessed.
+</br></br>This session will look at the ObjectLayout package (www.objectlayout.org) which provides a new set of APIs that are aimed at matching the natural speed benefits similar data structure constructs enable in most C-style languages while maintaining an idiomatic Java feel and a natural fit with existing code and libraries.
+</br></br>The session will talk through the need for these APIs then describe how they work in practice. We'll also look at how the JVM can further optimise the implementation of the API by making this intrinsic.`,
                 "speakers": [
-                  8
+                  41
                 ],
                 "tags": [
-                  "Groovy",
-                  "BDD",
-                  "Test Automation"
+                  "Java"
                 ]
               },
               {
@@ -1055,15 +1055,15 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ]
               },
               {
-                "subtitle": "Faster Java by Adding Structs (Sort Of)",
-                "description": `The ObjectLayout package provides a set of data structure classes designed with optimised memory layout in mind. In languages like C and C++, the use of structs and explicit pointers can deliver high performance for data access through hardware optimisations for caching and pre-fetching. Java's use of implicit pointers, mutable arrays and general inheritance forces the use of reference lookups whenever an object needs to be accessed.
-</br></br>This session will look at the ObjectLayout package (www.objectlayout.org) which provides a new set of APIs that are aimed at matching the natural speed benefits similar data structure constructs enable in most C-style languages while maintaining an idiomatic Java feel and a natural fit with existing code and libraries.
-</br></br>The session will talk through the need for these APIs then describe how they work in practice. We'll also look at how the JVM can further optimise the implementation of the API by making this intrinsic.`,
+                "subtitle": "Testing with Spock. The logical choice",
+                "description": "Remember the old days when you tested using JUnit? How boring it was? You made a lot of excuses to avoid testing your code. Luckily those dark days now belong to the past because Spock is with us.Spock is a Groovy-based testing and specification framework for Java and Groovy applications that makes writing tests fun again. We can write beautiful and highly expressive tests because of its DSL and all the power that Groovy provides us.In this talk you'll learn the basics of Spock and you'll see how easily you can test a Java application. After the talk you won't have any excuse to don't test your applications, so you have been warned before coming to the talk!",
                 "speakers": [
-                  41
+                  8
                 ],
                 "tags": [
-                  "Java"
+                  "Groovy",
+                  "BDD",
+                  "Test Automation"
                 ]
               }
             ]
@@ -1111,7 +1111,7 @@ This presentation will give you a gentle introduction in the complex syntax of t
             "color": "dark-blue",
             "events": [
               {
-                "title": "Day 2 Opening"
+                "title": "Day 2 Opening (Room 2)"
               }
             ]
           },
@@ -1122,7 +1122,7 @@ This presentation will give you a gentle introduction in the complex syntax of t
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "The Web - What it Has, What it Lacks and Where it Must Go",
+                "subtitle": "The Web - What it Has, What it Lacks and Where it Must Go (Room 2)",
                 "description": "Taking a look at the web where it is today: the myriad of new features and possibilities we have gotten, and how the web needs to evolve to stay relevant. To give a perspective on where it came from and also comparing it to other platforms to see where we need to move forward. Getting a perspective on SLICE, Progressive Apps and thoughts about how the web can, and should be, unique.",
                 "speakers": [
                   1
@@ -1180,15 +1180,10 @@ with examples taken from the JDK itself.`,
                 "tags": ["Cloud", "Java", "Software Architecture"]
               },
               {
-                "subtitle": "Hello EcmaScript2015... and also to you, EcmaScript2016",
-                "description": `EcmaScript, the standard which is the base for JavaScript, is finally starting to move
-fast. It is making JavaScript better and better, providing various different tools to
-solve our common everyday programming tasks.
-<br><br>
-In this session we will go through what’s new with ES2015 and ES2016, and even
-get a glimpse of what the exciting future holds for web development!`,
-                "speakers": [31],
-                "tags": ["JavaScript"]
+                "subtitle": "SAP HANA Application development",
+                "description": `I have 12 years of experience in Java development but in this session I would like to present you something new and noteworthy for application developers. SAP HANA is an in-memory platform that gives you many capabilities that can bring your application the competitive advantage it needs. In this session I will show you how easy it is to start coding using the SAP HANA Cloud Platform. I will also demonstrate how it is possible to leverage HANA capabilities from a Java application.`,
+                "speakers": [47],
+                "tags": ["Software Architecture", "Cloud Technologies"]
               },
               {
                 "subtitle": "Destination Cloud: Deploying With Docker",
@@ -1202,10 +1197,15 @@ get a glimpse of what the exciting future holds for web development!`,
                 ]
               },
               {
-                "subtitle": "SAP HANA Application development",
-                "description": `I have 12 years of experience in Java development but in this session I would like to present you something new and noteworthy for application developers. SAP HANA is an in-memory platform that gives you many capabilities that can bring your application the competitive advantage it needs. In this session I will show you how easy it is to start coding using the SAP HANA Cloud Platform. I will also demonstrate how it is possible to leverage HANA capabilities from a Java application.`,
-                "speakers": [47],
-                "tags": ["Software Architecture", "Cloud Technologies"]
+                "subtitle": "Hello EcmaScript2015... and also to you, EcmaScript2016",
+                "description": `EcmaScript, the standard which is the base for JavaScript, is finally starting to move
+fast. It is making JavaScript better and better, providing various different tools to
+solve our common everyday programming tasks.
+<br><br>
+In this session we will go through what’s new with ES2015 and ES2016, and even
+get a glimpse of what the exciting future holds for web development!`,
+                "speakers": [31],
+                "tags": ["JavaScript"]
               }
             ]
           },
@@ -1253,14 +1253,17 @@ get a glimpse of what the exciting future holds for web development!`,
                 ]
               },
               {
-                "subtitle": "Angular2: key concepts and getting started",
-                "description": `On this presentation first we'll go shortly through history of Angular for better understanding what Angular2 was introduced for and why it's not backward-compatible with 1.x.
-<br><br>
-Then we'll list key concepts of Angular2 like cross-component communication, one-directional data flow, user input handling and url routing and others.
-<br><br>
-As a result of our practical hands-on tour we'll discuss the main tools for making our Angular2 life easier and build a functioning app.`,
-                "speakers": [29],
-                "tags": ["Web", "JavaScript"]
+                "subtitle": "The Java Community Process: how you can help to define the future of Java",
+                "description": `This session will explain how Java is evolved through the Java Community Process (JCP) program and how you can participate in that evolution as an individual, as a representative of your employer, or as a member of a non-profit organization such as a Java User Group.
+</br>We will discuss the Adopt-a-JSR program and provide examples of the ways in which Java User Groups from all over the world have helped to define, to implement, and to test the Java EE 7 and Java SE 8 platforms.
+</br></br>Java EE 8 and Java SE 9 are being developed now. You can help, and in the process you will have fun, learn new skills, and advance your career.
+</br>Learn how to make the future Java!`,
+                "speakers": [
+                  53
+                ],
+                "tags": [
+                  "Java"
+                ]
               },
               {
                 "subtitle": "Fabric8 Camel Microservices for Docker and Kubernetes",
@@ -1284,17 +1287,14 @@ This talk is a 50/50 mix between slides and demo.`,
                 "tags": ["Java", "DevOps"]
               },
               {
-                "subtitle": "The Java Community Process: how you can help to define the future of Java",
-                "description": `This session will explain how Java is evolved through the Java Community Process (JCP) program and how you can participate in that evolution as an individual, as a representative of your employer, or as a member of a non-profit organization such as a Java User Group.
-</br>We will discuss the Adopt-a-JSR program and provide examples of the ways in which Java User Groups from all over the world have helped to define, to implement, and to test the Java EE 7 and Java SE 8 platforms.
-</br></br>Java EE 8 and Java SE 9 are being developed now. You can help, and in the process you will have fun, learn new skills, and advance your career.
-</br>Learn how to make the future Java!`,
-                "speakers": [
-                  53
-                ],
-                "tags": [
-                  "Java"
-                ]
+                "subtitle": "Angular2: key concepts and getting started",
+                "description": `On this presentation first we'll go shortly through history of Angular for better understanding what Angular2 was introduced for and why it's not backward-compatible with 1.x.
+<br><br>
+Then we'll list key concepts of Angular2 like cross-component communication, one-directional data flow, user input handling and url routing and others.
+<br><br>
+As a result of our practical hands-on tour we'll discuss the main tools for making our Angular2 life easier and build a functioning app.`,
+                "speakers": [29],
+                "tags": ["Web", "JavaScript"]
               }
             ]
           },
@@ -1325,13 +1325,13 @@ This talk is a 50/50 mix between slides and demo.`,
                 ]
               },
               {
-                "subtitle": "Entering the new era of Front-end development with ReactJS",
-                "description": "ReactJS is not just yet another framework to be forgotten after few years, it shifts the concepts of modern front-end development giving us the scalability and control we always strived about. Robert will guide you through key concepts of ReactJS based applications covering all aspects of full stack development and maintenance. This includes component development approach, deep integrated into ReactJS architecture and React Native, which allows to reuse most of UI code, still using the power of Native UI.",
+                "subtitle": "IoT as a poor man's version of the semantic web",
+                "description": "A few years ago it seemed that the semantic web was poised to take over the world by storm. The idea of agents that would perform queries for you doing digital errands seemed irresistible. But realizing it required changing the way sites were built. In the meantime the smartphone happened and with it came a multitude of cheap and abundant sensors. Now we can realize a poor man's version of the semantic web where instead of complex ontologies we define meanings and we can based on these define actions that impact the physical world around us, i.e., agent like entities. I'll go through examples where we'll see this poor man's semantic web in action and how we can further explore this idea.",
                 "speakers": [
-                  5
+                  45
                 ],
                 "tags": [
-                  "Web"
+                  "IoT"
                 ]
               },
               {
@@ -1345,13 +1345,13 @@ This talk is a 50/50 mix between slides and demo.`,
                 ]
               },
               {
-                "subtitle": "IoT as a poor man's version of the semantic web",
-                "description": "A few years ago it seemed that the semantic web was poised to take over the world by storm. The idea of agents that would perform queries for you doing digital errands seemed irresistible. But realizing it required changing the way sites were built. In the meantime the smartphone happened and with it came a multitude of cheap and abundant sensors. Now we can realize a poor man's version of the semantic web where instead of complex ontologies we define meanings and we can based on these define actions that impact the physical world around us, i.e., agent like entities. I'll go through examples where we'll see this poor man's semantic web in action and how we can further explore this idea.",
+                "subtitle": "Entering the new era of Front-end development with ReactJS",
+                "description": "ReactJS is not just yet another framework to be forgotten after few years, it shifts the concepts of modern front-end development giving us the scalability and control we always strived about. Robert will guide you through key concepts of ReactJS based applications covering all aspects of full stack development and maintenance. This includes component development approach, deep integrated into ReactJS architecture and React Native, which allows to reuse most of UI code, still using the power of Native UI.",
                 "speakers": [
-                  45
+                  5
                 ],
                 "tags": [
-                  "IoT"
+                  "Web"
                 ]
               }
             ]
@@ -1397,15 +1397,17 @@ This talk is a 50/50 mix between slides and demo.`,
                 ]
               },
               {
-                "subtitle": "Angular 2 Component Router",
-                "description": `Angular 2 comes with a new router that replaces previous ngRoute. We will compare the new router with ui-router and show how we can setup multiple views and nested routes.`,
+                "subtitle": "Java EE, WebLogic, Microservices... and some myths busting",
+                "description": `Microservices Architecture (MSA) is the new black! For many, it is the way to go. Those people also tends to depict Java EE (and Java EE containers) as an antinomy to MSA... It's one or to other but certainly not both!
+</br></br>In this session, we'll look at the main microservices concepts and see if it is really a bad idea to use some of them within a Java EE context (hint: it's not always a bad idea!).
+</br></br>We will then look at some of the WebLogic features and see if there's any that might be useful to use in a more Microservices oriented approach.
+</br></br>MSA is not just about the tooling; it's also about the people, their skills and their culture. The goal of this session is to give a fair balanced view of Java EE and WebLogic in a MSA context to help you to make your own judgment.`,
                 "speakers": [
-                  27
+                  44
                 ],
                 "tags": [
-                  "Web", "JavaScript"
+                  "Java"
                 ]
-
               },
               {
                 "subtitle": "Field Notes of Command Line Ninja",
@@ -1419,17 +1421,15 @@ This talk is a 50/50 mix between slides and demo.`,
                 ]
               },
               {
-                "subtitle": "Java EE, WebLogic, Microservices... and some myths busting",
-                "description": `Microservices Architecture (MSA) is the new black! For many, it is the way to go. Those people also tends to depict Java EE (and Java EE containers) as an antinomy to MSA... It's one or to other but certainly not both!
-</br></br>In this session, we'll look at the main microservices concepts and see if it is really a bad idea to use some of them within a Java EE context (hint: it's not always a bad idea!).
-</br></br>We will then look at some of the WebLogic features and see if there's any that might be useful to use in a more Microservices oriented approach.
-</br></br>MSA is not just about the tooling; it's also about the people, their skills and their culture. The goal of this session is to give a fair balanced view of Java EE and WebLogic in a MSA context to help you to make your own judgment.`,
+                "subtitle": "Angular 2 Component Router",
+                "description": `Angular 2 comes with a new router that replaces previous ngRoute. We will compare the new router with ui-router and show how we can setup multiple views and nested routes.`,
                 "speakers": [
-                  44
+                  27
                 ],
                 "tags": [
-                  "Java"
+                  "Web", "JavaScript"
                 ]
+
               }
             ]
           },
@@ -1463,17 +1463,17 @@ This talk is a 50/50 mix between slides and demo.`,
                 ]
               },
               {
-                "subtitle": "WebGL & WebVR: Take the web to the third dimension",
-                "description": `In this talk you will learn how to unlock the 3rd dimension on the web and use it to create impressive new visualisations, stories and experiences.
+                "subtitle": "SQL Magic - Tricks to Demonstrate SQL Features You've Probably Never Used",
+                "description": `In this fun session you’ll see SQL versions of classic magic tricks. These include the cup and balls trick, where rows inserted into one table magically reappear in another, a card trick where a randomly selected “card” (row) from a “deck” (table) floats to the top of the deck and the magically changing row trick where the value returned by a query changes just by issuing a select statement!
 <br><br>
-You will see how WebGL can then be taken even further by using technologies such as Oculus Rift, Google Cardboard or LEAPMotion with WebVR to enable truly immersive experiences right from your browser.
+Unlike real magicians however, I’ll show you how the tricks are done. This will enable you to perform your own SQL “magic” and apply these principles when building Oracle database applications.
 <br><br>
-We will start with the basics of WebGL and the render pipeline, see how 3D on the web has evolved and what can be done with it and then do a little live coding that will conclude with how Virtual Reality can be implemented with web technologies.`,
+This session is intended for developers, DBAs and data modelers looking to expand their SQL skills, highlighting features that are new to 12c as well as little used existing options.`,
                 "speakers": [
-                  21
+                  16
                 ],
                 "tags": [
-                  "Web"
+                  "SQL"
                 ]
               },
               {
@@ -1489,17 +1489,17 @@ We will start with the basics of WebGL and the render pipeline, see how 3D on th
                 ]
               },
               {
-                "subtitle": "SQL Magic - Tricks to Demonstrate SQL Features You've Probably Never Used",
-                "description": `In this fun session you’ll see SQL versions of classic magic tricks. These include the cup and balls trick, where rows inserted into one table magically reappear in another, a card trick where a randomly selected “card” (row) from a “deck” (table) floats to the top of the deck and the magically changing row trick where the value returned by a query changes just by issuing a select statement!
+                "subtitle": "WebGL & WebVR: Take the web to the third dimension",
+                "description": `In this talk you will learn how to unlock the 3rd dimension on the web and use it to create impressive new visualisations, stories and experiences.
 <br><br>
-Unlike real magicians however, I’ll show you how the tricks are done. This will enable you to perform your own SQL “magic” and apply these principles when building Oracle database applications.
+You will see how WebGL can then be taken even further by using technologies such as Oculus Rift, Google Cardboard or LEAPMotion with WebVR to enable truly immersive experiences right from your browser.
 <br><br>
-This session is intended for developers, DBAs and data modelers looking to expand their SQL skills, highlighting features that are new to 12c as well as little used existing options.`,
+We will start with the basics of WebGL and the render pipeline, see how 3D on the web has evolved and what can be done with it and then do a little live coding that will conclude with how Virtual Reality can be implemented with web technologies.`,
                 "speakers": [
-                  16
+                  21
                 ],
                 "tags": [
-                  "SQL"
+                  "Web"
                 ]
               }
             ]
@@ -1532,14 +1532,11 @@ This session is intended for developers, DBAs and data modelers looking to expan
                 ]
               },
               {
-                "subtitle": "Kotlin on Android",
-                "description": "Développement Android Apple has introduced “a better language” for iOS developers. But what options do we have for Android? Surely Kotlin should be under consideration! Android Studio is now based on Intellij Idea, the “native” environment for Kotlin. Kotlin is a modern language for industry. It can help you reduce the amount of code you write for Android applications and at the same time make it readable and more maintainable. In this session we are going to talk a bit why JetBrains sees the potential in Kotlin comparing to other JVM languages. Then we’ll see how certain language constructs can be used to make Android more enjoyable. Also we’ll look at a DSL for type-safe dynamic layouts and a simple extension plugin that helps to avoid writing ‘findViewById()’ all the time.",
-                "speakers": [
-                  18
-                ],
-                "tags": [
-                  "Android"
-                ]
+                "subtitle": "4th Industrial Revolution with Drones",
+                "description": `For industries like utilities, energy, forestry and mining with extensive assets on the ground, keeping track of maintenance and other monitoring activities is time consuming and very costly. Power cables can extend for hundreds of kilometers, often through difficult terrain. Forestry plantations can cover hundreds of thousands of hectares. Gas pipelines often run through inaccessible and wild locations.
+</br>By combining existing technologies – unmanned aircraft and computer vision, big data and predictive analytics – it is now becoming feasible to achieve detailed imagery and automated object detection and analysis that can dramatically improve the speed, extent and accuracy of asset monitoring and maintenance. Integration of these technologies can help businesses charged with maintaining extensive physical assets – a particular concern for many businesses in the Nordics – to achieve more effective results and predictive analysis of potential problems at a considerably lower cost than the manual methods they use today.`,
+                "speakers": [51],
+                "tags": ["Cloud", "IoT", "Software Architecture"]
               },
               {
                 "subtitle": "It's not always application's fault",
@@ -1557,11 +1554,14 @@ Presented on Atmosphere, Java Developer Days, ChamberConf and Java Day Lviv.`,
                 "tags": ["DevOps"]
               },
               {
-                "subtitle": "4th Industrial Revolution with Drones",
-                "description": `For industries like utilities, energy, forestry and mining with extensive assets on the ground, keeping track of maintenance and other monitoring activities is time consuming and very costly. Power cables can extend for hundreds of kilometers, often through difficult terrain. Forestry plantations can cover hundreds of thousands of hectares. Gas pipelines often run through inaccessible and wild locations.
-</br>By combining existing technologies – unmanned aircraft and computer vision, big data and predictive analytics – it is now becoming feasible to achieve detailed imagery and automated object detection and analysis that can dramatically improve the speed, extent and accuracy of asset monitoring and maintenance. Integration of these technologies can help businesses charged with maintaining extensive physical assets – a particular concern for many businesses in the Nordics – to achieve more effective results and predictive analysis of potential problems at a considerably lower cost than the manual methods they use today.`,
-                "speakers": [51],
-                "tags": ["Cloud", "IoT", "Software Architecture"]
+                "subtitle": "Kotlin on Android",
+                "description": "Développement Android Apple has introduced “a better language” for iOS developers. But what options do we have for Android? Surely Kotlin should be under consideration! Android Studio is now based on Intellij Idea, the “native” environment for Kotlin. Kotlin is a modern language for industry. It can help you reduce the amount of code you write for Android applications and at the same time make it readable and more maintainable. In this session we are going to talk a bit why JetBrains sees the potential in Kotlin comparing to other JVM languages. Then we’ll see how certain language constructs can be used to make Android more enjoyable. Also we’ll look at a DSL for type-safe dynamic layouts and a simple extension plugin that helps to avoid writing ‘findViewById()’ all the time.",
+                "speakers": [
+                  18
+                ],
+                "tags": [
+                  "Android"
+                ]
               }
             ]
           },
