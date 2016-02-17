@@ -12,11 +12,12 @@ export function ScheduleDirective () {
 }
 
 class ScheduleController {
-  constructor ($rootScope, $log, $modal, dataLoaderService, speakersService) {
+  constructor ($rootScope, $log, $modal, dataLoaderService, speakersService, colorsService) {
     'ngInject';
 
     this.dataLoaderService = dataLoaderService;
     this.speakersService = speakersService;
+    this.colorsService = colorsService;
 
     this.days = [];
     this.schedule = null;
@@ -74,5 +75,9 @@ class ScheduleController {
 
   findSpeakerById (speakerId) {
     return this.speakersService.findSpeakerById(this.speakers, speakerId);
+  }
+
+  getTagColorClass (tag) {
+    return `color-${this.colorsService.colorForTag(tag)}`;
   }
 }
