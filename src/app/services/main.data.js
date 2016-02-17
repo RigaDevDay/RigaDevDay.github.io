@@ -590,6 +590,16 @@ Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a 
       "description": `Patrick Curran is Chair of the Java Community Process organization. In this role he oversees the activities of the JCP's Program Management Office including evolving the process and the organization, managing its membership, guiding specification leads and experts through the process, chairing Executive Committee meetings, and managing the JCP.org web site
 </br></br>Patrick has worked in the software industry for more than 30 years. He has a long-standing record in conformance testing, and before joining the JCP he led the Java Conformance Engineering team in Sun's Client Software Group. He was also chair of Sun's Conformance Council, which was responsible for defining Sun's policies and strategies around Java conformance and compatibility.
 </br></br>Patrick has participated actively in several consortia and communities including the W3C (as a member of the Quality Assurance Working Group and co-chair of the Quality Assurance Interest Group), and OASIS (as co-chair of the Test Assertions Guidelines Technical Committee).`
+    },
+    {
+      "id": 54,
+      "name": "Andres Jaan Tack",
+      "company": "Twilio, Inc",
+      "title": "Tech Lead",
+      "country": "Estonia",
+      "img": "assets/img/photos/andres_tack.jpg",
+      "twitter": "https://twitter.com/ajtack",
+      "description": `Born and educated in the Midwest United States, Andres has been building real-time and near-real-time communication systems throughout his professional career. At Skype, where he helped build the call signaling stack for video, voice and PSTN calling, he developed a particular affection for the field of distributed client-server systems. Most recently, Andres has rejoined several of his old co-workers and set up Twilio's new office in Tallinn, Estonia. There, he's helping build the stack that powers Twilio's IP Messaging product using cloud services and distributed computing primitives. If he's learned anything, it's that while crafting a good system architecture is always hard, it also never gets easier by avoiding the problem.`
     }
   ],
   "days": [
@@ -672,7 +682,10 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 "tags": ["Java"]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Little Important Things in Distributed Architectures",
+                "description": `As our wired desktops gave way to flakey wifi, weaker devices and mobile connections, we began placing value in new features of our software. When features like such features as offline mode, liveness, and solves-it-for-you error freedom are done correctly, the rough edges of our products slip into the background and let us work effectively. When missing or done without care, they are remarkably infuriating. Building a system that does the former seems complex. In our short time together, Andres will try to help. His core thesis: by attentively adhering to a few core principles in our work, however surprising they may seem, we can pare ourselves significant stress down the line.`,
+                "speakers": [54],
+                "tags": ["Software Architecture", "Cloud"]
               },
               {
                 "subtitle": "The Language of Regular Expressions. So You Think You Can Speak It?",
@@ -695,7 +708,20 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ]
               },
               {
-                "subtitle": "?"
+                "subtitle": "New Cassandra 3 features that change your (developer) life",
+                "description": `Cassandra 3.0 has been released for a while, it's high time to look at the new features that will make your life easier:
+<ol>
+<li>the new User Defined Functions and User Defined Aggregates which allow you to create code in the language of your choice (JVM compatible) and push the computation to the server</li>
+<li>the JSON syntax that can be used to push data directly into Cassandra without the pain of converting JSON to regular literal values</li>
+<li>the new Materialized Views that make de-normalization easier for the developers</li>
+<li>the new full text search feature that will be available soon in Cassandra 3.4, allowing you to perform dynamic queries on your Cassandra data</li>
+</ol>`,
+                "speakers": [
+                  6
+                ],
+                "tags": [
+                  "Cloud", "NoSQL", "Big Data"
+                ]
               }
             ]
           },
