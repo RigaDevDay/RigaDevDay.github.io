@@ -61,7 +61,7 @@ gulp.task('scripts', function () {
 
 gulp.task('data', function () {
   var code = babel.transformFileSync(
-    path.join(conf.paths.src, "/app/services/main.data.js")).code;
+    path.join(conf.paths.src, "/app/services/main.data.js"), {compact: false}).code;
 
   // cut out transpiler stuff
   code = code.substring(79, code.length - 28);
