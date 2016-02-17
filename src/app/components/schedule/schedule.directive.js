@@ -56,14 +56,10 @@ class ScheduleController {
   }
 
   scheduleModal (talk) {
-    talk.speaker = this.findSpeakerById([talk.speakers[0]]);
-
-    // TODO: if multiple speakers supported
-    // var speakers = [];
-    // angular.forEach(talk.speakers, function(id, index) {
-    //   this.push(self.speakers[id]);
-    // }, speakers);
-    // talk.speakers = speakers;
+    talk.foundSpeakers = [];
+    for (var i = 0; i < talk.speakers.length; i++) {
+      talk.foundSpeakers.push(this.findSpeakerById(talk.speakers[i]));
+    }
 
     this.modalScope.talk = talk;
     this.modal.$promise
