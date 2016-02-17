@@ -577,6 +577,19 @@ Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a 
       "country": "Latvia",
       "img": "assets/img/photos/ruslans_tarasovs.jpeg",
       "description": `Ruslans has been working as Java developer since 2002. His main interests lay in the development of high performance multiple threaded servers. His is a Scala evangelist for several years already.`
+    },
+    {
+      "id": 53,
+      "name": "Patrick Curran",
+      "company": "Oracle",
+      "title": "Chair of the Java Community Process",
+      "country": "USA",
+      "img": "assets/img/photos/patrick_curran.jpeg",
+      "twitter": "https://twitter.com/patrickcurran",
+      "blog": "https://blogs.oracle.com/pcurran/",
+      "description": `Patrick Curran is Chair of the Java Community Process organization. In this role he oversees the activities of the JCP's Program Management Office including evolving the process and the organization, managing its membership, guiding specification leads and experts through the process, chairing Executive Committee meetings, and managing the JCP.org web site
+</br></br>Patrick has worked in the software industry for more than 30 years. He has a long-standing record in conformance testing, and before joining the JCP he led the Java Conformance Engineering team in Sun's Client Software Group. He was also chair of Sun's Conformance Council, which was responsible for defining Sun's policies and strategies around Java conformance and compatibility.
+</br></br>Patrick has participated actively in several consortia and communities including the W3C (as a member of the Quality Assurance Working Group and co-chair of the Quality Assurance Interest Group), and OASIS (as co-chair of the Test Assertions Guidelines Technical Committee).`
     }
   ],
   "days": [
@@ -783,7 +796,10 @@ This talk is about our experience in building always available, resilient to fai
                 "tags": ["Web", "Java"]
               },
               {
-                "subtitle": "?"
+                "subtitle": "Reactive Design Patterns - Tools of the Trade",
+                "description": `In the past year, Reactive has become one of the hottest terms in the software development community - describing as it does applications that are responsive, resilient, elastic and message-driven.  But what does it mean in practice, and how can developers leverage the core concepts to create applications that meet the standard of being Reactive?  This talk will answer those questions, as well as provide insight about various tools and platforms that can be used to build such applications, including Reactive Extensions, Erlang, Node.js, Vert.x, Play Framework, Akka and more.`,
+                "speakers": [37],
+                "tags": ["Java", "Software Architecture", "IoT"]
               },
               {
                 "subtitle": "JSR377: What's up and what's next",
@@ -1242,7 +1258,17 @@ This talk is a 50/50 mix between slides and demo.`,
                 "tags": ["Java", "DevOps"]
               },
               {
-                "subtitle": "?"
+                "subtitle": "The Java Community Process: how you can help to define the future of Java",
+                "description": `This session will explain how Java is evolved through the Java Community Process (JCP) program and how you can participate in that evolution as an individual, as a representative of your employer, or as a member of a non-profit organization such as a Java User Group.
+</br>We will discuss the Adopt-a-JSR program and provide examples of the ways in which Java User Groups from all over the world have helped to define, to implement, and to test the Java EE 7 and Java SE 8 platforms.
+</br></br>Java EE 8 and Java SE 9 are being developed now. You can help, and in the process you will have fun, learn new skills, and advance your career.
+</br>Learn how to make the future Java!`,
+                "speakers": [
+                  53
+                ],
+                "tags": [
+                  "Java"
+                ]
               }
             ]
           },
@@ -1388,7 +1414,7 @@ This talk is a 50/50 mix between slides and demo.`,
             "color": "dark-blue",
             "events": [
               {
-                "subtitle": "Why postgres SQL deserve noSQL fan respect",
+                "subtitle": "How To Write Unmaintainable Code In Scala",
                 "description": `Scala language is not a new kid on the block. It was released more than ten years ago and become quite a popular choice among the developers to create the highly scalable top notch performance solutions.
 </br></br>There is a lot of information floating around on how to use it properly both as a written documentation, such as books and articles, and as online courses, most famous available on Coursera.
 </br></br>There is, however, an amazing lack of a good documentation on how to use it improperly to create more fun for the people supporting the systems and ensure the excellent job security for the authors. This talk tries to address this gap.
