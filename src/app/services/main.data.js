@@ -353,12 +353,7 @@ Maxim likes to travel the world visiting developers events and open for offers t
       "country": "Israel",
       "img": "assets/img/photos/shay_friedman.jpg",
       "twitter": "https://twitter.com/ironshay",
-      "description": `Shay Friedman is the founder and web division leader at CodeValue, and also
-a Microsoft .NET MVP. In the last years, Shay has migrated numerous
-companies to modern web technologies like angularjs, html5 and css3. He's
-spoken in lots of international conferences and conducted various web related
-courses around the world. In his spare time Shay plays the guitar, plays
-basketball and drinks beer. And, most important, he's a nice guy!`
+      "description": `Shay Friedman is the founder and web division leader at CodeValue, and also a Microsoft .NET MVP. In the last years, Shay has migrated numerous companies to modern web technologies like angularjs, html5 and css3. He's spoken in lots of international conferences and conducted various web related courses around the world. In his spare time Shay plays the guitar, plays basketball and drinks beer. And, most important, he's a nice guy!`
     },
     {
       "id": 32,
@@ -683,7 +678,8 @@ and how to get old code working on JDK 9 even when you can't update it.`,
               },
               {
                 "subtitle": "Little Important Things in Distributed Architectures",
-                "description": `As our wired desktops gave way to flakey wifi, weaker devices and mobile connections, we began placing value in new features of our software. When features like such features as offline mode, liveness, and solves-it-for-you error freedom are done correctly, the rough edges of our products slip into the background and let us work effectively. When missing or done without care, they are remarkably infuriating. Building a system that does the former seems complex. In our short time together, Andres will try to help. His core thesis: by attentively adhering to a few core principles in our work, however surprising they may seem, we can pare ourselves significant stress down the line.`,
+                "description": `Now that our wired desktops have given way to laptops on flakey wifi, weaker Internet Things and mobile connections, we have found value in in whole new classes of features. Things like offline mode, push updates, and freedom from conflicts, when done correctly, slip into the background and let us get to work. When these same things are missing or done without care, they are remarkably infuriating. And it's not for lack of trying: these features are undoubtedly hard to get right, and they're even harder to bolt on later.
+</br></br>In our short time together, Andres will try to help. His core thesis: by attentively adhering to a few core principles in our work, though some may seem surprising, we can spare ourselves significant stress down the line.`,
                 "speakers": [54],
                 "tags": ["Software Architecture", "Cloud"]
               },
