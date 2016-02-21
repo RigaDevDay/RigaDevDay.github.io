@@ -24,7 +24,61 @@ export const mainData = {
     }
   ],
   "team": [
-
+    {
+      "name": "Dmitry Buzdin",
+      "img": "assets/img/photos/dmitry_buzdin.jpg",
+      "twitter": "https://twitter.com/buzdin",
+      "linkedin": "https://lv.linkedin.com/pub/dmitry-buzdin/2/b04/90",
+      "title": "Organizer"
+    },
+    {
+      "name": "Andrejs Vorobjovs",
+      "img": "assets/img/photos/andrejs_vorobjevs.jpg",
+      "twitter": "https://twitter.com/lvoug",
+      "linkedin": "https://lv.linkedin.com/in/oracles",
+      "title": "Organizer"
+    },
+    {
+      "name": "Alexey Buzdin",
+      "img": "assets/img/photos/alexey_buzdin.jpg",
+      "twitter": "https://twitter.com/AlexeyBuzdin",
+      "linkedin": "https://lv.linkedin.com/in/alexeybuzdin",
+      "title": "Organizer"
+    },
+    {
+      "name": "Alexey Nikolaenko",
+      "img": "assets/img/photos/alexey_nikolaenko.jpg",
+      "twitter": "https://twitter.com/echoAlexey",
+      "title": "Marketing"
+    },
+    {
+      "name": "Dmitry Vrublevsky",
+      "img": "assets/img/photos/dmitry_vrublevsky.jpg",
+      "twitter": "https://twitter.com/FylmTM",
+      "title": "Website"
+    },
+    {
+      "name": "Ilja Karpov",
+      "img": "assets/img/photos/ilja_karpov.jpg",
+      "title": "Website"
+    },
+    {
+      "name": "Sergejs Luhmirins",
+      "img": "assets/img/photos/sergejs_luhmirins.jpg",
+      "title": "Android"
+    },
+    {
+      "name": "Andrey Adamovich",
+      "img": "assets/img/photos/andrey_adamovich.jpg",
+      "twitter": "https://twitter.com/codingandrey",
+      "title": "Voting Machines"
+    },
+    {
+      "name": "Laura Arajuma",
+      "img": "assets/img/photos/laura_arajuma.jpg",
+      "twitter": "https://twitter.com/l_arajuma",
+      "title": "Volunteers"
+    }
   ],
   "sponsors": [
     {
