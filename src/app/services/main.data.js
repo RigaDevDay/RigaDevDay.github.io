@@ -85,187 +85,92 @@ export const mainData = {
       "id": 0,
       "img": "assets/img/partners/organizers/gdg-riga.png",
       "url": "http://gdgriga.lv/",
-      "description": "GDG Riga"
+      "description": "Open information space for IT enthusiasts in Riga"
     },
     {
       "id": 1,
       "img": "assets/img/partners/organizers/juglv.png",
       "url": "http://jug.lv/",
-      "description": "JUG LV"
+      "description": "A Java User Group (JUG) is a group of people who share a common interest in Java technology and meet on a regular basis to share technical ideas and information."
     },
     {
       "id": 2,
       "img": "assets/img/partners/organizers/lvoug.gif",
       "url": "http://lvoug.lv/",
-      "description": "LV OUG"
+      "description": `Latvian Oracle User Group (LVOUG) ir neatkarīga organizācija, kas apvieno Oracle lietotājus, profesionāļus un citus interesantus Latvijā. Tās mērķis ir veicināt informācijas, zināšanu un pieredzes apmaiņu  starp grupas dalībniekiem, informēt par Oracle produktu uzlabojumiem un jauninājumiem kā arī nodrošināt atgriezenisko saiti ar Oracle.
+      </br></br>Par grupas dalībnieku var kļūt jebkurš interesents.`
     },
     {
       "id": 3,
       "img": "assets/img/partners/sponsors/accenture.png",
       "url": "http://www.accenture.com/",
-      "description": "Accenture"
+      "description": "Accenture is a global management consulting, technology services and outsourcing company, with more than 319,000 people serving clients in more than 120 countries. Accenture office in Riga was established in year 2002. Accenture Latvia is the largest IT company based on number of IT employees. At the moment Accenture Latvia employs more than 560 IT specialists. Some of our clients: Discovery Networks, Henkel, Novartis, European Union Custom and Taxation Union and others."
     },
     {
       "id": 4,
       "img": "assets/img/partners/sponsors/ok.png",
       "url": "http://v.ok.ru/",
-      "description": "Odnoklassniki.ru"
+      "description": "OK.RU is one of the largest social networks for Russian-speaking audiences with 80+ million unique user’s visits monthly. There are nearly 300 people working in the offices in Riga, Moscow and St.Petersburg. OK.RU is fully owned by Mail.ru Group holding – one of the biggest companies in the high-growth Russian-speaking internet market, leader of the Runet by the amount of unique monthly visitors. The data petabytes is our daily reality and working environment. The great number of the tasks appearing in front of us every day has no ready solutions therefore we use our own products. Such approach is an exciting challenge for all of us."
     },
     {
       "id": 5,
       "img": "assets/img/partners/sponsors/ctco_logo.png",
       "url": "http://ctco.lv/",
-      "description": "CTCo"
+      "description": "C.T.Co limited is a Europe-oriented IT solutions and services provider, based in Riga, Latvia (EU) with a track record of delivering enterprise solutions to top global clients for more than 16 years. As one of the largest R&D companies in Latvia, C.T.Co established itself as a most advanced and reliable IT company in enterprise apps market space. The company is committed to maintaining high quality standards through a strong sum of out-of-the-box approach, seasoned teams passionate about innovation, over a decade of expertise in the domain, and challenging working environment. C.T.Co is a leader in Agile application development, maintaining long-term trusted relationships with reputable European & international companies since 2000. The company has successfully delivered a continuum of mission-critical enterprise applications to top global organizations."
     },
     {
       "id": 6,
       "img": "assets/img/partners/sponsors/avonitech.png",
       "url": "http://avonitech.com/",
-      "description": "Avonitech"
+      "description": ""
     },
     {
       "id": 7,
       "img": "assets/img/partners/sponsors/cluster.png",
       "url": "https://www.clusterpoint.com/",
-      "description": "Cluster"
+      "description": "Clusterpoint was established in 2006. For most of its history Clusterpoint has served business customers as Enterprise NoSQL database. Today Clusterpoint database is used across different industries to drive 24/7 mission-critical web and mobile application solutions. 				High performance ACID-compliant transactions supported by our database is a key enabling technology for transition to document oriented databases. Since January 2015, Clusterpoint is offering ready to use Database as a Service (DBaaS)."
     },
     {
       "id": 8,
       "img": "assets/img/partners/sponsors/tele2.png",
       "url": "http://www.tele2.com/career/ssc/",
-      "description": "Tele2"
+      "description": `Tele2 Shared Service Center is the fastest growing ICT company in Latvia. We focus our activities on the telecommunication system service, maintenance, testing and development for all Tele2 group companies. We are proud to say that our services are needed in 9 countries – Latvia, Estonia, Lithuania, Sweden, The Netherlands, Germany, Austria, Croatia and Kazakhstan. Right now there are more than 550 challengers, as we like to call our employees. We already feel 10 feet tall, because we began with only 9 employees and look where we are now! There isn’t just one type of vacancy. We are growing, expanding and trying something new every day. If you are interested, check out our latest job openings in <a href="http://www.tele2.com/career/ssc/our-latest-job-openings/">http://www.tele2.com/career/ssc/our-latest-job-openings/</a>`
     },
     {
       "id": 9,
       "img": "assets/img/partners/sponsors/sap.png",
       "url": "http://www.sap.com/",
-      "description": "SAP"
+      "description": ""
     },
     {
       "id": 10,
       "img": "assets/img/partners/sponsors/evolution.jpg",
       "url": "https://www.evolutiongaming.com/",
-      "description": "Evolution Gaming"
+      "description": "Evolution Gaming Group AB is Europe’s leading live casino service provider to largest casino operators and its shares are listed on Nasdaq stock exchange. Evolution Gaming operates in the business-to-business (B2B) segment and has no direct relationships with end users, as the company does not provide casino services itself. The company develops gaming software for live casinos and provides outsourced services of game presenters. The company was founded in 2006 and is now the European market leader in its industry. Evolution Gaming is represented in seven countries, where Latvia is the largest operation. The company has also offices in Malta, UK, Sweden, Spain, Italy and Belgium. eGaming Review magazine, the leading magazine in the web gaming business, has recognized Evolution Gaming the year’s best live casino service provider for a sixth year in a row. "
     },
     {
       "id": 11,
       "img": "assets/img/partners/sponsors/dynatrace.png",
       "url": "http://www.dynatrace.com/",
-      "description": "Dynatrace"
+      "description": ""
     },
     {
       "id": 12,
       "img": "assets/img/partners/sponsors/idea-port-riga.png",
       "url": "http://www.ideaportriga.com/",
-      "description": "Idea Port Riga"
+      "description": "In Idea Port Riga we successfully combine classic IT consultancy with our own product development. Idea Port Riga was founded in 2007 mainly as a Siebel house. Almost 100 cool IT professionals work for us today. At least 1/3 of them are Java, .Net and Xamarine developers. We always welcome experienced people on board!"
     },
     {
       "id": 13,
       "img": "assets/img/partners/sponsors/ibm.png",
       "url": "http://www-03.ibm.com/employment/",
-      "description": "IBM"
+      "description": ""
     },
     {
       "id": 14,
       "img": "assets/img/partners/sponsors/neueda.png",
       "url": "http://neueda.lv/",
-      "description": "Neueda"
-    },
-    {
-      "id": 15,
-      "img": "assets/img/partners/friends/rigas-dome.png",
-      "url": "https://www.riga.lv/LV/Channels/",
-      "description": "Rīgas Dome"
-    },
-    {
-      "id": 16,
-      "img": "assets/img/partners/friends/kursors.png",
-      "url": "http://kursors.lv/",
-      "description": "Kurosrs"
-    },
-    {
-      "id": 17,
-      "img": "assets/img/partners/friends/BdaLogo.png",
-      "url": "http://www.bda.lv/bda4/",
-      "description": "BDA"
-    },
-    {
-      "id": 18,
-      "img": "assets/img/partners/friends/likeit.png",
-      "url": "http://www.likeit.lv/",
-      "description": "Like IT"
-    },
-    {
-      "id": 19,
-      "img": "assets/img/partners/friends/zparks.png",
-      "url": "http://zparks.lv/",
-      "description": "Zparks"
-    },
-    {
-      "id": 20,
-      "img": "assets/img/partners/friends/enjoy-recruitment.jpeg",
-      "url": "http://www.enjoyrecruitment.lv/",
-      "description": "Enjoy Recruitment"
-    },
-    {
-      "id": 21,
-      "img": "assets/img/partners/friends/pluralsight.jpg",
-      "url": "https://www.pluralsight.com/",
-      "description": "Pluralsight"
-    },
-    {
-      "id": 22,
-      "img": "assets/img/partners/friends/relayr.png",
-      "url": "https://www.relayr.io/",
-      "description": "Relayr"
-    },
-    {
-      "id": 23,
-      "img": "assets/img/partners/friends/oracle_press.jpg",
-      "url": "http://community.oraclepressbooks.com/",
-      "description": "Oracle Press"
-    },
-    {
-      "id": 24,
-      "img": "assets/img/partners/friends/latcraft.png",
-      "url": "http://latcraft.lv/",
-      "description": "Latcraft"
-    },
-    {
-      "id": 25,
-      "img": "assets/img/partners/friends/jug_vilnius.png",
-      "url": "http://vilnius-jug.lt/",
-      "description": "JUG Vilnius"
-    },
-    {
-      "id": 26,
-      "img": "assets/img/partners/friends/jug_kaunas.png",
-      "url": "http://kaunas-jug.lt/",
-      "description": "JUG Kaunas"
-    },
-    {
-      "id": 27,
-      "img": "assets/img/partners/friends/gdg_vilnius.png",
-      "url": "https://www.facebook.com/gdgvilnius/",
-      "description": "GDG Vilnius"
-    },
-    {
-      "id": 28,
-      "img": "assets/img/partners/friends/ldn.png",
-      "url": "http://ldn.lv/",
-      "description": "Latvian Developer Network"
-    },
-    {
-      "id": 29,
-      "img": "assets/img/partners/friends/gdg_minsk.jpg",
-      "url": "https://plus.google.com/113201184286137496581",
-      "description": "GDG Minsk"
-    },
-    {
-      "id": 30,
-      "img": "assets/img/partners/friends/jetconf.png",
-      "url": "http://jetconf.by/",
-      "description": "Jetconf"
+      "description": "Neueda are an international software services company, we provide training, consultancy and strategic software development for some of the worlds largest companies including, Citi Bank, Hewlett Packard, Apple and Fidility investments. We operate in Europe, Asia and North America. Neueda has opened a R&D office in Riga in 2013. The Riga team are working on a groundbreaking test automation project for one of the worlds largest technology companies. "
     }
   ],
   "speakers": [
