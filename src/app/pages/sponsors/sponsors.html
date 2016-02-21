@@ -1,0 +1,23 @@
+<rdd-navbar></rdd-navbar>
+
+<section id="sponsors-page" class="content">
+  <div class="section-header red diagonal-right">
+    <h1>Sponsor</h1>
+  </div>
+  <div class="container">
+    <div class="row row-centered">
+      <div class="image col-xs-4 col-sm-4 col-centered">
+        <a href="{{sponsor.url}}">
+          <img ng-src="{{sponsor.img}}">
+        </a>
+      </div>
+    </div>
+    <div class="row row-centered">
+      <div class="description col-xs-4 col-sm-4 col-centered">
+        <p ng-bind-html="sponsor.description"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<rdd-footer></rdd-footer>

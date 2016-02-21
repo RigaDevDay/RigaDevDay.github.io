@@ -22,6 +22,11 @@ export function routerConfig ($routeProvider) {
       controller: 'TeamController',
       controllerAs: 'team'
     })
+    .when('/sponsors/:id', {
+      templateUrl: 'app/pages/sponsors/sponsors.html',
+      controller: 'SponsorsController',
+      controllerAs: 'sponsors'
+    })
     .otherwise({
       redirectTo: '/index'
     });

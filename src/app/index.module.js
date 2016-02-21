@@ -31,6 +31,7 @@ import { IndexController } from './pages/index/index.controller';
 import { PressController } from './pages/press/press.controller';
 import { MemoriesController } from './pages/memories/memories.controller';
 import { TeamController } from './pages/team/team.controller';
+import { SponsorsController } from './pages/sponsors/sponsors.controller';
 
 angular.module('rdd', [
   'ngAnimate',
@@ -74,4 +75,5 @@ angular.module('rdd')
   .controller('PressController', PressController)
   .controller('MemoriesController', MemoriesController)
   .controller('TeamController', TeamController)
+  .controller('SponsorsController', SponsorsController)
 ;

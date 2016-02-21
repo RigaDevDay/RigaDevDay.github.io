@@ -26,6 +26,194 @@ export const mainData = {
   "team": [
 
   ],
+  "sponsors": [
+    {
+      "id": 0,
+      "img": "assets/img/partners/organizers/gdg-riga.png",
+      "url": "http://gdgriga.lv/",
+      "description": "GDG Riga"
+    },
+    {
+      "id": 1,
+      "img": "assets/img/partners/organizers/juglv.png",
+      "url": "http://jug.lv/",
+      "description": "JUG LV"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/partners/organizers/lvoug.gif",
+      "url": "http://lvoug.lv/",
+      "description": "LV OUG"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/partners/sponsors/accenture.png",
+      "url": "http://www.accenture.com/",
+      "description": "Accenture"
+    },
+    {
+      "id": 4,
+      "img": "assets/img/partners/sponsors/ok.png",
+      "url": "http://v.ok.ru/",
+      "description": "Odnoklassniki.ru"
+    },
+    {
+      "id": 5,
+      "img": "assets/img/partners/sponsors/ctco_logo.png",
+      "url": "http://ctco.lv/",
+      "description": "CTCo"
+    },
+    {
+      "id": 6,
+      "img": "assets/img/partners/sponsors/avonitech.png",
+      "url": "http://avonitech.com/",
+      "description": "Avonitech"
+    },
+    {
+      "id": 7,
+      "img": "assets/img/partners/sponsors/cluster.png",
+      "url": "https://www.clusterpoint.com/",
+      "description": "Cluster"
+    },
+    {
+      "id": 8,
+      "img": "assets/img/partners/sponsors/tele2.png",
+      "url": "http://www.tele2.com/career/ssc/",
+      "description": "Tele2"
+    },
+    {
+      "id": 9,
+      "img": "assets/img/partners/sponsors/sap.png",
+      "url": "http://www.sap.com/",
+      "description": "SAP"
+    },
+    {
+      "id": 10,
+      "img": "assets/img/partners/sponsors/evolution.jpg",
+      "url": "https://www.evolutiongaming.com/",
+      "description": "Evolution Gaming"
+    },
+    {
+      "id": 11,
+      "img": "assets/img/partners/sponsors/dynatrace.png",
+      "url": "http://www.dynatrace.com/",
+      "description": "Dynatrace"
+    },
+    {
+      "id": 12,
+      "img": "assets/img/partners/sponsors/idea-port-riga.png",
+      "url": "http://www.ideaportriga.com/",
+      "description": "Idea Port Riga"
+    },
+    {
+      "id": 13,
+      "img": "assets/img/partners/sponsors/ibm.png",
+      "url": "http://www-03.ibm.com/employment/",
+      "description": "IBM"
+    },
+    {
+      "id": 14,
+      "img": "assets/img/partners/sponsors/neueda.png",
+      "url": "http://neueda.lv/",
+      "description": "Neueda"
+    },
+    {
+      "id": 15,
+      "img": "assets/img/partners/friends/rigas-dome.png",
+      "url": "https://www.riga.lv/LV/Channels/",
+      "description": "Rīgas Dome"
+    },
+    {
+      "id": 16,
+      "img": "assets/img/partners/friends/kursors.png",
+      "url": "http://kursors.lv/",
+      "description": "Kurosrs"
+    },
+    {
+      "id": 17,
+      "img": "assets/img/partners/friends/BdaLogo.png",
+      "url": "http://www.bda.lv/bda4/",
+      "description": "BDA"
+    },
+    {
+      "id": 18,
+      "img": "assets/img/partners/friends/likeit.png",
+      "url": "http://www.likeit.lv/",
+      "description": "Like IT"
+    },
+    {
+      "id": 19,
+      "img": "assets/img/partners/friends/zparks.png",
+      "url": "http://zparks.lv/",
+      "description": "Zparks"
+    },
+    {
+      "id": 20,
+      "img": "assets/img/partners/friends/enjoy-recruitment.jpeg",
+      "url": "http://www.enjoyrecruitment.lv/",
+      "description": "Enjoy Recruitment"
+    },
+    {
+      "id": 21,
+      "img": "assets/img/partners/friends/pluralsight.jpg",
+      "url": "https://www.pluralsight.com/",
+      "description": "Pluralsight"
+    },
+    {
+      "id": 22,
+      "img": "assets/img/partners/friends/relayr.png",
+      "url": "https://www.relayr.io/",
+      "description": "Relayr"
+    },
+    {
+      "id": 23,
+      "img": "assets/img/partners/friends/oracle_press.jpg",
+      "url": "http://community.oraclepressbooks.com/",
+      "description": "Oracle Press"
+    },
+    {
+      "id": 24,
+      "img": "assets/img/partners/friends/latcraft.png",
+      "url": "http://latcraft.lv/",
+      "description": "Latcraft"
+    },
+    {
+      "id": 25,
+      "img": "assets/img/partners/friends/jug_vilnius.png",
+      "url": "http://vilnius-jug.lt/",
+      "description": "JUG Vilnius"
+    },
+    {
+      "id": 26,
+      "img": "assets/img/partners/friends/jug_kaunas.png",
+      "url": "http://kaunas-jug.lt/",
+      "description": "JUG Kaunas"
+    },
+    {
+      "id": 27,
+      "img": "assets/img/partners/friends/gdg_vilnius.png",
+      "url": "https://www.facebook.com/gdgvilnius/",
+      "description": "GDG Vilnius"
+    },
+    {
+      "id": 28,
+      "img": "assets/img/partners/friends/ldn.png",
+      "url": "http://ldn.lv/",
+      "description": "Latvian Developer Network"
+    },
+    {
+      "id": 29,
+      "img": "assets/img/partners/friends/gdg_minsk.jpg",
+      "url": "https://plus.google.com/113201184286137496581",
+      "description": "GDG Minsk"
+    },
+    {
+      "id": 30,
+      "img": "assets/img/partners/friends/jetconf.png",
+      "url": "http://jetconf.by/",
+      "description": "Jetconf"
+    }
+  ],
   "speakers": [
     {
       "id": 0,
