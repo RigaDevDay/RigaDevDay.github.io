@@ -515,15 +515,6 @@ Maxim likes to travel the world visiting developers events and open for offers t
 Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a Platform Team member are development of architectures and solutions for highly loaded as well as big data services, solving performance and availability problems.`
     },
     {
-      "id": 33,
-      "name": "Daniel Bachenheimer",
-      "company": "Accenture",
-      "title": "Senior Manager",
-      "country": "Germany",
-      "img": "assets/img/photos/bachenheimer.jpg",
-      "description": `Daniel Bachenheimer, an Electrical Engineer by training, is leading Accenture’s Unique Identity Services offering and has been designing and delivering solutions for government entities for over 25 years. For the past fifteen years, Dan has focused on Border and Identity Management solutions and has been involved in large-scale Identity Services systems including US-VISIT and UIDAI, Trusted Traveler Programs, Multimodal Biometric systems integration, RFID implementations, along with Identity, Credential, and Access Management solutions. Dan is involved in INCITS M1 (ISO SC37) and is an IEEE Certified Biometrics Professional.`
-    },
-    {
       "id": 34,
       "name": "Anton Kranga",
       "company": "Accenture",
@@ -742,6 +733,16 @@ Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a 
       "img": "assets/img/photos/andres_tack.jpg",
       "twitter": "https://twitter.com/ajtack",
       "description": `Born and educated in the Midwest United States, Andres has been building real-time and near-real-time communication systems throughout his professional career. At Skype, where he helped build the call signaling stack for video, voice and PSTN calling, he developed a particular affection for the field of distributed client-server systems. Most recently, Andres has rejoined several of his old co-workers and set up Twilio's new office in Tallinn, Estonia. There, he's helping build the stack that powers Twilio's IP Messaging product using cloud services and distributed computing primitives. If he's learned anything, it's that while crafting a good system architecture is always hard, it also never gets easier by avoiding the problem.`
+    },
+    {
+      "id": 55,
+      "name": "Samat Galimov",
+      "company": "Meduza Project",
+      "title": "CTO",
+      "country": "Latvia",
+      "img": "assets/img/photos/samat_galimov.jpeg",
+      "twitter": "twitter.com/samat",
+      "description": `Samat is a former systems engineer for music streaming Zvooq and CTO for subscription-based book service Bookmate.`
     }
   ],
   "days": [
@@ -908,18 +909,13 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ]
               },
               {
-                "subtitle": "Unique Identification enables Secure Travel, Trade, and Inclusion",
-                "description": `Review public and private sector use cases for Unique Identification:
-<ul>
-  <li>Border Management (Schengen Smart Borders Initiative, EU-VIS/BMS, US-VISIT) including future trends like drone-based FitC</li>
-  <li>Financial Services (Confidential - Biometric payment cards, Barclays - Call center Speaker Recognition)</li>
-  <li>Inclusion (UNHCR – ration distribution, UIDAI – India’s National Identification agency)</li>
-</ul>`,
+                "subtitle": "What's new in WildFly",
+                "description": `WildFly (formerly JBoss AS) is an implementation of a Java EE 7 compliant application server. It is an open-source, community driven project with a goal of introducing the latest innovations with frequent releases. In my presentation I would like to give you an overview of the most interesting new features that we have recently implemented. Among others, I plan to tell you about the following topics: creating microservices using WildFly Swarm project, creating a lightweight server distribution using our new build tools, server side JavaScript with easy Java EE integration, Elytron - the new security framework, new ejb client library with simplified configuration and dynamic discovery, http/2 configuration, server graceful shutdown. Apart from that I will give you an overview of the recent changes in server internal implementation and what are their consequences from the user point of view.`,
                 "speakers": [
-                  33
+                  48
                 ],
                 "tags": [
-                  "IoT", "Biometrics"
+                  "Java"
                 ]
               },
               {
@@ -1188,13 +1184,13 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ]
               },
               {
-                "subtitle": "What's new in WildFly",
-                "description": `WildFly (formerly JBoss AS) is an implementation of a Java EE 7 compliant application server. It is an open-source, community driven project with a goal of introducing the latest innovations with frequent releases. In my presentation I would like to give you an overview of the most interesting new features that we have recently implemented. Among others, I plan to tell you about the following topics: creating microservices using WildFly Swarm project, creating a lightweight server distribution using our new build tools, server side JavaScript with easy Java EE integration, Elytron - the new security framework, new ejb client library with simplified configuration and dynamic discovery, http/2 configuration, server graceful shutdown. Apart from that I will give you an overview of the recent changes in server internal implementation and what are their consequences from the user point of view.`,
+                "subtitle": "APEX: Validate user input",
+                "description": `Apex offers several ways to validate user input. This session shows ways to do just that bit extra to make your application fool proof yet keeping it user friendly. After the session you'll know how to do server side validation, database validation and client-side validation.`,
                 "speakers": [
-                  48
+                  50
                 ],
                 "tags": [
-                  "Java"
+                  "APEX"
                 ]
               },
               {
@@ -1675,11 +1671,14 @@ We will start with the basics of WebGL and the render pipeline, see how 3D on th
                 ]
               },
               {
-                "subtitle": "4th Industrial Revolution with Drones",
-                "description": `For industries like utilities, energy, forestry and mining with extensive assets on the ground, keeping track of maintenance and other monitoring activities is time consuming and very costly. Power cables can extend for hundreds of kilometers, often through difficult terrain. Forestry plantations can cover hundreds of thousands of hectares. Gas pipelines often run through inaccessible and wild locations.
-</br>By combining existing technologies – unmanned aircraft and computer vision, big data and predictive analytics – it is now becoming feasible to achieve detailed imagery and automated object detection and analysis that can dramatically improve the speed, extent and accuracy of asset monitoring and maintenance. Integration of these technologies can help businesses charged with maintaining extensive physical assets – a particular concern for many businesses in the Nordics – to achieve more effective results and predictive analysis of potential problems at a considerably lower cost than the manual methods they use today.`,
-                "speakers": [51],
-                "tags": ["Cloud", "IoT", "Software Architecture"]
+                "subtitle": "Kotlin on Android",
+                "description": "Développement Android Apple has introduced “a better language” for iOS developers. But what options do we have for Android? Surely Kotlin should be under consideration! Android Studio is now based on Intellij Idea, the “native” environment for Kotlin. Kotlin is a modern language for industry. It can help you reduce the amount of code you write for Android applications and at the same time make it readable and more maintainable. In this session we are going to talk a bit why JetBrains sees the potential in Kotlin comparing to other JVM languages. Then we’ll see how certain language constructs can be used to make Android more enjoyable. Also we’ll look at a DSL for type-safe dynamic layouts and a simple extension plugin that helps to avoid writing ‘findViewById()’ all the time.",
+                "speakers": [
+                  18
+                ],
+                "tags": [
+                  "Android"
+                ]
               },
               {
                 "subtitle": "It's not always application's fault",
@@ -1697,13 +1696,13 @@ Presented on Atmosphere, Java Developer Days, ChamberConf and Java Day Lviv.`,
                 "tags": ["DevOps"]
               },
               {
-                "subtitle": "Kotlin on Android",
-                "description": "Développement Android Apple has introduced “a better language” for iOS developers. But what options do we have for Android? Surely Kotlin should be under consideration! Android Studio is now based on Intellij Idea, the “native” environment for Kotlin. Kotlin is a modern language for industry. It can help you reduce the amount of code you write for Android applications and at the same time make it readable and more maintainable. In this session we are going to talk a bit why JetBrains sees the potential in Kotlin comparing to other JVM languages. Then we’ll see how certain language constructs can be used to make Android more enjoyable. Also we’ll look at a DSL for type-safe dynamic layouts and a simple extension plugin that helps to avoid writing ‘findViewById()’ all the time.",
+                "subtitle": "Website on cache: scalable, cheap and realiable",
+                "description": "The talk is about multi-layer cache system for Meduza.io news website and its API. We’ve build a caching system on low-end hardware to serve website and API for 400 EUR/mo, which would cost 15k EUR in traffic monthly on conventional cloud hosting platforms. The whole project’s architecture is built around this system. We will highlight common issues with multi-layer caching and provide solutions and best practices we’ve established.",
                 "speakers": [
-                  18
+                  55
                 ],
                 "tags": [
-                  "Android"
+                  "Mobile", "Web", "DevOps"
                 ]
               }
             ]
