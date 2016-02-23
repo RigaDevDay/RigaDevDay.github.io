@@ -63,9 +63,24 @@ export const mainData = {
       "title": "Website"
     },
     {
+      "name": "Pavel Jelisejev",
+      "img": "assets/img/photos/pavel_jelisejev.jpeg",
+      "title": "Website"
+    },
+    {
       "name": "Sergejs Luhmirins",
       "img": "assets/img/photos/sergejs_luhmirins.jpg",
       "title": "Android"
+    },
+    {
+      "name": "Ksenia Krilatih",
+      "img": "assets/img/photos/ksenia_krilatih.jpg",
+      "title": "iOS"
+    },
+    {
+      "name": "Alexander Grigorjev",
+      "img": "assets/img/photos/alexander_grigorjev.jpg",
+      "title": "Cardboard"
     },
     {
       "name": "Andrey Adamovich",
