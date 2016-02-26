@@ -184,6 +184,12 @@ export const mainData = {
     {
       "id": 14,
       "img": "assets/img/partners/sponsors/neueda.png",
+      "url": "https://www.deac.eu/lv/",
+      "description": ""
+    },
+    {
+      "id": 15,
+      "img": "assets/img/partners/sponsors/deac.png",
       "url": "http://neueda.lv/",
       "description": "Neueda are an international software services company, we provide training, consultancy and strategic software development for some of the worlds largest companies including, Citi Bank, Hewlett Packard, Apple and Fidility investments. We operate in Europe, Asia and North America. Neueda has opened a R&D office in Riga in 2013. The Riga team are working on a groundbreaking test automation project for one of the worlds largest technology companies. "
     }
