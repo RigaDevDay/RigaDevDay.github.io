@@ -16,25 +16,6 @@ class TicketsController {
     'ngInject';
 
     this.moment = moment;
-    this.tickets = [
-      {
-        title: 'Late Bird',
-        time: '(16.02.16-03.03.16)',
-        ends: this.endsIn("04.03.16"),
-        price: {day1: '150€+VAT', day2: '260€+VAT'},
-        active: this.isInTimeRange('16.02.16', '03.03.16'),
-        reserveLink: 'http://www.kalevatravel.lv/celojumi/page.php?id=667'
-      },
-      {
-        title: 'Workshops',
-        time: '(01.12.15-03.03.16)',
-        ends: this.endsIn("04.03.16"),
-        price: '99€+VAT',
-        active: this.isInTimeRange('01.12.15', '03.03.16'),
-        reserveLink: 'http://www.kalevatravel.lv/celojumi/page.php?id=667',
-        singleDayPrice: true
-      }
-    ];
   }
 
   endsIn (date) {

@@ -4,49 +4,9 @@
   </div>
   <div class="container">
     <div class="row row-centered">
-      <div class="col-xs-10 col-sm-6 col-md-3 col-centered"
-           ng-repeat="ticket in vm.tickets">
-        <div class="panel panel-default"
-             ng-class="{'active-ticket-offer': ticket.active, 'inactive-ticket-offer': !ticket.active}">
-          <div class="panel-body tickets-panel" ng-class="ticket.modifier">
-            <div class="ends">Ends {{ticket.ends}}</div>
-            <h2>{{::ticket.title}}</h2>
-            <h6 class="text-center">{{::ticket.time}}</h6>
-
-            <div ng-if="ticket.price">
-              <div class="row" ng-if="ticket.singleDayPrice">
-                <div class="col-xs-12 col-centered">
-                  <h4><strong>1 Day</strong></h4>
-                  <h4>{{::ticket.price}}</h4>
-                </div>
-              </div>
-              <div class="row" ng-if="!ticket.singleDayPrice">
-                <div class="col-xs-6 col-centered">
-                  <h4><strong>1 Day</strong></h4>
-                  <h4>{{::ticket.price.day1}}</h4>
-                </div>
-                <div class="col-xs-6 col-centered">
-                  <h4><strong>2 Days</strong></h4>
-                  <h4>{{::ticket.price.day2}}</h4>
-                </div>
-              </div>
-            </div>
-            <div ng-if="!ticket.price">
-              <h3 class="text-center">Coming Soon!</h3>
-            </div>
-          </div>
-          <div class="panel-footer">
-            <a ng-if="ticket.active"
-               ng-href="{{::ticket.reserveLink}}"
-               class="btn btn-info btn-tickets">
-              Register
-            </a>
-            <button ng-if="!ticket.active" disabled="disabled"
-                    class="btn btn-default btn-tickets">
-              Register
-            </button>
-          </div>
-        </div>
+      <div class="col-xs-9 col-sm-6 col-lg-6 col-centered">
+        <h2>Tickets are Sold Out!</h2>
+        <h2>See you next Year!</h2>
       </div>
     </div>
   </div>
