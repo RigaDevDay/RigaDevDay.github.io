@@ -80,7 +80,8 @@ export const mainData = {
     {
       "name": "Alexander Grigorjev",
       "img": "assets/img/photos/alexander_grigorjev.jpg",
-      "title": "Cardboard"
+      "title": "Cardboard",
+      "linkedin": "https://www.linkedin.com/in/aleksandrs-grigorjevs-287b5552"
     },
     {
       "name": "Andrey Adamovich",
