@@ -842,19 +842,15 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 "tags": ["Software Architecture", "Cloud"]
               },
               {
-                "subtitle": "New Cassandra 3 features that change your (developer) life",
-                "description": `Cassandra 3.0 has been released for a while, it's high time to look at the new features that will make your life easier:
-<ol>
-<li>the new User Defined Functions and User Defined Aggregates which allow you to create code in the language of your choice (JVM compatible) and push the computation to the server</li>
-<li>the JSON syntax that can be used to push data directly into Cassandra without the pain of converting JSON to regular literal values</li>
-<li>the new Materialized Views that make de-normalization easier for the developers</li>
-<li>the new full text search feature that will be available soon in Cassandra 3.4, allowing you to perform dynamic queries on your Cassandra data</li>
-</ol>`,
+                "subtitle": "Faster Java by Adding Structs (Sort Of)",
+                "description": `The ObjectLayout package provides a set of data structure classes designed with optimised memory layout in mind. In languages like C and C++, the use of structs and explicit pointers can deliver high performance for data access through hardware optimisations for caching and pre-fetching. Java's use of implicit pointers, mutable arrays and general inheritance forces the use of reference lookups whenever an object needs to be accessed.
+                </br></br>This session will look at the ObjectLayout package (www.objectlayout.org) which provides a new set of APIs that are aimed at matching the natural speed benefits similar data structure constructs enable in most C-style languages while maintaining an idiomatic Java feel and a natural fit with existing code and libraries.
+                </br></br>The session will talk through the need for these APIs then describe how they work in practice. We'll also look at how the JVM can further optimise the implementation of the API by making this intrinsic.`,
                 "speakers": [
-                  6
+                  41
                 ],
                 "tags": [
-                  "Cloud", "NoSQL", "Big Data"
+                  "Java"
                 ]
               },
               {
@@ -1182,15 +1178,19 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ]
               },
               {
-                "subtitle": "Faster Java by Adding Structs (Sort Of)",
-                "description": `The ObjectLayout package provides a set of data structure classes designed with optimised memory layout in mind. In languages like C and C++, the use of structs and explicit pointers can deliver high performance for data access through hardware optimisations for caching and pre-fetching. Java's use of implicit pointers, mutable arrays and general inheritance forces the use of reference lookups whenever an object needs to be accessed.
-</br></br>This session will look at the ObjectLayout package (www.objectlayout.org) which provides a new set of APIs that are aimed at matching the natural speed benefits similar data structure constructs enable in most C-style languages while maintaining an idiomatic Java feel and a natural fit with existing code and libraries.
-</br></br>The session will talk through the need for these APIs then describe how they work in practice. We'll also look at how the JVM can further optimise the implementation of the API by making this intrinsic.`,
+                "subtitle": "New Cassandra 3 features that change your (developer) life",
+                "description": `Cassandra 3.0 has been released for a while, it's high time to look at the new features that will make your life easier:
+<ol>
+<li>the new User Defined Functions and User Defined Aggregates which allow you to create code in the language of your choice (JVM compatible) and push the computation to the server</li>
+<li>the JSON syntax that can be used to push data directly into Cassandra without the pain of converting JSON to regular literal values</li>
+<li>the new Materialized Views that make de-normalization easier for the developers</li>
+<li>the new full text search feature that will be available soon in Cassandra 3.4, allowing you to perform dynamic queries on your Cassandra data</li>
+</ol>`,
                 "speakers": [
-                  41
+                  6
                 ],
                 "tags": [
-                  "Java"
+                  "Cloud", "NoSQL", "Big Data"
                 ]
               },
               {
@@ -1724,7 +1724,7 @@ Presented on Atmosphere, Java Developer Days, ChamberConf and Java Day Lviv.`,
             "color": "light-blue",
             "events": [
               {
-                "title": "Closing Keynote"
+                "title": "Conference Closing (Room 3)"
               }
             ]
           },
