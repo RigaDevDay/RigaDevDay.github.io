@@ -495,7 +495,7 @@ He is also heavily involved with fabric8 and hawtio projects, especially with fu
       "company": "ForgeRock",
       "title": "UI Engineer",
       "country": "Norway",
-      "img": "assets/img/photos/maxim_salnikov.jpg",
+      "img": "assets/img/photos/maxim_salnikov.png",
       "twitter": "https://twitter.com/webmaxru",
       "description": `Maxim Salnikov is Oslo-based web UI developer, a Google Developer Expert with strong passion to mobile. He has 10+ years experience in development front-ends for complex web applications. He knows everything about web front-end: starting from user interfaces prototyping, going through HTML/CSS/JS implementation and finishing with architecting RESTful APIs.
 <br><br>
