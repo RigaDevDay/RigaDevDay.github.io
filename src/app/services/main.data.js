@@ -571,7 +571,7 @@ Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a 
     {
       "id": 37,
       "name": "Jamie Allen",
-      "company": "Typesafe",
+      "company": "Lightbend",
       "title": "Senior Director of Global Services",
       "country": "USA",
       "twitter": "https://twitter.com/jamie_allen",
