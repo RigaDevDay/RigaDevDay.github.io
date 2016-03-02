@@ -87,7 +87,7 @@ export const mainData = {
       "name": "Andrey Adamovich",
       "img": "assets/img/photos/andrey_adamovich.jpg",
       "twitter": "https://twitter.com/codingandrey",
-      "title": "Voting Machines"
+      "title": "Dashboard"
     },
     {
       "name": "Laura Arajuma",
@@ -185,14 +185,14 @@ export const mainData = {
     {
       "id": 14,
       "img": "assets/img/partners/sponsors/neueda.png",
-      "url": "https://www.deac.eu/lv/",
-      "description": ""
+      "url": "http://neueda.lv/",
+      "description": "Neueda are an international software services company, we provide training, consultancy and strategic software development for some of the worlds largest companies including, Citi Bank, Hewlett Packard, Apple and Fidility investments. We operate in Europe, Asia and North America. Neueda has opened a R&D office in Riga in 2013. The Riga team are working on a groundbreaking test automation project for one of the worlds largest technology companies. "
     },
     {
       "id": 15,
       "img": "assets/img/partners/sponsors/deac.png",
-      "url": "http://neueda.lv/",
-      "description": "Neueda are an international software services company, we provide training, consultancy and strategic software development for some of the worlds largest companies including, Citi Bank, Hewlett Packard, Apple and Fidility investments. We operate in Europe, Asia and North America. Neueda has opened a R&D office in Riga in 2013. The Riga team are working on a groundbreaking test automation project for one of the worlds largest technology companies. "
+      "url": "https://www.deac.eu/lv/",
+      "description": `DEAC is one of the largest, independent data center operators in the Northern Europe. As a full service data center operator with highly qualified personnel, DEAC provides complete data center services, from customer’s requirements to tailor-made IT solutions, infrastructure platform, technical support and remote administration. DEAC follows build-to-order approach working on individual projects. DEAC is a trusted partner for more than 2500 customers from 40 countries of the world - in Europe, Russia and CIS countries, Asia and North America. DEAC owns two data centers in Latvia and several data center locations in Europe (Germany, Netherlands, United Kingdom), that are equipped with most modern and reliable infrastructure. For more information please visit: Twitter: @DEACdc Facebook: https://www.facebook.com/DEACEurope.USA.Asia?fref=ts  Youtube channel: http://www.youtube.com/DeacDataCenters  Corporate video: https://www.youtube.com/watch?v=F19XUkptfIU`
     }
   ],
   "speakers": [
