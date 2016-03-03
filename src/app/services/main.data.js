@@ -1622,7 +1622,7 @@ This session is intended for developers, DBAs and data modelers looking to expan
                 "subtitle": "Java Panel Discussion",
                 "description": `Let's discuss Java Past, Present and Future with great experts in the Java world. Tweet a question to #rigadevday #jpanel and get an answer ASAP!`,
                 "speakers": [
-                  7, 25, 28, 40
+                  7, 25, 28
                 ],
                 "tags": [
                   "Java"
