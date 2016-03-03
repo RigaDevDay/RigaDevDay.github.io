@@ -1,5 +1,5 @@
 export const mainData = {
-  "version": 1,
+  "version": 2,
   "staff": [
     {
       "name": "Dmitry Buzdin",
