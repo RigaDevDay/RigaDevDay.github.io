@@ -395,23 +395,6 @@ export const mainData = {
       "description": "Julian Dontcheff is the Global Database Lead of Accenture and has more than 25 years of database experience. He is the first Oracle Certified Master in Europe (back in 2002) and he is also an Oracle ACE Director."
     },
     {
-      "id": 21,
-      "name": "Martin Naumann",
-      "company": "Archilogic",
-      "title": "Bit Wizard",
-      "country": "Schweiz",
-      "img": "assets/img/photos/martin_naumann.jpg",
-      "twitter": "https://twitter.com/g33konaut",
-      "description": `Martin is open source contributor and web evangelist by heart from Zurich
-with a decade experience from the trenches of software engineering in multiple fields.
-
-He works as a software engineer at Archilogic in front- and backend.
-He devotes his time to moving the web forward, fixing problems, building applications and systems
-and breaking things for fun & profit.
-
-Martin believes in the web platform and is working with bleeding edge technologies that will allow the web to prosper.`
-    },
-    {
       "id": 22,
       "name": "Christoph Strobl",
       "company": "Pivotal Software, Inc.",
@@ -1533,16 +1516,14 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ]
               },
               {
-                "subtitle": "The secrets behind HybridSQL database architecture",
-                "description": `In this session Jurgis will describe Clusterpoint's approach for building its HybridSQL database, which combines the best features of SQL and NoSQL database architecture. Such setup enables instant scalability within distributed environment while maintaining full data consistency and ACID transaction compliance, access to structured and unstructured data, and possibility to execute arbitrary JavaScript-based code directly inside the database. This setup provides a simple and powerful computational model that ensures data is accessed through efficient indices directly in the database, thus massively accelerating data manipulation operations.
-                Throughout his presentation, Jurgis will go deep into the code and present examples of how advanced computation can be done directly in the database, including an analysis of geospatial data, real-time analytics and the application of statistical model-like logistic regression to derive predictions.`,
+                "subtitle": "Analytic Functions: Unleash the SQL Power",
+                "description": `Analytic Functions have been around for quite a long time, and still they are a relatively unknown. If you are unfamiliar with these very powerful functions, you are missing out on something spectacular. Analytic Functions add inter-row calculations, aggregates over multiple dimensions, or rank assignment based on values within a group of values - all without a GROUP BY clause.
+</br>The syntax might seem daunting at first, but it is really not that scary. This session will focus on the syntax with tons of real world uses for Analytic Functions.`,
                 "speakers": [
-                  46
+                  12
                 ],
                 "tags": [
-                  "Software Architecture",
-                  "NoSQL",
-                  "Big Data"
+                  "Oracle's developer tools"
                 ]
               },
               {
@@ -1638,17 +1619,13 @@ This session is intended for developers, DBAs and data modelers looking to expan
                 ]
               },
               {
-                "subtitle": "WebGL & WebVR: Take the web to the third dimension",
-                "description": `In this talk you will learn how to unlock the 3rd dimension on the web and use it to create impressive new visualisations, stories and experiences.
-<br><br>
-You will see how WebGL can then be taken even further by using technologies such as Oculus Rift, Google Cardboard or LEAPMotion with WebVR to enable truly immersive experiences right from your browser.
-<br><br>
-We will start with the basics of WebGL and the render pipeline, see how 3D on the web has evolved and what can be done with it and then do a little live coding that will conclude with how Virtual Reality can be implemented with web technologies.`,
+                "subtitle": "Java Panel Discussion",
+                "description": `Let's discuss Java Past, Present and Future with great experts in the Java world. Tweet a question to #rigadevday #jpanel and get an answer ASAP!`,
                 "speakers": [
-                  21
+                  7, 25, 28, 40
                 ],
                 "tags": [
-                  "Web"
+                  "Java"
                 ]
               }
             ]
