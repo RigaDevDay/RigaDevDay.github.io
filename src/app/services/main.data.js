@@ -801,7 +801,8 @@ Oleg is a leading developer at Odnoklassniki. His primary responsibilities as a 
                 ],
                 "tags": [
 
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/open-source-and-openjdk-do-they-deliver-by-simon-ritter"
               }
             ]
           },
@@ -830,14 +831,16 @@ Code that uses certain deprecated features, however, or any JDK-internal APIs, i
 This session will show you how to prepare existing libraries and applications for JDK 9,
 and how to get old code working on JDK 9 even when you can't update it.`,
                 "speakers": [25],
-                "tags": ["Java"]
+                "tags": ["Java"],
+                "slides": "https://speakerdeck.com/rigadevday/prepare-for-jdk-9-by-dalibor-topic"
               },
               {
                 "subtitle": "Little Important Things in Distributed Architectures",
                 "description": `Now that our wired desktops have given way to laptops on flakey wifi, weaker Internet Things and mobile connections, we have found value in in whole new classes of features. Things like offline mode, push updates, and freedom from conflicts, when done correctly, slip into the background and let us get to work. When these same things are missing or done without care, they are remarkably infuriating. And it's not for lack of trying: these features are undoubtedly hard to get right, and they're even harder to bolt on later.
 </br></br>In our short time together, Andres will try to help. His core thesis: by attentively adhering to a few core principles in our work, though some may seem surprising, we can spare ourselves significant stress down the line.`,
                 "speakers": [54],
-                "tags": ["Software Architecture", "Cloud"]
+                "tags": ["Software Architecture", "Cloud"],
+                "slides": "https://speakerdeck.com/rigadevday/little-important-things-in-distributed-architectures-by-andres-jaan-tack"
               },
               {
                 "subtitle": "Faster Java by Adding Structs (Sort Of)",
@@ -849,7 +852,8 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ],
                 "tags": [
                   "Java"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/faster-java-by-adding-structs-sort-of"
               },
               {
                 "subtitle": "Oracle 12c for Developers",
@@ -859,7 +863,8 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ],
                 "tags": [
                   "Oracle's developer tools"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/oracle-12c-for-developers-by-alex-nuijten"
               },
               {
                 "subtitle": "The Language of Regular Expressions. So You Think You Can Speak It?",
@@ -869,7 +874,8 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ],
                 "tags": [
                   "Tools"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/the-language-of-regular-expressions-so-you-think-you-can-speak-it-by-rustam-mehmandarov"
               }
             ]
           },
@@ -898,7 +904,8 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ],
                 "tags": [
                   "Java"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/modern-java-component-design-with-spring-4-dot-3-by-juergen-hoeller"
               },
               {
                 "subtitle": "Appium: Mobile Automation Made Awesome",
@@ -920,7 +927,8 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ],
                 "tags": [
                   "Java"
-                ]
+                ],
+                "slides": "http://www.slideshare.net/vjbug/whats-new-in-wildfly-9-50589236"
               },
               {
                 "subtitle": "Google Apps Integration in Oracle Apex",
@@ -936,7 +944,8 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ],
                 "tags": [
                   "APEX"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/google-apps-integration-in-oracle-apex-by-richard-martens"
               },
               {
                 "subtitle": "Integration Testing from the Trenches",
@@ -946,7 +955,8 @@ and how to get old code working on JDK 9 even when you can't update it.`,
                 ],
                 "tags": [
                   "Test Automation"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/integration-testing-from-the-trenches-by-nicolas-frankel"
               }
             ]
           },
@@ -962,13 +972,15 @@ and how to get old code working on JDK 9 even when you can't update it.`,
 <br><br>
 This talk is about our experience in building always available, resilient to failures distributed systems in Java, their basic and not so basic failure and recovery scenarios, methods of failure testing and diagnostics. We’ll also discuss on possible disasters and how to prevent or get over them.`,
                 "speakers": [32],
-                "tags": ["Web", "Java"]
+                "tags": ["Web", "Java"],
+                "slides": "https://speakerdeck.com/rigadevday/distributed-systems-at-ok-dot-ru-by-oleg-anastasyev"
               },
               {
                 "subtitle": "Reactive Design Patterns - Tools of the Trade",
                 "description": `In the past year, Reactive has become one of the hottest terms in the software development community - describing as it does applications that are responsive, resilient, elastic and message-driven.  But what does it mean in practice, and how can developers leverage the core concepts to create applications that meet the standard of being Reactive?  This talk will answer those questions, as well as provide insight about various tools and platforms that can be used to build such applications, including Reactive Extensions, Erlang, Node.js, Vert.x, Play Framework, Akka and more.`,
                 "speakers": [37],
-                "tags": ["Java", "Software Architecture", "IoT"]
+                "tags": ["Java", "Software Architecture", "IoT"],
+                "slides": "https://speakerdeck.com/rigadevday/reactive-design-patterns-tools-of-the-trade-by-jamie-allen"
               },
               {
                 "subtitle": "Migrating to Oracle Cloud using the Oracle Database In-Memory Advisor",
@@ -986,7 +998,8 @@ This talk is about our experience in building always available, resilient to fai
                 "speakers": [
                   26
                 ],
-                "tags": ["Oracle's developer tools", "Mobile", "Cloud Technologies"]
+                "tags": ["Oracle's developer tools", "Mobile"],
+                "slides": "https://speakerdeck.com/rigadevday/if-you-dont-have-a-mobile-strategy-you-dont-have-a-strategy-by-grant-ronald"
               },
               {
                 "subtitle": "JSR377: What's up and what's next",
@@ -998,7 +1011,8 @@ This talk is about our experience in building always available, resilient to fai
                   "IoT",
                   "Java",
                   "Embedded Programming"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/jsr377-whats-up-and-whats-next-by-andres-almiray"
               }
             ]
           },
@@ -1030,7 +1044,8 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 ],
                 "tags": [
                   "Java", "Web"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/spring-data-hypermedia-and-the-cloud-by-christoph-strobl"
               },
               {
                 "subtitle": "Getting Your IoT Things Talking",
@@ -1040,7 +1055,8 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 ],
                 "tags": [
                   "IoT"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/getting-your-iot-things-talking-by-jessica-rose"
               },
               {
                 "subtitle": "Is Lambda Architecture is a new normal for cloud native apps?",
@@ -1051,7 +1067,8 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 ],
                 "tags": [
                   "Software Architecture", "Cloud"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/is-lambda-architecture-is-a-new-normal-for-cloud-native-apps-by-anton-kranga"
               },
               {
                 "subtitle": "Finding All the Red M&Ms: A Story of Indexes and Full Table Scans",
@@ -1061,7 +1078,8 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 ],
                 "tags": [
                   "Oracle's developer tools"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/finding-all-the-red-m-and-ms-a-story-of-indexes-and-full-table-scans-by-chris-saxon"
               },
               {
                 "subtitle": "Avoiding software fails. Few metrics to improve application reliability",
@@ -1073,7 +1091,8 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 ],
                 "tags": [
                   "Web", "DevOps"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/avoiding-software-fails-few-metrics-to-improve-application-reliability-by-slawomir-michalik"
               }
             ]
           },
@@ -1093,7 +1112,8 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                   "Reactive",
                   "Java",
                   "Software Architecture"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/effective-akka-v2-dot-0-by-jamie-allen"
               },
               {
                 "subtitle": "Practical Prototyping",
@@ -1106,7 +1126,8 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 "tags": [
                   "Mobile",
                   "UI"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/practical-prototyping-by-gleb-revkov-and-raitis-linde"
               },
               {
                 "subtitle": "Java EE 8 - What's new of the Web Front?",
@@ -1124,7 +1145,8 @@ while creating and deploying REST Services as Docker containers, on Cloud Foundr
                 ],
                 "tags": [
                   "Java"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/java-ee-8-whats-new-of-the-web-front-by-david-dalabassee"
               },
               {
                 "subtitle": "SQL Model Clause: A Gentle Introduction",
@@ -1136,7 +1158,8 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ],
                 "tags": [
                   "Oracle's developer tools"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/sql-model-clause-a-gentle-introduction-by-alex-nuijten"
               },
               {
                 "subtitle": "Where do we go after Http 1.1 - Http2",
@@ -1144,7 +1167,8 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 "speakers": [30],
                 "tags": [
                   "Web"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/where-do-we-go-after-http-1-dot-1-http2-by-mihail-stoynov"
               }
             ]
           },
@@ -1162,7 +1186,8 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ],
                 "tags": [
                   "Java"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/spring-framework-5-preview-and-roadmap-by-juergen-hoeller"
               },
               {
                 "subtitle": "Automated Android CI, how hard can it be?",
@@ -1173,7 +1198,8 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 "tags": [
                   "DevOps",
                   "Android"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/automated-android-ci-how-hard-can-it-be-by-nicolas-frankel"
               },
               {
                 "subtitle": "New Cassandra 3 features that change your (developer) life",
@@ -1189,7 +1215,8 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ],
                 "tags": [
                   "Cloud", "NoSQL", "Big Data"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/new-cassandra-3-features-that-change-your-developer-life-by-duyhai-doan"
               },
               {
                 "subtitle": "APEX: Validate user input",
@@ -1199,7 +1226,8 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 ],
                 "tags": [
                   "APEX"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/apex-validate-user-input-by-richard-martens"
               },
               {
                 "subtitle": "Testing with Spock. The logical choice",
@@ -1310,7 +1338,8 @@ Second part : Modularizing an existing library or application, or creating new m
 can raise many difficult and subtle design issues. This session will present a set of principles for modular development,
 with examples taken from the JDK itself.`,
                 "speakers": [25],
-                "tags": ["Java"]
+                "tags": ["Java"],
+                "slides": "https://speakerdeck.com/rigadevday/modular-development-with-jdk-9-by-dalibor-topic"
               },
               {
                 "subtitle": "Microservices adoption practical lessons with examples",
@@ -1326,13 +1355,15 @@ with examples taken from the JDK itself.`,
 </br>Solutions will include explanation of three key components for every microservices app: Service Registry, Gateway API and Health-check System. Also I'd like to give some examples of the components implementation using modern JVM -based tools and frameworks, just to show how easily it could be done.
 </br></br>Also, it will be slightly cloud-related talk, since many of these tools are designed to work in cloud environment.`,
                 "speakers": [49],
-                "tags": ["Cloud", "Java", "Software Architecture"]
+                "tags": ["Cloud", "Java", "Software Architecture"],
+                "slides": "https://speakerdeck.com/rigadevday/microservices-adoption-practical-lessons-with-examples-by-dmitry-lebedev"
               },
               {
                 "subtitle": "SAP HANA Application development",
                 "description": `I have 12 years of experience in Java development but in this session I would like to present you something new and noteworthy for application developers. SAP HANA is an in-memory platform that gives you many capabilities that can bring your application the competitive advantage it needs. In this session I will show you how easy it is to start coding using the SAP HANA Cloud Platform. I will also demonstrate how it is possible to leverage HANA capabilities from a Java application.`,
                 "speakers": [47],
-                "tags": ["Software Architecture", "Cloud Technologies"]
+                "tags": ["Software Architecture", "Cloud Technologies"],
+                "slides": "https://speakerdeck.com/rigadevday/sap-hana-application-development-by-milen-manov"
               },
               {
                 "subtitle": "Destination Cloud: Deploying With Docker",
@@ -1415,7 +1446,8 @@ get a glimpse of what the exciting future holds for web development!`,
                 ],
                 "tags": [
                   "Java"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/the-java-community-process-how-you-can-help-to-define-the-future-of-java-by-patrick-curran"
               },
               {
                 "subtitle": "Fabric8 Camel Microservices for Docker and Kubernetes",
@@ -1466,7 +1498,8 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ],
                 "tags": [
                   "Java"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/now-its-time-to-compile-by-dmitry-chuyko"
               },
               {
                 "subtitle": "Apache Zeppelin, the missing component for your BigData eco-system",
@@ -1476,7 +1509,8 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ],
                 "tags": [
                   "BigData"
-                ]
+                ],
+                "slides" : "https://speakerdeck.com/rigadevday/apache-zeppelin-the-missing-component-for-your-bigdata-eco-system-by-duyhai-doan"
               },
               {
                 "subtitle": "IoT as a poor man's version of the semantic web",
@@ -1486,7 +1520,8 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ],
                 "tags": [
                   "IoT"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/iot-as-a-poor-mans-version-of-the-semantic-web-by-antonio-almeida"
               },
               {
                 "subtitle": "Jenkins at your (continuous) service",
@@ -1537,7 +1572,8 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ],
                 "tags": [
                   "Java"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/having-fun-with-javassist-by-anton-arhipov"
               },
               {
                 "subtitle": "Analytic Functions: Unleash the SQL Power",
@@ -1548,7 +1584,8 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ],
                 "tags": [
                   "Oracle's developer tools"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/analytic-functions-unleash-the-sql-power-by-alex-nuijten"
               },
               {
                 "subtitle": "Java EE, WebLogic, Microservices... and some myths busting",
@@ -1561,7 +1598,8 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ],
                 "tags": [
                   "Java"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/java-ee-weblogic-microservices-by-david-dalabassee"
               },
               {
                 "subtitle": "Field Notes of Command Line Ninja",
@@ -1572,7 +1610,8 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 "tags": [
                   "DevOps",
                   "Tools"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/field-notes-of-command-line-ninja-by-rustam-mehmandarov"
               },
               {
                 "subtitle": "Angular 2 Component Router",
@@ -1604,7 +1643,8 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ],
                 "tags": [
                   "Java", "Web", "Software Architecture"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/how-to-write-unmaintainable-code-in-scala-by-ruslans-tarasovs"
               },
               {
                 "subtitle": "Why postgres SQL deserve noSQL fan respect",
@@ -1641,7 +1681,8 @@ This session is intended for developers, DBAs and data modelers looking to expan
                 ],
                 "tags": [
                   "Web", "Cloud"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/an-introduction-to-api-management-by-antons-matrosovs"
               },
               {
                 "subtitle": "Java Panel Discussion",
@@ -1670,7 +1711,8 @@ This session is intended for developers, DBAs and data modelers looking to expan
                 "tags": [
                   "Java",
                   "NoSQL"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/painfree-object-document-mapping-for-mongodb-by-philipp-krenn"
               },
               {
                 "subtitle": "Adding a Data Reservoir and Oracle Big Data Discovery to extend your Oracle Data Warehouse Platform",
@@ -1691,7 +1733,8 @@ This session is intended for developers, DBAs and data modelers looking to expan
                 ],
                 "tags": [
                   "Android"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/kotlin-on-android-by-svetlana-isakova"
               },
               {
                 "subtitle": "It's not always application's fault",
@@ -1706,7 +1749,8 @@ Flash-based version of this talk is on <a href="http://prezi.com/7usyzvjmj0io/?u
 <br>
 Presented on Atmosphere, Java Developer Days, ChamberConf and Java Day Lviv.`,
                 "speakers": [23],
-                "tags": ["DevOps"]
+                "tags": ["DevOps"],
+                "slides": "http://prezi.com/7usyzvjmj0io/?utm_campaign=share&utm_medium=copy"
               },
               {
                 "subtitle": "Website on cache: scalable, cheap and realiable",
@@ -1716,7 +1760,8 @@ Presented on Atmosphere, Java Developer Days, ChamberConf and Java Day Lviv.`,
                 ],
                 "tags": [
                   "Mobile", "Web", "DevOps"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/rigadevday/website-on-cache-scalable-cheap-and-realiable-by-samat-galimov"
               }
             ]
           },
