@@ -93,7 +93,22 @@ export const mainData = {
       "name": "Laura Arajuma",
       "img": "assets/img/photos/laura_arajuma.jpg",
       "twitter": "https://twitter.com/l_arajuma",
-      "title": "Volunteers"
+      "title": "Head of Volunteers"
+    },
+    {
+      "name": "Alena Sereda",
+      "img": "assets/img/photos/alena_sereda.jpeg",
+      "title": "Volunteer"
+    },
+    {
+      "name": "Gunta Dalecka",
+      "img": "assets/img/photos/gunta_dalecka.jpg",
+      "title": "Volunteer"
+    },
+    {
+      "name": "Edgars Jasmans",
+      "img": "assets/img/photos/edgars_jasmans.jpeg",
+      "title": "Volunteer"
     }
   ],
   "sponsors": [
