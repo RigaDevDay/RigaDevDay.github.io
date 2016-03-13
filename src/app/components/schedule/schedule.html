@@ -62,13 +62,13 @@
                     <span ng-if="talk.title">{{talk.title}}</span>
                     <span ng-if="talk.speakers.length > 0" ng-repeat="speakerid in talk.speakers">{{vm.findSpeakerById(speakerid).name}}<span ng-hide="$last">, </span></span>
                   </header>
-                  <div class="desc">{{talk.subtitle}}</div>
+                  <div class="desc" style="padding-bottom:2px;">{{talk.subtitle}}</div>
+                </div>
+                <div class="slides" ng-show="talk.slides" style="padding-bottom:5px;">
+                  <a ng-href="{{talk.slides}}" target="_blank"><i class="fa fa-file-powerpoint-o fa-lg"></i></a>
                 </div>
                 <div class="tags">
                   <a ng-repeat="tag in talk.tags">{{tag}}</a>
-                </div>
-                <div class="slides" ng-show="talk.slides">
-                  <a ng-href="{{talk.slides}}" target="_blank">slides</a>
                 </div>
               </td>
             </tr>

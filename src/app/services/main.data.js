@@ -1211,7 +1211,8 @@ This presentation will give you a gentle introduction in the complex syntax of t
                   "Groovy",
                   "BDD",
                   "Test Automation"
-                ]
+                ],
+                "slides": "http://www.slideshare.net/ilopmar/rigadevday-2016-testing-with-spock-the-logical-choice"
               }
             ]
           },
@@ -1277,7 +1278,8 @@ This presentation will give you a gentle introduction in the complex syntax of t
                 "tags": [
                   "Web",
                   "Mobile"
-                ]
+                ],
+                "slides": "http://www.slideshare.net/robnyman/the-web-what-it-has-what-it-lacks-and-where-it-must-go-keynote-at-riga-dev-day"
               }
             ]
           },
@@ -1341,7 +1343,8 @@ with examples taken from the JDK itself.`,
                 "tags": [
                   "Java",
                   "Cloud"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/jthomas/destination-cloud-deploying-applications-with-docker"
               },
               {
                 "subtitle": "Hello EcmaScript2015... and also to you, EcmaScript2016",
@@ -1387,7 +1390,8 @@ get a glimpse of what the exciting future holds for web development!`,
                 ],
                 "tags": [
                   "Java"
-                ]
+                ],
+                "slides":"http://www.slideshare.net/23derevo/nonblocking-synchronization"
               },
               {
                 "subtitle": "Big Data for Oracle Developers - Towards Spark, Real-Time Analytics & Predictive Modeling",
@@ -1397,7 +1401,8 @@ get a glimpse of what the exciting future holds for web development!`,
                 ],
                 "tags": [
                   "Oracle Tools"
-                ]
+                ],
+                "slides": "http://www.slideshare.net/rittmanmead/big-data-for-oracle-devs-towards-spark-realtime-and-predictive-analytics"
               },
               {
                 "subtitle": "The Java Community Process: how you can help to define the future of Java",
@@ -1431,7 +1436,8 @@ At the end we have a bit of fun with scaling up and down your Camel application 
 <br><br>
 This talk is a 50/50 mix between slides and demo.`,
                 "speakers": [28],
-                "tags": ["Java", "DevOps"]
+                "tags": ["Java", "DevOps"],
+                "slides": "http://www.slideshare.net/davsclaus/riga-dev-day-2016-microservices-with-apache-camel-fabric8-on-kubernetes"
               },
               {
                 "subtitle": "Angular2: key concepts and getting started",
@@ -1441,7 +1447,8 @@ Then we'll list key concepts of Angular2 like cross-component communication, one
 <br><br>
 As a result of our practical hands-on tour we'll discuss the main tools for making our Angular2 life easier and build a functioning app.`,
                 "speakers": [29],
-                "tags": ["Web", "JavaScript"]
+                "tags": ["Web", "JavaScript"],
+                "slides": "http://slides.com/webmax/ng2-guide#/"
               }
             ]
           },
@@ -1489,7 +1496,8 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ],
                 "tags": [
                   "DevOps"
-                ]
+                ],
+                "slides": "http://www.slideshare.net/aestasit/jenkins-at-your-continuous-service"
               },
               {
                 "subtitle": "Entering the new era of Front-end development with ReactJS",
@@ -1499,7 +1507,8 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ],
                 "tags": [
                   "Web"
-                ]
+                ],
+                "slides": "https://speakerdeck.com/operatino/entering-the-new-era-of-front-end-development-with-reactjs"
               }
             ]
           },
@@ -1573,8 +1582,8 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ],
                 "tags": [
                   "Web", "JavaScript"
-                ]
-
+                ],
+                "slides": "http://slides.com/gerardsans/riga-dev-day-component-router#/"
               }
             ]
           },
@@ -1605,7 +1614,8 @@ As a result of our practical hands-on tour we'll discuss the main tools for maki
                 ],
                 "tags": [
                   "SQL"
-                ]
+                ],
+                "slides": "http://fr.slideshare.net/quentinadam/why-postgres-sql-deserve-nosql-fan-respect-riga-dev-day-2016"
               },
               {
                 "subtitle": "SQL Magic - Tricks to Demonstrate SQL Features You've Probably Never Used",
@@ -1670,7 +1680,8 @@ This session is intended for developers, DBAs and data modelers looking to expan
                 ],
                 "tags": [
                   "Oracle Tools"
-                ]
+                ],
+                "slides": "http://www.slideshare.net/rittmanmead/riga-dev-day-2016-adding-a-data-reservoir-and-oracle-bdd-to-extend-your-oracle-dw-platform"
               },
               {
                 "subtitle": "Kotlin on Android",
