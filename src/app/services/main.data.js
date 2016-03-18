@@ -109,6 +109,36 @@ export const mainData = {
       "name": "Edgars Jasmans",
       "img": "assets/img/photos/edgars_jasmans.jpeg",
       "title": "Volunteer"
+    },
+    {
+      "name": "Dita Berzina",
+      "img": "assets/img/photos/dita_berzina.jpeg",
+      "title": "Volunteer"
+    },
+    {
+      "name": "Alina Karpelceva",
+      "img": "assets/img/photos/alina_karpelceva.jpg",
+      "title": "Volunteer"
+    },
+    {
+      "name": "Sandra Ruduka",
+      "img": "assets/img/photos/sandra_ruduka.jpg",
+      "title": "Volunteer"
+    },
+    {
+      "name": "Annija Strode",
+      "img": "assets/img/photos/annija_strode.jpg",
+      "title": "Volunteer"
+    },
+    {
+      "name": "Katherine Shkor",
+      "img": "assets/img/photos/katherina_shkor.jpeg",
+      "title": "Volunteer"
+    },
+    {
+      "name": "Sashika Melnova",
+      "img": "assets/img/photos/sashika_melnova.jpg",
+      "title": "Volunteer"
     }
   ],
   "sponsors": [
